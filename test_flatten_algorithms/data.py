@@ -7,26 +7,48 @@ def create_data_decreasing_depth(
     data: list,
     length: int,
     max_depth: int,
-    _curr_len: int,
-    _curr_depth: int,
-    _result: int
+    _current_depth: int = None,
+    _result: list = None
 ):
     '''
     creates data in depth on decreasing
     examples:
-    data=list(range(1, 11)), length=5, max_depth=3 => [[[1, 2, 3, 4, 5], 6, 7, 8, 9, 10]]
-    data=list(range(1, 11)), length=2, max_depth=3 => [[[1, 2], 3, 4], 5, 6], [[7, 8,] 9, 10]]
+    data=iter(range(1, 11)), length=5, max_depth=3 => [[[1, 2, 3, 4, 5], 6, 7, 8, 9, 10]]
+    data=iter(range(1, 11)), length=2, max_depth=3 => [[[1, 2], 3, 4], 5, 6], [[7, 8,] 9, 10]]
     '''
-    ...
+    _result = _result or []
+    _current_depth = _current_depth or max_depth
+    if _current_depth - 1:
+        _result.append(create_data_decreasing_depth(
+            data=data,
+            length=length,
+            max_depth=max_depth,
+            _current_depth=_current_depth - 1,
+            _result=_result))
+    try:
+        _current_length = length
+        while _current_length:
+            item = next(data)
+            _result.append(item)
+            _current_length -= 1
+        
+        if max_depth == _current_depth:
+            _result += create_data_decreasing_depth(
+                data=data,
+                length=length,
+                max_depth=max_depth)
+        return _result
+
+    except StopIteration:
+        return _result
 
 
 def create_data_increasing_depth(
     data: list,
     length: int,
     max_depth: int,
-    _curr_len: int,
-    _curr_depth: int,
-    _result: int
+    _current_depth: int = None,
+    _result: list = None
 ):
     '''
     creates data in depth to increase
@@ -34,28 +56,37 @@ def create_data_increasing_depth(
     data=list(range(1, 11)), length=5, max_depth=3 => [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
     data=list(range(1, 11)), length=2, max_depth=3 => [1, 2, [3, 4, [5, 6]]], 7, 8, [9, 10]]
     '''
-    ...
-
-
-def create_data(data=None, length=1, _curr_length=None, _result=None):
-
-    result = _result or []
-    _curr_length = _curr_length or length
-    res = []
-
-    while _curr_length:
-        try:
+    _result = _result or []
+    _current_depth = _current_depth or max_depth
+    try:
+        _current_length = length
+        while _current_length:
             item = next(data)
-            res.append(item)
-        except StopIteration:
-            if res:
-                result.append(res)
-            return result
-        except TypeError:
-            print('incorrect data. Must be iter(range(...))')
-        _curr_length -= 1
-    result.append(create_data(data=data, _result=res, length=length))
-    return result
+            _result.append(item)
+            _current_length -= 1
+
+    except StopIteration:
+        return _result
+
+    if _current_depth - 1:
+        tmp_res = create_data_increasing_depth(
+            data=data,
+            length=length,
+            max_depth=max_depth,
+            _current_depth=_current_depth - 1)
+        if tmp_res:
+            _result.append(tmp_res)
+    else:
+        return _result
+
+    if max_depth == _current_depth:
+        tmp_res = create_data_increasing_depth(
+            data=data,
+            length=length,
+            max_depth=max_depth)
+        if tmp_res:
+            _result += tmp_res
+    return _result
 
 
 def generate_data():
@@ -81,7 +112,7 @@ def generate_data():
 
     get_data = sorted([
         ('{}{}{}'.format(len_k, diff_k, deep_k), {
-            'data': list(range(len_v)),
+            'data': iter(range(len_v)),
             'length': math.ceil(len_v ** diff_v),
             'max_deep': deep_v
         })
@@ -90,8 +121,3 @@ def generate_data():
         for deep_k, deep_v in deep.items()
     ], reverse=True)
     return get_data
-
-
-if __name__ == '__main__':
-    for i in generate_data():
-        print(i)
