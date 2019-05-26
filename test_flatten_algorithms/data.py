@@ -1,6 +1,41 @@
 import math
 import sys
-sys.setrecursionlimit(11000)
+sys.setrecursionlimit(2000)
+
+
+def create_data_decreasing_depth(
+    data: list,
+    length: int,
+    max_depth: int,
+    _curr_len: int,
+    _curr_depth: int,
+    _result: int
+):
+    '''
+    creates data in depth on decreasing
+    examples:
+    data=list(range(1, 11)), length=5, max_depth=3 => [[[1, 2, 3, 4, 5], 6, 7, 8, 9, 10]]
+    data=list(range(1, 11)), length=2, max_depth=3 => [[[1, 2], 3, 4], 5, 6], [[7, 8,] 9, 10]]
+    '''
+    ...
+
+
+def create_data_increasing_depth(
+    data: list,
+    length: int,
+    max_depth: int,
+    _curr_len: int,
+    _curr_depth: int,
+    _result: int
+):
+    '''
+    creates data in depth to increase
+    examples:
+    data=list(range(1, 11)), length=5, max_depth=3 => [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
+    data=list(range(1, 11)), length=2, max_depth=3 => [1, 2, [3, 4, [5, 6]]], 7, 8, [9, 10]]
+    '''
+    ...
+
 
 def create_data(data=None, length=1, _curr_length=None, _result=None):
 
@@ -31,22 +66,32 @@ def generate_data():
     )
 
     length = dict(
-        short=10,
-        middle=100,
-        long=1000,
-        lengthy=10000
+        _short=10,
+        __middle=100,
+        ___long=1000,
+        ____lengthy=10000
     )
 
-    get_data = [
-        ('{}{}'.format(len_k, diff_k), {
-            'data': range(len_v),
-            'length': math.ceil(len_v ** diff_v)
+    deep = dict(
+        _small=1,
+        __medium=10,
+        ___big=100,
+        ____very_big=1000
+    )
+
+    get_data = sorted([
+        ('{}{}{}'.format(len_k, diff_k, deep_k), {
+            'data': list(range(len_v)),
+            'length': math.ceil(len_v ** diff_v),
+            'max_deep': deep_v
         })
         for len_k, len_v in length.items()
         for diff_k, diff_v in difficult_ratio.items()
-    ]
-    data = sorted(get_data, reverse=True)
-    return data
+        for deep_k, deep_v in deep.items()
+    ], reverse=True)
+    return get_data
+
 
 if __name__ == '__main__':
-    print(generate_data())
+    for i in generate_data():
+        print(i)
