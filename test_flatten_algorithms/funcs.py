@@ -65,13 +65,13 @@ def recursive_flatten_like_tishka(array):
     lst=[]
     for i in array:
         if isinstance (i, list):
-            lst.extend(recursive_flatten_like_zarts(i))
+            lst.extend(recursive_flatten_like_tishka(i))
         else:
             lst.append(i)
     return lst
 
 
-def recursion_flatten(a):
+def recursion_flatten(arr):
     '''
     Recursive algorithm based on iterator
     Usual solution to this problem
@@ -79,8 +79,8 @@ def recursion_flatten(a):
     '''
 
     for i in arr:
-        if isintance(i, list):
-            yield from flatten(arr)
+        if isinstance(i, list):
+            yield from recursion_flatten(arr)
         else:
             yield i
 

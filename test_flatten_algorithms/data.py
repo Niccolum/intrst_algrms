@@ -1,6 +1,6 @@
 import math
 import sys
-sys.setrecursionlimit(2000)
+sys.setrecursionlimit(11000)
 
 
 def create_data_decreasing_depth(
@@ -76,8 +76,6 @@ def create_data_increasing_depth(
             _current_depth=_current_depth - 1)
         if tmp_res:
             _result.append(tmp_res)
-    else:
-        return _result
 
     if max_depth == _current_depth:
         tmp_res = create_data_increasing_depth(
@@ -114,7 +112,7 @@ def generate_data():
         ('{}{}{}'.format(len_k, diff_k, deep_k), {
             'data': iter(range(len_v)),
             'length': math.ceil(len_v ** diff_v),
-            'max_deep': deep_v
+            'max_depth': deep_v
         })
         for len_k, len_v in length.items()
         for diff_k, diff_v in difficult_ratio.items()
