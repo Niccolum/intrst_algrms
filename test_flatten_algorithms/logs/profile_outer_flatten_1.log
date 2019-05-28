@@ -1,0 +1,576 @@
+0.000385
+data	192
+outer_flatten_1	1072
+0.000578
+data	192
+outer_flatten_1	1072
+0.000716
+data	64
+outer_flatten_1	1072
+0.000813
+data	64
+outer_flatten_1	1072
+0.001098
+data	1056
+outer_flatten_1	1072
+0.001301
+data	1056
+outer_flatten_1	1072
+0.001476
+data	64
+outer_flatten_1	1072
+0.001567
+data	64
+outer_flatten_1	1072
+0.003169
+data	9696
+outer_flatten_1	1072
+0.003628
+data	9696
+outer_flatten_1	1072
+0.004098
+data	64
+outer_flatten_1	1072
+0.004206
+data	64
+outer_flatten_1	1072
+0.022139
+data	96096
+outer_flatten_1	1072
+0.025693
+data	96096
+outer_flatten_1	1072
+0.029298
+data	64
+outer_flatten_1	1072
+0.029605
+data	64
+outer_flatten_1	1072
+0.029827
+data	200
+outer_flatten_1	1072
+0.029968
+data	200
+outer_flatten_1	1072
+0.030097
+data	64
+outer_flatten_1	1072
+0.030195
+data	64
+outer_flatten_1	1072
+0.030497
+data	1024
+outer_flatten_1	1072
+0.030639
+data	1024
+outer_flatten_1	1072
+0.030781
+data	64
+outer_flatten_1	1072
+0.030892
+data	64
+outer_flatten_1	1072
+0.032550
+data	9664
+outer_flatten_1	1072
+0.033066
+data	9664
+outer_flatten_1	1072
+0.033642
+data	64
+outer_flatten_1	1072
+0.033836
+data	64
+outer_flatten_1	1072
+0.050851
+data	96064
+outer_flatten_1	1072
+0.053930
+data	96064
+outer_flatten_1	1072
+0.056828
+data	64
+outer_flatten_1	1072
+0.057000
+data	64
+outer_flatten_1	1072
+0.057368
+data	200
+outer_flatten_1	1072
+0.057494
+data	200
+outer_flatten_1	1072
+0.057691
+data	64
+outer_flatten_1	1072
+0.057817
+data	64
+outer_flatten_1	1072
+0.058302
+data	1792
+outer_flatten_1	1072
+0.058558
+data	1792
+outer_flatten_1	1072
+0.058881
+data	64
+outer_flatten_1	1072
+0.059041
+data	64
+outer_flatten_1	1072
+0.060859
+data	9600
+outer_flatten_1	1072
+0.061536
+data	9600
+outer_flatten_1	1072
+0.062006
+data	64
+outer_flatten_1	1072
+0.062151
+data	64
+outer_flatten_1	1072
+0.080838
+data	96000
+outer_flatten_1	1072
+0.084516
+data	96000
+outer_flatten_1	1072
+0.088016
+data	64
+outer_flatten_1	1072
+0.088212
+data	64
+outer_flatten_1	1072
+0.088616
+data	912
+outer_flatten_1	1072
+0.088837
+data	912
+outer_flatten_1	1072
+0.088993
+data	64
+outer_flatten_1	1072
+0.089097
+data	64
+outer_flatten_1	1072
+0.089605
+data	1776
+outer_flatten_1	1072
+0.089810
+data	1776
+outer_flatten_1	1072
+0.090034
+data	64
+outer_flatten_1	1072
+0.090224
+data	64
+outer_flatten_1	1072
+0.092767
+data	10416
+outer_flatten_1	1072
+0.093639
+data	10416
+outer_flatten_1	1072
+0.094327
+data	64
+outer_flatten_1	1072
+0.094502
+data	64
+outer_flatten_1	1072
+0.112697
+data	96816
+outer_flatten_1	1072
+0.115674
+data	96816
+outer_flatten_1	1072
+0.118441
+data	64
+outer_flatten_1	1072
+0.118581
+data	64
+outer_flatten_1	1072
+0.119078
+data	1008
+outer_flatten_1	1072
+0.119289
+data	1008
+outer_flatten_1	1072
+0.119427
+data	64
+outer_flatten_1	1072
+0.119519
+data	64
+outer_flatten_1	1072
+0.120227
+data	1872
+outer_flatten_1	1072
+0.120525
+data	1872
+outer_flatten_1	1072
+0.120742
+data	64
+outer_flatten_1	1072
+0.120877
+data	64
+outer_flatten_1	1072
+0.122813
+data	10512
+outer_flatten_1	1072
+0.123336
+data	10512
+outer_flatten_1	1072
+0.123793
+data	64
+outer_flatten_1	1072
+0.123956
+data	64
+outer_flatten_1	1072
+0.139885
+data	96912
+outer_flatten_1	1072
+0.144803
+data	96912
+outer_flatten_1	1072
+0.147630
+data	64
+outer_flatten_1	1072
+0.147771
+data	64
+outer_flatten_1	1072
+0.149314
+data	1008
+outer_flatten_1	1072
+0.149579
+data	1008
+outer_flatten_1	1072
+0.149730
+data	64
+outer_flatten_1	1072
+0.149877
+data	64
+outer_flatten_1	1072
+0.151983
+data	9768
+outer_flatten_1	1072
+0.152559
+data	9768
+outer_flatten_1	1072
+0.153144
+data	64
+outer_flatten_1	1072
+0.153314
+data	64
+outer_flatten_1	1072
+0.157435
+data	19072
+outer_flatten_1	1072
+0.158644
+data	19072
+outer_flatten_1	1072
+0.159743
+data	64
+outer_flatten_1	1072
+0.159928
+data	64
+outer_flatten_1	1072
+0.176022
+data	96000
+outer_flatten_1	1072
+0.179257
+data	96000
+outer_flatten_1	1072
+0.182358
+data	64
+outer_flatten_1	1072
+0.182569
+data	64
+outer_flatten_1	1072
+0.185500
+data	9024
+outer_flatten_1	1072
+0.186098
+data	9024
+outer_flatten_1	1072
+0.186433
+data	64
+outer_flatten_1	1072
+0.186567
+data	64
+outer_flatten_1	1072
+0.190403
+data	9888
+outer_flatten_1	1072
+0.190832
+data	9888
+outer_flatten_1	1072
+0.191021
+data	64
+outer_flatten_1	1072
+0.191121
+data	64
+outer_flatten_1	1072
+0.196581
+data	18528
+outer_flatten_1	1072
+0.197639
+data	18528
+outer_flatten_1	1072
+0.198542
+data	64
+outer_flatten_1	1072
+0.198765
+data	64
+outer_flatten_1	1072
+0.218492
+data	104928
+outer_flatten_1	1072
+0.223574
+data	104928
+outer_flatten_1	1072
+0.228382
+data	64
+outer_flatten_1	1072
+0.228539
+data	64
+outer_flatten_1	1072
+0.231635
+data	9112
+outer_flatten_1	1072
+0.232013
+data	9112
+outer_flatten_1	1072
+0.232180
+data	64
+outer_flatten_1	1072
+0.232279
+data	64
+outer_flatten_1	1072
+0.235237
+data	9824
+outer_flatten_1	1072
+0.235615
+data	9824
+outer_flatten_1	1072
+0.235785
+data	64
+outer_flatten_1	1072
+0.235885
+data	64
+outer_flatten_1	1072
+0.240072
+data	18464
+outer_flatten_1	1072
+0.240702
+data	18464
+outer_flatten_1	1072
+0.241193
+data	64
+outer_flatten_1	1072
+0.241333
+data	64
+outer_flatten_1	1072
+0.262113
+data	104864
+outer_flatten_1	1072
+0.265517
+data	104864
+outer_flatten_1	1072
+0.268680
+data	64
+outer_flatten_1	1072
+0.268894
+data	64
+outer_flatten_1	1072
+0.285202
+data	9112
+outer_flatten_1	1072
+0.285658
+data	9112
+outer_flatten_1	1072
+0.285928
+data	64
+outer_flatten_1	1072
+0.286118
+data	64
+outer_flatten_1	1072
+0.304998
+data	89152
+outer_flatten_1	1072
+0.308398
+data	89152
+outer_flatten_1	1072
+0.311548
+data	64
+outer_flatten_1	1072
+0.311744
+data	64
+outer_flatten_1	1072
+0.331420
+data	104808
+outer_flatten_1	1072
+0.335296
+data	104808
+outer_flatten_1	1072
+0.338656
+data	64
+outer_flatten_1	1072
+0.338845
+data	64
+outer_flatten_1	1072
+0.385809
+data	191872
+outer_flatten_1	1072
+0.393366
+data	191872
+outer_flatten_1	1072
+0.399350
+data	64
+outer_flatten_1	1072
+0.399586
+data	64
+outer_flatten_1	1072
+0.428220
+data	87624
+outer_flatten_1	1072
+0.430820
+data	87624
+outer_flatten_1	1072
+0.431361
+data	64
+outer_flatten_1	1072
+0.431528
+data	64
+outer_flatten_1	1072
+0.459116
+data	88488
+outer_flatten_1	1072
+0.461728
+data	88488
+outer_flatten_1	1072
+0.462286
+data	64
+outer_flatten_1	1072
+0.462461
+data	64
+outer_flatten_1	1072
+0.491337
+data	97128
+outer_flatten_1	1072
+0.494131
+data	97128
+outer_flatten_1	1072
+0.495006
+data	64
+outer_flatten_1	1072
+0.495120
+data	64
+outer_flatten_1	1072
+0.539704
+data	183528
+outer_flatten_1	1072
+0.545223
+data	183528
+outer_flatten_1	1072
+0.548588
+data	64
+outer_flatten_1	1072
+0.548774
+data	64
+outer_flatten_1	1072
+0.577426
+data	90112
+outer_flatten_1	1072
+0.579900
+data	90112
+outer_flatten_1	1072
+0.580427
+data	64
+outer_flatten_1	1072
+0.580596
+data	64
+outer_flatten_1	1072
+0.609711
+data	87576
+outer_flatten_1	1072
+0.612288
+data	87576
+outer_flatten_1	1072
+0.612930
+data	64
+outer_flatten_1	1072
+0.613091
+data	64
+outer_flatten_1	1072
+0.642230
+data	95352
+outer_flatten_1	1072
+0.645211
+data	95352
+outer_flatten_1	1072
+0.646026
+data	64
+outer_flatten_1	1072
+0.646208
+data	64
+outer_flatten_1	1072
+0.689530
+data	181752
+outer_flatten_1	1072
+0.695149
+data	181752
+outer_flatten_1	1072
+0.698359
+data	64
+outer_flatten_1	1072
+0.698569
+data	64
+outer_flatten_1	1072
+0.990854
+data	90112
+outer_flatten_1	1072
+0.993491
+data	90112
+outer_flatten_1	1072
+0.994182
+data	64
+outer_flatten_1	1072
+0.994382
+data	64
+outer_flatten_1	1072
+1.161350
+data	882952
+outer_flatten_1	1072
+1.191193
+data	882952
+outer_flatten_1	1072
+1.219435
+data	64
+outer_flatten_1	1072
+1.219933
+data	64
+outer_flatten_1	1072
+1.384789
+data	961792
+outer_flatten_1	1072
+1.415894
+data	961792
+outer_flatten_1	1072
+1.444149
+data	64
+outer_flatten_1	1072
+1.444583
+data	64
+outer_flatten_1	1072
+1.636422
+data	1055208
+outer_flatten_1	1072
+1.672985
+data	1055208
+outer_flatten_1	1072
+1.705879
+data	64
+outer_flatten_1	1072
+1.706479
+data	64
+outer_flatten_1	1072

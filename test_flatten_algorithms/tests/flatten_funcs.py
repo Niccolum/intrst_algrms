@@ -1,5 +1,6 @@
 import unittest
 import copy
+import time
 
 from data import (
     create_data_decreasing_depth, create_data_increasing_depth, generate_data)
@@ -27,7 +28,11 @@ class TestFlattenFunctions(unittest.TestCase):
     def setUp(self):
         self.decrease_generator = self.get_decrease_list()
         self.increase_generator = self.get_increase_list()
+        self._started_at = time.time()
 
+    def tearDown(self):
+        elapsed = time.time() - self._started_at
+        print('{}s'.format(round(elapsed, 5)))
 
     def test_outer_flatten_1(self):
         for data, result in self.decrease_generator:
@@ -65,14 +70,11 @@ class TestFlattenFunctions(unittest.TestCase):
             self.assertEqual(zart_flatten(data), result)
 
     def test_recursion_flatten(self):
-        try:
-            for data, result in self.decrease_generator:
-                self.assertEqual(list(recursion_flatten(data)), result)
+        for data, result in self.decrease_generator:
+            self.assertEqual(list(recursion_flatten(data)), result)
 
-            for data, result in self.increase_generator:
-                self.assertEqual(list(recursion_flatten(data)), result)
-        except RecursionError:
-            pass
+        for data, result in self.increase_generator:
+            self.assertEqual(list(recursion_flatten(data)), result)
 
     def test_tishka_flatten_with_stack(self):
         for data, result in self.decrease_generator:

@@ -80,7 +80,7 @@ def recursion_flatten(arr):
 
     for i in arr:
         if isinstance(i, list):
-            yield from recursion_flatten(arr)
+            yield from recursion_flatten(i)
         else:
             yield i
 

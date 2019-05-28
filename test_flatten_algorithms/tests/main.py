@@ -4,8 +4,8 @@ from .data_generation import TestGenerationData
 
 def suite():
     suite = unittest.TestSuite()
-    suite.addTest(TestFlattenFunctions())
     suite.addTest(TestGenerationData())
+    suite.addTest(TestFlattenFunctions())
     return suite
 
 if __name__ == '__main__':

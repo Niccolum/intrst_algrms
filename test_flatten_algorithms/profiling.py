@@ -1,5 +1,6 @@
+from functools import wraps
 import sys
-sys.setrecursionlimit(11000)
+sys.setrecursionlimit(2000)
 
 from data import (
     generate_data, create_data_decreasing_depth, create_data_increasing_depth)
@@ -8,50 +9,73 @@ from funcs import (
     tishka_flatten, zart_flatten, recursion_flatten, tishka_flatten_with_stack,
     recursive_flatten_like_tishka)
 
-from memory_profiler import show_results, LineProfiler
+from memprof import memprof
 
-def args_eater(func_to_wrap): 
-    @wraps(func_to_wrap) 
-    def inner(*args, **kwargs): 
-        return partial(func_to_wrap, *args, **kwargs) 
-    return inner 
+def data_generator_wrapper(func):
+    @wraps(func)
+    def wrapper():
+        for data_example in generate_data():
+            data_args = data_example[1]
+            data = create_data_decreasing_depth(**data_args)
+            func(data)
+            data = create_data_increasing_depth(**data_args)
+            func(data)
+        return
+    return wrapper
 
-for data_example in generate_data():
-    print('\n', data_example[0], '\n')
-    data = data_example[1]
-    data = create_data_decreasing_depth(**data)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_outer_flatten_1(data):
+    return list(outer_flatten_1(data))
 
-    print('niccolum_flatten')
-    prof = LineProfiler(backend='psutil')
-    val = prof(niccolum_flatten)(data)
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_outer_flatten_2(data):
+    return list(outer_flatten_2(data))
 
-    print('tishka_flatten')
-    prof = LineProfiler(backend='psutil')
-    val = prof(tishka_flatten)(data)
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_niccolum_flatten(data):
+    return niccolum_flatten(data)
 
-    print('zart_flatten')
-    prof = LineProfiler(backend='psutil')
-    val = prof(zart_flatten)(data)
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_tishka_flatten(data):
+    return tishka_flatten(data)
 
-    print('outer_flatten_1')
-    prof = LineProfiler(backend='psutil')
-    val = list(prof(outer_flatten_1)(data))
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_zart_flatten(data):
+    return zart_flatten(data)
 
-    print('outer_flatten_2')
-    prof = LineProfiler(backend='psutil')
-    val = list(prof(outer_flatten_2)(data))
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_recursion_flatten(data):
+    return list(recursion_flatten(data))
 
-    print('tishka_flatten_with_stack')
-    prof = LineProfiler(backend='psutil')
-    val = prof(tishka_flatten_with_stack)(data)
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_tishka_flatten_with_stack(data):
+    return tishka_flatten_with_stack(data)
 
-    print('recursive_flatten_like_tishka')
-    prof = LineProfiler(backend='psutil')
-    val = prof(recursive_flatten_like_tishka)(data)
-    show_results(prof, stream=None, precision=1)
+@memprof(threshold=1024, plot=True)
+@data_generator_wrapper
+def profile_recursive_flatten_like_tishka(data):
+    return recursive_flatten_like_tishka(data)
+
+
+profile_niccolum_flatten()
+
+profile_tishka_flatten()
+
+profile_zart_flatten()
+
+profile_outer_flatten_1()
+
+profile_outer_flatten_2()
+
+profile_recursion_flatten()
+
+profile_tishka_flatten_with_stack()
+
+profile_recursive_flatten_like_tishka()
