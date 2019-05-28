@@ -70,3 +70,4 @@ $ cd logs && python ../profiling.py
 
 ...
 
+cd ../ && python performance.py
