@@ -1,5 +1,6 @@
 import timeit
-import logging
+import json
+
 from data import (
     generate_data, create_data_decreasing_depth, create_data_increasing_depth)
 from funcs import (
@@ -7,120 +8,120 @@ from funcs import (
     tishka_flatten, zart_flatten, recursion_flatten, tishka_flatten_with_stack,
     recursive_flatten_like_tishka)
 
-logging.basicConfig(
-    level=logging.DEBUG, 
-    filename='performance.log', 
-    format='%(message)s')
 
 def mean(numbers):
     return sum(numbers) / len(numbers)
 
-logging.debug('*'*10+'Decrease testing'+'*'*10)
+result = {'decrease': {}, 'increase': {}}
 for data_example in generate_data():
-
-    logging.debug(data_example[0])
     data = data_example[1]
     data = create_data_decreasing_depth(**data)
 
-    logging.debug('niccolum_flatten')
-    logging.debug(mean(timeit.repeat(
+    current_func = data_example[0]
+    result['decrease'][current_func] = {}
+
+    result['decrease'][current_func]['niccolum_flatten'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import niccolum_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('tishka_flatten')
-    logging.debug(mean(timeit.repeat(
+    result['decrease'][current_func]['tishka_flatten'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import tishka_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('zart_flatten')
-    logging.debug(mean(timeit.repeat(
+    result['decrease'][current_func]['zart_flatten'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import zart_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('outer_flatten_1')
-    logging.debug(mean(timeit.repeat(
-        'list(flatten(data))', 
+    result['decrease'][current_func]['outer_flatten_1'] = mean(
+        timeit.repeat(
+        'flatten(data)', 
         'from __main__ import outer_flatten_1 as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('outer_flatten_2')
-    logging.debug(mean(timeit.repeat(
-        'list(flatten(data))', 
+    result['decrease'][current_func]['outer_flatten_2'] = mean(
+        timeit.repeat(
+        'flatten(data)', 
         'from __main__ import outer_flatten_2 as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('recursion_flatten')
-    logging.debug(mean(timeit.repeat(
-        'list(flatten(data))', 
+    result['decrease'][current_func]['recursion_flatten'] = mean(
+        timeit.repeat(
+        'flatten(data)', 
         'from __main__ import recursion_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('tishka_flatten_with_stack')
-    logging.debug(mean(timeit.repeat(
+    result['decrease'][current_func]['tishka_flatten_with_stack'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import tishka_flatten_with_stack as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('recursive_flatten_like_tishka')
-    logging.debug(mean(timeit.repeat(
+    result['decrease'][current_func]['recursive_flatten_like_tishka'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import recursive_flatten_like_tishka as flatten, data', 
-        number=10000)))
+        number=10000))
 
-logging.debug('*'*10+'Increase testing'+'*'*10)
 for data_example in generate_data():
-
-    logging.debug(data_example[0])
     data = data_example[1]
     data = create_data_increasing_depth(**data)
-    
-    logging.debug('niccolum_flatten')
-    logging.debug(mean(timeit.repeat(
+
+    current_func = data_example[0]
+    result['increase'][current_func] = {}
+
+    result['increase'][current_func]['niccolum_flatten'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import niccolum_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('tishka_flatten')
-    logging.debug(mean(timeit.repeat(
+    result['increase'][current_func]['tishka_flatten'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import tishka_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('zart_flatten')
-    logging.debug(mean(timeit.repeat(
+    result['increase'][current_func]['zart_flatten'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import zart_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('outer_flatten_1')
-    logging.debug(mean(timeit.repeat(
-        'list(flatten(data))', 
+    result['increase'][current_func]['outer_flatten_1'] = mean(
+        timeit.repeat(
+        'flatten(data)', 
         'from __main__ import outer_flatten_1 as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('outer_flatten_2')
-    logging.debug(mean(timeit.repeat(
-        'list(flatten(data))', 
+    result['increase'][current_func]['outer_flatten_2'] = mean(
+        timeit.repeat(
+        'flatten(data)', 
         'from __main__ import outer_flatten_2 as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('recursion_flatten')
-    logging.debug(mean(timeit.repeat(
-        'list(flatten(data))', 
+    result['increase'][current_func]['recursion_flatten'] = mean(
+        timeit.repeat(
+        'flatten(data)', 
         'from __main__ import recursion_flatten as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('tishka_flatten_with_stack')
-    logging.debug(mean(timeit.repeat(
+    result['increase'][current_func]['tishka_flatten_with_stack'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import tishka_flatten_with_stack as flatten, data', 
-        number=10000)))
+        number=10000))
 
-    logging.debug('recursive_flatten_like_tishka')
-    logging.debug(mean(timeit.repeat(
+    result['increase'][current_func]['recursive_flatten_like_tishka'] = mean(
+        timeit.repeat(
         'flatten(data)', 
         'from __main__ import recursive_flatten_like_tishka as flatten, data', 
-        number=10000)))
+        number=10000))
+
+with open('performance.json', 'w') as outfile:
+    json.dump(result, outfile, indent=4)
