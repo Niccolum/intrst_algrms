@@ -30,7 +30,6 @@ def main():
         for k, v in d.items():
             done_data['increase'][k].append(v / 10000)
 
-
     for k in done_data['decrease'].keys():
         done_data['average'][k] = [
             (x + y) / 2
