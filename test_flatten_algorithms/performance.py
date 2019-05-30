@@ -49,21 +49,21 @@ for data_example in generate_data():
     print('outer_flatten_1')
     result['decrease'][current_func]['outer_flatten_1'] = mean(
         timeit.repeat(
-        'flatten(data)', 
+        'list(flatten(data))', 
         'from __main__ import outer_flatten_1 as flatten, data', 
         number=10000))
 
     print('outer_flatten_2')
     result['decrease'][current_func]['outer_flatten_2'] = mean(
         timeit.repeat(
-        'flatten(data)', 
+        'list(flatten(data))', 
         'from __main__ import outer_flatten_2 as flatten, data', 
         number=10000))
 
     print('recursion_flatten')
     result['decrease'][current_func]['recursion_flatten'] = mean(
         timeit.repeat(
-        'flatten(data)', 
+        'list(flatten(data))', 
         'from __main__ import recursion_flatten as flatten, data', 
         number=10000))
 
@@ -90,7 +90,7 @@ for data_example in generate_data():
     current_func = data_example[0]
     print('\n', current_func, '\n')
     start = time.time()
-    
+
     result['increase'][current_func] = {}
 
     print('niccolum_flatten')
@@ -117,21 +117,21 @@ for data_example in generate_data():
     print('outer_flatten_1')
     result['increase'][current_func]['outer_flatten_1'] = mean(
         timeit.repeat(
-        'flatten(data)', 
+        'list(flatten(data))', 
         'from __main__ import outer_flatten_1 as flatten, data', 
         number=10000))
 
     print('outer_flatten_2')
     result['increase'][current_func]['outer_flatten_2'] = mean(
         timeit.repeat(
-        'flatten(data)', 
+        'list(flatten(data))', 
         'from __main__ import outer_flatten_2 as flatten, data', 
         number=10000))
 
     print('recursion_flatten')
     result['increase'][current_func]['recursion_flatten'] = mean(
         timeit.repeat(
-        'flatten(data)', 
+        'list(flatten(data))', 
         'from __main__ import recursion_flatten as flatten, data', 
         number=10000))
 

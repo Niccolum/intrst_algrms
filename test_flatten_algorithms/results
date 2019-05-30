@@ -66,8 +66,17 @@ test_create_data_increasing_depth (tests.data_generation.TestGenerationData) ...
 ----------------------------------------------------------------------
 Ran 10 tests in 10.419s
 
+# add profiling plots
 $ cd logs && python ../profiling.py
 
 ...
 
-cd ../ && python performance.py
+# create json file of performance result
+$ cd ../ && python performance.py
+
+...
+
+# obviously - make performance plot
+$ python make_performance_plot.py
+
+* create and show plot, based on performance.json *
