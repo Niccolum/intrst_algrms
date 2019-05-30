@@ -69,14 +69,14 @@ Ran 10 tests in 10.419s
 # add profiling plots
 $ cd logs && python ../profiling.py
 
-...
+... # create plots and logs for profiling in logs dir
 
 # create json file of performance result
 $ cd ../ && python performance.py
 
-...
+... # creates performance.json for plot
 
 # obviously - make performance plot
 $ python make_performance_plot.py
 
-* create and show plot, based on performance.json *
+... # * create and show plot, based on performance.json *
