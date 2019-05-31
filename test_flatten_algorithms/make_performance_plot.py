@@ -3,7 +3,8 @@ import json
 from collections import OrderedDict, defaultdict
 
 
-def main():
+def main(exclude_funcs: list = None):
+    exclude_funcs = exclude_funcs or []
     with open('performance.json', 'r') as json_data_file:
         data = json.load(json_data_file)
 
@@ -21,14 +22,16 @@ def main():
 
     for d in decrease_data.values():
         for k, v in d.items():
-            done_data['decrease'][k].append(v / 10000)
+            if k not in exclude_funcs:
+                done_data['decrease'][k].append(v / 10000)
 
     increase_data = OrderedDict(
         sorted(data['increase'].items(), key=lambda t: t[0], reverse=True))
 
     for d in increase_data.values():
         for k, v in d.items():
-            done_data['increase'][k].append(v / 10000)
+            if k not in exclude_funcs:
+                done_data['increase'][k].append(v / 10000)
 
     for k in done_data['decrease'].keys():
         done_data['average'][k] = [
@@ -64,4 +67,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main() # full
+    main(exclude_funcs=['tishka_flatten'])
