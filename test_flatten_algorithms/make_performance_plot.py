@@ -44,16 +44,19 @@ def main(exclude_funcs: list = None):
     # increase plot
     for label, values in done_data['increase'].items():
         axs[0].plot(names, values, label=label)
+    axs[0].title.set_text('increase')
     axs[0].legend()
 
     # decrease plot
     for label, values in done_data['decrease'].items():
         axs[1].plot(names, values, label=label)
+    axs[1].title.set_text('decrease')
     axs[1].legend()
 
     # both average plot
     for label, values in done_data['average'].items():
         axs[2].plot(names, values, label=label)
+    axs[2].title.set_text('average')
     axs[2].legend()
 
     # rotation X ticks
@@ -67,5 +70,6 @@ def main(exclude_funcs: list = None):
 
 
 if __name__ == '__main__':
-    main() # full
-    main(exclude_funcs=['tishka_flatten'])
+    main()  # full
+    main(exclude_funcs=[
+        'tishka_flatten', 'outer_flatten_2', 'recursion_flatten'])
