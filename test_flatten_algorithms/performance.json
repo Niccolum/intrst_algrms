@@ -1,0 +1,966 @@
+{
+    "increase": {
+        "__middle__medium__medium": {
+            "tishka_flatten": 0.3473777479181687,
+            "niccolum_flatten": 0.21357164407769838,
+            "zart_flatten": 0.23793895759930214,
+            "outer_flatten_1": 0.1906648677152892,
+            "tishka_flatten_with_stack": 0.1897772333274285,
+            "recursion_flatten": 0.16660593900208673,
+            "outer_flatten_2": 0.904466945057114,
+            "recursive_flatten_like_tishka": 0.14664902056877813
+        },
+        "___long_easy_small": {
+            "tishka_flatten": 1.222850633629908,
+            "niccolum_flatten": 1.2667641937732697,
+            "zart_flatten": 2.135580874669055,
+            "outer_flatten_1": 1.7991227554157376,
+            "tishka_flatten_with_stack": 1.6173793886167307,
+            "recursion_flatten": 1.1222529695369303,
+            "outer_flatten_2": 8.210183748975396,
+            "recursive_flatten_like_tishka": 1.2209555318889518
+        },
+        "__middle___hard__medium": {
+            "tishka_flatten": 0.8549703150056303,
+            "niccolum_flatten": 0.5872973981313407,
+            "zart_flatten": 0.4250212609767914,
+            "outer_flatten_1": 0.2226869771257043,
+            "tishka_flatten_with_stack": 0.6609347107199331,
+            "recursion_flatten": 0.47095153061673045,
+            "outer_flatten_2": 1.4112477746481698,
+            "recursive_flatten_like_tishka": 0.38075817686816055
+        },
+        "_short___hard__medium": {
+            "tishka_flatten": 0.09898174585153659,
+            "niccolum_flatten": 0.062253979810824,
+            "zart_flatten": 0.04995523594940702,
+            "outer_flatten_1": 0.02598396735265851,
+            "tishka_flatten_with_stack": 0.0704795775624613,
+            "recursion_flatten": 0.04985814603666464,
+            "outer_flatten_2": 0.15030925332879028,
+            "recursive_flatten_like_tishka": 0.03958794971307119
+        },
+        "____lengthy___hard____very_big": {
+            "tishka_flatten": 6119.033239345222,
+            "niccolum_flatten": 64.51368320686743,
+            "zart_flatten": 40.610498524581395,
+            "outer_flatten_1": 21.276618736175198,
+            "tishka_flatten_with_stack": 66.96737439216425,
+            "recursion_flatten": 2320.1066508923345,
+            "outer_flatten_2": 3031.136039607072,
+            "recursive_flatten_like_tishka": 148.61708776125064
+        },
+        "____lengthy__medium___big": {
+            "tishka_flatten": 103.77366609390204,
+            "niccolum_flatten": 30.994330804639805,
+            "zart_flatten": 21.41349515427525,
+            "outer_flatten_1": 17.954927185705554,
+            "tishka_flatten_with_stack": 16.020673505185794,
+            "recursion_flatten": 30.874773756445695,
+            "outer_flatten_2": 108.0503663959292,
+            "recursive_flatten_like_tishka": 14.067489452039203
+        },
+        "___long_easy____very_big": {
+            "tishka_flatten": 1.2227314226329327,
+            "niccolum_flatten": 1.2645113660643499,
+            "zart_flatten": 2.1351115355889,
+            "outer_flatten_1": 1.8061263545726736,
+            "tishka_flatten_with_stack": 1.6240910203196108,
+            "recursion_flatten": 1.1259249391344686,
+            "outer_flatten_2": 8.43832449770222,
+            "recursive_flatten_like_tishka": 1.2192738549783826
+        },
+        "__middle__medium___big": {
+            "tishka_flatten": 0.34666647172222537,
+            "niccolum_flatten": 0.21459438931196928,
+            "zart_flatten": 0.2380046211183071,
+            "outer_flatten_1": 0.1894608767082294,
+            "tishka_flatten_with_stack": 0.19033740228042006,
+            "recursion_flatten": 0.16559884464368224,
+            "outer_flatten_2": 0.8941752258688211,
+            "recursive_flatten_like_tishka": 0.1466459397537013
+        },
+        "____lengthy___hard_small": {
+            "tishka_flatten": 12.124671936656037,
+            "niccolum_flatten": 12.968057637258122,
+            "zart_flatten": 21.227148556305718,
+            "outer_flatten_1": 17.90454404630388,
+            "tishka_flatten_with_stack": 15.972541727436086,
+            "recursion_flatten": 11.303864339056114,
+            "outer_flatten_2": 82.31959976923342,
+            "recursive_flatten_like_tishka": 12.138611449704817
+        },
+        "_short___hard_small": {
+            "tishka_flatten": 0.01582075438151757,
+            "niccolum_flatten": 0.016142072311292093,
+            "zart_flatten": 0.030386161680022877,
+            "outer_flatten_1": 0.02144257863983512,
+            "tishka_flatten_with_stack": 0.02350784031053384,
+            "recursion_flatten": 0.01477106117332975,
+            "outer_flatten_2": 0.09170199558138847,
+            "recursive_flatten_like_tishka": 0.015400857975085577
+        },
+        "____lengthy_easy____very_big": {
+            "tishka_flatten": 12.092744373716414,
+            "niccolum_flatten": 12.972762917013219,
+            "zart_flatten": 21.318389146588743,
+            "outer_flatten_1": 17.936305455863476,
+            "tishka_flatten_with_stack": 15.954727080805847,
+            "recursion_flatten": 11.185714074565718,
+            "outer_flatten_2": 83.59092826923977,
+            "recursive_flatten_like_tishka": 12.12602513935417
+        },
+        "____lengthy_easy___big": {
+            "tishka_flatten": 12.094626787273834,
+            "niccolum_flatten": 12.977981759235263,
+            "zart_flatten": 21.343689230425905,
+            "outer_flatten_1": 17.953704823584605,
+            "tishka_flatten_with_stack": 15.921465588423112,
+            "recursion_flatten": 11.194054923020303,
+            "outer_flatten_2": 83.89338798820972,
+            "recursive_flatten_like_tishka": 12.114581052524349
+        },
+        "___long___hard___big": {
+            "tishka_flatten": 63.42120209041362,
+            "niccolum_flatten": 6.3790669500206905,
+            "zart_flatten": 4.137533611152321,
+            "outer_flatten_1": 2.1367665108603737,
+            "tishka_flatten_with_stack": 6.727776500862092,
+            "recursion_flatten": 20.506984354462475,
+            "outer_flatten_2": 34.26466357226794,
+            "recursive_flatten_like_tishka": 5.363079826813191
+        },
+        "____lengthy_easy_small": {
+            "tishka_flatten": 12.109441904506335,
+            "niccolum_flatten": 13.138497519462058,
+            "zart_flatten": 21.328967299467575,
+            "outer_flatten_1": 17.931942891329527,
+            "tishka_flatten_with_stack": 15.989759908212969,
+            "recursion_flatten": 11.235251262628784,
+            "outer_flatten_2": 85.25564553247143,
+            "recursive_flatten_like_tishka": 12.161774676293135
+        },
+        "___long__medium__medium": {
+            "tishka_flatten": 5.6586272593898075,
+            "niccolum_flatten": 2.3121066382154822,
+            "zart_flatten": 2.1526304152794182,
+            "outer_flatten_1": 1.811632791844507,
+            "tishka_flatten_with_stack": 1.6582661787979305,
+            "recursion_flatten": 2.0824859283554056,
+            "outer_flatten_2": 9.442739686307808,
+            "recursive_flatten_like_tishka": 1.3563691622888048
+        },
+        "__middle___hard_small": {
+            "tishka_flatten": 0.13105424058934054,
+            "niccolum_flatten": 0.12220957238848011,
+            "zart_flatten": 0.229631123598665,
+            "outer_flatten_1": 0.18838476156815886,
+            "tishka_flatten_with_stack": 0.17313904811938605,
+            "recursion_flatten": 0.12054105754941702,
+            "outer_flatten_2": 0.8385676032242676,
+            "recursive_flatten_like_tishka": 0.12934036133810878
+        },
+        "___long___hard__medium": {
+            "tishka_flatten": 7.999083257901172,
+            "niccolum_flatten": 6.464102901673566,
+            "zart_flatten": 3.9819276300258934,
+            "outer_flatten_1": 2.1469418946653605,
+            "tishka_flatten_with_stack": 6.551513523949931,
+            "recursion_flatten": 4.666426837133865,
+            "outer_flatten_2": 14.071990973626574,
+            "recursive_flatten_like_tishka": 3.8086188652863107
+        },
+        "_short__medium_small": {
+            "tishka_flatten": 0.015899362197766703,
+            "niccolum_flatten": 0.016039257869124413,
+            "zart_flatten": 0.030354665747533243,
+            "outer_flatten_1": 0.02136967983096838,
+            "tishka_flatten_with_stack": 0.02348628593608737,
+            "recursion_flatten": 0.014795725078632435,
+            "outer_flatten_2": 0.09635697910562158,
+            "recursive_flatten_like_tishka": 0.015424254816025496
+        },
+        "__middle_easy_small": {
+            "tishka_flatten": 0.13044301016877094,
+            "niccolum_flatten": 0.1219813593973716,
+            "zart_flatten": 0.22840171866118908,
+            "outer_flatten_1": 0.18852615232268968,
+            "tishka_flatten_with_stack": 0.17117253908266625,
+            "recursion_flatten": 0.1200526620571812,
+            "outer_flatten_2": 0.8478695498779416,
+            "recursive_flatten_like_tishka": 0.12868850802381834
+        },
+        "__middle___hard___big": {
+            "tishka_flatten": 6.845618051321556,
+            "niccolum_flatten": 0.6160227704482774,
+            "zart_flatten": 0.42619090247899294,
+            "outer_flatten_1": 0.23224370802442232,
+            "tishka_flatten_with_stack": 0.6817789173995455,
+            "recursion_flatten": 2.078499632421881,
+            "outer_flatten_2": 3.4036283871779838,
+            "recursive_flatten_like_tishka": 0.5098998056103786
+        },
+        "__middle__medium____very_big": {
+            "tishka_flatten": 0.3490640882713099,
+            "niccolum_flatten": 0.21286633098497987,
+            "zart_flatten": 0.23765915477027497,
+            "outer_flatten_1": 0.1900220331735909,
+            "tishka_flatten_with_stack": 0.19018125658233961,
+            "recursion_flatten": 0.16526149353012443,
+            "outer_flatten_2": 0.8986820005811751,
+            "recursive_flatten_like_tishka": 0.14702644121522704
+        },
+        "_short_easy____very_big": {
+            "tishka_flatten": 0.015950594873478014,
+            "niccolum_flatten": 0.015953125587354105,
+            "zart_flatten": 0.030122749352206785,
+            "outer_flatten_1": 0.021347293475021917,
+            "tishka_flatten_with_stack": 0.023633799670885008,
+            "recursion_flatten": 0.014751350351919731,
+            "outer_flatten_2": 0.09629986699049671,
+            "recursive_flatten_like_tishka": 0.015457224721709887
+        },
+        "__middle_easy__medium": {
+            "tishka_flatten": 0.13099322033425173,
+            "niccolum_flatten": 0.12215544112647574,
+            "zart_flatten": 0.22972349481036267,
+            "outer_flatten_1": 0.18985361652448773,
+            "tishka_flatten_with_stack": 0.1717180578658978,
+            "recursion_flatten": 0.12136427701140444,
+            "outer_flatten_2": 0.8486221282122036,
+            "recursive_flatten_like_tishka": 0.12923642992973328
+        },
+        "___long__medium___big": {
+            "tishka_flatten": 5.633681170487155,
+            "niccolum_flatten": 2.3145816383572915,
+            "zart_flatten": 2.154748372733593,
+            "outer_flatten_1": 1.8121763962941866,
+            "tishka_flatten_with_stack": 1.6619644776607554,
+            "recursion_flatten": 2.091791048490753,
+            "outer_flatten_2": 9.460754772492995,
+            "recursive_flatten_like_tishka": 1.360609983249257
+        },
+        "_short__medium___big": {
+            "tishka_flatten": 0.026759988473107416,
+            "niccolum_flatten": 0.024476121955861647,
+            "zart_flatten": 0.031401990447193384,
+            "outer_flatten_1": 0.021884064345310133,
+            "tishka_flatten_with_stack": 0.028951266935716074,
+            "recursion_flatten": 0.018713600002229214,
+            "outer_flatten_2": 0.10166458614791433,
+            "recursive_flatten_like_tishka": 0.018073633623619873
+        },
+        "_short___hard___big": {
+            "tishka_flatten": 0.09952978681152065,
+            "niccolum_flatten": 0.06253969995304942,
+            "zart_flatten": 0.050223254753897585,
+            "outer_flatten_1": 0.025927345423648756,
+            "tishka_flatten_with_stack": 0.0706798336468637,
+            "recursion_flatten": 0.049206986712912716,
+            "outer_flatten_2": 0.14946648307765523,
+            "recursive_flatten_like_tishka": 0.039474871630469956
+        },
+        "____lengthy__medium____very_big": {
+            "tishka_flatten": 103.67328498046845,
+            "niccolum_flatten": 31.189589521382004,
+            "zart_flatten": 21.38741245943432,
+            "outer_flatten_1": 17.928519115628053,
+            "tishka_flatten_with_stack": 16.065270590751123,
+            "recursion_flatten": 30.861988121954102,
+            "outer_flatten_2": 108.38612938780959,
+            "recursive_flatten_like_tishka": 14.140946043344835
+        },
+        "____lengthy___hard__medium": {
+            "tishka_flatten": 79.56429091763373,
+            "niccolum_flatten": 117.49067271469782,
+            "zart_flatten": 40.01355821592733,
+            "outer_flatten_1": 20.954637337631237,
+            "tishka_flatten_with_stack": 65.5049057090655,
+            "recursion_flatten": 46.498894043732435,
+            "outer_flatten_2": 141.33563381464532,
+            "recursive_flatten_like_tishka": 37.824626922452204
+        },
+        "__middle__medium_small": {
+            "tishka_flatten": 0.1313960716749231,
+            "niccolum_flatten": 0.12231793037305276,
+            "zart_flatten": 0.22890229352439442,
+            "outer_flatten_1": 0.18742359258855382,
+            "tishka_flatten_with_stack": 0.171546446159482,
+            "recursion_flatten": 0.12031392411639293,
+            "outer_flatten_2": 0.841389919941624,
+            "recursive_flatten_like_tishka": 0.12914446399857601
+        },
+        "_short__medium__medium": {
+            "tishka_flatten": 0.026934067097802956,
+            "niccolum_flatten": 0.024561464476088684,
+            "zart_flatten": 0.031357385062923036,
+            "outer_flatten_1": 0.022004847259571154,
+            "tishka_flatten_with_stack": 0.028822426839421194,
+            "recursion_flatten": 0.01884654366100828,
+            "outer_flatten_2": 0.0990351780007283,
+            "recursive_flatten_like_tishka": 0.017951298505067825
+        },
+        "___long__medium____very_big": {
+            "tishka_flatten": 5.647547132956485,
+            "niccolum_flatten": 2.3314223762912056,
+            "zart_flatten": 2.1531436814305684,
+            "outer_flatten_1": 1.8104630339269836,
+            "tishka_flatten_with_stack": 1.6605353698444862,
+            "recursion_flatten": 2.0940023958683014,
+            "outer_flatten_2": 9.456812989277145,
+            "recursive_flatten_like_tishka": 1.361294424161315
+        },
+        "___long___hard_small": {
+            "tishka_flatten": 1.2340145101770759,
+            "niccolum_flatten": 1.271326750361671,
+            "zart_flatten": 2.144912433344871,
+            "outer_flatten_1": 1.8130073954040806,
+            "tishka_flatten_with_stack": 1.6167026528467734,
+            "recursion_flatten": 1.130705920048058,
+            "outer_flatten_2": 8.216033967056623,
+            "recursive_flatten_like_tishka": 1.2443774743005633
+        },
+        "___long_easy__medium": {
+            "tishka_flatten": 1.2178868719687064,
+            "niccolum_flatten": 1.2660213131457567,
+            "zart_flatten": 2.13704173034057,
+            "outer_flatten_1": 1.7995344647206366,
+            "tishka_flatten_with_stack": 1.6171587702507775,
+            "recursion_flatten": 1.1196989039890468,
+            "outer_flatten_2": 8.223105063351491,
+            "recursive_flatten_like_tishka": 1.2159893160375457
+        },
+        "___long__medium_small": {
+            "tishka_flatten": 1.2245620900454621,
+            "niccolum_flatten": 1.2649520213405292,
+            "zart_flatten": 2.138028879339496,
+            "outer_flatten_1": 1.8060415592044592,
+            "tishka_flatten_with_stack": 1.6255396165264149,
+            "recursion_flatten": 1.1282755586629112,
+            "outer_flatten_2": 8.435685679782182,
+            "recursive_flatten_like_tishka": 1.2307453462854028
+        },
+        "____lengthy__medium__medium": {
+            "tishka_flatten": 75.96691191227485,
+            "niccolum_flatten": 40.104352744606636,
+            "zart_flatten": 21.32043880969286,
+            "outer_flatten_1": 17.92157100994761,
+            "tishka_flatten_with_stack": 16.022056546993554,
+            "recursion_flatten": 21.17907535051927,
+            "outer_flatten_2": 94.79915718656655,
+            "recursive_flatten_like_tishka": 13.271272279787809
+        },
+        "__middle_easy____very_big": {
+            "tishka_flatten": 0.13086043872560063,
+            "niccolum_flatten": 0.12241740059107542,
+            "zart_flatten": 0.22931619826704264,
+            "outer_flatten_1": 0.18787295697256923,
+            "tishka_flatten_with_stack": 0.17140886606648564,
+            "recursion_flatten": 0.12048446852713823,
+            "outer_flatten_2": 0.8434302541427314,
+            "recursive_flatten_like_tishka": 0.12926111090928316
+        },
+        "_short_easy___big": {
+            "tishka_flatten": 0.01591585095350941,
+            "niccolum_flatten": 0.016032069455832243,
+            "zart_flatten": 0.030353551730513573,
+            "outer_flatten_1": 0.021321687226494152,
+            "tishka_flatten_with_stack": 0.02367630135267973,
+            "recursion_flatten": 0.014649592960874239,
+            "outer_flatten_2": 0.09248689360295732,
+            "recursive_flatten_like_tishka": 0.015386849641799927
+        },
+        "__middle_easy___big": {
+            "tishka_flatten": 0.13219191056365767,
+            "niccolum_flatten": 0.12341841667269667,
+            "zart_flatten": 0.22952692909166217,
+            "outer_flatten_1": 0.1878106800528864,
+            "tishka_flatten_with_stack": 0.1722392775118351,
+            "recursion_flatten": 0.12004402031501134,
+            "outer_flatten_2": 0.8438834153736631,
+            "recursive_flatten_like_tishka": 0.12915348432337245
+        },
+        "__middle___hard____very_big": {
+            "tishka_flatten": 6.869196240324527,
+            "niccolum_flatten": 0.615948768487821,
+            "zart_flatten": 0.4259383153791229,
+            "outer_flatten_1": 0.23312646554162106,
+            "tishka_flatten_with_stack": 0.6825121808797121,
+            "recursion_flatten": 2.076242294162512,
+            "outer_flatten_2": 3.400238254262755,
+            "recursive_flatten_like_tishka": 0.5087083641750118
+        },
+        "____lengthy_easy__medium": {
+            "tishka_flatten": 12.093341995651523,
+            "niccolum_flatten": 13.03690561838448,
+            "zart_flatten": 21.3273317203857,
+            "outer_flatten_1": 17.939454016120482,
+            "tishka_flatten_with_stack": 15.942919497688612,
+            "recursion_flatten": 11.17854991213729,
+            "outer_flatten_2": 81.92729901941493,
+            "recursive_flatten_like_tishka": 12.258912668252984
+        },
+        "____lengthy__medium_small": {
+            "tishka_flatten": 12.282286552867541,
+            "niccolum_flatten": 12.99364317782844,
+            "zart_flatten": 21.32278979367887,
+            "outer_flatten_1": 17.93154498267298,
+            "tishka_flatten_with_stack": 15.944321471266448,
+            "recursion_flatten": 11.20579392882064,
+            "outer_flatten_2": 85.43910627812147,
+            "recursive_flatten_like_tishka": 12.112520434117565
+        },
+        "____lengthy___hard___big": {
+            "tishka_flatten": 621.8681027207834,
+            "niccolum_flatten": 69.91366170626134,
+            "zart_flatten": 40.245521813320615,
+            "outer_flatten_1": 20.884791849336278,
+            "tishka_flatten_with_stack": 66.64126057364047,
+            "recursion_flatten": 207.82041384341815,
+            "outer_flatten_2": 342.76859644334763,
+            "recursive_flatten_like_tishka": 52.36008280934766
+        },
+        "___long_easy___big": {
+            "tishka_flatten": 1.218620748880009,
+            "niccolum_flatten": 1.2654398148879409,
+            "zart_flatten": 2.1360484939068556,
+            "outer_flatten_1": 1.8003546142329772,
+            "tishka_flatten_with_stack": 1.6192601160146296,
+            "recursion_flatten": 1.1193292252719402,
+            "outer_flatten_2": 8.3996677743271,
+            "recursive_flatten_like_tishka": 1.2198790155040722
+        },
+        "_short___hard____very_big": {
+            "tishka_flatten": 0.09866333830480774,
+            "niccolum_flatten": 0.06195511824140946,
+            "zart_flatten": 0.04974233809237679,
+            "outer_flatten_1": 0.025784747985502083,
+            "tishka_flatten_with_stack": 0.07048871833831072,
+            "recursion_flatten": 0.049355148493001856,
+            "outer_flatten_2": 0.15017556430151066,
+            "recursive_flatten_like_tishka": 0.03942299665262302
+        },
+        "_short_easy__medium": {
+            "tishka_flatten": 0.015935367283721764,
+            "niccolum_flatten": 0.01609608701740702,
+            "zart_flatten": 0.03031001581499974,
+            "outer_flatten_1": 0.021323687086502712,
+            "tishka_flatten_with_stack": 0.023516134824603796,
+            "recursion_flatten": 0.014721647991488377,
+            "outer_flatten_2": 0.09181583346799016,
+            "recursive_flatten_like_tishka": 0.015492239190886417
+        },
+        "_short__medium____very_big": {
+            "tishka_flatten": 0.026688180398195982,
+            "niccolum_flatten": 0.024392258065442245,
+            "zart_flatten": 0.0314192910057803,
+            "outer_flatten_1": 0.021884261320034664,
+            "tishka_flatten_with_stack": 0.029242466979970533,
+            "recursion_flatten": 0.018686887032041948,
+            "outer_flatten_2": 0.10145636523763339,
+            "recursive_flatten_like_tishka": 0.018069750008483727
+        },
+        "___long___hard____very_big": {
+            "tishka_flatten": 619.5911763597591,
+            "niccolum_flatten": 6.21784001449123,
+            "zart_flatten": 4.058481086666386,
+            "outer_flatten_1": 2.2165579980549714,
+            "tishka_flatten_with_stack": 6.720269859923671,
+            "recursion_flatten": 231.2797900593529,
+            "outer_flatten_2": 279.76975642501685,
+            "recursive_flatten_like_tishka": 13.907147302602729
+        },
+        "_short_easy_small": {
+            "tishka_flatten": 0.015790642549594242,
+            "niccolum_flatten": 0.01621185786401232,
+            "zart_flatten": 0.03014024067670107,
+            "outer_flatten_1": 0.021358007720361154,
+            "tishka_flatten_with_stack": 0.023592086198429268,
+            "recursion_flatten": 0.014748831434796253,
+            "outer_flatten_2": 0.09230701221774022,
+            "recursive_flatten_like_tishka": 0.015428798117985329
+        }
+    },
+    "decrease": {
+        "__middle__medium__medium": {
+            "tishka_flatten": 0.36938046260426444,
+            "niccolum_flatten": 0.3001048377094169,
+            "zart_flatten": 0.2858531038897733,
+            "outer_flatten_1": 0.20731103761742511,
+            "tishka_flatten_with_stack": 0.2514777776474754,
+            "recursion_flatten": 0.39469513467823464,
+            "outer_flatten_2": 1.2493320206801097,
+            "recursive_flatten_like_tishka": 0.19364022587736449
+        },
+        "___long_easy_small": {
+            "tishka_flatten": 1.3537518788749974,
+            "niccolum_flatten": 1.4429833949543536,
+            "zart_flatten": 2.3391331136226654,
+            "outer_flatten_1": 2.0136302687848606,
+            "tishka_flatten_with_stack": 1.7449852192463975,
+            "recursion_flatten": 1.2210506852716208,
+            "outer_flatten_2": 9.585349703362832,
+            "recursive_flatten_like_tishka": 1.332464053761214
+        },
+        "__middle___hard__medium": {
+            "tishka_flatten": 0.9410149518710872,
+            "niccolum_flatten": 0.7105361400172114,
+            "zart_flatten": 0.4750385689549148,
+            "outer_flatten_1": 0.24387654351691404,
+            "tishka_flatten_with_stack": 0.8408900632833441,
+            "recursion_flatten": 0.553906456567347,
+            "outer_flatten_2": 1.5893084661414225,
+            "recursive_flatten_like_tishka": 0.4342614075479408
+        },
+        "_short___hard__medium": {
+            "tishka_flatten": 0.11859580517436068,
+            "niccolum_flatten": 0.10502951793993513,
+            "zart_flatten": 0.07456517731770873,
+            "outer_flatten_1": 0.029641163845856983,
+            "tishka_flatten_with_stack": 0.1310786297544837,
+            "recursion_flatten": 0.0775013545838495,
+            "outer_flatten_2": 0.2022519172169268,
+            "recursive_flatten_like_tishka": 0.060591848101466894
+        },
+        "____lengthy___hard____very_big": {
+            "tishka_flatten": 6248.949428417875,
+            "niccolum_flatten": 111.78746059226494,
+            "zart_flatten": 44.50971818699812,
+            "outer_flatten_1": 21.433433967021603,
+            "tishka_flatten_with_stack": 72.08961517953624,
+            "recursion_flatten": 2311.851215575356,
+            "outer_flatten_2": 2769.3460184354335,
+            "recursive_flatten_like_tishka": 128.11300491262227
+        },
+        "____lengthy__medium___big": {
+            "tishka_flatten": 108.83623900652553,
+            "niccolum_flatten": 200.81923134066164,
+            "zart_flatten": 23.059007200722892,
+            "outer_flatten_1": 19.219190769828856,
+            "tishka_flatten_with_stack": 17.576846432251234,
+            "recursion_flatten": 373.1727610665063,
+            "outer_flatten_2": 527.4170467209382,
+            "recursive_flatten_like_tishka": 34.23302426623801
+        },
+        "___long_easy____very_big": {
+            "tishka_flatten": 3.5099389331104853,
+            "niccolum_flatten": 7.926773016961913,
+            "zart_flatten": 4.384265559415023,
+            "outer_flatten_1": 2.363675551954657,
+            "tishka_flatten_with_stack": 6.745255405704181,
+            "recursion_flatten": 535.9798973657502,
+            "outer_flatten_2": 616.0276844146041,
+            "recursive_flatten_like_tishka": 21.155185325381655
+        },
+        "__middle__medium___big": {
+            "tishka_flatten": 0.5647109641383091,
+            "niccolum_flatten": 0.696144562214613,
+            "zart_flatten": 0.4627368288735549,
+            "outer_flatten_1": 0.23866003441313902,
+            "tishka_flatten_with_stack": 0.7412057048641145,
+            "recursion_flatten": 4.753084689223518,
+            "outer_flatten_2": 6.573339679123213,
+            "recursive_flatten_like_tishka": 0.5900165199612578
+        },
+        "____lengthy___hard_small": {
+            "tishka_flatten": 12.52490015203754,
+            "niccolum_flatten": 13.559323891686896,
+            "zart_flatten": 22.078297175622236,
+            "outer_flatten_1": 18.720292059859883,
+            "tishka_flatten_with_stack": 16.629053915850818,
+            "recursion_flatten": 11.581579529680312,
+            "outer_flatten_2": 87.32398747249196,
+            "recursive_flatten_like_tishka": 12.555991446444144
+        },
+        "_short___hard_small": {
+            "tishka_flatten": 0.01697568331534664,
+            "niccolum_flatten": 0.017288914260764916,
+            "zart_flatten": 0.03287194591636459,
+            "outer_flatten_1": 0.02308724184210102,
+            "tishka_flatten_with_stack": 0.025533693376928568,
+            "recursion_flatten": 0.015955088660120964,
+            "outer_flatten_2": 0.10072251502424479,
+            "recursive_flatten_like_tishka": 0.016849873587489128
+        },
+        "____lengthy_easy____very_big": {
+            "tishka_flatten": 15.42398607560123,
+            "niccolum_flatten": 207.1224931559215,
+            "zart_flatten": 25.118256445663672,
+            "outer_flatten_1": 19.63074042632555,
+            "tishka_flatten_with_stack": 22.31560355176528,
+            "recursion_flatten": 5097.114322682221,
+            "outer_flatten_2": 6461.754080366499,
+            "recursive_flatten_like_tishka": 246.0004795139345
+        },
+        "____lengthy_easy___big": {
+            "tishka_flatten": 13.873254348368695,
+            "niccolum_flatten": 208.2187374481,
+            "zart_flatten": 23.75469177480166,
+            "outer_flatten_1": 19.961084203018498,
+            "tishka_flatten_with_stack": 18.109074670045327,
+            "recursion_flatten": 427.72805932955816,
+            "outer_flatten_2": 577.6262962464243,
+            "recursive_flatten_like_tishka": 39.56916588622456
+        },
+        "___long___hard___big": {
+            "tishka_flatten": 65.78812339063734,
+            "niccolum_flatten": 7.45805736988162,
+            "zart_flatten": 4.5831208834424615,
+            "outer_flatten_1": 2.2085721699210503,
+            "tishka_flatten_with_stack": 7.460016604202489,
+            "recursion_flatten": 22.617641844476264,
+            "outer_flatten_2": 37.2145245221133,
+            "recursive_flatten_like_tishka": 5.427047388007243
+        },
+        "____lengthy_easy_small": {
+            "tishka_flatten": 13.367824810712287,
+            "niccolum_flatten": 14.401032670401037,
+            "zart_flatten": 23.42162235531335,
+            "outer_flatten_1": 19.785474366353203,
+            "tishka_flatten_with_stack": 17.04286798198397,
+            "recursion_flatten": 11.964620772904405,
+            "outer_flatten_2": 94.62200579093769,
+            "recursive_flatten_like_tishka": 12.904936630123606
+        },
+        "___long__medium__medium": {
+            "tishka_flatten": 5.680268630695839,
+            "niccolum_flatten": 3.962574675834427,
+            "zart_flatten": 2.309560257010162,
+            "outer_flatten_1": 1.9046371580722432,
+            "tishka_flatten_with_stack": 1.7855086402657132,
+            "recursion_flatten": 2.7353639703554413,
+            "outer_flatten_2": 10.907012131375572,
+            "recursive_flatten_like_tishka": 1.4097603131085634
+        },
+        "__middle___hard_small": {
+            "tishka_flatten": 0.14665558080499372,
+            "niccolum_flatten": 0.1411867580997447,
+            "zart_flatten": 0.25353884665916365,
+            "outer_flatten_1": 0.20993774632612863,
+            "tishka_flatten_with_stack": 0.19824569889654717,
+            "recursion_flatten": 0.13672538986429572,
+            "outer_flatten_2": 0.9430353504916033,
+            "recursive_flatten_like_tishka": 0.14176698649923006
+        },
+        "___long___hard__medium": {
+            "tishka_flatten": 8.297879992208133,
+            "niccolum_flatten": 6.833907762387146,
+            "zart_flatten": 4.182359215337783,
+            "outer_flatten_1": 2.1846432875220976,
+            "tishka_flatten_with_stack": 6.942647572451581,
+            "recursion_flatten": 4.876846264892568,
+            "outer_flatten_2": 14.687730988487601,
+            "recursive_flatten_like_tishka": 3.792024054719756
+        },
+        "_short__medium_small": {
+            "tishka_flatten": 0.017364090929428738,
+            "niccolum_flatten": 0.01783411530777812,
+            "zart_flatten": 0.0332757745248576,
+            "outer_flatten_1": 0.02436310627187292,
+            "tishka_flatten_with_stack": 0.026251987398912508,
+            "recursion_flatten": 0.01640154328197241,
+            "outer_flatten_2": 0.10913180947924654,
+            "recursive_flatten_like_tishka": 0.017100950547804434
+        },
+        "__middle_easy_small": {
+            "tishka_flatten": 0.14176524663344026,
+            "niccolum_flatten": 0.13147804358353218,
+            "zart_flatten": 0.24907307513058186,
+            "outer_flatten_1": 0.210593584459275,
+            "tishka_flatten_with_stack": 0.19436596939340234,
+            "recursion_flatten": 0.133867502057304,
+            "outer_flatten_2": 0.9445796123084923,
+            "recursive_flatten_like_tishka": 0.1487413289335867
+        },
+        "__middle___hard___big": {
+            "tishka_flatten": 7.573543221224099,
+            "niccolum_flatten": 1.1550498063055177,
+            "zart_flatten": 0.7264118020733198,
+            "outer_flatten_1": 0.2700827873001496,
+            "tishka_flatten_with_stack": 1.309314585911731,
+            "recursion_flatten": 2.5046436080398657,
+            "outer_flatten_2": 4.103845200501382,
+            "recursive_flatten_like_tishka": 0.7831522927929958
+        },
+        "__middle__medium____very_big": {
+            "tishka_flatten": 2.579252385379126,
+            "niccolum_flatten": 4.418186315956215,
+            "zart_flatten": 2.3369841164288423,
+            "outer_flatten_1": 0.5682608123558263,
+            "tishka_flatten_with_stack": 5.483914696921905,
+            "recursion_flatten": 61.95143343430633,
+            "outer_flatten_2": 71.41745344471808,
+            "recursive_flatten_like_tishka": 5.073185649700463
+        },
+        "_short_easy____very_big": {
+            "tishka_flatten": 2.2339142031657198,
+            "niccolum_flatten": 4.102445526979864,
+            "zart_flatten": 2.081106197244177,
+            "outer_flatten_1": 0.3719779970124364,
+            "tishka_flatten_with_stack": 5.37564806562538,
+            "recursion_flatten": 8.918158153072,
+            "outer_flatten_2": 11.764621674704054,
+            "recursive_flatten_like_tishka": 3.5878617671939232
+        },
+        "__middle_easy__medium": {
+            "tishka_flatten": 0.1761289540057381,
+            "niccolum_flatten": 0.32172570160279673,
+            "zart_flatten": 0.28269060561433434,
+            "outer_flatten_1": 0.2236592856546243,
+            "tishka_flatten_with_stack": 0.23720301237578192,
+            "recursion_flatten": 0.4156059470648567,
+            "outer_flatten_2": 1.3955361138408382,
+            "recursive_flatten_like_tishka": 0.1892160971959432
+        },
+        "___long__medium___big": {
+            "tishka_flatten": 5.872121934313327,
+            "niccolum_flatten": 4.295340507291257,
+            "zart_flatten": 2.4873036082523563,
+            "outer_flatten_1": 1.920498867208759,
+            "tishka_flatten_with_stack": 2.223886624754717,
+            "recursion_flatten": 37.61046274208153,
+            "outer_flatten_2": 52.65124721871689,
+            "recursive_flatten_like_tishka": 3.1561193289235234
+        },
+        "_short__medium___big": {
+            "tishka_flatten": 0.24754141302158436,
+            "niccolum_flatten": 0.44128186379869777,
+            "zart_flatten": 0.2472282190186282,
+            "outer_flatten_1": 0.06403790460899472,
+            "tishka_flatten_with_stack": 0.5688709321742257,
+            "recursion_flatten": 0.7118143591408929,
+            "outer_flatten_2": 1.076993328674386,
+            "recursive_flatten_like_tishka": 0.3167684312599401
+        },
+        "_short___hard___big": {
+            "tishka_flatten": 0.3037129359630247,
+            "niccolum_flatten": 0.4390393119926254,
+            "zart_flatten": 0.2375068194232881,
+            "outer_flatten_1": 0.06293517304584384,
+            "tishka_flatten_with_stack": 0.5547424863713483,
+            "recursion_flatten": 0.6677259323187172,
+            "outer_flatten_2": 1.0310789127834141,
+            "recursive_flatten_like_tishka": 0.30566826012606424
+        },
+        "____lengthy__medium____very_big": {
+            "tishka_flatten": 111.61197161208838,
+            "niccolum_flatten": 203.5086947438928,
+            "zart_flatten": 24.867628989275545,
+            "outer_flatten_1": 19.54585564710821,
+            "tishka_flatten_with_stack": 21.745622426116217,
+            "recursion_flatten": 5412.197262128039,
+            "outer_flatten_2": 5758.80621782861,
+            "recursive_flatten_like_tishka": 239.8197502566812
+        },
+        "____lengthy___hard__medium": {
+            "tishka_flatten": 84.91002418271576,
+            "niccolum_flatten": 123.93546511388074,
+            "zart_flatten": 42.795497563046716,
+            "outer_flatten_1": 22.430411046370864,
+            "tishka_flatten_with_stack": 69.87475374356534,
+            "recursion_flatten": 49.81747277127579,
+            "outer_flatten_2": 148.89973771556592,
+            "recursive_flatten_like_tishka": 38.5873461170122
+        },
+        "__middle__medium_small": {
+            "tishka_flatten": 0.14832569332793355,
+            "niccolum_flatten": 0.13410585870345434,
+            "zart_flatten": 0.25487511573980254,
+            "outer_flatten_1": 0.20714066394915184,
+            "tishka_flatten_with_stack": 0.18756476882845163,
+            "recursion_flatten": 0.13130132419367632,
+            "outer_flatten_2": 0.9249219240931174,
+            "recursive_flatten_like_tishka": 0.14416649223615727
+        },
+        "_short__medium__medium": {
+            "tishka_flatten": 0.04435675932715336,
+            "niccolum_flatten": 0.06716986512765288,
+            "zart_flatten": 0.053702556838591896,
+            "outer_flatten_1": 0.027348273433744907,
+            "tishka_flatten_with_stack": 0.07931263294691841,
+            "recursion_flatten": 0.06532753119245172,
+            "outer_flatten_2": 0.1754199960269034,
+            "recursive_flatten_like_tishka": 0.042677117977291346
+        },
+        "___long__medium____very_big": {
+            "tishka_flatten": 7.749724834381293,
+            "niccolum_flatten": 7.946646371545891,
+            "zart_flatten": 4.224644953074555,
+            "outer_flatten_1": 2.2058648001402617,
+            "tishka_flatten_with_stack": 6.939682349407424,
+            "recursion_flatten": 599.3452378711663,
+            "outer_flatten_2": 568.8205905039795,
+            "recursive_flatten_like_tishka": 22.552887672092766
+        },
+        "___long___hard_small": {
+            "tishka_flatten": 1.2895108641435702,
+            "niccolum_flatten": 1.3465893906541169,
+            "zart_flatten": 2.281608084527155,
+            "outer_flatten_1": 1.878763272582243,
+            "tishka_flatten_with_stack": 1.6961646853014827,
+            "recursion_flatten": 1.1601981731752555,
+            "outer_flatten_2": 9.075993344498178,
+            "recursive_flatten_like_tishka": 1.2773181799178321
+        },
+        "___long_easy__medium": {
+            "tishka_flatten": 1.3842619236869116,
+            "niccolum_flatten": 4.112986617255956,
+            "zart_flatten": 2.414446442387998,
+            "outer_flatten_1": 2.04108492936939,
+            "tishka_flatten_with_stack": 1.8284043449287612,
+            "recursion_flatten": 3.9269495679376027,
+            "outer_flatten_2": 12.801179742285361,
+            "recursive_flatten_like_tishka": 1.5164370429702103
+        },
+        "___long__medium_small": {
+            "tishka_flatten": 1.277775581770887,
+            "niccolum_flatten": 1.3142404411919415,
+            "zart_flatten": 2.2222136893930533,
+            "outer_flatten_1": 1.8638314688578248,
+            "tishka_flatten_with_stack": 1.7135197149279218,
+            "recursion_flatten": 1.163232354292025,
+            "outer_flatten_2": 8.741359390318394,
+            "recursive_flatten_like_tishka": 1.2691843933425844
+        },
+        "____lengthy__medium__medium": {
+            "tishka_flatten": 61.01208801163981,
+            "niccolum_flatten": 112.6960080244268,
+            "zart_flatten": 22.776179598178715,
+            "outer_flatten_1": 19.16229883922885,
+            "tishka_flatten_with_stack": 17.258026420138776,
+            "recursion_flatten": 27.30859993460278,
+            "outer_flatten_2": 109.19760039650525,
+            "recursive_flatten_like_tishka": 14.417669124280414
+        },
+        "__middle_easy____very_big": {
+            "tishka_flatten": 2.3671169385003545,
+            "niccolum_flatten": 4.37849425105378,
+            "zart_flatten": 2.2937854433742664,
+            "outer_flatten_1": 0.5516947993698219,
+            "tishka_flatten_with_stack": 5.608350317304333,
+            "recursion_flatten": 62.10607584627966,
+            "outer_flatten_2": 71.31342745292932,
+            "recursive_flatten_like_tishka": 5.067683424955855
+        },
+        "_short_easy___big": {
+            "tishka_flatten": 0.24020498401174942,
+            "niccolum_flatten": 0.4444166974474986,
+            "zart_flatten": 0.24064207604775825,
+            "outer_flatten_1": 0.062220740442474685,
+            "tishka_flatten_with_stack": 0.5570953364173571,
+            "recursion_flatten": 0.6939934304294487,
+            "outer_flatten_2": 1.0796151850372553,
+            "recursive_flatten_like_tishka": 0.3136963656482597
+        },
+        "__middle_easy___big": {
+            "tishka_flatten": 0.4057441842742264,
+            "niccolum_flatten": 0.7184233136164645,
+            "zart_flatten": 0.4635167443193495,
+            "outer_flatten_1": 0.24248173600062728,
+            "tishka_flatten_with_stack": 0.7226274496254822,
+            "recursion_flatten": 4.730987725003312,
+            "outer_flatten_2": 6.565826338715851,
+            "recursive_flatten_like_tishka": 0.5730089102871716
+        },
+        "__middle___hard____very_big": {
+            "tishka_flatten": 9.631917268193016,
+            "niccolum_flatten": 4.414779489394277,
+            "zart_flatten": 2.417053655721247,
+            "outer_flatten_1": 0.6067329086363316,
+            "tishka_flatten_with_stack": 5.5315379542298615,
+            "recursion_flatten": 58.882651819847524,
+            "outer_flatten_2": 64.50427388182531,
+            "recursive_flatten_like_tishka": 5.046651094841461
+        },
+        "____lengthy_easy__medium": {
+            "tishka_flatten": 13.193795147972802,
+            "niccolum_flatten": 209.38474387535825,
+            "zart_flatten": 22.814240275416523,
+            "outer_flatten_1": 19.270509606072057,
+            "tishka_flatten_with_stack": 17.485816301312298,
+            "recursion_flatten": 38.86148418113589,
+            "outer_flatten_2": 126.82408678003897,
+            "recursive_flatten_like_tishka": 15.579821784670154
+        },
+        "____lengthy__medium_small": {
+            "tishka_flatten": 12.834017315258583,
+            "niccolum_flatten": 14.09182395103077,
+            "zart_flatten": 22.66952570977931,
+            "outer_flatten_1": 19.130723398644477,
+            "tishka_flatten_with_stack": 17.140207508423675,
+            "recursion_flatten": 12.038857103946308,
+            "outer_flatten_2": 91.2987869225132,
+            "recursive_flatten_like_tishka": 13.059226430642108
+        },
+        "____lengthy___hard___big": {
+            "tishka_flatten": 653.6010694003975,
+            "niccolum_flatten": 78.78908289317042,
+            "zart_flatten": 43.80841506396731,
+            "outer_flatten_1": 21.75316258970027,
+            "tishka_flatten_with_stack": 74.1646442169634,
+            "recursion_flatten": 219.01860239403322,
+            "outer_flatten_2": 360.7657431764528,
+            "recursive_flatten_like_tishka": 55.62832348638525
+        },
+        "___long_easy___big": {
+            "tishka_flatten": 1.5668762484565377,
+            "niccolum_flatten": 4.418033679171155,
+            "zart_flatten": 2.594567180921634,
+            "outer_flatten_1": 2.081944322989633,
+            "tishka_flatten_with_stack": 2.2735825227573514,
+            "recursion_flatten": 42.02199958000953,
+            "outer_flatten_2": 61.086661982660495,
+            "recursive_flatten_like_tishka": 3.2155533314992986
+        },
+        "_short___hard____very_big": {
+            "tishka_flatten": 2.295212287455797,
+            "niccolum_flatten": 4.122186919053395,
+            "zart_flatten": 2.0829176576808095,
+            "outer_flatten_1": 0.3726067125486831,
+            "tishka_flatten_with_stack": 5.314960862665127,
+            "recursion_flatten": 8.594779295070717,
+            "outer_flatten_2": 11.695342039844641,
+            "recursive_flatten_like_tishka": 3.5637716399505734
+        },
+        "_short_easy__medium": {
+            "tishka_flatten": 0.03911733999848366,
+            "niccolum_flatten": 0.06831114211430152,
+            "zart_flatten": 0.05321093462407589,
+            "outer_flatten_1": 0.02657109359279275,
+            "tishka_flatten_with_stack": 0.07626925564060609,
+            "recursion_flatten": 0.06462604490419228,
+            "outer_flatten_2": 0.17510751402005553,
+            "recursive_flatten_like_tishka": 0.04311365230629841
+        },
+        "_short__medium____very_big": {
+            "tishka_flatten": 2.2955690221861005,
+            "niccolum_flatten": 4.204896330678214,
+            "zart_flatten": 2.095491075422615,
+            "outer_flatten_1": 0.37708666641265154,
+            "tishka_flatten_with_stack": 5.270771329135944,
+            "recursion_flatten": 8.873348229254285,
+            "outer_flatten_2": 11.735594792291522,
+            "recursive_flatten_like_tishka": 3.4642664548009634
+        },
+        "___long___hard____very_big": {
+            "tishka_flatten": 652.095658252947,
+            "niccolum_flatten": 14.110550875930736,
+            "zart_flatten": 6.754645949229598,
+            "outer_flatten_1": 2.554963200353086,
+            "tishka_flatten_with_stack": 13.477828971886387,
+            "recursion_flatten": 291.2573184231296,
+            "outer_flatten_2": 298.42198343000683,
+            "recursive_flatten_like_tishka": 17.508048116074253
+        },
+        "_short_easy_small": {
+            "tishka_flatten": 0.01757919415831566,
+            "niccolum_flatten": 0.017347728678335745,
+            "zart_flatten": 0.032980441115796566,
+            "outer_flatten_1": 0.023230542428791523,
+            "tishka_flatten_with_stack": 0.025995704034964245,
+            "recursion_flatten": 0.016312626811365288,
+            "outer_flatten_2": 0.10534810430059831,
+            "recursive_flatten_like_tishka": 0.017194055952131748
+        }
+    }
+}
