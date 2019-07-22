@@ -1,0 +1,2432 @@
+0.000128
+__annotations__	240
+SingleNodeClass	1056
+TwoNodeClass	2112
+mindatalist	1008
+middledatalist	90112
+bigdatalist	9000112
+0.474579
+self	246904
+node	246848
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+0.932245
+self	458808
+node	458752
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1.423142
+self	659344
+node	659288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1.949224
+self	855344
+node	855288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2.511417
+self	1046472
+node	1046416
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+3.096351
+self	1233904
+node	1233848
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+3.715019
+self	1419208
+node	1419152
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+4.361956
+self	1601264
+node	1601208
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+5.043941
+self	1781864
+node	1781808
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+5.757972
+self	1960952
+node	1960896
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+6.504909
+self	2139088
+node	2139032
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+7.277748
+self	2316720
+node	2316664
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+8.069518
+self	2491832
+node	2491776
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+8.895936
+self	2666104
+node	2666048
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+9.741646
+self	2840096
+node	2840040
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+10.619491
+self	3011904
+node	3011848
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+11.531537
+self	3183544
+node	3183488
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+12.482113
+self	3354736
+node	3354680
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+13.463211
+self	3524024
+node	3523968
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+14.454781
+self	3694040
+node	3693984
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+15.468131
+self	3862768
+node	3862712
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+16.520318
+self	4030600
+node	4030544
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+17.575243
+self	4197648
+node	4197592
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+18.652914
+self	4364472
+node	4364416
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+19.794099
+self	4531240
+node	4531184
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+20.974638
+self	4697504
+node	4697448
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+22.146403
+self	4862760
+node	4862704
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+23.356781
+self	5027904
+node	5027848
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+24.576936
+self	5191088
+node	5191032
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+25.828581
+self	5354720
+node	5354664
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+27.102628
+self	5518912
+node	5518856
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+28.411390
+self	5683496
+node	5683440
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+29.743073
+self	5846456
+node	5846400
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+31.090151
+self	6008744
+node	6008688
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+32.465115
+instance	6170696
+__annotations__	240
+SingleNodeClass	1056
+TwoNodeClass	2112
+mindatalist	1008
+middledatalist	90112
+bigdatalist	9000112
+33.427891
+self	6332368
+node	6332312
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+34.890695
+self	6494208
+node	6494152
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+36.343848
+self	6654704
+node	6654648
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+37.863127
+self	6815760
+node	6815704
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+39.369537
+self	6976256
+node	6976200
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+40.905118
+self	7136976
+node	7136920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+42.467515
+self	7297528
+node	7297472
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+44.053710
+self	7457520
+node	7457464
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+45.655208
+self	7617512
+node	7617456
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+47.290658
+self	7776552
+node	7776496
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+48.946403
+self	7935144
+node	7935088
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+51.930492
+self	8093848
+node	8093792
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+53.705235
+self	8251768
+node	8251712
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+55.427490
+self	8409744
+node	8409688
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+57.179331
+self	8568000
+node	8567944
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+58.958264
+self	8726088
+node	8726032
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+60.768338
+self	8883616
+node	8883560
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+62.621193
+self	9040864
+node	9040808
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+64.505286
+self	9198560
+node	9198504
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+66.415710
+self	9355416
+node	9355360
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+68.346971
+self	9511880
+node	9511824
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+70.309445
+self	9668176
+node	9668120
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+72.303110
+self	9824416
+node	9824360
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+74.330131
+self	9981272
+node	9981216
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+76.352613
+self	10137232
+node	10137176
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+78.390783
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+78.830658
+self	10448256
+node	10448200
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+80.935944
+self	10604048
+node	10603992
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+83.039892
+self	10759280
+node	10759224
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+85.189923
+self	10914344
+node	10914288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+87.370520
+self	11069856
+node	11069800
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+89.553308
+self	11224640
+node	11224584
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+91.781557
+self	11379032
+node	11378976
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+94.034590
+self	11533480
+node	11533424
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+96.302573
+self	11687480
+node	11687424
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+98.601341
+self	11841368
+node	11841312
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+100.931322
+self	11995312
+node	11995256
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+103.274268
+self	12149480
+node	12149424
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+105.647149
+self	12302080
+node	12302024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+108.037616
+self	12456080
+node	12456024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+110.467040
+self	12609072
+node	12609016
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+112.910948
+self	12762120
+node	12762064
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+115.379372
+self	12914664
+node	12914608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+117.875045
+self	13067880
+node	13067824
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+120.397527
+self	13221488
+node	13221432
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+122.930616
+self	13373304
+node	13373248
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+125.497906
+self	13526072
+node	13526016
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+128.083148
+self	13678448
+node	13678392
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+130.692685
+self	13830600
+node	13830544
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+133.335287
+self	13981968
+node	13981912
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+135.998240
+self	14134344
+node	14134288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+138.692153
+self	14285544
+node	14285488
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+141.404688
+self	14437920
+node	14437864
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+144.130042
+self	14590128
+node	14590072
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+146.890341
+self	14741216
+node	14741160
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+149.676844
+self	14891912
+node	14891856
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+152.482858
+self	15042888
+node	15042832
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+155.314268
+self	15193304
+node	15193248
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+158.167824
+self	15344056
+node	15344000
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+161.069998
+self	15494976
+node	15494920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+163.972076
+self	15645168
+node	15645112
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+166.893270
+self	15794968
+node	15794912
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+169.836669
+self	15945104
+node	15945048
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+172.810329
+self	16095352
+node	16095296
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+175.806155
+self	16245376
+node	16245320
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+178.830608
+self	16394784
+node	16394728
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+181.878512
+self	16544584
+node	16544528
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+184.948255
+self	16694664
+node	16694608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+188.026954
+self	16845136
+node	16845080
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+191.189221
+self	16995328
+node	16995272
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+194.345620
+self	17144960
+node	17144904
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+197.501368
+self	17294928
+node	17294872
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+200.724787
+self	17444448
+node	17444392
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+203.955200
+self	17594696
+node	17594640
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+207.174728
+self	17743656
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+209.071931
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+209.499060
+self	18041632
+node	18041576
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+212.858130
+self	18191320
+node	18191264
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+216.238499
+self	18340504
+node	18340448
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+219.647339
+self	18488904
+node	18488848
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+223.077183
+self	18637640
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+225.014260
+self	18786824
+node	18786768
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+228.459630
+self	18934496
+node	18934440
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+231.999280
+self	19082840
+node	19082784
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+235.540577
+instance	19230904
+__annotations__	240
+SingleNodeClass	1056
+TwoNodeClass	2112
+mindatalist	1008
+middledatalist	90112
+bigdatalist	9000112
+237.583276
+self	19378744
+node	19378688
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+241.150584
+self	19526696
+node	19526640
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+244.753369
+self	19675488
+node	19675432
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+248.375251
+self	19823776
+node	19823720
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+252.027598
+self	19971392
+node	19971336
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+255.693809
+self	20119680
+node	20119624
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+259.387916
+self	20267016
+node	20266960
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+263.113208
+self	20414912
+node	20414856
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+266.875474
+self	20562920
+node	20562864
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+270.635036
+self	20710872
+node	20710816
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+274.422258
+self	20857536
+node	20857480
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+278.221312
+self	21004256
+node	21004200
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+282.043237
+self	21151088
+node	21151032
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+285.888472
+self	21299040
+node	21298984
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+289.753349
+self	21446488
+node	21446432
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+293.641280
+self	21593880
+node	21593824
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+297.557086
+self	21740880
+node	21740824
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+301.506841
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+301.934224
+self	22034992
+node	22034936
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+305.928793
+self	22183056
+node	22183000
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+311.272352
+self	22329496
+node	22329440
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+315.305803
+self	22476384
+node	22476328
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+319.383056
+self	22622488
+node	22622432
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+323.466111
+self	22767976
+node	22767920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+327.570857
+self	22914696
+node	22914640
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+331.708397
+self	23060520
+node	23060464
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+335.863525
+self	23206344
+node	23206288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+340.012566
+self	23352112
+node	23352056
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+344.229912
+self	23498720
+node	23498664
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+348.552113
+self	23644992
+node	23644936
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+352.854535
+self	23791600
+node	23791544
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+357.125270
+self	23936864
+node	23936808
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+361.425589
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+361.851615
+self	24228904
+node	24228848
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+366.192996
+self	24374168
+node	24374112
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+370.560493
+self	24519824
+node	24519768
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+374.945359
+self	24665592
+node	24665536
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+379.351187
+self	24812088
+node	24812032
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+383.917888
+self	24957632
+node	24957576
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+388.563205
+self	25103064
+node	25103008
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+393.530689
+self	25248272
+node	25248216
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+398.230562
+self	25393760
+node	25393704
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+402.863387
+self	25539528
+node	25539472
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+407.404857
+self	25685016
+node	25684960
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+411.953691
+self	25830056
+node	25830000
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+416.525925
+self	25975992
+node	25975936
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+421.100245
+self	26121480
+node	26121424
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+425.847935
+self	26266968
+node	26266912
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+430.443935
+self	26412008
+node	26411952
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+435.129593
+self	26557328
+node	26557272
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+439.816770
+self	26702200
+node	26702144
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+444.515033
+self	26847240
+node	26847184
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+449.236678
+self	26992224
+node	26992168
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+453.977220
+self	27136536
+node	27136480
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+458.738795
+self	27280848
+node	27280792
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+463.527972
+self	27425832
+node	27425776
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+468.332866
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+468.755121
+self	27715912
+node	27715856
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+473.578057
+self	27860112
+node	27860056
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+478.509931
+self	28004984
+node	28004928
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+483.417072
+self	28148624
+node	28148568
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+488.341778
+self	28292824
+node	28292768
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+493.291011
+self	28436856
+node	28436800
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+498.290453
+self	28581448
+node	28581392
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+503.442808
+self	28725872
+node	28725816
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+508.459260
+self	28870072
+node	28870016
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+513.453740
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+513.921709
+self	29158360
+node	29158304
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+519.006083
+self	29301944
+node	29301888
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+524.110292
+self	29445864
+node	29445808
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+529.252179
+self	29589504
+node	29589448
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+534.410030
+self	29733928
+node	29733872
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+539.595153
+self	29878016
+node	29877960
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+544.789629
+self	30021320
+node	30021264
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+550.007413
+self	30164624
+node	30164568
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+555.259695
+self	30308096
+node	30308040
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+560.543728
+self	30451568
+node	30451512
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+565.846189
+self	30594424
+node	30594368
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+571.169890
+self	30737448
+node	30737392
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+576.507678
+self	30880752
+node	30880696
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+581.869904
+self	31023552
+node	31023496
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+587.204340
+self	31167136
+node	31167080
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+592.758976
+self	31310160
+node	31310104
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+598.321746
+self	31453240
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+601.225372
+self	31596992
+node	31596936
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+606.802014
+self	31740688
+node	31740632
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+612.351137
+self	31883600
+node	31883544
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+617.893090
+self	32026400
+node	32026344
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+623.506095
+self	32169312
+node	32169256
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+629.174928
+self	32312504
+node	32312448
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+634.844234
+self	32455080
+node	32455024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+640.521389
+self	32598160
+node	32598104
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+646.225363
+self	32740960
+node	32740904
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+651.956243
+self	32883816
+node	32883760
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+657.679454
+self	33026336
+node	33026280
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+663.444366
+self	33168744
+node	33168688
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+669.246209
+self	33310760
+node	33310704
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+675.039248
+self	33454008
+node	33453952
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+680.911228
+self	33596080
+node	33596024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+686.767926
+self	33738152
+node	33738096
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+692.644970
+self	33879832
+node	33879776
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+698.567451
+self	34022744
+node	34022688
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+704.485479
+self	34164536
+node	34164480
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+710.429197
+self	34307168
+node	34307112
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+716.381861
+self	34449072
+node	34449016
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+722.369946
+self	34591144
+node	34591088
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+728.382694
+self	34733888
+node	34733832
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+734.402247
+self	34876240
+node	34876184
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+740.473350
+self	35017808
+node	35017752
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+746.577632
+self	35161000
+node	35160944
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+752.669864
+self	35303520
+node	35303464
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+758.897977
+self	35446096
+node	35446040
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+765.114280
+self	35588224
+node	35588168
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+771.385800
+self	35729512
+node	35729456
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+777.677861
+self	35871584
+node	35871528
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+783.903351
+self	36013208
+node	36013152
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+790.229065
+self	36154776
+node	36154720
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+796.578575
+self	36296680
+node	36296624
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+803.134546
+self	36438584
+node	36438528
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+809.530334
+self	36579928
+node	36579872
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+815.944332
+self	36721496
+node	36721440
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+822.376316
+self	36862840
+node	36862784
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+828.866852
+self	37004352
+node	37004296
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+835.737948
+self	37145976
+node	37145920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+842.348705
+self	37286704
+node	37286648
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+848.875647
+self	37429000
+node	37428944
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+855.435417
+self	37570008
+node	37569952
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+862.015656
+self	37711072
+node	37711016
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+868.984250
+self	37853144
+node	37853088
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+875.589977
+self	37994936
+node	37994880
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+882.243158
+self	38136784
+node	38136728
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+888.903394
+self	38278240
+node	38278184
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+895.594930
+self	38419640
+node	38419584
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+902.300489
+self	38559528
+node	38559472
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+909.046921
+self	38700200
+node	38700144
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+915.804470
+self	38841432
+node	38841376
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+922.567472
+self	38981544
+node	38981488
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+929.370227
+self	39122552
+node	39122496
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+936.183400
+self	39263224
+node	39263168
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+943.042423
+self	39404344
+node	39404288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+949.904082
+self	39545464
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+953.554843
+self	39685856
+node	39685800
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+960.448935
+self	39826976
+node	39826920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+967.374352
+self	39967480
+node	39967424
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+974.307662
+self	40108544
+node	40108488
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+982.836272
+self	40249440
+node	40249384
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+989.850933
+self	40390336
+node	40390280
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+996.889476
+self	40530000
+node	40529944
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1003.949036
+self	40671120
+node	40671064
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1011.047558
+self	40812352
+node	40812296
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1018.151463
+self	40952296
+node	40952240
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1025.274902
+self	41093584
+node	41093528
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1032.436632
+self	41234368
+node	41234312
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1039.635675
+self	41374928
+node	41374872
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1046.808886
+self	41515656
+node	41515600
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1054.011818
+self	41656664
+node	41656608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1061.238148
+self	41797392
+node	41797336
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1068.488315
+self	41937448
+node	41937392
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1075.765183
+self	42078176
+node	42078120
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1083.063052
+self	42218344
+node	42218288
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1090.390329
+self	42358512
+node	42358456
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1097.736868
+self	42499352
+node	42499296
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1105.119292
+self	42639520
+node	42639464
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1112.509760
+self	42780080
+node	42780024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1119.947133
+self	42920080
+node	42920024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1127.411833
+self	43059576
+node	43059520
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1134.915270
+self	43199744
+node	43199688
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1142.401160
+self	43339576
+node	43339520
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1149.921819
+self	43479632
+node	43479576
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1157.449156
+self	43618680
+node	43618624
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1165.002169
+self	43758120
+node	43758064
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1172.577289
+self	43897448
+node	43897392
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1180.183602
+self	44037616
+node	44037560
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1187.790496
+self	44177952
+node	44177896
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1195.344345
+self	44317728
+node	44317672
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1203.090804
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1203.515485
+self	44597000
+node	44596944
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1211.256372
+instance	44737056
+__annotations__	240
+SingleNodeClass	1056
+TwoNodeClass	2112
+mindatalist	1008
+middledatalist	90112
+bigdatalist	9000112
+1215.386657
+self	44876776
+node	44876720
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1223.147132
+self	45016944
+node	45016888
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1230.900517
+self	45156664
+node	45156608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1238.673875
+self	45295600
+node	45295544
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1246.503477
+self	45434648
+node	45434592
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1254.360724
+self	45573976
+node	45573920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1262.221989
+self	45712856
+node	45712800
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1270.097188
+self	45851960
+node	45851904
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1278.010790
+self	45991568
+node	45991512
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1285.962031
+self	46131792
+node	46131736
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1293.942594
+instance	46271064
+__annotations__	240
+SingleNodeClass	1056
+TwoNodeClass	2112
+mindatalist	1008
+middledatalist	90112
+bigdatalist	9000112
+1298.194328
+self	46411512
+node	46411456
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1306.204844
+self	46550560
+node	46550504
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1314.187194
+self	46689104
+node	46689048
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1322.173437
+self	46828376
+node	46828320
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1330.187674
+self	46967536
+node	46967480
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1338.215086
+self	47106752
+node	47106696
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1346.271314
+self	47245912
+node	47245856
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1354.359464
+self	47385576
+node	47385520
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1362.459628
+self	47524568
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1366.711257
+self	47663224
+node	47663168
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1374.855727
+self	47802104
+node	47802048
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1383.041853
+self	47942104
+node	47942048
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1391.223421
+self	48081152
+node	48081096
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1399.451417
+self	48220144
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1403.772386
+self	48358912
+node	48358856
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1412.054520
+self	48498072
+node	48498016
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1420.323674
+self	48636896
+node	48636840
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1428.625886
+self	48775664
+node	48775608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1436.959334
+self	48914320
+node	48914264
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1445.330768
+self	49052976
+node	49052920
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1453.700624
+self	49191296
+node	49191240
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1462.114408
+self	49330288
+node	49330232
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1470.570510
+self	49468832
+node	49468776
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1478.984462
+self	49608272
+node	49608216
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1487.422617
+self	49746592
+node	49746536
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1495.893964
+self	49885528
+node	49885472
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1504.421796
+self	50024632
+node	50024576
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1512.948630
+self	50162728
+node	50162672
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1521.493134
+self	50301272
+node	50301216
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1530.073963
+self	50440040
+node	50439984
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1538.676188
+self	50578360
+node	50578304
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1547.281106
+self	50717632
+node	50717576
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1555.923515
+self	50856176
+node	50856120
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1564.584678
+self	50994664
+node	50994608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1573.283498
+self	51133264
+node	51133208
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1582.003674
+self	51271696
+node	51271640
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1590.728828
+self	51410016
+node	51409960
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1599.429585
+self	51548840
+node	51548784
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1608.307448
+self	56
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1608.728873
+self	51825928
+node	51825872
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1617.579535
+self	51963968
+node	51963912
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1626.438680
+self	52102512
+node	52102456
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1635.309214
+self	52240216
+node	52240160
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1644.212444
+self	52378144
+node	52378088
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1653.122886
+self	52516632
+node	52516576
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1662.090231
+self	52654168
+node	52654112
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1671.032921
+self	52792152
+node	52792096
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1679.985217
+self	52929856
+node	52929800
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1688.976162
+self	53067896
+node	53067840
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1697.982253
+self	53205712
+node	53205656
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1707.022080
+self	53344088
+node	53344032
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1716.104679
+self	53481736
+node	53481680
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1725.213516
+self	53619664
+node	53619608
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1734.344584
+self	53757592
+node	53757536
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1743.413614
+self	53895800
+node	53895744
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1752.659118
+self	54033728
+node	54033672
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1761.831527
+self	54171880
+node	54171824
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1771.006771
+self	54309080
+node	54309024
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1780.204743
+self	54447400
+node	54447344
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1789.437150
+self	54585384
+node	54585328
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1798.710238
+self	54723480
+node	54723424
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1807.999361
+self	54860960
+node	54860904
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1817.308484
+self	54998048
+node	54997992
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1826.656956
+self	55136032
+node	55135976
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1836.034397
+self	55273008
+node	55272952
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1845.428018
+self	55410488
+node	55410432
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1854.863795
+self	55548752
+node	55548696
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1864.276930
+self	55686176
+node	55686120
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1873.731215
+self	55823712
+node	55823656
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1883.199730
+self	55962256
+node	55962200
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1892.675360
+self	56000056
+node	56000000
+stack	56000264
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1906.376964
+self	56000056
+stack	56000216
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1916.094252
+self	56000056
+node	56000000
+stack	56000192
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1929.810114
+self	56000056
+stack	56000264
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1939.071201
+self	56000056
+node	56000000
+stack	56000160
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1952.781718
+self	56000056
+node	56000000
+stack	56000224
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1966.506288
+self	56000056
+node	56000000
+stack	56000224
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1980.248956
+self	56000056
+stack	56000224
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+1989.533165
+self	56000056
+node	56000000
+stack	56000296
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2003.226310
+self	56000056
+node	56000000
+stack	56000192
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2016.946365
+self	56000056
+node	56000000
+stack	56000192
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2030.678213
+self	56000056
+node	56000000
+stack	56000192
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2044.411240
+self	56000056
+node	56000000
+stack	56000160
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2061.305527
+self	56000056
+node	56000000
+stack	56000208
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2075.053189
+self	56000056
+node	56000000
+stack	56000224
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2088.756290
+self	56000056
+stack	56000216
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2098.028152
+self	56000056
+node	56000000
+stack	56000160
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2111.725872
+self	56000056
+node	56000000
+stack	56000192
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2125.455661
+self	56000056
+stack	56000160
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2134.734394
+self	56000056
+node	56000000
+stack	56000264
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2148.432736
+self	56000056
+stack	56000208
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2157.691539
+self	56000056
+node	56000000
+stack	56000144
+__spec__	112
+SingleNodeClass	1056
+TwoNodeClass	2112
+2171.106886
+instance	56000056
+result	8250168
+__annotations__	240
+SingleNodeClass	1056
+TwoNodeClass	2112
+mindatalist	1008
+middledatalist	90112
+bigdatalist	9000112
