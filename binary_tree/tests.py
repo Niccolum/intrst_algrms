@@ -2,11 +2,12 @@ import unittest
 import types
 
 from funcs import SingleNodeClass, TwoNodeClass
-from data import mindatalist, middledatalist, bigdatalist
+from data import min_datalist, middle_datalist, big_datalist
+
 
 class TestNodes(unittest.TestCase):
 
-    data = [mindatalist, middledatalist, bigdatalist]
+    data = [min_datalist, middle_datalist, big_datalist]
 
     def tree_testing(self, instance, datalist):
         for i in datalist:
