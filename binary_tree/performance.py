@@ -9,7 +9,7 @@ from numbers import Integral
 from funcs import SingleNodeClass, TwoNodeClass
 from data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
-RETRY_NUM = 10000
+RETRY_NUM = 2000
 
 
 def mean(numbers: List[Integral]) -> int:
