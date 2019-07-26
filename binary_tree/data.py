@@ -4,7 +4,6 @@ Generate test data for test performance
 
 from random import shuffle
 
-
 datalist_100 = list(range(100))
 datalist_1000 = list(range(1000))
 datalist_10000 = list(range(10000))
