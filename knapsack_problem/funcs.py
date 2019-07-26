@@ -50,6 +50,10 @@ def knapsack_first(items, weight_limit):
 
 
 def knapsack_second(items, weight_limit):
+    """
+    my own function, written thanks to the site:
+    https://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka
+    """
     n = items
     k = weight_limit
     result = []
