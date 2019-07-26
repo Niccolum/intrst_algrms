@@ -1,3 +1,4 @@
+## OS info
 ```
 $ lsb_release -a
 No LSB modules are available.
@@ -6,6 +7,7 @@ Description:    Debian GNU/Linux 10 (buster)
 Release:    10
 Codename:   buster
 ```
+## CPU info
 ```
 $ lscpu
 Architecture:        x86_64
@@ -34,13 +36,14 @@ L2 cache:            256K
 L3 cache:            3072K
 NUMA node0 CPU(s):   0-3
 ```
+## Memory info
 ```
 $ free -m
               total        used        free      shared  buff/cache   available
 Mem:           5872        1067        3429         157        1375        4381
 Swap:          6053           0        6053
 ```
-# start to work
+## start to work
 ```
 $ cd ~/binary_tree
 
@@ -51,7 +54,7 @@ Python 3.7.3
 
 $ pip install -r requirements.txt
 ```
-# run tests
+## run tests
 ```
 $ python tests.py -vv
 test_data_SingleNodeClass (__main__.TestNodes) ... ok
@@ -62,19 +65,19 @@ Ran 2 tests in 34.623s
 
 OK
 ```
-# add profiling plots
+## add profiling plots
 ```
 $ cd logs && python ../profiling.py
 
 ... # create plots and logs for profiling in logs dir
 ```
-# create json file of performance result
+## create json file of performance result
 ```
 $ cd ../ && python performance.py
 
 ... # creates performance.json for plot
 ```
-# obviously - make performance plot
+## obviously - make performance plot
 ```
 $ python make_performance_plot.py
 

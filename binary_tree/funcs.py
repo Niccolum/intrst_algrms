@@ -2,18 +2,37 @@
 Examples of binary tree, made in the style of OOP, which realize next functionality:
 add_node: add new element to our tree
 tree_data: return sorted list of inner data
+
+Next classes are implemented:
+BaseNodeClass: abstract Binary Tree Class
+SingleNodeClass: all operations and storage takes place inside one class
+TwoNodeClass: use inner class Node for storage and TwoNodeClass for for everything else
 """
 
+from abc import ABCMeta, abstractmethod
+from collections.abc import Iterator
+from numbers import Integral
 
-class SingleNodeClass:
-    # default single node
 
-    def __init__(self, data: 'SingleNodeClass' = None):
+class BaseNodeClass(metaclass=ABCMeta):
+
+    @abstractmethod
+    def add_node(self, *args) -> None:
+        raise NotImplementedError
+
+    @abstractmethod
+    def tree_data(self) -> Iterator:
+        raise NotImplementedError
+
+
+class SingleNodeClass(BaseNodeClass):
+
+    def __init__(self, data: Integral = None):
         self.left = None
         self.right = None
         self.data = data
 
-    def add_node(self, data: 'SingleNodeClass'):
+    def add_node(self, data: Integral) -> None:
         if self.data is not None:
             if data < self.data:
                 if self.left is None:
@@ -28,22 +47,20 @@ class SingleNodeClass:
         else:
             self.data = data
 
-    def tree_data(self) -> list:
-        result = []
+    def tree_data(self) -> Iterator:
         if self.left:
-            result.extend(list(self.left.tree_data()))
-        result.append(self.data)
+            yield from self.left.tree_data()
+        yield self.data
         if self.right:
-            result.extend(list(self.right.tree_data()))
-        return result
+            yield from self.right.tree_data()
 
 
-class TwoNodeClass:
+class TwoNodeClass(BaseNodeClass):
     # based on https://gist.github.com/samidhtalsania/6659380
 
     class Node:
 
-        def __init__(self, key):
+        def __init__(self, key: Integral):
             self.key = key
             self.left = None
             self.right = None
@@ -52,7 +69,7 @@ class TwoNodeClass:
     def __init__(self):
         self.root = None
 
-    def add_node(self, key, node=None):
+    def add_node(self, key: Integral, node: Node = None) -> None:
 
         if node is None:
             node = self.root
@@ -76,7 +93,7 @@ class TwoNodeClass:
                 else:
                     return self.add_node(key, node=node.right)
 
-    def tree_data(self, node=None):
+    def tree_data(self, node: Node = None) -> Iterator:
         if node is None:
             node = self.root
 
@@ -89,19 +106,3 @@ class TwoNodeClass:
                 node = stack.pop()
                 yield node.key
                 node = node.right
-
-
-if __name__ == '__main__':
-    import data
-
-    snc = SingleNodeClass()
-    for i in data.min_datalist:
-        snc.add_node(i)
-
-    print(list(snc.tree_data()) == sorted(data.min_datalist))
-
-    tnc = TwoNodeClass()
-    for i in data.min_datalist:
-        tnc.add_node(i)
-
-    print(list(tnc.tree_data()) == sorted(data.min_datalist))

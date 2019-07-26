@@ -1,20 +1,18 @@
 import unittest
-import types
+from typing import List
+from numbers import Integral
 
-from funcs import SingleNodeClass, TwoNodeClass
-from data import min_datalist, middle_datalist, big_datalist
+from funcs import SingleNodeClass, TwoNodeClass, BaseNodeClass
+from data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
 
 class TestNodes(unittest.TestCase):
+    data = [datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000]
 
-    data = [min_datalist, middle_datalist, big_datalist]
-
-    def tree_testing(self, instance, datalist):
+    def tree_testing(self, instance: BaseNodeClass, datalist: List[Integral]):
         for i in datalist:
             instance.add_node(i)
-        result = instance.tree_data()
-        if isinstance(result, types.GeneratorType):
-            result = list(result)
+        result = list(instance.tree_data())
         self.assertEqual(result, sorted(datalist))
 
     def test_data_SingleNodeClass(self):
@@ -26,7 +24,7 @@ class TestNodes(unittest.TestCase):
         for datalist in self.data:
             node = TwoNodeClass()
             self.tree_testing(node, datalist)
-            
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,30 @@
+0.000090
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+0.255964
+self	56672
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+0.532417
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+0.736554
+SingleNodeClass	2984
+datalist_10000	90112
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984

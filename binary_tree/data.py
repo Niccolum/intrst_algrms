@@ -1,10 +1,18 @@
+"""
+Generate test data for test performance
+"""
+
 from random import shuffle
 
 
-min_datalist = list(range(100))
-middle_datalist = list(range(10000))
-big_datalist = list(range(1000000))
+datalist_100 = list(range(100))
+datalist_1000 = list(range(1000))
+datalist_10000 = list(range(10000))
+datalist_100000 = list(range(100000))
+datalist_1000000 = list(range(1000000))
 
-shuffle(min_datalist)
-shuffle(middle_datalist)
-shuffle(big_datalist)
+shuffle(datalist_100)
+shuffle(datalist_1000)
+shuffle(datalist_10000)
+shuffle(datalist_100000)
+shuffle(datalist_1000000)

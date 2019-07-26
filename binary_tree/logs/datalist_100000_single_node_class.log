@@ -1,0 +1,325 @@
+0.000087
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+0.227944
+self	34608
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+0.466079
+self	552160
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+0.731565
+self	4648
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+0.965194
+self	18312
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+1.245860
+self	2912
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+1.483572
+self	672
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+1.715001
+self	3416
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+1.947596
+self	1344
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+2.183623
+datalist	900112
+instance	2126768
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+2.543834
+self	111160
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+2.783306
+self	51352
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+3.022771
+self	309400
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+3.282162
+self	86016
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+3.524428
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+3.753242
+self	15008
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+3.995401
+self	1120
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+4.288624
+self	48944
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+4.540218
+self	1568
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+4.790905
+self	4424
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+5.055070
+self	4144
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+5.319011
+self	2016
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+5.555554
+self	44968
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+5.791046
+self	224
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.019939
+self	109536
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.254614
+self	5432
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.500041
+self	2235744
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.864176
+self	952
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.092510
+self	431368
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.339203
+self	35504
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.566307
+self	481712
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.858421
+self	1848
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.103553
+self	840
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.324174
+self	194656
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.565530
+self	355096
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.885639
+self	778288
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+9.054925
+SingleNodeClass	2984
+datalist_100000	900112
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
