@@ -32,6 +32,7 @@ class SingleNodeClass(BaseNodeClass):
         self.right = None
         self.data = data
 
+    # @profile
     def add_node(self, data: Integral) -> None:
         if self.data is not None:
             if data < self.data:
@@ -47,6 +48,7 @@ class SingleNodeClass(BaseNodeClass):
         else:
             self.data = data
 
+    # @profile
     def tree_data(self) -> Iterator:
         if self.left:
             yield from self.left.tree_data()
@@ -69,6 +71,7 @@ class TwoNodeClass(BaseNodeClass):
     def __init__(self):
         self.root = None
 
+    # @profile
     def add_node(self, key: Integral, node: Node = None) -> None:
 
         if node is None:
@@ -93,6 +96,7 @@ class TwoNodeClass(BaseNodeClass):
                 else:
                     return self.add_node(key, node=node.right)
 
+    # @profile
     def tree_data(self, node: Node = None) -> Iterator:
         if node is None:
             node = self.root
@@ -106,3 +110,15 @@ class TwoNodeClass(BaseNodeClass):
                 node = stack.pop()
                 yield node.key
                 node = node.right
+
+
+if __name__ == '__main__':
+    from data import datalist_1000000
+
+    nodes = [SingleNodeClass, TwoNodeClass]
+    for cls_node in nodes:
+        node = cls_node()
+        for i in datalist_1000000:
+            node.add_node(i)
+        result = list(node.tree_data())
+
