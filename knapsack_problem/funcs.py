@@ -9,15 +9,14 @@ It derives its name from the problem faced by someone
 who is constrained by a fixed-size knapsack and must fill it with the most valuable items.
 (https://en.wikipedia.org/wiki/Knapsack_problem)
 """
-from operator import attrgetter
 from itertools import combinations
-from typing import Tuple, List, Generator, Any
+from typing import Tuple, List, Generator, Any, Union
 
 
 from ref_func import knapsack_standard_solution, Item
 
 
-def knapsack_first_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_1_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     https://codereview.stackexchange.com/a/20581
 
@@ -35,29 +34,29 @@ def knapsack_first_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return knapsack_standard_solution(items, weight_limit)
 
 
-def knapsack_second_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_2_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     my own function, written thanks to the site:
     https://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka
     """
-    k = weight_limit
-    f = [[0] * (k + 1) for i in range(len(items))]
+    w = weight_limit
+    f = [[0] * (w + 1) for i in range(len(items)+1)]
     for i in range(len(items)):
-        for j in range(1, k + 1):
-            weight = items[i].weight
-            value = items[i].value
+        weight = items[i].weight
+        value = items[i].value
+        for j in range(1, w + 1):
             if j >= weight:
                 f[i][j] = max(f[i - 1][j], f[i - 1][j - weight] + value)
             else:
                 f[i][j] = f[i - 1][j]
 
-    for i in reversed(range(len(items))):
-        if f[i][k] != f[i - 1][k]:
-            yield items[i]
-            k -= items[i].weight
+    for k in reversed(range(len(items))):
+        if f[k][w] != f[k - 1][w]:
+            yield items[k]
+            w -= items[k].weight
 
 
-def knapsack_third_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_3_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     Given a list of items with name, value and weight.
     Return the optimal value with total weight <= allowed weight and
@@ -90,13 +89,13 @@ def knapsack_third_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return fetch_items(k, weight_limit, items)
 
 
-def knapsack_fourth_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Any]:
+def knapsack_4_solution(items: Tuple[Item], weight_limit: int) -> Union[Tuple[Item], Tuple[()]]:
     """
     Brute force algorithm
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=62
     """
 
-    def any_comb(items: Tuple[Item]) -> Generator[Any]:
+    def any_comb(items: Tuple[Item]) -> Generator:
         """return combinations of any length from the items"""
         return (comb
                 for r in range(1, len(items) + 1)
@@ -112,10 +111,12 @@ def knapsack_fourth_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Any
         return (totval, -totwt) if totwt <= weight_limit else (0, 0)
 
     bagged = max(any_comb(items), key=total_value)  # max val or min wt if values equal
-    return bagged
+    if bagged[0].weight <= weight_limit:
+        return bagged
+    return ()
 
 
-def knapsack_fifth_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_5_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     Dynamic programming solution
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=63
@@ -141,38 +142,41 @@ def knapsack_fifth_solution(items: Tuple[Item], weight_limit: int) -> Item:
             w -= wt
 
 
-def knapsack_sixth_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_6_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Item]:
     """
     Recursive dynamic programming algorithm
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=64
     """
 
     def total_value(items: Tuple[Item], weight_limit: int) -> int:
-        return sum([x[1] for x in items]) if sum([x[2] for x in items]) <= weight_limit else 0
+        return sum([x.value for x in items]) if sum([x.weight for x in items]) <= weight_limit else 0
 
     cache = {}
 
-    def solve(items: Tuple[Item], weight_limit: int):
+    def solve(items: Tuple[Item], weight_limit: int) -> Tuple:
         if not items:
             return ()
         if (items, weight_limit) not in cache:
             head = items[0]
             tail = items[1:]
-            include = (head,) + tuple(solve(tail, weight_limit - head[2]))
-            dont_include = tuple(solve(tail, weight_limit))
+            include = (head,) + solve(tail, weight_limit - head[2])
+            dont_include = solve(tail, weight_limit)
             if total_value(include, weight_limit) > total_value(dont_include, weight_limit):
                 answer = include
             else:
                 answer = dont_include
             cache[(items, weight_limit)] = answer
-        yield cache[(items, weight_limit)]
+        return cache[(items, weight_limit)]
 
-    yield from solve(items, weight_limit)
+    return solve(items, weight_limit)
 
 
 def knapsack_greedy_first_solution(items: Tuple[Item], weight_limit: int) -> Item:
-    """Return a list of items with the maximum value, subject to the
+    """
+    Return a list of items with the maximum value, subject to the
     constraint that their combined weight must not exceed max_weight.
+    Implements the well-known "greedy approximation algorithm" for the knapsack problem
+    (first described by George Dantzig in 1957).
     https://codereview.stackexchange.com/a/62871
     """
 
@@ -190,27 +194,3 @@ def knapsack_greedy_first_solution(items: Tuple[Item], weight_limit: int) -> Ite
 
     pack.max_weight = weight_limit
     yield filter(pack, sorted(items, key=efficiency, reverse=True))
-
-
-if __name__ == '__main__':
-    from data import pack_up_static_knapsack_1, pack_up_static_knapsack_2, pack_up_static_knapsack_3
-
-    funcs = [
-        knapsack_first_solution,
-        knapsack_second_solution,
-        knapsack_third_solution,
-        knapsack_fourth_solution,
-        knapsack_fifth_solution,
-        knapsack_sixth_solution
-    ]
-    data_parts = [pack_up_static_knapsack_1, pack_up_static_knapsack_2, pack_up_static_knapsack_3]
-    for func in funcs:
-        for data in data_parts:
-            expected_result = data.__doc__.replace('\n', '').replace(' ', '')
-            result = sorted(func(*data()), key=attrgetter('name'))
-            print(result)
-            result = str(result).replace(' ', '')
-            print(func.__name__)
-            print(data.__doc__)
-            print(expected_result == result)
-            print('*' * 30)

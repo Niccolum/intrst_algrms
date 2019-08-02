@@ -1,9 +1,30 @@
 import random
+import math
+import itertools
+from collections import OrderedDict
+import urllib.request
 from typing import Dict, List, Union
 
-from random_word import RandomWords
-
 from ref_func import knapsack_standard_solution as knapsack_func, Item, Knapsack
+
+"""
+functions with "_static_" in name - correct proven examples of input output for knapsack problem
+So, for debugging funcs.py I used it for checking correct behavior, because
+output of "_static_" functions write in docstrings and we can compare strings with construction:
+
+```
+from operator import attrgetter
+
+expected_result = data.__doc__.replace('\n', '').replace(' ', '')
+result = sorted(func(*data()), key=attrgetter('name'))
+result = str(result).replace(' ', '')
+```
+
+For all other tests i use random data with as many arguments as I need
+For output I use one of funcs, reference function, on which correct I am convinced
+It's on ref_func.py
+But i still use it for other test for check other parameters, not only correctness
+"""
 
 
 def pack_up_static_knapsack_1() -> Knapsack:
@@ -90,32 +111,44 @@ def pack_up_static_knapsack_3() -> Knapsack:
     return Knapsack(items, weight_limit)
 
 
-def create_dynamic_knapsacks() -> Dict[str, Dict[str, Union[Knapsack, List[Item]]]]:
-    knapsacks = dict()
-    for i in range(1, 6):
-        weight_limit = 10 ** i
+def create_dynamic_knapsacks(*, start: int, end: int, step: int) -> Dict[str, Dict[str, Union[Knapsack, List[Item]]]]:
+    knapsacks = OrderedDict()
+    for i in range(start, end, step):
+        weight_limit = i
         knapsack_key = 'knapsack_{weight_limit}'.format(weight_limit=weight_limit)
-        knapsacks[knapsack_key] = dict()
+        knapsacks.setdefault(knapsack_key, dict())
 
-        knapsack_question = create_knapsack(weight_limit)
-        knapsack_answer = knapsack_func(*knapsack_question)
+        knapsack_question = _create_knapsack(weight_limit)
+        knapsack_answer = tuple(knapsack_func(*knapsack_question))
 
-        knapsacks[knapsack_key]['question'] = knapsack_question
-        knapsacks[knapsack_key]['answer'] = knapsack_answer
+        knapsacks[knapsack_key]['input'] = knapsack_question
+        knapsacks[knapsack_key]['output'] = knapsack_answer
 
     return knapsacks
 
 
-def create_knapsack(weight_limit: int) -> Knapsack:
-    r = RandomWords()
-    words = r.get_random_words(limit=weight_limit)
+def _create_knapsack(weight_limit: int) -> Knapsack:
+    words = _get_random_words(limit=weight_limit)
+
+    # create list of unique tuples for smallest spread for items value and weight, depends on weight_limit
+    max_spread = math.ceil(math.sqrt(weight_limit)*2)
+    values_items_list = list(itertools.product(range(1, max_spread), repeat=2))
+    random.shuffle(values_items_list)
 
     items = []
-    for i in range(weight_limit):
-        word = words[i]
-        value = random.randrange(1, 100)
-        weight = random.randrange(1, 100)
+    for word in words:
+        value, weight = values_items_list.pop()
         item = Item(word, value, weight)
         items.append(item)
 
-    return Knapsack(items, weight_limit)
+    return Knapsack(tuple(items), weight_limit)
+
+
+def _get_random_words(limit=None):
+    word_url = "http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain"
+    response = urllib.request.urlopen(word_url)
+    long_txt = response.read().decode()
+    words = long_txt.splitlines()[:limit]
+    random.shuffle(words)
+    while words:
+        yield words.pop()
