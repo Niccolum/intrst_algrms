@@ -1,0 +1,278 @@
+0.000078
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360
+5.878693
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+6.277044
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+6.672591
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.055479
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.446934
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.855481
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+8.254311
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+8.656444
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+9.057616
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+9.454353
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+9.858886
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+10.298046
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+10.701766
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+11.104141
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+11.512920
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+11.924387
+items	80048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+12.301289
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+12.689696
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+13.077490
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+13.465458
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+13.851574
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+14.229181
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+14.608659
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+14.986582
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+15.369944
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+15.758806
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+16.139673
+items	80048
+k	8089096
+weights	8072
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+16.492924
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360

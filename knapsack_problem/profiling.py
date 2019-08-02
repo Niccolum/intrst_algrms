@@ -65,13 +65,12 @@ def datalist_2_000_knapsack_1_solution() -> list:
     return list(abstract_wrapper(func=func, start=start))
 
 
-datalist_10_knapsack_1_solution()
-datalist_25_knapsack_1_solution()
-datalist_100_knapsack_1_solution()
-datalist_500_knapsack_1_solution()
-datalist_1_000_knapsack_1_solution()
-datalist_2_000_knapsack_1_solution()
-
+# datalist_10_knapsack_1_solution()
+# datalist_25_knapsack_1_solution()
+# datalist_100_knapsack_1_solution()
+# datalist_500_knapsack_1_solution()
+# datalist_1_000_knapsack_1_solution()
+# datalist_2_000_knapsack_1_solution()
 
 #  ******************************************************
 
@@ -118,12 +117,12 @@ def datalist_2_000_knapsack_2_solution() -> list:
     return list(abstract_wrapper(func=func, start=start))
 
 
-datalist_10_knapsack_2_solution()
-datalist_25_knapsack_2_solution()
-datalist_100_knapsack_2_solution()
-datalist_500_knapsack_2_solution()
-datalist_1_000_knapsack_2_solution()
-datalist_2_000_knapsack_2_solution()
+# datalist_10_knapsack_2_solution()
+# datalist_25_knapsack_2_solution()
+# datalist_100_knapsack_2_solution()
+# datalist_500_knapsack_2_solution()
+# datalist_1_000_knapsack_2_solution()
+# datalist_2_000_knapsack_2_solution()
 
 #  ******************************************************
 
@@ -170,12 +169,12 @@ def datalist_2_000_knapsack_3_solution() -> list:
     return list(abstract_wrapper(func=func, start=start))
 
 
-datalist_10_knapsack_3_solution()
-datalist_25_knapsack_3_solution()
-datalist_100_knapsack_3_solution()
-datalist_500_knapsack_3_solution()
-datalist_1_000_knapsack_3_solution()
-datalist_2_000_knapsack_3_solution()
+# datalist_10_knapsack_3_solution()
+# datalist_25_knapsack_3_solution()
+# datalist_100_knapsack_3_solution()
+# datalist_500_knapsack_3_solution()
+# datalist_1_000_knapsack_3_solution()
+# datalist_2_000_knapsack_3_solution()
 
 #  ******************************************************
 
@@ -194,8 +193,8 @@ def datalist_25_knapsack_4_solution() -> list:
     return list(abstract_wrapper(func=func, start=start))
 
 
-datalist_10_knapsack_4_solution()
-datalist_25_knapsack_4_solution()
+# datalist_10_knapsack_4_solution()
+# datalist_25_knapsack_4_solution()
 
 #  ******************************************************
 

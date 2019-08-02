@@ -1,40 +1,40 @@
-0.000081
+0.000084
 __annotations__	240
 Callable	6032
 Union	80
 List	48296
 Item	1360
-4.713495
+6.052771
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.100286
+6.436519
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.496777
+6.831308
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.887397
+7.219760
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.254051
+7.588200
 items	40048
-f	2044344
+table	2044344
 __spec__	112
 combinations	856
 Tuple	6816
@@ -44,7 +44,19 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-6.475133
+7.964296
+items	40048
+table	2044344
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+7.994406
 __annotations__	240
 Callable	6032
 Union	80

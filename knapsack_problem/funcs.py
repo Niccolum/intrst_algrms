@@ -71,10 +71,9 @@ def knapsack_3_solution(items: Tuple[Item], weight_limit: int) -> Item:
                 weight_limit -= item.weight
 
     k = [
-        [0 for x in range(weight_limit + 1)]
+        [0] * (weight_limit + 1)
         for x in range(len(items) + 1)
     ]
-
     for next_idx, (item, weights) in enumerate(zip(items, k), 1):
         for w, current_weight in enumerate(weights[1:], 1):
             if item.weight <= w:
@@ -121,7 +120,7 @@ def knapsack_5_solution(items: Tuple[Item], weight_limit: int) -> Item:
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=63
     """
 
-    table = [[0 for w in range(weight_limit + 1)] for j in range(len(items) + 1)]
+    table = [[0] * (weight_limit + 1) for j in range(len(items) + 1)]
 
     for j in range(1, len(items) + 1):
         item, val, wt = items[j - 1]
