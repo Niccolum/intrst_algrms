@@ -56,89 +56,115 @@ $ pip install -r requirements.txt
 ```
 ## run tests
 ```
-$ python tests.py -vv
+$ python tests.py 
 *************** TestKnapsackProblem1StaticData ***************
-test_knapsack_1_solution (__main__.TestKnapsackProblem1StaticData) ... ok
-test_knapsack_2_solution (__main__.TestKnapsackProblem1StaticData) ... ok
-test_knapsack_3_solution (__main__.TestKnapsackProblem1StaticData) ... ok
-test_knapsack_4_solution (__main__.TestKnapsackProblem1StaticData) ... ok
-test_knapsack_5_solution (__main__.TestKnapsackProblem1StaticData) ... ok
-test_knapsack_6_solution (__main__.TestKnapsackProblem1StaticData) ... ok
-*************** TestKnapsackProblem2DynamicData ***************
-test_knapsack_1_solution (__main__.TestKnapsackProblem2DynamicData) ... 
-Knapsack with 10 items was completed in 0.000135 seconds
-Knapsack with 14 items was completed in 0.000116 seconds
-Knapsack with 18 items was completed in 0.000167 seconds
-Knapsack with 22 items was completed in 0.000280 seconds
-Knapsack with 26 items was completed in 0.000357 seconds
-Knapsack with 30 items was completed in 0.000552 seconds
-Knapsack with 34 items was completed in 0.000652 seconds
-Knapsack with 38 items was completed in 0.000832 seconds
-Knapsack with 42 items was completed in 0.001336 seconds
-Knapsack with 46 items was completed in 0.001124 seconds
-ok
-test_knapsack_2_solution (__main__.TestKnapsackProblem2DynamicData) ... 
-Knapsack with 10 items was completed in 0.000036 seconds
-Knapsack with 14 items was completed in 0.000055 seconds
-Knapsack with 18 items was completed in 0.000083 seconds
-Knapsack with 22 items was completed in 0.000120 seconds
-Knapsack with 26 items was completed in 0.000160 seconds
-Knapsack with 30 items was completed in 0.000218 seconds
-Knapsack with 34 items was completed in 0.000276 seconds
-Knapsack with 38 items was completed in 0.000356 seconds
-Knapsack with 42 items was completed in 0.000388 seconds
-Knapsack with 46 items was completed in 0.000490 seconds
-ok
-test_knapsack_3_solution (__main__.TestKnapsackProblem2DynamicData) ... 
-Knapsack with 10 items was completed in 0.000054 seconds
-Knapsack with 14 items was completed in 0.000071 seconds
-Knapsack with 18 items was completed in 0.000115 seconds
-Knapsack with 22 items was completed in 0.000151 seconds
-Knapsack with 26 items was completed in 0.000197 seconds
+##### knapsack_1_solution #####
+Knapsack with 5 items was completed in 0.000176 seconds
+Knapsack with 5 items was completed in 0.000150 seconds
+Knapsack with 22 items was completed in 0.004866 seconds
+.##### knapsack_2_solution #####
+Knapsack with 5 items was completed in 0.000081 seconds
+Knapsack with 5 items was completed in 0.000097 seconds
+Knapsack with 22 items was completed in 0.004316 seconds
+.##### knapsack_3_solution #####
+Knapsack with 5 items was completed in 0.000680 seconds
+Knapsack with 5 items was completed in 0.000131 seconds
+Knapsack with 22 items was completed in 0.004909 seconds
+.##### knapsack_4_solution #####
+Knapsack with 5 items was completed in 0.000566 seconds
+Knapsack with 5 items was completed in 0.000074 seconds
+Knapsack with 22 items was completed in 4.554347 seconds
+.##### knapsack_5_solution #####
+Knapsack with 5 items was completed in 0.000034 seconds
+Knapsack with 5 items was completed in 0.000033 seconds
+Knapsack with 22 items was completed in 0.002070 seconds
+.##### knapsack_6_solution #####
+Knapsack with 5 items was completed in 0.000071 seconds
+Knapsack with 5 items was completed in 0.000053 seconds
+Knapsack with 22 items was completed in 0.007740 seconds
+.##### knapsack_greedy_solution #####
+Knapsack with 5 items was completed in 0.000022 seconds
+Knapsack with 5 items was completed in 0.000015 seconds
+Knapsack with 22 items was completed in 0.000031 seconds
+.*************** TestKnapsackProblem2DynamicData ***************
+##### knapsack_1_solution #####
+Knapsack with 10 items was completed in 0.000173 seconds
+Knapsack with 14 items was completed in 0.000162 seconds
+Knapsack with 18 items was completed in 0.000216 seconds
+Knapsack with 22 items was completed in 0.000366 seconds
+Knapsack with 26 items was completed in 0.000789 seconds
+Knapsack with 30 items was completed in 0.000618 seconds
+Knapsack with 34 items was completed in 0.000692 seconds
+Knapsack with 38 items was completed in 0.000846 seconds
+Knapsack with 42 items was completed in 0.001006 seconds
+Knapsack with 46 items was completed in 0.001309 seconds
+.##### knapsack_2_solution #####
+Knapsack with 10 items was completed in 0.000037 seconds
+Knapsack with 14 items was completed in 0.000051 seconds
+Knapsack with 18 items was completed in 0.000080 seconds
+Knapsack with 22 items was completed in 0.000110 seconds
+Knapsack with 26 items was completed in 0.000153 seconds
+Knapsack with 30 items was completed in 0.000202 seconds
+Knapsack with 34 items was completed in 0.000254 seconds
+Knapsack with 38 items was completed in 0.000327 seconds
+Knapsack with 42 items was completed in 0.000389 seconds
+Knapsack with 46 items was completed in 0.000453 seconds
+.##### knapsack_3_solution #####
+Knapsack with 10 items was completed in 0.000055 seconds
+Knapsack with 14 items was completed in 0.000070 seconds
+Knapsack with 18 items was completed in 0.000111 seconds
+Knapsack with 22 items was completed in 0.000147 seconds
+Knapsack with 26 items was completed in 0.000194 seconds
 Knapsack with 30 items was completed in 0.000264 seconds
-Knapsack with 34 items was completed in 0.000383 seconds
-Knapsack with 38 items was completed in 0.000425 seconds
-Knapsack with 42 items was completed in 0.000518 seconds
-Knapsack with 46 items was completed in 0.000950 seconds
-ok
-test_knapsack_4_solution (__main__.TestKnapsackProblem2DynamicData) ... 
-Knapsack with 10 items was completed in 0.001076 seconds
-Knapsack with 14 items was completed in 0.011666 seconds
-Knapsack with 18 items was completed in 0.209452 seconds
-Knapsack with 22 items was completed in 4.249598 seconds
-Knapsack with 26 items was completed in 73.873633 seconds
+Knapsack with 34 items was completed in 0.000332 seconds
+Knapsack with 38 items was completed in 0.000589 seconds
+Knapsack with 42 items was completed in 0.000958 seconds
+Knapsack with 46 items was completed in 0.001012 seconds
+.##### knapsack_4_solution #####
+Knapsack with 10 items was completed in 0.000674 seconds
+Knapsack with 14 items was completed in 0.012272 seconds
+Knapsack with 18 items was completed in 0.219250 seconds
+Knapsack with 22 items was completed in 4.020011 seconds
+Knapsack with 26 items was completed in 72.700317 seconds
 Function knapsack_4_solution working too long
-ok
-test_knapsack_5_solution (__main__.TestKnapsackProblem2DynamicData) ... 
+.##### knapsack_5_solution #####
 Knapsack with 10 items was completed in 0.000041 seconds
-Knapsack with 14 items was completed in 0.000061 seconds
-Knapsack with 18 items was completed in 0.000089 seconds
-Knapsack with 22 items was completed in 0.000131 seconds
-Knapsack with 26 items was completed in 0.000168 seconds
-Knapsack with 30 items was completed in 0.000235 seconds
-Knapsack with 34 items was completed in 0.000285 seconds
-Knapsack with 38 items was completed in 0.000357 seconds
-Knapsack with 42 items was completed in 0.000431 seconds
-Knapsack with 46 items was completed in 0.000506 seconds
-ok
-test_knapsack_6_solution (__main__.TestKnapsackProblem2DynamicData) ... 
-Knapsack with 10 items was completed in 0.000288 seconds
-Knapsack with 14 items was completed in 0.000676 seconds
-Knapsack with 18 items was completed in 0.001300 seconds
-Knapsack with 22 items was completed in 0.002478 seconds
-Knapsack with 26 items was completed in 0.004910 seconds
-Knapsack with 30 items was completed in 0.006547 seconds
-Knapsack with 34 items was completed in 0.009097 seconds
-Knapsack with 38 items was completed in 0.012221 seconds
-Knapsack with 42 items was completed in 0.016448 seconds
-Knapsack with 46 items was completed in 0.032734 seconds
-ok
-
+Knapsack with 14 items was completed in 0.000059 seconds
+Knapsack with 18 items was completed in 0.000091 seconds
+Knapsack with 22 items was completed in 0.000123 seconds
+Knapsack with 26 items was completed in 0.000171 seconds
+Knapsack with 30 items was completed in 0.000225 seconds
+Knapsack with 34 items was completed in 0.000279 seconds
+Knapsack with 38 items was completed in 0.000346 seconds
+Knapsack with 42 items was completed in 0.000430 seconds
+Knapsack with 46 items was completed in 0.000535 seconds
+.##### knapsack_6_solution #####
+Knapsack with 10 items was completed in 0.000274 seconds
+Knapsack with 14 items was completed in 0.000620 seconds
+Knapsack with 18 items was completed in 0.001316 seconds
+Knapsack with 22 items was completed in 0.003064 seconds
+Knapsack with 26 items was completed in 0.004732 seconds
+Knapsack with 30 items was completed in 0.007246 seconds
+Knapsack with 34 items was completed in 0.008738 seconds
+Knapsack with 38 items was completed in 0.015569 seconds
+Knapsack with 42 items was completed in 0.016186 seconds
+Knapsack with 46 items was completed in 0.032483 seconds
+.##### knapsack_greedy_solution #####
+Knapsack with 10 items was completed in 0.000026 seconds
+Knapsack with 14 items was completed in 0.000012 seconds
+Knapsack with 18 items was completed in 0.000023 seconds
+Knapsack with 22 items was completed in 0.000016 seconds
+Knapsack with 26 items was completed in 0.000016 seconds
+Knapsack with 30 items was completed in 0.000017 seconds
+Knapsack with 34 items was completed in 0.000019 seconds
+Knapsack with 38 items was completed in 0.000021 seconds
+Knapsack with 42 items was completed in 0.000037 seconds
+Knapsack with 46 items was completed in 0.000039 seconds
+.
 ----------------------------------------------------------------------
-Ran 12 tests in 83.078s
+Ran 14 tests in 81.645s
 
 OK
-
 ```
 ## add profiling plots
 ```

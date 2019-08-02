@@ -1,0 +1,52 @@
+0.000081
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360
+4.713495
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+5.100286
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+5.496777
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+5.887397
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+6.254051
+items	40048
+f	2044344
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+6.475133
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360

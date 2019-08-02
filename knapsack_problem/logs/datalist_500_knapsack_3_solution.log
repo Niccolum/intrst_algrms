@@ -1,0 +1,82 @@
+0.000092
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360
+6.477936
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+6.873759
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.288948
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.697181
+items	40048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.975658
+items	40048
+k	2144544
+weights	4272
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+8.308720
+items	40048
+k	2144544
+weights	4272
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+8.647684
+items	40048
+k	2144544
+weights	4272
+item	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+8.672339
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360

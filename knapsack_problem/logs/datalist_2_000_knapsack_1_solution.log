@@ -1,0 +1,908 @@
+0.000112
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360
+5.148760
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+5.560778
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+5.976063
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+6.394369
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+6.818153
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.237561
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+7.649799
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+8.078126
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+8.501569
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+8.920328
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+9.375222
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+9.882432
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+10.328505
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+10.782346
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+11.208790
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+11.633486
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+12.054799
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+12.474607
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+12.899277
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+13.487153
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+13.917812
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+14.345730
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+14.838795
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+15.259409
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+15.728194
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+16.219149
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+16.676246
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+17.136264
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+17.559888
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+17.978959
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+18.393740
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+18.807140
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+19.266265
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+19.715082
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+20.150603
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+20.620517
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+21.101847
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+21.560084
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+22.002576
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+22.464038
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+22.935768
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+23.590903
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+24.036957
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+24.513328
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+25.134477
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+25.555573
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+25.994341
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+26.445530
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+26.891982
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+27.311999
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+27.740326
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+28.150576
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+28.560231
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+28.968787
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+29.379775
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+29.817728
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+30.234042
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+30.730264
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+31.182583
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+31.606773
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+32.035048
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+32.444335
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+32.853884
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+33.272578
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+33.814378
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+34.220953
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+34.636911
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+35.044119
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+35.448164
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+35.860124
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+36.266398
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+36.668276
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+37.072222
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+37.482490
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+37.895097
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+38.336729
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+38.749977
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+39.167909
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+39.584168
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+40.007540
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+40.430944
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+40.854736
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+41.283273
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+41.720566
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+42.435119
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+42.881196
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+43.378450
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+43.792775
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+44.207870
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+44.620337
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+45.041792
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+45.465187
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+45.888973
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+46.313374
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+46.741499
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+47.164864
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+47.588884
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+48.009532
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+48.434689
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+48.856324
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+49.281440
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+49.712842
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+50.147520
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+50.572674
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+51.000229
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+51.425691
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+51.854226
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+52.292809
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+53.088867
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+53.495174
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+53.901462
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+54.310566
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+54.723892
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+55.133499
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+55.556837
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+55.978020
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+56.389913
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+56.807914
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+57.240092
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+57.666411
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+58.093243
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+58.525376
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+58.958188
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+59.389879
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+59.807964
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+60.241397
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+60.690856
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+61.128175
+items	160048
+best_value	5120
+__spec__	112
+Tuple	6816
+Item	1360
+Knapsack	1272
+61.289276
+__annotations__	240
+Callable	6032
+Union	80
+List	48296
+Item	1360

@@ -111,7 +111,8 @@ def pack_up_static_knapsack_3() -> Knapsack:
     return Knapsack(items, weight_limit)
 
 
-def create_dynamic_knapsacks(*, start: int, end: int, step: int) -> Dict[str, Dict[str, Union[Knapsack, List[Item]]]]:
+def create_dynamic_knapsacks(*, start: int, end: int, step: int = 1) -> Dict[str, Dict[str,
+                                                                                       Union[Knapsack, List[Item]]]]:
     knapsacks = OrderedDict()
     for i in range(start, end, step):
         weight_limit = i
@@ -131,7 +132,7 @@ def _create_knapsack(weight_limit: int) -> Knapsack:
     words = _get_random_words(limit=weight_limit)
 
     # create list of unique tuples for smallest spread for items value and weight, depends on weight_limit
-    max_spread = math.ceil(math.sqrt(weight_limit)*2)
+    max_spread = math.ceil(math.sqrt(weight_limit) * 2)
     values_items_list = list(itertools.product(range(1, max_spread), repeat=2))
     random.shuffle(values_items_list)
 

@@ -1,6 +1,9 @@
+import sys
 from functools import lru_cache
 from collections import namedtuple
 from typing import Tuple
+
+sys.setrecursionlimit(10_000)
 
 Item = namedtuple('Item', 'name value weight')
 Knapsack = namedtuple('Knapsack', 'items weight_limit')

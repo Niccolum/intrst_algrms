@@ -10,8 +10,7 @@ who is constrained by a fixed-size knapsack and must fill it with the most valua
 (https://en.wikipedia.org/wiki/Knapsack_problem)
 """
 from itertools import combinations
-from typing import Tuple, List, Generator, Any, Union
-
+from typing import Tuple, List, Generator, Any, Union, Iterator
 
 from ref_func import knapsack_standard_solution, Item
 
@@ -89,7 +88,7 @@ def knapsack_3_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return fetch_items(k, weight_limit, items)
 
 
-def knapsack_4_solution(items: Tuple[Item], weight_limit: int) -> Union[Tuple[Item], Tuple[()]]:
+def knapsack_4_solution(items: Tuple[Item], weight_limit: int) -> Union[Item, List[None]]:
     """
     Brute force algorithm
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=62
@@ -113,7 +112,7 @@ def knapsack_4_solution(items: Tuple[Item], weight_limit: int) -> Union[Tuple[It
     bagged = max(any_comb(items), key=total_value)  # max val or min wt if values equal
     if bagged[0].weight <= weight_limit:
         return bagged
-    return ()
+    return []
 
 
 def knapsack_5_solution(items: Tuple[Item], weight_limit: int) -> Item:
@@ -171,7 +170,7 @@ def knapsack_6_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Item]:
     return solve(items, weight_limit)
 
 
-def knapsack_greedy_first_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_greedy_solution(items: Tuple[Item], weight_limit: int) -> Iterator:
     """
     Return a list of items with the maximum value, subject to the
     constraint that their combined weight must not exceed max_weight.
@@ -193,4 +192,4 @@ def knapsack_greedy_first_solution(items: Tuple[Item], weight_limit: int) -> Ite
             return False
 
     pack.max_weight = weight_limit
-    yield filter(pack, sorted(items, key=efficiency, reverse=True))
+    return filter(pack, sorted(items, key=efficiency, reverse=True))
