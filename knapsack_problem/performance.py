@@ -19,12 +19,15 @@ from funcs import (
 )
 
 RETRY_NUM = 1000
+TOO_LONG = 60  # in seconds
 SETUP_IMPORT_TEMPLATE = '''
 from __main__ import {func_name} as knapsack_solution, {datalist_name} as raw_datalist
 datalist = raw_datalist['{datalist_key}']
 '''
 RUNNING_TEMPLATE = "raw_result = knapsack_solution(*datalist['input'])"
 RESULT_TO_LIST_TEMPLATE = RUNNING_TEMPLATE + '\nraw_result = list(raw_result)'
+SMALL_STAT_NAME = 'small_perf'
+BIG_STAT_NAME = 'big_perf'
 
 
 def mean(numbers: List[Integral]) -> int:
@@ -48,18 +51,15 @@ perf_funcs_without_bruteforce = [
 ]
 perf_funcs_with_bruteforce = perf_funcs_without_bruteforce[:] + [knapsack_4_bruteforce_solution]
 
-perf_small_datalists = create_dynamic_knapsacks(start=3, end=30, step=3)
-perf_datalists = create_dynamic_knapsacks(start=30, end=450, step=30)
-
 result = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
 
 
 def small_perf() -> None:
-    common_perf_part(funcs=perf_funcs_with_bruteforce, datalists=perf_small_datalists, stat_name='small_perf')
+    common_perf_part(funcs=perf_funcs_with_bruteforce, datalists=perf_small_datalists, stat_name=SMALL_STAT_NAME)
 
 
 def big_perf() -> None:
-    common_perf_part(funcs=perf_funcs_without_bruteforce, datalists=perf_datalists, stat_name='big_perf')
+    common_perf_part(funcs=perf_funcs_without_bruteforce, datalists=perf_datalists, stat_name=BIG_STAT_NAME)
 
 
 def common_perf_part(*,
@@ -84,7 +84,7 @@ def common_perf_part(*,
                         number=RETRY_NUM
                     )
                 )
-            if time.monotonic() - start_time > 60:
+            if time.monotonic() - start_time > TOO_LONG:
                 break
 
 
@@ -97,4 +97,6 @@ def main() -> None:
 
 
 if __name__ == '__main__':
+    perf_small_datalists = create_dynamic_knapsacks(start=3, end=30, step=3)
+    perf_datalists = create_dynamic_knapsacks(start=30, end=450, step=30)
     main()

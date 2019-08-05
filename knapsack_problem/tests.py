@@ -20,8 +20,7 @@ from funcs import (
 )
 from ref_func import knapsack_standard_solution
 
-
-TOO_LONG = 60*1  # time in seconds for break loop of testing functions
+TOO_LONG = 60 * 1  # time in seconds for break loop of testing functions
 
 
 class TestKnapsackProblem1StaticData(unittest.TestCase):
@@ -29,10 +28,10 @@ class TestKnapsackProblem1StaticData(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        print('*'*15, cls.__name__, '*'*15)
+        print('*' * 15, cls.__name__, '*' * 15)
 
     def main_part(self, *, func: Callable) -> None:
-        print('#'*5, func.__name__, '#'*5)
+        print('#' * 5, func.__name__, '#' * 5)
         for data in self.dataset:
             expected_result = data.__doc__.replace('\n', '').replace(' ', '')
 
@@ -62,7 +61,7 @@ class TestKnapsackProblem1StaticData(unittest.TestCase):
         self.main_part(func=knapsack_6_recursive_dynamic_solution)
 
     def test_knapsack_greedy_solution(self) -> None:
-        print('#'*5, knapsack_greedy_solution.__name__, '#'*5)
+        print('#' * 5, knapsack_greedy_solution.__name__, '#' * 5)
         for data in self.dataset:
             knapsack = data()
 
@@ -84,10 +83,10 @@ class TestKnapsackProblem2DynamicData(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        print('*'*15, cls.__name__, '*'*15)
+        print('*' * 15, cls.__name__, '*' * 15)
 
     def main_part(self, func: Callable) -> None:
-        print('#'*5, func.__name__, '#'*5)
+        print('#' * 5, func.__name__, '#' * 5)
         for data in self.dataset.values():
             expected_result = sum(i.value for i in data['output'])
 
@@ -125,7 +124,6 @@ class TestKnapsackProblem2DynamicData(unittest.TestCase):
     def test_knapsack_greedy_solution(self) -> None:
         print('#' * 5, knapsack_greedy_solution.__name__, '#' * 5)
         for data in self.dataset.values():
-
             start = time.monotonic()
             raw_result = list(knapsack_greedy_solution(*data['input']))
             end = time.monotonic() - start

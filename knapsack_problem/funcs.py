@@ -39,7 +39,7 @@ def knapsack_2_solution(items: Tuple[Item], weight_limit: int) -> Item:
     https://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka
     """
     w = weight_limit
-    f = [[0] * (w + 1) for i in range(len(items)+1)]
+    f = [[0] * (w + 1) for i in range(len(items) + 1)]
     for i in range(len(items)):
         weight = items[i].weight
         value = items[i].value

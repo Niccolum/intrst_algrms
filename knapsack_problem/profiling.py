@@ -72,6 +72,7 @@ datalist_500_knapsack_1_solution()
 datalist_1_000_knapsack_1_solution()
 datalist_2_000_knapsack_1_solution()
 
+
 #  ******************************************************
 
 
@@ -123,6 +124,7 @@ datalist_100_knapsack_2_solution()
 datalist_500_knapsack_2_solution()
 datalist_1_000_knapsack_2_solution()
 datalist_2_000_knapsack_2_solution()
+
 
 #  ******************************************************
 
@@ -176,6 +178,7 @@ datalist_500_knapsack_3_solution()
 datalist_1_000_knapsack_3_solution()
 datalist_2_000_knapsack_3_solution()
 
+
 #  ******************************************************
 
 
@@ -195,6 +198,7 @@ def datalist_25_knapsack_4_solution() -> list:
 
 datalist_10_knapsack_4_solution()
 datalist_25_knapsack_4_solution()
+
 
 #  ******************************************************
 
@@ -248,6 +252,7 @@ datalist_500_knapsack_5_solution()
 datalist_1_000_knapsack_5_solution()
 datalist_2_000_knapsack_5_solution()
 
+
 #  ******************************************************
 
 
@@ -283,6 +288,7 @@ datalist_10_knapsack_6_solution()
 datalist_25_knapsack_6_solution()
 datalist_100_knapsack_6_solution()
 datalist_500_knapsack_6_solution()
+
 
 #  ******************************************************
 
