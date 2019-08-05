@@ -10,12 +10,12 @@ from data import (
     create_dynamic_knapsacks
 )
 from funcs import (
-    knapsack_1_solution,
+    knapsack_1_standard_solution,
     knapsack_2_solution,
     knapsack_3_solution,
-    knapsack_4_solution,
-    knapsack_5_solution,
-    knapsack_6_solution,
+    knapsack_4_bruteforce_solution,
+    knapsack_5_dynamic_solution,
+    knapsack_6_recursive_dynamic_solution,
     knapsack_greedy_solution
 )
 from ref_func import knapsack_standard_solution
@@ -44,7 +44,7 @@ class TestKnapsackProblem1StaticData(unittest.TestCase):
             print('Knapsack with {} items was completed in {:2f} seconds'.format(len(data().items), end))
 
     def test_knapsack_1_solution(self) -> None:
-        self.main_part(func=knapsack_1_solution)
+        self.main_part(func=knapsack_1_standard_solution)
 
     def test_knapsack_2_solution(self) -> None:
         self.main_part(func=knapsack_2_solution)
@@ -53,13 +53,13 @@ class TestKnapsackProblem1StaticData(unittest.TestCase):
         self.main_part(func=knapsack_3_solution)
 
     def test_knapsack_4_solution(self) -> None:
-        self.main_part(func=knapsack_4_solution)
+        self.main_part(func=knapsack_4_bruteforce_solution)
 
     def test_knapsack_5_solution(self) -> None:
-        self.main_part(func=knapsack_5_solution)
+        self.main_part(func=knapsack_5_dynamic_solution)
 
     def test_knapsack_6_solution(self) -> None:
-        self.main_part(func=knapsack_6_solution)
+        self.main_part(func=knapsack_6_recursive_dynamic_solution)
 
     def test_knapsack_greedy_solution(self) -> None:
         print('#'*5, knapsack_greedy_solution.__name__, '#'*5)
@@ -105,7 +105,7 @@ class TestKnapsackProblem2DynamicData(unittest.TestCase):
                 break
 
     def test_knapsack_1_solution(self) -> None:
-        self.main_part(func=knapsack_1_solution)
+        self.main_part(func=knapsack_1_standard_solution)
 
     def test_knapsack_2_solution(self) -> None:
         self.main_part(func=knapsack_2_solution)
@@ -114,13 +114,13 @@ class TestKnapsackProblem2DynamicData(unittest.TestCase):
         self.main_part(func=knapsack_3_solution)
 
     def test_knapsack_4_solution(self) -> None:
-        self.main_part(func=knapsack_4_solution)
+        self.main_part(func=knapsack_4_bruteforce_solution)
 
     def test_knapsack_5_solution(self) -> None:
-        self.main_part(func=knapsack_5_solution)
+        self.main_part(func=knapsack_5_dynamic_solution)
 
     def test_knapsack_6_solution(self) -> None:
-        self.main_part(func=knapsack_6_solution)
+        self.main_part(func=knapsack_6_recursive_dynamic_solution)
 
     def test_knapsack_greedy_solution(self) -> None:
         print('#' * 5, knapsack_greedy_solution.__name__, '#' * 5)

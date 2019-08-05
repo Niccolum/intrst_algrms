@@ -1,40 +1,39 @@
-0.000105
+0.000073
 __annotations__	240
 Callable	6032
 Union	80
 List	48296
 Item	1360
-4.932113
+6.759817
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.323102
+7.124567
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.721054
+7.503426
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.123884
+7.871403
 items	40048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.578296
-items	768
-cache	589976
+8.313571
+items	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -44,11 +43,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-6.988232
-items	608
+8.700120
+items	128
 cache	1310864
-head	72
-tail	528
 __spec__	112
 combinations	856
 Tuple	6816
@@ -58,11 +55,22 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-7.442953
-items	2048
+9.128222
+.0	56
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+9.560611
+items	1168
 cache	2621592
 head	72
-tail	1968
+tail	1088
 include	128
 dont_include	48
 answer	48
@@ -75,8 +83,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-7.958109
-.0	56
+10.045908
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -86,9 +94,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-8.382589
-items	6048
-cache	2621592
+10.517403
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -98,49 +105,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-8.908649
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-9.393804
-.0	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-9.830740
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-10.268125
-items	6288
+10.936259
+items	4128
 cache	5243024
-head	72
-tail	6208
-include	128
-dont_include	48
-answer	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -150,9 +117,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-10.978728
-.0	56
-x	72
+11.495292
+items	8128
+cache	5243024
 __spec__	112
 combinations	856
 Tuple	6816
@@ -162,8 +129,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-11.437460
-items	48
+12.156162
+items	4608
+cache	5243024
 __spec__	112
 combinations	856
 Tuple	6816
@@ -173,8 +141,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-11.894305
-.0	128
+12.762856
+items	1168
+cache	5243024
 __spec__	112
 combinations	856
 Tuple	6816
@@ -184,569 +153,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-12.478935
-items	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-12.952323
-items	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-13.425774
-items	8848
-cache	10485912
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-14.343008
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-14.820071
-items	4848
-cache	10485912
-head	72
-tail	4768
-include	128
-dont_include	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-15.611123
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-16.144967
-.0	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-16.847297
-items	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-17.337455
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-17.843257
-items	13568
-cache	20971664
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-18.771432
-.0	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-19.267622
-items	2048
-cache	20971664
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-20.482377
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-20.992873
-items	13328
-cache	20971664
-head	72
-tail	13248
-include	128
-dont_include	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-22.007685
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-22.519168
-items	2048
-cache	20971664
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-23.569737
-items	4528
-cache	20971664
-head	72
-tail	4448
-include	128
-dont_include	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-24.639562
-items	3648
-cache	20971664
-head	72
-tail	3568
-include	128
-dont_include	48
-answer	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-26.085567
-items	9408
-cache	20971664
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-27.183549
-items	12928
-cache	20971664
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-28.305140
-items	15728
-cache	20971664
-head	72
-tail	15648
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-29.464203
-items	18048
-cache	20971664
-head	72
-tail	17968
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-30.636441
-.0	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-31.172221
-items	6608
-cache	20971664
-head	72
-tail	6528
-include	128
-dont_include	48
-answer	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-32.406003
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-32.959245
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-33.997770
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-34.537096
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-35.083407
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-35.625185
-items	8448
-cache	20971664
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-36.979523
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-37.530465
-items	10528
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-38.927382
-items	6688
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-40.310238
-items	8928
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-41.726186
-items	3408
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-43.182852
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-44.424787
-items	3568
-cache	41943192
-head	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-45.910219
-items	11888
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-47.395284
-items	2128
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-48.922345
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-49.490026
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-50.065487
-items	18688
-cache	41943192
-head	72
-tail	18608
-include	128
-dont_include	48
-answer	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-51.676347
-.0	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-52.254843
-items	13968
-cache	41943192
-head	72
-tail	13888
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-53.890268
-items	18128
-cache	41943192
-head	72
-tail	18048
-include	128
-dont_include	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-55.526465
+13.388038
 items	3968
-cache	41943192
+cache	10485912
 head	72
 tail	3888
 include	128
@@ -761,7 +170,42 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-57.177253
+14.140875
+items	6768
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+14.809709
+items	2128
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+15.499809
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+16.109059
 .0	56
 __spec__	112
 combinations	856
@@ -772,9 +216,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-58.663259
-items	10848
-cache	41943192
+16.568207
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -784,11 +227,71 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-60.379831
+17.023814
+items	4528
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+17.808936
 items	1008
-cache	41943192
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+18.615531
+items	8848
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+19.645951
+items	10688
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+20.489492
+items	12768
+cache	10485912
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+21.363475
+items	5968
+cache	20971664
 head	72
-tail	928
+tail	5888
 include	128
 dont_include	48
 answer	48
@@ -801,7 +304,19 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-62.082141
+22.252767
+items	2768
+cache	20971664
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+23.433457
 items	128
 __spec__	112
 combinations	856
@@ -812,7 +327,31 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-62.663507
+23.924601
+items	8928
+cache	20971664
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+24.878031
+items	3328
+cache	20971664
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+25.866333
 .0	56
 __spec__	112
 combinations	856
@@ -823,7 +362,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-63.246842
+26.363262
 items	128
 __spec__	112
 combinations	856
@@ -834,8 +373,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-63.828879
-.0	56
+26.856340
+items	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -845,12 +384,25 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-64.417412
-items	5328
-cache	41943192
+27.358682
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+28.230815
+items	7008
+cache	20971664
 head	72
-tail	5248
+tail	6928
 include	128
+dont_include	48
+answer	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -860,8 +412,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-66.256593
-.0	56
+29.317595
+items	13728
+cache	20971664
 __spec__	112
 combinations	856
 Tuple	6816
@@ -871,7 +424,59 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-66.856824
+30.424513
+items	848
+cache	20971664
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+31.551538
+items	2688
+cache	20971664
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+32.707689
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+33.230037
+items	9088
+cache	20971664
+head	72
+tail	9008
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+34.421903
 .0	56
 x	72
 __spec__	112
@@ -883,13 +488,14 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-67.453192
-items	1648
-cache	41943192
+35.431975
+items	1968
+cache	20971664
 head	72
-tail	1568
+tail	1888
 include	128
 dont_include	48
+answer	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -899,13 +505,14 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-69.366897
-items	8768
-cache	41943192
+36.672288
+items	17008
+cache	20971664
 head	72
-tail	8688
+tail	16928
 include	128
 dont_include	48
+answer	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -915,13 +522,14 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-71.301168
-items	16048
-cache	41943192
+37.936771
+items	10448
+cache	20971664
 head	72
-tail	15968
+tail	10368
 include	128
 dont_include	48
+answer	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -931,9 +539,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-73.235507
-items	2208
-cache	41943192
+39.229998
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -943,11 +550,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-75.172728
-items	13808
-cache	41943192
-head	72
-tail	13728
+39.757165
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -957,67 +561,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-78.395666
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-78.993183
-items	6288
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-81.018957
-items	5408
-cache	41943192
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-83.105500
-items	23008
-cache	41943192
-head	72
-tail	22928
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-85.221618
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-85.844022
+40.304444
 .0	56
 x	72
 __spec__	112
@@ -1029,7 +573,48 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-86.466058
+40.835107
+items	10368
+cache	41943192
+head	72
+tail	10288
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+42.183331
+items	17648
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+43.556227
+items	6048
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+45.600471
 .0	56
 __spec__	112
 combinations	856
@@ -1040,8 +625,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-87.084097
-items	48
+46.136782
+.0	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1051,8 +636,12 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-87.703092
-items	48
+46.671065
+items	16288
+cache	41943192
+head	72
+tail	16208
+include	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1062,13 +651,114 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-88.331062
+48.125225
+items	15488
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+49.606910
+items	2048
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+51.094809
+.0	56
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+51.642648
+items	19408
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+53.185628
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+53.726997
+items	16128
+cache	41943192
+head	72
+tail	16048
+include	128
+dont_include	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+55.298573
+items	9008
+cache	41943192
+head	72
+tail	8928
+include	128
+dont_include	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+56.896797
+items	5248
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+59.401160
 items	10688
 cache	41943192
 head	72
 tail	10608
 include	128
-dont_include	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1078,8 +768,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-90.592422
-.0	56
+61.030464
+items	11248
+cache	41943192
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1089,8 +780,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-91.207837
-.0	56
+62.692407
+.0	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1100,12 +791,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-91.834631
-items	1008
-cache	83886224
-head	72
-tail	928
-include	128
+63.245431
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1115,52 +802,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-94.102099
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-94.731619
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-95.362115
-items	29008
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-97.652385
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-99.908035
+63.802451
 .0	56
 x	72
 __spec__	112
@@ -1172,9 +814,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-100.549636
-items	10688
-cache	83886224
+64.364702
+items	12048
+cache	41943192
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1184,67 +826,11 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-102.897394
-items	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-103.536970
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-104.181436
-items	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-104.831110
-items	29488
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-107.260452
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-107.900950
-items	31168
-cache	83886224
+66.098382
+items	21888
+cache	41943192
 head	72
-tail	31088
+tail	21808
 include	128
 dont_include	48
 answer	48
@@ -1257,8 +843,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-110.414037
-.0	56
+67.875467
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1268,9 +854,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-111.058655
-items	21568
-cache	83886224
+68.438679
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1280,8 +865,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-113.601599
-.0	56
+69.011116
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1291,11 +876,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-114.260628
-items	19328
-cache	83886224
-head	72
-tail	19248
+69.577520
+items	3568
+cache	41943192
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1305,46 +888,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-116.866431
-items	12128
-cache	83886224
-head	72
-tail	12048
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-119.466516
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-120.139760
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-120.812486
+71.433300
 items	8768
-cache	83886224
+cache	41943192
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1354,25 +900,10 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-123.511479
-items	1008
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-126.206015
-items	15728
-cache	83886224
+73.287622
+items	3728
+cache	41943192
 head	72
-tail	15648
-include	128
-dont_include	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1382,292 +913,11 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-128.936884
-items	30208
-cache	83886224
+75.159232
+items	22528
+cache	41943192
 head	72
-tail	30128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-131.646352
-items	608
-cache	83886224
-head	72
-tail	528
-include	128
-dont_include	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-136.541640
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-137.213809
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-137.942724
-items	4848
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-140.769790
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-141.433420
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-142.103432
-items	23488
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-144.952298
-items	21088
-cache	83886224
-head	72
-tail	21008
-include	128
-dont_include	48
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-147.820042
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-148.506178
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-149.185282
-items	28608
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-152.078145
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-152.766282
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-153.449207
-items	8768
-cache	83886224
-head	72
-tail	8688
-include	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-156.466451
-items	34848
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-159.492069
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-160.170496
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-160.856057
-items	128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-161.538163
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-162.219693
-.0	56
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-162.900592
-items	29008
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-166.032290
-items	20448
-cache	83886224
-head	72
-tail	20368
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-169.223916
-items	35888
-cache	83886224
-head	72
-tail	35808
+tail	22448
 include	128
 dont_include	48
 answer	48
@@ -1680,7 +930,58 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-172.459927
+78.221805
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+78.801628
+items	23568
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+80.751423
+items	9328
+cache	41943192
+head	72
+tail	9248
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+82.694072
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+83.273527
 items	48
 __spec__	112
 combinations	856
@@ -1691,9 +992,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-173.168240
-items	13488
-cache	83886224
+83.854830
+items	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1703,13 +1003,94 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-179.283625
-items	28448
+84.442688
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+85.020102
+.0	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+85.599682
+items	17328
+cache	41943192
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+87.670892
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+88.259472
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+88.843113
+items	15648
+cache	41943192
+head	72
+tail	15568
+include	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+91.052289
+.0	56
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+91.637364
+items	18208
 cache	83886224
 head	72
-tail	28368
+tail	18128
 include	128
-dont_include	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1719,9 +1100,22 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-182.522469
-items	10128
+93.824262
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+94.414255
+items	17008
 cache	83886224
+head	72
+tail	16928
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1731,7 +1125,18 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-185.770722
+96.657889
+.0	56
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+98.817452
 items	24528
 cache	83886224
 head	72
@@ -1746,8 +1151,22 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-189.033945
-items	18288
+101.080066
+items	1888
+cache	83886224
+head	72
+tail	1808
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+103.345508
+items	23648
 cache	83886224
 __spec__	112
 combinations	856
@@ -1758,9 +1177,57 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-192.350250
+105.639905
+items	13008
+cache	83886224
+head	72
+tail	12928
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+107.961981
+.0	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+108.563897
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+109.158360
+items	9568
+cache	83886224
+head	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+111.530919
 .0	56
-x	72
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1770,37 +1237,126 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-193.045450
-items	14368
+112.136314
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+112.739887
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+113.343561
+items	10768
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+115.812473
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+116.419521
+items	27568
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+118.912426
+items	21728
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+121.429854
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+122.046054
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+122.661498
+items	20848
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+125.246222
+items	23168
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+127.840672
+items	11728
 cache	83886224
 head	72
-tail	14288
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-196.443994
-items	30528
-cache	83886224
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-199.886626
-items	16448
-cache	83886224
-head	72
-tail	16368
+tail	11648
 include	128
 dont_include	48
 answer	48
@@ -1813,11 +1369,467 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-203.270575
-items	14208
+132.535804
+items	22288
 cache	83886224
 head	72
-tail	14128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+135.196253
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+135.818794
+items	9728
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+138.491910
+items	28128
+cache	83886224
+head	72
+tail	28048
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+141.205298
+items	7168
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+143.939401
+items	32208
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+146.697251
+items	31728
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+149.467533
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+150.100449
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+150.726682
+items	29408
+cache	83886224
+head	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+153.561709
+items	24848
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+156.421342
+items	9888
+cache	83886224
+head	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+159.262715
+items	12848
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+162.137913
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+162.776152
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+163.416323
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+164.060534
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+164.700708
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+165.351330
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+165.991783
+items	9088
+cache	83886224
+head	72
+tail	9008
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+169.013382
+.0	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+169.662062
+.0	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+170.304542
+items	19728
+cache	83886224
+head	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+173.363644
+items	32608
+cache	83886224
+head	72
+tail	32528
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+179.213217
+items	3888
+cache	83886224
+head	72
+tail	3808
+include	128
+dont_include	48
+answer	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+182.337183
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+182.990836
+items	3088
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+186.139112
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+186.798125
+items	26848
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+190.008338
+items	19568
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+193.236042
+items	34368
+cache	83886224
+head	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+196.457747
+.0	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+197.116983
+items	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+197.773412
+.0	56
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+198.437510
+items	24288
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+201.740650
+items	18368
+cache	83886224
+head	72
+tail	18288
+include	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+205.081378
+items	48
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+205.749465
+items	26768
+cache	83886224
+head	72
+tail	26688
 include	128
 dont_include	48
 __spec__	112
@@ -1829,11 +1841,35 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-206.613304
+209.126353
+items	14608
+cache	83886224
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+212.536832
+.0	56
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+213.204887
 items	7968
-cache	83905456
+cache	83886224
 head	72
 tail	7888
+include	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1843,9 +1879,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-210.263197
-.0	776
-x	72
+216.655251
+items	128
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1855,9 +1890,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-210.738764
-.0	416
-x	72
+217.327326
+items	18368
+cache	83886224
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1867,8 +1902,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-211.169314
-items	1488
+220.814358
+items	8768
+cache	83887136
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1878,12 +1914,14 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-211.577491
-items	37088
-cache	84208728
+224.134585
+items	30528
+cache	83935536
 head	72
-tail	37008
-include	1648
+tail	30448
+include	128
+dont_include	1168
+answer	1168
 __spec__	112
 combinations	856
 Tuple	6816
@@ -1893,304 +1931,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-214.862974
-.0	1856
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-215.232338
-.0	2000
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-215.589732
-.0	128
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-215.946872
-.0	1928
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-216.289150
-.0	1064
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-216.692247
-.0	1640
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-217.025083
-.0	128
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-217.342575
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-217.655039
-.0	632
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-217.981503
-.0	1280
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-218.294062
-.0	2504
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-218.604920
-.0	920
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-218.914423
-items	3328
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-219.225771
-.0	776
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-219.550147
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-219.877424
-.0	1352
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-220.195804
-.0	1352
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-220.496617
-.0	560
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-220.804797
-.0	1352
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-221.103150
-.0	488
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-221.403366
-.0	1496
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-221.701332
-.0	1064
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-221.995895
-.0	2000
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-222.287958
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-222.584705
-.0	2648
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-222.881585
+227.374930
 .0	1208
 x	72
 __spec__	112
@@ -2202,19 +1943,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-223.171515
-.0	560
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-223.468750
+227.756018
 .0	848
 x	72
 __spec__	112
@@ -2226,9 +1955,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-223.748578
-.0	2144
-x	72
+228.112154
+.0	1640
 __spec__	112
 combinations	856
 Tuple	6816
@@ -2238,449 +1966,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-224.124470
-items	15408
-cache	88996496
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-228.140631
-.0	1064
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-228.509120
-.0	2864
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-228.807423
-.0	2216
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-229.120797
-.0	1496
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-229.414371
-.0	1568
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-229.714563
-.0	3080
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-230.005926
-.0	2216
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-230.299339
-items	26528
-cache	90652488
-head	72
-tail	26448
-include	4128
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-234.346646
-.0	1208
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-234.638072
-.0	1424
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-234.922412
-.0	920
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-235.218601
-.0	2576
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-235.510449
-.0	3152
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-235.800892
-.0	2576
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-236.094037
-.0	2936
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-236.384065
-.0	416
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-236.662177
-items	23888
-cache	92640976
-head	72
-tail	23808
-include	4448
-dont_include	4528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-241.270426
-.0	56
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-241.561800
-.0	2720
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-241.867384
-.0	1856
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-242.162361
-.0	992
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-242.443919
-items	25728
-cache	93761488
-head	72
-tail	25648
-include	4688
-dont_include	4768
-answer	4768
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-246.948866
-items	29568
-cache	93985336
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-251.468675
-.0	3152
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-251.748364
-.0	2720
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-252.044608
-.0	2432
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-252.326564
-.0	1208
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-252.616277
-.0	2360
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-252.897414
-.0	4088
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-253.200294
-.0	4520
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-253.487853
-.0	1064
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-253.788743
-.0	3872
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-254.088487
-.0	2144
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-254.393090
-.0	128
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-254.680649
-.0	992
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-254.962192
+228.464071
 .0	272
 x	72
 __spec__	112
@@ -2692,8 +1978,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-255.246586
-.0	3584
+228.812221
+.0	1640
 x	72
 __spec__	112
 combinations	856
@@ -2704,8 +1990,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-255.534403
-.0	2720
+229.155396
+.0	1064
 x	72
 __spec__	112
 combinations	856
@@ -2716,102 +2002,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-255.830868
-.0	1208
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-256.113209
-items	28848
-cache	98072528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-261.357079
-.0	1352
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-261.648962
-.0	4592
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-261.946446
-.0	1424
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-262.223885
-items	29408
-cache	99097240
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-267.456095
-.0	1280
-x	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-267.731609
-.0	5672
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-268.012455
+229.483968
 .0	848
 x	72
 __spec__	112
@@ -2823,8 +2014,19 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-268.302525
-.0	2648
+229.813243
+.0	1208
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+230.129876
+.0	272
 x	72
 __spec__	112
 combinations	856
@@ -2835,8 +2037,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-268.581397
-.0	1496
+230.463849
+.0	1352
 x	72
 __spec__	112
 combinations	856
@@ -2847,8 +2049,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-268.856784
-.0	2216
+230.782722
+.0	920
 x	72
 __spec__	112
 combinations	856
@@ -2859,8 +2061,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-269.140619
-.0	2288
+231.092339
+.0	56
 x	72
 __spec__	112
 combinations	856
@@ -2871,9 +2073,9 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-269.419398
-.0	4232
-x	72
+231.408899
+items	19728
+cache	85395152
 __spec__	112
 combinations	856
 Tuple	6816
@@ -2883,7 +2085,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-269.707108
+234.764534
 .0	1784
 x	72
 __spec__	112
@@ -2895,7 +2097,890 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-269.827126
+235.075927
+.0	344
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+235.386198
+.0	2792
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+235.689059
+.0	776
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+235.999639
+.0	1784
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+236.301236
+.0	1064
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+236.614855
+.0	992
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+236.907227
+.0	2936
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+237.210371
+.0	1280
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+237.511461
+.0	3152
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+237.819356
+.0	992
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+238.104868
+.0	3008
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+238.404643
+.0	3008
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+238.688802
+items	37008
+cache	87732992
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+242.376915
+.0	3224
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+242.670055
+.0	56
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+242.958659
+.0	1856
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+243.244633
+.0	3152
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+243.540403
+.0	1064
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+243.823780
+.0	2720
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+244.112385
+.0	1424
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+244.393863
+.0	3656
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+248.315022
+.0	128
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+248.592123
+.0	2144
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+248.888668
+.0	3368
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+249.174565
+items	4928
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+249.460717
+.0	2864
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+249.743772
+.0	488
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+250.033426
+.0	3656
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+250.316810
+.0	488
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+250.598735
+.0	2144
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+250.874778
+.0	2216
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+251.159828
+.0	3152
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+251.442428
+.0	416
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+251.728657
+items	6288
+cache	92066088
+head	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+256.001635
+.0	2072
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+256.288514
+.0	704
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+256.561339
+.0	4664
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+256.852469
+.0	2288
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+257.132574
+.0	632
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+257.404139
+.0	776
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+257.677329
+.0	2936
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+257.962225
+.0	200
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+258.241489
+.0	3656
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+258.514766
+.0	4088
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+258.795325
+.0	488
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+259.074743
+.0	5024
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+259.346593
+items	29328
+cache	95203096
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+264.040749
+.0	1280
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+264.321546
+.0	2000
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+264.595451
+.0	2936
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+264.868699
+.0	1352
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+265.140655
+.0	3152
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+265.422733
+.0	4376
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+265.704377
+.0	2432
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+265.975600
+.0	1784
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+266.249519
+.0	2144
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+266.527152
+.0	1352
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+266.798579
+.0	3440
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+267.072461
+.0	272
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+267.343914
+.0	2288
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+267.618824
+.0	3440
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+267.887078
+.0	3728
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+268.158374
+.0	2144
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+268.435361
+.0	3440
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+268.707566
+.0	4160
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+268.980614
+.0	3440
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+269.256821
+.0	344
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+269.530548
+.0	1136
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+269.801946
+items	11968
+cache	100805616
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+275.280837
+.0	5744
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+275.553519
+.0	5384
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+275.817920
+.0	1352
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+276.089441
+.0	3800
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+276.359064
+.0	1136
+x	72
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+276.575963
 __annotations__	240
 Callable	6032
 Union	80

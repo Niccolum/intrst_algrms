@@ -1,458 +1,458 @@
-0.000088
+0.000073
 __annotations__	240
 Callable	6032
 Union	80
 List	48296
 Item	1360
-3.559100
+5.060494
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-3.961941
+5.438182
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-4.377109
+5.828926
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-4.781021
+6.210825
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.175577
+6.591961
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.582813
+6.990148
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.970904
+7.369077
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.368528
+7.738833
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.826807
+8.124761
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-7.238036
+8.513319
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-7.647427
+8.895280
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-8.076671
+9.303985
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-8.485137
+9.689023
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-8.900401
+10.082482
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-9.310805
+10.477256
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-9.722860
+10.873088
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-10.132832
+11.269425
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-10.542402
+11.666089
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-10.959383
+12.064147
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-11.380001
+12.462804
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-11.821545
+12.862082
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-12.249452
+13.265306
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-12.732374
+13.729792
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-13.146147
+14.127094
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-13.563364
+14.521057
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-13.975842
+14.907490
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-14.384995
+15.425566
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-14.798390
+15.811609
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-15.209300
+16.204053
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-15.615283
+16.593647
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-16.033418
+16.978431
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-16.434949
+17.364700
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-16.836087
+17.749358
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-17.246934
+18.147451
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-17.839813
+18.542827
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-18.262549
+18.942032
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-18.681612
+19.339407
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-19.096573
+19.738678
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-19.508020
+20.137290
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-19.926330
+20.537192
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-20.346477
+20.936679
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-20.762146
+21.338684
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-21.188439
+21.740897
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-21.604193
+22.143839
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-22.152357
+22.662566
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-22.560896
+23.044160
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-22.969782
+23.425384
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-23.380828
+23.806920
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-23.786452
+24.189079
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-24.192961
+24.673872
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-24.591314
+25.196835
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-24.991586
+25.578099
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-25.390773
+25.960766
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-25.795849
+26.341936
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-26.206086
+26.724559
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-26.614934
+27.108174
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-27.024556
+27.492287
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-27.429925
+27.876714
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-28.129568
+28.259130
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-28.541018
+28.642579
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-28.951484
+29.031891
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-29.360692
+29.415951
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-29.766117
+29.799564
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-30.174463
+30.182433
 items	160048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-30.578703
+30.531113
 items	160048
 k	32176632
 weights	16072
@@ -466,7 +466,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-30.987057
+30.885695
 items	160048
 k	32176632
 weights	16072
@@ -480,7 +480,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-31.399758
+31.240857
 items	160048
 k	32176632
 weights	16072
@@ -494,7 +494,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-31.808778
+31.595245
 items	160048
 k	32176632
 weights	16072
@@ -508,7 +508,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-32.219715
+31.948851
 items	160048
 k	32176632
 weights	16072
@@ -522,7 +522,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-32.628517
+32.304244
 items	160048
 k	32176632
 weights	16072
@@ -536,7 +536,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-33.033682
+32.665266
 items	160048
 k	32176632
 weights	16072
@@ -550,7 +550,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-33.434129
+33.021809
 items	160048
 k	32176632
 weights	16072
@@ -564,7 +564,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-33.836582
+33.376474
 items	160048
 k	32176632
 weights	16072
@@ -578,7 +578,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-34.236762
+33.732245
 items	160048
 k	32176632
 weights	16072
@@ -592,7 +592,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-34.644537
+34.087798
 items	160048
 k	32176632
 weights	16072
@@ -606,7 +606,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-35.045676
+34.443888
 items	160048
 k	32176632
 weights	16072
@@ -620,7 +620,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-35.445802
+34.798948
 items	160048
 k	32176632
 weights	16072
@@ -634,7 +634,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-35.976299
+35.154160
 items	160048
 k	32176632
 weights	16072
@@ -648,7 +648,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-36.386043
+35.509750
 items	160048
 k	32176632
 weights	16072
@@ -662,7 +662,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-36.787180
+35.866355
 items	160048
 k	32176632
 weights	16072
@@ -676,7 +676,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-37.215794
+36.222380
 items	160048
 k	32176632
 weights	16072
@@ -690,7 +690,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-37.625436
+36.577994
 items	160048
 k	32176632
 weights	16072
@@ -704,7 +704,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-38.049061
+36.934398
 items	160048
 k	32176632
 weights	16072
@@ -718,7 +718,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-38.450489
+37.290428
 items	160048
 k	32176632
 weights	16072
@@ -732,7 +732,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-38.858733
+37.645182
 items	160048
 k	32176632
 weights	16072
@@ -746,7 +746,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-39.266990
+37.998465
 items	160048
 k	32176632
 weights	16072
@@ -760,7 +760,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-39.667236
+38.354673
 items	160048
 k	32176632
 weights	16072
@@ -774,7 +774,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-40.075719
+38.713284
 items	160048
 k	32176632
 weights	16072
@@ -788,7 +788,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-40.484530
+39.070379
 items	160048
 k	32176632
 weights	16072
@@ -802,7 +802,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-40.888734
+39.425934
 items	160048
 k	32176632
 weights	16072
@@ -816,7 +816,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-41.296804
+39.782410
 items	160048
 k	32176632
 weights	16072
@@ -830,7 +830,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-41.707232
+40.138519
 items	160048
 k	32176632
 weights	16072
@@ -844,7 +844,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-42.109003
+40.495082
 items	160048
 k	32176632
 weights	16072
@@ -858,7 +858,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-42.509306
+40.849600
 items	160048
 k	32176632
 weights	16072
@@ -872,7 +872,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-42.909871
+41.206127
 items	160048
 k	32176632
 weights	16072
@@ -886,7 +886,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-43.313529
+41.562273
 items	160048
 k	32176632
 weights	16072
@@ -900,7 +900,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-43.712413
+41.918899
 items	160048
 k	32176632
 weights	16072
@@ -914,7 +914,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-44.112640
+42.275688
 items	160048
 k	32176632
 weights	16072
@@ -928,7 +928,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-44.513030
+42.630406
 items	160048
 k	32176632
 weights	16072
@@ -942,7 +942,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-44.914238
+42.987061
 items	160048
 k	32176632
 weights	16072
@@ -956,7 +956,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-45.313703
+43.351246
 items	160048
 k	32176632
 weights	16072
@@ -970,7 +970,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-45.712607
+43.706515
 items	160048
 k	32176632
 weights	16072
@@ -984,7 +984,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-46.154834
+44.063963
 items	160048
 k	32176632
 weights	16072
@@ -998,119 +998,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-46.581642
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-46.982671
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-47.383859
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-47.795067
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-48.204268
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-48.613720
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-49.021195
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-49.429678
-items	160048
-k	32176632
-weights	16072
-item	72
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-49.795166
+44.388536
 __annotations__	240
 Callable	6032
 Union	80

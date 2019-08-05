@@ -1,13 +1,11 @@
-0.000082
+0.000087
 __annotations__	240
 Callable	6032
 Union	80
 List	48296
 Item	1360
-5.131144
-items	3088
-cache	589976
-head	72
+4.481243
+items	48
 __spec__	112
 combinations	856
 Tuple	6816
@@ -17,7 +15,18 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-5.558360
+4.875654
+.0	128
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+5.295419
 .0	56
 x	72
 __spec__	112
@@ -29,20 +38,8 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-5.970163
-items	2208
-cache	1394912
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-6.323186
-.0	200
+5.579120
+.0	1424
 x	72
 __spec__	112
 combinations	856
@@ -53,7 +50,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-6.361439
+5.645054
 __annotations__	240
 Callable	6032
 Union	80

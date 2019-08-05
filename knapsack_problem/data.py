@@ -114,7 +114,7 @@ def pack_up_static_knapsack_3() -> Knapsack:
 def create_dynamic_knapsacks(*, start: int, end: int, step: int = 1) -> Dict[str, Dict[str,
                                                                                        Union[Knapsack, List[Item]]]]:
     knapsacks = OrderedDict()
-    for i in range(start, end, step):
+    for i in range(start, end + 1, step):
         weight_limit = i
         knapsack_key = 'knapsack_{weight_limit}'.format(weight_limit=weight_limit)
         knapsacks.setdefault(knapsack_key, dict())

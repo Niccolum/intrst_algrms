@@ -15,7 +15,7 @@ from typing import Tuple, List, Generator, Any, Union, Iterator
 from ref_func import knapsack_standard_solution, Item
 
 
-def knapsack_1_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_1_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     https://codereview.stackexchange.com/a/20581
 
@@ -87,7 +87,7 @@ def knapsack_3_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return fetch_items(k, weight_limit, items)
 
 
-def knapsack_4_solution(items: Tuple[Item], weight_limit: int) -> Union[Item, List[None]]:
+def knapsack_4_bruteforce_solution(items: Tuple[Item], weight_limit: int) -> Union[Item, List[None]]:
     """
     Brute force algorithm
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=62
@@ -114,7 +114,7 @@ def knapsack_4_solution(items: Tuple[Item], weight_limit: int) -> Union[Item, Li
     return []
 
 
-def knapsack_5_solution(items: Tuple[Item], weight_limit: int) -> Item:
+def knapsack_5_dynamic_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     Dynamic programming solution
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=63
@@ -140,7 +140,7 @@ def knapsack_5_solution(items: Tuple[Item], weight_limit: int) -> Item:
             w -= wt
 
 
-def knapsack_6_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Item]:
+def knapsack_6_recursive_dynamic_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Item]:
     """
     Recursive dynamic programming algorithm
     http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&action=edit&section=64

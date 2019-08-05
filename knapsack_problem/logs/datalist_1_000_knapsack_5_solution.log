@@ -1,122 +1,122 @@
-0.000075
+0.000077
 __annotations__	240
 Callable	6032
 Union	80
 List	48296
 Item	1360
-4.099748
+6.187428
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-4.490531
+6.563551
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-4.887170
+6.947138
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.279190
+7.317788
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-5.678381
+7.702947
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.088208
+8.096851
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.487529
+8.478061
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-6.890769
+8.867811
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-7.293411
+9.255513
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-7.691823
+9.639431
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-8.092706
+10.030543
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-8.528721
+10.453340
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-8.930835
+10.842955
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-9.337228
+11.234192
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-9.741375
+11.642121
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-10.157421
+12.038197
 items	80048
 best_value	5120
 __spec__	112
 Tuple	6816
 Item	1360
 Knapsack	1272
-10.544875
+12.480370
 items	80048
 table	8089096
 __spec__	112
@@ -128,7 +128,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-10.929586
+12.846387
 items	80048
 table	8089096
 __spec__	112
@@ -140,7 +140,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-11.312766
+13.218199
 items	80048
 table	8089096
 __spec__	112
@@ -152,7 +152,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-11.694383
+13.587588
 items	80048
 table	8089096
 __spec__	112
@@ -164,7 +164,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-12.083766
+13.959923
 items	80048
 table	8089096
 __spec__	112
@@ -176,7 +176,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-12.475376
+14.330499
 items	80048
 table	8089096
 __spec__	112
@@ -188,7 +188,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-12.865355
+14.704035
 items	80048
 table	8089096
 __spec__	112
@@ -200,7 +200,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-13.256472
+15.076154
 items	80048
 table	8089096
 __spec__	112
@@ -212,7 +212,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-13.311639
+15.123220
 __annotations__	240
 Callable	6032
 Union	80

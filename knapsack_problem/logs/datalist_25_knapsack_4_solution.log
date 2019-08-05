@@ -1,10 +1,10 @@
-0.000084
+0.000072
 __annotations__	240
 Callable	6032
 Union	80
 List	48296
 Item	1360
-6.351012
+4.266860
 comb	448
 __spec__	112
 combinations	856
@@ -15,7 +15,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-6.646171
+4.548541
 comb	448
 __spec__	112
 combinations	856
@@ -26,7 +26,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-6.937257
+4.826694
 comb	448
 __spec__	112
 combinations	856
@@ -37,73 +37,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-7.225640
-comb	528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-7.524947
-comb	528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-7.818605
-comb	528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-8.116563
-comb	528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-8.406701
-comb	528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-8.702891
-comb	528
-__spec__	112
-combinations	856
-Tuple	6816
-List	48296
-Generator	25384
-Any	48
-Union	80
-Iterator	17856
-Item	1360
-8.995982
+5.099212
 .0	48
 items	2048
 comb	528
@@ -116,7 +50,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-9.294192
+5.378291
 comb	528
 __spec__	112
 combinations	856
@@ -127,7 +61,7 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-9.591732
+5.653406
 comb	528
 __spec__	112
 combinations	856
@@ -138,7 +72,73 @@ Any	48
 Union	80
 Iterator	17856
 Item	1360
-9.673524
+5.930967
+comb	528
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+6.211830
+comb	528
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+6.491918
+comb	528
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+6.764266
+comb	528
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+7.038726
+comb	528
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+7.314477
+comb	528
+__spec__	112
+combinations	856
+Tuple	6816
+List	48296
+Generator	25384
+Any	48
+Union	80
+Iterator	17856
+Item	1360
+7.390053
 __annotations__	240
 Callable	6032
 Union	80
