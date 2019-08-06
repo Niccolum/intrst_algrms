@@ -12,6 +12,7 @@ TwoNodeClass: use inner class Node for storage and TwoNodeClass for for everythi
 from abc import ABCMeta, abstractmethod
 from collections.abc import Iterator
 from numbers import Integral
+import bisect
 
 
 class BaseNodeClass(metaclass=ABCMeta):
@@ -23,6 +24,19 @@ class BaseNodeClass(metaclass=ABCMeta):
     @abstractmethod
     def tree_data(self) -> Iterator:
         raise NotImplementedError
+
+
+class BisectNodeClass(BaseNodeClass):
+    def __init__(self):
+        self.data = []
+
+    # @profile
+    def add_node(self, data: Integral) -> None:
+        bisect.insort(self.data, data)
+
+    # @profile
+    def tree_data(self) -> Iterator:
+        yield from self.data
 
 
 class SingleNodeClass(BaseNodeClass):
@@ -113,12 +127,11 @@ class TwoNodeClass(BaseNodeClass):
 
 
 if __name__ == '__main__':
-    from data import datalist_1000000
+    from data import datalist_100000
 
-    nodes = [SingleNodeClass, TwoNodeClass]
+    nodes = [SingleNodeClass, TwoNodeClass, BisectNodeClass]
     for cls_node in nodes:
         node = cls_node()
-        for i in datalist_1000000:
+        for i in datalist_100000:
             node.add_node(i)
         result = list(node.tree_data())
-

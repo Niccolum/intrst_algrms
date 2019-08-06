@@ -1,9 +1,9 @@
-0.000093
+0.000094
 __annotations__	240
 List	47816
 Integral	5312
 BaseNodeClass	2984
-0.446167
+0.453168
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -18,7 +18,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-0.868514
+0.882525
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -33,7 +33,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-1.288535
+1.301657
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -48,82 +48,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-1.717955
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-2.151742
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-2.584803
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-3.009874
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-3.433615
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-3.858913
+1.727117
 x	9000112
 self	2560
 __spec__	112
@@ -135,7 +60,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-4.438346
+2.164389
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -150,67 +75,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-4.865088
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-5.311070
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-5.752530
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-6.183292
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-6.639258
+2.595738
 x	9000112
 self	2560
 __spec__	112
@@ -222,7 +87,37 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-7.093979
+3.029994
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+3.454664
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+3.888140
 x	9000112
 self	2560
 __spec__	112
@@ -234,7 +129,82 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-7.548244
+4.331297
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+4.755457
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+5.194337
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+5.635519
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+6.057064
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+6.482444
 x	9000112
 self	2560
 __spec__	112
@@ -246,7 +216,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-8.008478
+6.938188
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -261,97 +231,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-8.430399
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-8.855464
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-9.276069
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-9.698783
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-10.123241
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-10.545865
-BuiltinMethod	1344
-Method	1656
-type	1888
-int	4712
-self	2560
-__spec__	112
-_MethodType	1656
-_BuiltinMethodType	1344
-_Set	3000
-_Sequence	3184
-__all__	256
-Random	1056
-SystemRandom	1056
-_inst	2560
-10.970850
+7.363363
 x	9000112
 self	2560
 __spec__	112
@@ -363,7 +243,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-11.437691
+7.819830
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -378,7 +258,7 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-11.858911
+8.243521
 BuiltinMethod	1344
 Method	1656
 type	1888
@@ -393,8 +273,11 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-12.280492
-x	9000112
+8.668081
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
 self	2560
 __spec__	112
 _MethodType	1656
@@ -405,8 +288,128 @@ __all__	256
 Random	1056
 SystemRandom	1056
 _inst	2560
-12.553527
-SingleNodeClass	2984
+9.093532
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+9.518696
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+9.956361
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+10.380381
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+10.805024
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+11.294475
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+11.742367
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+12.264820
+BuiltinMethod	1344
+Method	1656
+type	1888
+int	4712
+self	2560
+__spec__	112
+_MethodType	1656
+_BuiltinMethodType	1344
+_Set	3000
+_Sequence	3184
+__all__	256
+Random	1056
+SystemRandom	1056
+_inst	2560
+12.474196
+BisectNodeClass	2984
 datalist_100	1008
 __annotations__	240
 List	47816

@@ -1,10 +1,10 @@
-0.000076
+0.000086
 __annotations__	240
 List	48296
 Integral	5472
 BaseNodeClass	2984
-0.222820
-self	2408
+1.838947
+self	824520
 __spec__	112
 ABCMeta	1112
 Iterator	5384
@@ -13,19 +13,9 @@ BaseNodeClass	2984
 BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-0.447156
-self	5768
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
+1.924299
 BisectNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-0.653514
-SingleNodeClass	2984
-datalist_10000	90112
+datalist_100000	900112
 __annotations__	240
 List	48296
 Integral	5472

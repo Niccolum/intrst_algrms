@@ -1,3998 +1,3187 @@
-0.000095
+0.000261
 __annotations__	240
 List	48296
 Integral	5472
 BaseNodeClass	2984
-0.237687
-self	392
+0.236689
+self	7392
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-0.464609
-self	157920
+0.465930
+self	2240
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-0.744319
-self	81704
+0.735682
+self	1904
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-0.984338
-self	18984
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-1.223665
-self	504
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-1.459393
-self	671720
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-1.754374
-self	5040
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-2.048819
+0.964755
 self	56
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-2.307293
-self	2056208
+1.193230
+self	1207248
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-2.674935
-self	2968
+1.489798
+self	786632
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-2.986268
-self	6216
+1.764907
+self	299992
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-3.228570
-self	1792
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-3.466737
-self	446152
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-3.746447
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-4.126915
-self	2912
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-4.622514
-self	8456
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-4.876553
-self	8064
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-5.116956
-self	224
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-5.358327
-self	1680
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-5.600962
-self	4245024
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-6.094794
-self	1288
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-6.333488
-self	616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-6.570855
-self	1687560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-6.904572
-datalist	9000112
-instance	5013008
-__annotations__	240
-List	48296
-Integral	5472
-BaseNodeClass	2984
-7.479275
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-7.730075
-self	5600
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-7.970811
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-8.208536
-self	2711520
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-8.700245
-self	634480
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-8.972503
-self	280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-9.211743
-self	3248
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-9.454364
-self	2632
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-9.690950
-self	6704824
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-10.319076
-self	57400
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-10.566026
-self	45024
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-10.803751
-self	2113328
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-11.156920
-self	139272
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-11.400670
-datalist	9000112
-instance	7627312
-__annotations__	240
-List	48296
-Integral	5472
-BaseNodeClass	2984
-12.114254
-self	7811944
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-12.796728
-self	9576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-13.033218
-self	8177848
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-13.833546
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-14.284647
-self	560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-14.552547
-self	5768
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-14.793300
-self	64120
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-15.031637
-self	2576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-15.268605
-self	2727088
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-15.661351
-self	9446416
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-16.450566
-self	672
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-16.692358
-self	6776
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-16.929862
-self	12712
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-17.198478
-self	19824
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-17.469978
-self	3024
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-17.718280
-self	259952
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-17.980166
-self	11032
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-18.258658
-self	1232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-18.665788
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-18.936202
-self	220416
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-19.240009
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-19.478260
-self	1798160
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-19.895614
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-20.132181
-self	5208
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-20.367876
-self	12120248
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-21.337583
-self	10024
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-21.574714
-self	280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-21.806305
-self	168
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-22.040596
-self	629664
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-22.321176
-self	367864
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-22.583518
-self	672
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-22.821313
-self	629608
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-23.139926
-self	1792
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-23.656203
-self	1008
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-23.980837
-self	4082232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-24.488085
-self	1479296
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-24.819375
-self	10896648
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-25.915189
-self	3416
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-26.149096
-self	1176448
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-26.455979
-self	2408
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-26.693157
-self	1468712
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-27.018310
-self	3080
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-27.258210
-self	7202944
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-27.930996
-self	41608
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-28.199383
-self	784
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-28.573107
-self	1848
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-28.814892
-self	15957312
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-29.997546
-self	42560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-30.241942
-self	5488
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-30.492410
-self	14616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-30.727812
-self	4899664
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-31.245146
-self	20328
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-31.485671
-self	2464
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-31.732822
-self	57512
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-31.973928
-self	1624
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-32.210584
-self	1606696
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-32.535706
-self	11424
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-32.777417
-self	137928
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-33.039671
-self	728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-33.306091
-self	512344
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-33.807830
-self	18358984
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-35.175232
-self	3947776
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-35.673579
-self	119000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-35.922684
-self	14453376
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-37.018414
-self	20328
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-37.254928
-self	941864
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-37.552523
-self	3696
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-37.790709
-self	728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-38.027019
-datalist	9000112
-instance	19722136
-__annotations__	240
-List	48296
-Integral	5472
-BaseNodeClass	2984
-39.476378
-self	5345480
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-40.056673
-self	12040
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-40.322454
-self	5376
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-40.570832
-self	138544
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-40.870507
-self	5531792
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-41.463506
-self	15893752
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-43.156373
-self	50568
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-43.530128
-self	10640
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-43.966545
-datalist	9000112
-instance	21243712
-__annotations__	240
-List	48296
-Integral	5472
-BaseNodeClass	2984
-46.292006
-self	6241536
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-46.882924
-self	955584
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-47.172928
-self	17472
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-47.409362
-self	3415440
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-47.835419
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-48.064101
-self	12320
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-48.354535
-self	3192
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-48.727294
-self	428120
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-49.099722
-self	27440
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-49.545434
-self	17416
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-49.837653
-self	616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-50.387197
-self	1289512
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-50.743706
-self	50400
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-50.988848
-self	15008
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-51.238379
-self	1364160
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-51.558030
-self	3248
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-51.814721
-self	336
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-52.085968
-self	392
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-52.339612
-self	27944
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-52.588604
-self	154280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-52.842948
-self	88256
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-53.098608
-self	1008
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-53.368752
-self	1789704
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-53.717685
-self	19365248
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-55.143059
-self	784
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-55.381917
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-55.629375
-self	5506592
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-56.274991
-self	111216
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-56.732014
-self	952
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-56.976960
-self	102144
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-57.338283
-self	65464
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-57.687175
-self	88872
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-57.980576
-self	19768
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-58.383295
-self	1344
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-58.703848
-self	48552
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-59.264520
-self	546112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-59.749509
-self	374584
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-60.083589
-self	280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-60.349272
-self	89488
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-60.596146
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-60.836871
-self	6048
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-61.081661
-self	9744
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-61.325986
-self	2016728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-61.682258
-self	280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-61.924165
-self	764344
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-62.244382
-self	13496
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-62.535326
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-62.778547
-self	8232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-63.022544
-self	560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-63.261695
-self	2856
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-63.864297
-self	5461904
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-64.419137
-datalist	9000112
-instance	29893304
-__annotations__	240
-List	48296
-Integral	5472
-BaseNodeClass	2984
-66.539071
-self	8680
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-66.784283
-self	23576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-67.030214
-self	7103376
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-67.724071
-self	1360576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-68.119336
-self	27552
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-68.365871
-self	448
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-68.627075
-self	1960
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-68.974958
-self	7560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-69.334500
-self	44688
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-69.591019
-self	10640
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-69.844050
-self	5826072
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-70.533040
-self	92400
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-70.779725
-self	1358000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-71.135504
-self	71568
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-71.456906
-self	11377576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-72.489070
-self	177632
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-72.844507
-self	190624
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-73.111383
-self	5105296
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-73.771986
-self	728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-74.012724
-self	1665888
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-74.350908
-self	1853656
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-74.691721
-self	167160
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-74.936926
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-75.171431
-self	754656
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-75.448978
-self	5320
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-75.684026
-self	179144
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-75.929595
-self	2576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-76.163331
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-76.393717
-self	42616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-76.631043
-self	34798344
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-78.901188
-self	11144
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-79.137591
-self	341096
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-79.393525
-self	2513896
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-79.770636
-self	35448280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-82.488819
-self	58072
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-82.732529
-self	17248
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-82.967329
-self	35936600
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-85.310511
-self	353192
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-85.566644
-self	27786808
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-87.425392
-self	25928
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-87.662165
-self	36583456
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-90.291953
-self	728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-90.658878
-self	56448
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-90.900160
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-91.140869
-self	3423168
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-92.019603
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-92.352171
-self	88368
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-92.668944
-self	13252176
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-93.785664
-self	3072608
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-94.251045
-self	4984
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-94.505840
-self	2576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-94.827934
-self	211400
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-95.103113
-self	10080
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-95.341197
-self	280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-95.611044
-self	246960
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-95.860745
-self	212520
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-96.111372
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-96.349062
-self	12040
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-96.584846
-self	2225552
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-96.949179
-self	5001640
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-97.570216
-self	4872
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-97.814584
-self	35840
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-98.079226
-self	1232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-98.360045
-self	5936
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-98.612466
-self	25760
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-98.856574
-self	23912
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-99.095503
-self	2458008
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-99.474281
-self	5152
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-99.710881
-self	19394928
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-101.083583
-self	4544176
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-101.666733
-self	41416144
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-104.481357
-self	15288
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-104.720195
-self	378728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-104.979433
-self	644952
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-105.252573
-self	42058240
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-108.035379
-self	112280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-108.279317
-self	74984
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-108.519096
-self	42536704
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-111.331250
-self	336
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-111.568427
-self	33320
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-111.807116
-self	1512
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-112.042133
-self	7504
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-112.278608
-self	81592
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-112.519740
-self	15291584
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-113.657396
-self	972664
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-113.950350
-self	1008
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-114.186839
-self	2184
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-114.420031
-self	140560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-114.666134
-self	75600
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-114.906353
-self	1792
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-115.141546
-self	1951264
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-115.488541
-self	21130648
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-116.983959
-self	1204224
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-117.287259
-self	1204000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-117.591548
-self	504
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-117.827904
-self	13354376
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-118.844969
-self	1120
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-119.081462
-self	784
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-119.317644
-self	13363448
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-120.334335
-self	784
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-120.587359
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-120.818629
-self	38416
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-121.055715
-self	2968
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-121.291879
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-121.534063
-self	2756712
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-121.929687
-self	388080
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-122.188447
-self	2128
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-122.964328
-self	3364312
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-123.388847
-self	672
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-123.627615
-self	36482936
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-126.023403
-self	2128
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-126.262045
-self	151256
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-126.506843
-self	178976
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-126.754649
-self	46984
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-126.992754
-self	616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-127.228865
-self	642264
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-127.501978
-self	48738648
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-130.758469
-self	3585456
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-131.201158
-self	392
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-131.437460
-self	1120
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-131.680099
-self	3248
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-131.915296
-self	2576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-132.151883
-self	1824424
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-132.492619
-self	498400
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-132.759624
-self	896
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-132.997059
-self	3578736
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-133.438308
-self	123032
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-133.679173
-self	76384
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-133.922623
-self	50639232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-137.209082
-self	336
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-137.438710
-self	7938616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-138.137139
-self	645232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-138.410900
-self	18010440
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-139.705693
-self	1288
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-139.942548
-self	6518456
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-140.556224
-self	6552
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-140.795280
-self	122192
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-141.038324
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-141.269927
-self	168
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-141.509403
-self	26824
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-141.747483
-self	18455136
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-143.070840
-self	2857512
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-143.469950
-self	1101408
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-143.768229
-self	12408704
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-144.732388
-self	25928
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-144.971650
-self	17136
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-145.209441
-self	2180416
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-145.570672
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-145.805659
-self	9867144
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-146.622146
-self	2374960
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-146.994055
-self	54110280
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-150.464478
+2.012259
 self	8792
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-150.701829
-self	7168
+2.243059
+self	911064
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-150.938326
-self	1624
+2.522962
+self	14672
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-151.173013
-self	336
+2.754571
+self	728
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-151.408937
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-151.645416
-self	27216
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-151.882100
-self	2912
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-152.118331
-self	3136392
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-152.534790
-self	7009576
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-153.170766
-self	224
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-153.413579
-self	19617920
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-154.820873
-self	40320
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-155.038566
-self	2007432
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-155.368087
-self	2296728
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-155.712910
-self	2174256
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-156.050984
-self	3609368
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-156.470707
-self	3696
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-156.688164
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-156.904187
-self	560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-157.122730
+2.992319
 self	1008
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-157.339690
-self	7560
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-157.556344
-self	173936
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-157.783903
-self	224
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-158.002591
-self	5544
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-158.221041
-self	1344
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-158.439537
-self	840
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-158.657620
-self	5920544
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-159.213402
-self	896
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-159.430070
-self	840
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-159.648426
-self	3987592
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-160.106091
-self	3024
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-160.322354
-self	676592
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-160.576616
-self	3295824
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-160.994921
-self	56000000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-164.499469
-self	11256
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-164.716331
-self	38864
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-164.935278
-self	1371104
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-165.236916
-self	358120
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-165.474618
-self	199136
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-165.700916
-self	1569568
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-166.004143
-self	56000000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-169.514108
-self	16320472
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-170.684032
-self	56000000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-174.183901
-self	228032
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-174.411525
-self	354536
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-174.647117
-self	226352
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-174.874541
-self	4546864
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-175.348693
-self	189616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-175.573686
-self	16320472
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-176.736295
-self	8904
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-176.951385
-self	448
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-177.169320
-self	26096
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-177.387574
-self	5535096
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-177.919945
-self	176232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-178.148698
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-178.364738
-self	33656
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-178.588140
-self	7595504
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-179.505958
-self	5139848
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-180.016046
-self	73136
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-180.237621
-self	112
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-180.456039
-self	9240
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-180.672371
-self	616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-180.890728
-self	616
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-181.105896
+3.228124
 self	168
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-181.321772
-self	174608
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-181.552671
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-181.768819
-self	1275232
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-182.055143
-self	5152
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-182.273315
-self	10864
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-182.489439
+3.465250
 self	224
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-182.706583
-self	16320472
+3.793534
+self	164976
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-183.871493
-self	469784
+4.049545
+self	75040
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-184.113613
-self	74200
+4.302383
+self	8232
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-184.333223
-self	3080
+4.541169
+self	392
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-184.547363
-self	396200
+4.778561
+self	244048
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-184.785590
-self	37352
+5.025459
+self	1879864
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-185.008789
-self	336
+5.370569
+self	56
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-185.225565
-self	1104096
+5.629143
+self	224
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-185.502975
+5.934760
+self	9240
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.179675
+self	174552
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.474549
+self	4704
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+6.760725
+self	2998744
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.169663
+self	1972600
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.516721
+self	419160
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+7.867164
+self	448728
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.136210
+self	112
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.372653
+self	2464
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.608117
+self	952
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+8.842605
+self	4088
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+9.083841
+self	1008
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+9.326620
+self	11480
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+9.561381
+self	560
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+9.801429
+self	19600
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+10.038894
+self	17304
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+10.274894
+self	185696
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+10.523425
+self	1792
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+10.760400
+datalist	9000112
+instance	8154720
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+11.510043
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+11.865788
+self	8518664
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+12.592661
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+12.825813
+self	2240
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+13.063202
+self	415912
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+13.326559
+self	625576
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+13.600882
+self	9423512
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+14.386483
+self	1416856
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+14.704003
+self	2785272
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+15.100706
+self	9961560
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+15.919595
+self	218344
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+16.167439
+self	412384
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+16.428236
+self	13944
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+16.665467
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+16.904150
+self	10852016
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+17.913801
+self	141680
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+18.157980
+self	23240
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+18.396734
+self	573832
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+18.670501
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+18.907110
+self	784
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+19.141812
+datalist	9000112
+instance	11916128
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+20.109601
+self	5351640
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+20.653375
+self	43736
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+20.892122
+self	2744
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+21.127307
+self	441952
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+21.387924
+self	1288
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+21.627755
+self	65408
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+21.868256
+self	183232
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+22.114727
+self	67368
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+22.365579
+self	3304
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+22.603180
+self	1624
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+22.840949
+self	33936
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+23.081020
+self	64176
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+23.318969
+self	9184
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+23.735626
+self	4108776
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+24.206652
+self	2968
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+24.444657
+self	11872
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+24.682579
+self	6580504
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+25.298859
+self	25312
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+25.538167
+self	9352
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+25.773161
+self	112
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+26.010874
+self	482440
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+26.280171
+self	1402912
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+26.597593
+self	168
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+26.830222
+self	112
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+27.066761
+self	715848
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+27.350657
+self	5404392
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+27.900851
+self	2436504
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+28.282484
+self	7420224
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+28.943561
+self	16352
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+29.182391
+self	858088
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+29.467560
+self	5435136
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+30.018280
+self	581840
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+30.289520
 self	1512
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-185.719418
-self	8512
+30.535110
+self	192920
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-185.937191
-self	744576
+30.801434
+self	217448
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-186.194921
-self	11968600
+31.070388
+self	18148648
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-187.106280
-self	31304
+32.668465
+self	10218264
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-187.325242
-self	10136
+33.515791
+self	17528
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-187.540612
-self	42893536
+33.764671
+self	112
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-190.342891
-self	11968600
+34.083822
+self	336
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-191.252075
-self	19674984
+34.337020
+self	14448
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-192.623153
-self	56952
+34.584143
+self	503552
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-192.843042
-self	2576
+34.854517
+self	1017576
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-193.056552
-self	1512000
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-193.356147
-self	670768
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-193.608026
-self	405104
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-193.845522
-self	13272
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-194.065964
-self	19674984
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-195.440951
-self	26406296
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-197.201513
-self	56
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-197.418625
-self	188496
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-197.644655
-self	3136
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-197.861468
-self	26406296
-__spec__	112
-ABCMeta	1112
-Iterator	5384
-Integral	5472
-BaseNodeClass	2984
-SingleNodeClass	2984
-TwoNodeClass	4040
-199.629221
+35.152812
 self	448
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-199.843553
-self	1064
+35.391973
+self	30744
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-200.058189
-self	98672
+35.636987
+self	1214640
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-200.280026
-self	3136
+35.949284
+self	2520
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-200.497064
-self	1064
+36.192027
+self	62384
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-200.713523
-self	26406296
+36.434017
+self	1914080
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-202.478434
-self	6776
+36.788865
+self	7168
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-202.696117
-self	13216
+37.029593
+self	20695360
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-202.912315
-self	17584
+38.517809
+self	2061136
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-203.131030
-self	3360
+38.880644
+self	9128
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-203.347187
-self	1064
+39.121579
+self	168
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-203.564312
+39.360355
 self	56
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-203.783828
+39.601496
+self	136080
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+39.849894
+self	88760
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+40.097350
+self	1797320
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+40.468035
+self	12300064
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+41.443127
+self	280
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+41.688316
+self	1512
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+41.927754
+self	7092344
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+42.617847
+self	745136
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+42.928885
+self	10584
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+43.185008
+self	2912
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+43.443279
+self	2413936
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+43.828216
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+44.363675
+self	774592
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+44.649948
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+44.889827
+self	2632
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+45.139873
+self	20944
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+45.375487
+self	24217984
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+47.084375
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+47.326963
+self	13776
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+47.586673
+self	112
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+47.852413
+self	1523704
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+48.199050
+self	4760
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+48.438334
+self	11140080
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+49.368332
+self	807576
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+49.665090
+self	55944
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+49.906432
+self	14354704
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+51.036535
+self	9132536
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+51.821611
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+52.114321
+self	141624
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+52.376865
+self	5264
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+52.616529
+self	3848880
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+53.088734
+self	1120
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+53.332654
+self	89824
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+53.575629
+self	355880
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+53.832892
+self	253288
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+54.084028
+self	11984
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+54.323222
+self	3107496
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+54.736125
+self	51296
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+54.978365
+self	6379856
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+55.586214
+self	50064
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+55.829417
+self	392
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+56.066963
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+56.303797
+self	1339184
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+56.617006
+self	2352
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+56.854893
+self	112
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+57.091324
+self	672
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+57.327800
+self	57064
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+57.574740
+self	7728
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+57.817600
+self	896
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+58.064443
+self	29676416
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+60.407830
+datalist	9000112
+instance	29840440
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+62.442626
+self	30005024
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+64.595889
+self	486136
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+64.869883
+self	2500008
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+65.333565
+self	583688
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+65.625228
+self	11256
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+65.874756
+self	8837808
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+66.758178
+self	323064
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+67.035600
+self	448
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+67.278927
+self	483560
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+67.551877
+self	13902896
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+68.609468
+self	176232
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+68.859473
+self	68320
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+69.104564
+self	168
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+69.336137
+self	9217712
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+70.128884
+self	672
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+70.404982
+self	6608
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+70.643958
+self	272944
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+70.899192
+self	135688
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+71.159172
+self	10920
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+71.400029
+self	7578928
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+72.087322
+self	3024
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+72.329826
+self	1183952
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+72.645626
+self	672
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+72.882528
+self	952
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+73.156298
+self	601440
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+73.464958
+self	11223240
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+74.572247
+self	59864
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+74.854673
+self	5768
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+75.108034
+self	2444232
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+75.509576
+self	12992
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+75.757056
+self	1624
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+76.006619
+self	584696
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+76.281229
+self	15563296
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+77.594555
+self	633696
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+77.878776
+self	446544
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+78.152263
+self	526176
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+78.418630
+self	15851808
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+79.602345
+self	10320688
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+80.460988
+self	15680
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+80.702270
+self	36353072
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+83.224954
+self	16136568
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+84.534985
+self	50008
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+84.781024
+self	280
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+85.026694
+self	14896
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+85.263749
+self	2003400
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+85.664203
+self	86072
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+85.981312
+self	140056
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+86.234617
+self	37641632
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+88.873044
+self	14840
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+89.580847
+self	2220568
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+90.045691
+self	1279488
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+90.368988
+self	12603304
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+91.369641
+self	21458808
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+93.045403
+self	16296
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+93.291676
+self	35840
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+93.535115
+datalist	9000112
+instance	38928232
+__annotations__	240
+List	48296
+Integral	5472
+BaseNodeClass	2984
+96.321879
+self	54880
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+96.580354
+self	2063320
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+97.036519
+self	354816
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+97.324850
+self	1120
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+97.582564
+self	49280
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+97.826563
+self	4122608
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+98.311136
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+98.555585
+self	273728
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+98.816077
+self	1400
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+99.076614
+self	280
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+99.478693
+self	66808
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+99.781294
+self	2894864
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+100.201731
+self	280
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+100.446582
+self	41174840
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+103.326933
+self	4536
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+103.563177
+self	48440
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+103.802877
+self	84336
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+104.051863
+self	16688
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+104.349235
+self	9600416
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+105.289821
+self	42134624
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+108.106070
+self	7504
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+108.343537
+self	220584
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+108.592479
+self	1199352
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+108.905519
 self	3248
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-203.999939
-self	66640
+109.142205
+self	13513136
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-204.387902
-self	56000000
+110.170183
+self	524384
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-207.899787
-self	1195936
+110.438498
+self	12397280
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-208.186176
-self	362824
+111.399395
+self	5320
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-208.422567
-self	4032
+111.635060
+self	19261144
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-208.639045
-self	3978352
+112.997402
+self	4355008
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-209.081198
-self	5880
+113.480717
+self	2732240
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-209.298447
-self	644672
+113.879678
+self	2202536
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-209.553223
-self	8680
+114.252633
+self	4760
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-209.771013
-self	2128
+114.488720
+self	168
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-209.986979
-self	18536
+114.721129
+self	4635848
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-210.204411
-self	56000000
+115.222938
+self	15788472
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-213.699489
+116.378309
 self	56
 __spec__	112
 ABCMeta	1112
 Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
 SingleNodeClass	2984
 TwoNodeClass	4040
-214.144856
-SingleNodeClass	2984
-datalist_1000000	9000112
-__annotations__	240
-List	48296
+116.614232
+self	19889408
+__spec__	112
+ABCMeta	1112
+Iterator	5384
 Integral	5472
 BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+118.045617
+self	4144
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+118.283508
+self	525560
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+118.552328
+self	12768
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+118.790426
+self	45638432
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+121.765575
+self	1232
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+122.001189
+self	358792
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+122.264552
+self	3142776
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+122.702217
+self	840
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+122.939707
+self	293888
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+123.198524
+self	3864
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+123.437100
+self	224
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+123.672493
+self	19040
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+123.911148
+self	417648
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+124.175677
+self	4648
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+124.412868
+self	3912048
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+124.882148
+self	498232
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+125.726946
+self	13685672
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+126.757869
+self	132776
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+127.003743
+self	2744
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+127.238389
+self	616
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+127.480130
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+127.721214
+self	13440
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+127.959251
+self	168
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+128.197898
+self	27240696
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+130.271688
+self	7112
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+130.517608
+self	21711816
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+132.135582
+self	7896
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+132.376959
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+132.617188
+self	11343080
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+133.536238
+self	68152
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+133.779593
+self	7212968
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+134.467509
+self	336
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+134.707371
+self	1993320
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+135.062458
+self	560
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+135.301351
+self	48944
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+135.545465
+self	389984
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+135.810364
+self	119000
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+136.059520
+self	7784
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+136.293970
+self	623280
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+136.573094
+self	2261784
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+136.945598
+self	335104
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+137.209881
+self	125048
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+137.456867
+self	1176
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+137.694763
+self	2568440
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+138.088829
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+138.324511
+self	373632
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+138.586583
+self	181216
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+138.833541
+self	338128
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+139.093601
+self	458584
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+139.359016
+self	1232
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+139.595363
+self	384832
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+139.862944
+self	336
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+140.101302
+self	1288
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+140.341908
+self	53538688
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+143.763366
+self	479640
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+144.032967
+self	215656
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+144.283233
+self	56
+__spec__	112
+ABCMeta	1112
+Iterator	5384
+Integral	5472
+BaseNodeClass	2984
+BisectNodeClass	2984
+SingleNodeClass	2984
+TwoNodeClass	4040
+144.518485
+self	17062640
+__spec__	112
+ABCMeta	1112

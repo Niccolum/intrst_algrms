@@ -6,10 +6,11 @@ import time
 from typing import List
 from numbers import Integral
 
-from funcs import SingleNodeClass, TwoNodeClass
+from funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
 from data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
-RETRY_NUM = 2000
+RETRY_NUM = 100
+TOO_LONG = 60*2
 
 
 def mean(numbers: List[Integral]) -> int:
@@ -19,11 +20,11 @@ def mean(numbers: List[Integral]) -> int:
 @contextmanager
 def time_time(msg: str) -> None:
     start = time.monotonic()
-    yield
+    yield start
     print('{} done: '.format(msg), time.monotonic() - start)
 
 
-perf_classes = [SingleNodeClass, TwoNodeClass]
+perf_classes = [SingleNodeClass, TwoNodeClass, BisectNodeClass]
 perf_datalists = [datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000]
 
 result = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
@@ -35,9 +36,7 @@ for data in datalist:
 """
 
 print_node_list_command = """
-result = instance.tree_data()
-if not isinstance(result, list):
-    result = list(result)
+result = list(instance.tree_data())
 """
 
 setup_import_template = 'from __main__ import {cls_name} as Node, {datalist_name} as datalist'
@@ -72,7 +71,7 @@ def main():
                     )
                 )
 
-            with time_time('full'):
+            with time_time('full') as start_time:
                 result[cls_name]['full'][datalist_name] = mean(
                     timeit.repeat(
                         (fill_nodes_command + print_node_list_command),
@@ -82,6 +81,8 @@ def main():
                         number=RETRY_NUM
                     )
                 )
+            if time.monotonic() - start_time > TOO_LONG:
+                break
 
     with open('performance.json', 'w') as outfile:
         json.dump(result, outfile, indent=4)

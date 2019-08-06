@@ -2,7 +2,7 @@ import unittest
 from typing import List
 from numbers import Integral
 
-from funcs import SingleNodeClass, TwoNodeClass, BaseNodeClass
+from funcs import BisectNodeClass, SingleNodeClass, TwoNodeClass, BaseNodeClass
 from data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
 
@@ -23,6 +23,11 @@ class TestNodes(unittest.TestCase):
     def test_data_TwoNodeClass(self):
         for datalist in self.data:
             node = TwoNodeClass()
+            self.tree_testing(node, datalist)
+
+    def test_data_BisectNodeClass(self):
+        for datalist in self.data:
+            node = BisectNodeClass()
             self.tree_testing(node, datalist)
 
 

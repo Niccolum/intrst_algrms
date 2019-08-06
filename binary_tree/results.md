@@ -82,93 +82,113 @@ Wrote profile results to funcs.py.lprof
 $ python -m line_profiler funcs.py.lprof 
 Timer unit: 1e-06 s
 
-Total time: 53.9418 s
+Total time: 1.74942 s
 File: funcs.py
-Function: add_node at line 35
+Function: add_node at line 33
 
 Line #      Hits         Time  Per Hit   % Time  Line Contents
 ==============================================================
-    35                                               @profile
-    36                                               def add_node(self, data: Integral) -> None:
-    37  25544561    9622062.0      0.4     17.8          if self.data is not None:
-    38  25544560    7273561.0      0.3     13.5              if data < self.data:
-    39  12422749    4050492.0      0.3      7.5                  if self.left is None:
-    40    500178    2012613.0      4.0      3.7                      self.left = SingleNodeClass(data)
-    41                                                           else:
-    42  11922571   10527388.0      0.9     19.5                      self.left.add_node(data)
-    43  13121811    3750113.0      0.3      7.0              elif data > self.data:
-    44  13121811    4252520.0      0.3      7.9                  if self.right is None:
-    45    499821    1293489.0      2.6      2.4                      self.right = SingleNodeClass(data)
-    46                                                           else:
-    47  12621990   11159518.0      0.9     20.7                      self.right.add_node(data)
-    48                                                   else:
-    49         1          1.0      1.0      0.0              self.data = data
+    33                                               @profile
+    34                                               def add_node(self, data: Integral) -> None:
+    35    100000    1749417.0     17.5    100.0          bisect.insort(self.data, data)
 
-Total time: 2.32393 s
+Total time: 1e-06 s
 File: funcs.py
-Function: tree_data at line 51
+Function: tree_data at line 37
 
 Line #      Hits         Time  Per Hit   % Time  Line Contents
 ==============================================================
-    51                                               @profile
-    52                                               def tree_data(self) -> Iterator:
-    53   1000000     405404.0      0.4     17.4          if self.left:
-    54    500178     565194.0      1.1     24.3              yield from self.left.tree_data()
-    55   1000000     303625.0      0.3     13.1          yield self.data
-    56   1000000     420314.0      0.4     18.1          if self.right:
-    57    499821     629394.0      1.3     27.1              yield from self.right.tree_data()
+    37                                               @profile
+    38                                               def tree_data(self) -> Iterator:
+    39         1          1.0      1.0    100.0          yield from self.data
 
-Total time: 60.3506 s
+Total time: 3.64878 s
 File: funcs.py
-Function: add_node at line 74
+Function: add_node at line 49
 
 Line #      Hits         Time  Per Hit   % Time  Line Contents
 ==============================================================
-    74                                               @profile
-    75                                               def add_node(self, key: Integral, node: Node = None) -> None:
-    76                                           
-    77  25544561    7238977.0      0.3     12.0          if node is None:
-    78   1000000     298427.0      0.3      0.5              node = self.root
-    79                                           
-    80  25544561    7145711.0      0.3     11.8          if self.root is None:
-    81         1          9.0      9.0      0.0              self.root = self.Node(key)
-    82                                           
-    83                                                   else:
-    84  25544560   11484225.0      0.4     19.0              if key <= node.key:
-    85  12422749    4489340.0      0.4      7.4                  if node.left is None:
-    86    500178     956148.0      1.9      1.6                      node.left = self.Node(key)
-    87    500178     174555.0      0.3      0.3                      node.left.parent = node
-    88    500178     126197.0      0.3      0.2                      return
-    89                                                           else:
-    90  11922571   11239458.0      0.9     18.6                      return self.add_node(key, node=node.left)
-    91                                                       else:
-    92  13121811    4698574.0      0.4      7.8                  if node.right is None:
-    93    499821     898488.0      1.8      1.5                      node.right = self.Node(key)
-    94    499821     170032.0      0.3      0.3                      node.right.parent = node
-    95    499821     125574.0      0.3      0.2                      return
-    96                                                           else:
-    97  12621990   11304894.0      0.9     18.7                      return self.add_node(key, node=node.right)
+    49                                               @profile
+    50                                               def add_node(self, data: Integral) -> None:
+    51   1926140     607824.0      0.3     16.7          if self.data is not None:
+    52   1926139     523653.0      0.3     14.4              if data < self.data:
+    53   1001036     284169.0      0.3      7.8                  if self.left is None:
+    54     49865      84578.0      1.7      2.3                      self.left = SingleNodeClass(data)
+    55                                                           else:
+    56    951171     791230.0      0.8     21.7                      self.left.add_node(data)
+    57    925103     252249.0      0.3      6.9              elif data > self.data:
+    58    925103     267906.0      0.3      7.3                  if self.right is None:
+    59     50134     120011.0      2.4      3.3                      self.right = SingleNodeClass(data)
+    60                                                           else:
+    61    874969     717162.0      0.8     19.7                      self.right.add_node(data)
+    62                                                   else:
+    63         1          1.0      1.0      0.0              self.data = data
 
-Total time: 2.74602 s
+Total time: 0.223213 s
 File: funcs.py
-Function: tree_data at line 99
+Function: tree_data at line 65
 
 Line #      Hits         Time  Per Hit   % Time  Line Contents
 ==============================================================
-    99                                               @profile
-   100                                               def tree_data(self, node: Node = None) -> Iterator:
-   101         1          0.0      0.0      0.0          if node is None:
-   102         1          1.0      1.0      0.0              node = self.root
-   103                                           
-   104         1          0.0      0.0      0.0          stack = []
-   105   2000001     485865.0      0.2     17.7          while stack or node:
-   106   2000000     510503.0      0.3     18.6              if node is not None:
-   107   1000000     313939.0      0.3     11.4                  stack.append(node)
-   108   1000000     496807.0      0.5     18.1                  node = node.left
-   109                                                       else:
-   110   1000000     319196.0      0.3     11.6                  node = stack.pop()
-   111   1000000     282000.0      0.3     10.3                  yield node.key
-   112   1000000     337708.0      0.3     12.3                  node = node.right
+    65                                               @profile
+    66                                               def tree_data(self) -> Iterator:
+    67    100000      37258.0      0.4     16.7          if self.left:
+    68     49865      54765.0      1.1     24.5              yield from self.left.tree_data()
+    69    100000      30394.0      0.3     13.6          yield self.data
+    70    100000      39131.0      0.4     17.5          if self.right:
+    71     50134      61665.0      1.2     27.6              yield from self.right.tree_data()
+
+Total time: 4.7792 s
+File: funcs.py
+Function: add_node at line 88
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    88                                               @profile
+    89                                               def add_node(self, key: Integral, node: Node = None) -> None:
+    90                                           
+    91   1926140     573057.0      0.3     12.0          if node is None:
+    92    100000      31931.0      0.3      0.7              node = self.root
+    93                                           
+    94   1926140     584570.0      0.3     12.2          if self.root is None:
+    95         1          8.0      8.0      0.0              self.root = self.Node(key)
+    96                                           
+    97                                                   else:
+    98   1926139     866050.0      0.4     18.1              if key <= node.key:
+    99   1001036     354463.0      0.4      7.4                  if node.left is None:
+   100     49865     124374.0      2.5      2.6                      node.left = self.Node(key)
+   101     49865      18192.0      0.4      0.4                      node.left.parent = node
+   102     49865      13259.0      0.3      0.3                      return
+   103                                                           else:
+   104    951171     944841.0      1.0     19.8                      return self.add_node(key, node=node.left)
+   105                                                       else:
+   106    925103     338364.0      0.4      7.1                  if node.right is None:
+   107     50134      81167.0      1.6      1.7                      node.right = self.Node(key)
+   108     50134      18637.0      0.4      0.4                      node.right.parent = node
+   109     50134      13564.0      0.3      0.3                      return
+   110                                                           else:
+   111    874969     816724.0      0.9     17.1                      return self.add_node(key, node=node.right)
+
+Total time: 0.375843 s
+File: funcs.py
+Function: tree_data at line 113
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+   113                                               @profile
+   114                                               def tree_data(self, node: Node = None) -> Iterator:
+   115         1          1.0      1.0      0.0          if node is None:
+   116         1          0.0      0.0      0.0              node = self.root
+   117                                           
+   118         1          1.0      1.0      0.0          stack = []
+   119    200001      67582.0      0.3     18.0          while stack or node:
+   120    200000      68945.0      0.3     18.3              if node is not None:
+   121    100000      43771.0      0.4     11.6                  stack.append(node)
+   122    100000      61825.0      0.6     16.4                  node = node.left
+   123                                                       else:
+   124    100000      46715.0      0.5     12.4                  node = stack.pop()
+   125    100000      40069.0      0.4     10.7                  yield node.key
+   126    100000      46934.0      0.5     12.5                  node = node.right
 
 
 
