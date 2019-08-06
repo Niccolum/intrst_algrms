@@ -15,6 +15,7 @@ from typing import Tuple, List, Generator, Any, Union, Iterator
 from ref_func import knapsack_standard_solution, Item
 
 
+# @profile
 def knapsack_1_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     https://codereview.stackexchange.com/a/20581
@@ -33,6 +34,7 @@ def knapsack_1_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return knapsack_standard_solution(items, weight_limit)
 
 
+@profile
 def knapsack_2_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     my own function, written thanks to the site:
@@ -55,6 +57,7 @@ def knapsack_2_solution(items: Tuple[Item], weight_limit: int) -> Item:
             w -= items[k].weight
 
 
+# @profile
 def knapsack_3_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     Given a list of items with name, value and weight.
@@ -87,6 +90,7 @@ def knapsack_3_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return fetch_items(k, weight_limit, items)
 
 
+# @profile
 def knapsack_4_bruteforce_solution(items: Tuple[Item], weight_limit: int) -> Union[Item, List[None]]:
     """
     Brute force algorithm
@@ -114,6 +118,7 @@ def knapsack_4_bruteforce_solution(items: Tuple[Item], weight_limit: int) -> Uni
     return []
 
 
+# @profile
 def knapsack_5_dynamic_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     Dynamic programming solution
@@ -140,6 +145,7 @@ def knapsack_5_dynamic_solution(items: Tuple[Item], weight_limit: int) -> Item:
             w -= wt
 
 
+# @profile
 def knapsack_6_recursive_dynamic_solution(items: Tuple[Item], weight_limit: int) -> Tuple[Item]:
     """
     Recursive dynamic programming algorithm
@@ -169,6 +175,7 @@ def knapsack_6_recursive_dynamic_solution(items: Tuple[Item], weight_limit: int)
     return solve(items, weight_limit)
 
 
+# @profile
 def knapsack_greedy_solution(items: Tuple[Item], weight_limit: int) -> Iterator:
     """
     Return a list of items with the maximum value, subject to the
@@ -192,3 +199,31 @@ def knapsack_greedy_solution(items: Tuple[Item], weight_limit: int) -> Iterator:
 
     pack.max_weight = weight_limit
     return filter(pack, sorted(items, key=efficiency, reverse=True))
+
+
+if __name__ == '__main__':
+    from data import (
+        pack_up_static_knapsack_1,
+        pack_up_static_knapsack_2,
+        pack_up_static_knapsack_3,
+    )
+
+    funcs = [
+        knapsack_1_standard_solution,
+        knapsack_2_solution,
+        knapsack_3_solution,
+        knapsack_4_bruteforce_solution,
+        knapsack_5_dynamic_solution,
+        knapsack_6_recursive_dynamic_solution,
+        knapsack_greedy_solution
+    ]
+
+    dataset = [
+        pack_up_static_knapsack_1,
+        pack_up_static_knapsack_2,
+        pack_up_static_knapsack_3
+    ]
+
+    for func in funcs:
+        for data in dataset:
+            list(func(*data()))
