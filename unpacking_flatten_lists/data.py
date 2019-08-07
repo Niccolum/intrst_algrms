@@ -1,21 +1,23 @@
 import math
 import sys
+from typing import List, Dict, Tuple, Union, Iterator
+
 sys.setrecursionlimit(11000)
 
 
 def create_data_decreasing_depth(
-    data: list,
-    length: int,
-    max_depth: int,
-    _current_depth: int = None,
-    _result: list = None
-):
-    '''
+        data: List,
+        length: int,
+        max_depth: int,
+        _current_depth: int = None,
+        _result: List = None
+) -> List:
+    """
     creates data in depth on decreasing
     examples:
     data=iter(range(1, 11)), length=5, max_depth=3 => [[[1, 2, 3, 4, 5], 6, 7, 8, 9, 10]]
     data=iter(range(1, 11)), length=2, max_depth=3 => [[[1, 2], 3, 4], 5, 6], [[7, 8,] 9, 10]]
-    '''
+    """
     _result = _result or []
     _current_depth = _current_depth or max_depth
     if _current_depth - 1:
@@ -31,7 +33,7 @@ def create_data_decreasing_depth(
             item = next(data)
             _result.append(item)
             _current_length -= 1
-        
+
         if max_depth == _current_depth:
             _result += create_data_decreasing_depth(
                 data=data,
@@ -44,18 +46,18 @@ def create_data_decreasing_depth(
 
 
 def create_data_increasing_depth(
-    data: list,
-    length: int,
-    max_depth: int,
-    _current_depth: int = None,
-    _result: list = None
-):
-    '''
+        data: List,
+        length: int,
+        max_depth: int,
+        _current_depth: int = None,
+        _result: List = None
+) -> List:
+    """
     creates data in depth to increase
     examples:
     data=list(range(1, 11)), length=5, max_depth=3 => [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
     data=list(range(1, 11)), length=2, max_depth=3 => [1, 2, [3, 4, [5, 6]]], 7, 8, [9, 10]]
-    '''
+    """
     _result = _result or []
     _current_depth = _current_depth or max_depth
     try:
@@ -87,19 +89,14 @@ def create_data_increasing_depth(
     return _result
 
 
-def generate_data():
+def generate_data() -> List[Tuple[str, Dict[str, Union[Iterator, float, int]]]]:
     difficult_ratio = dict(
         _easy=1,
         __medium=0.7,
         ___hard=0,
     )
 
-    length = dict(
-        _short=10,
-        __middle=100,
-        ___long=1000,
-        ____lengthy=10000
-    )
+    length = [10, 100, 1000, 10000]
 
     deep = dict(
         _small=1,
@@ -109,12 +106,12 @@ def generate_data():
     )
 
     get_data = sorted([
-        ('{}{}{}'.format(len_k, diff_k, deep_k), {
+        ('{}{}{}'.format(len_v, diff_k, deep_k), {
             'data': iter(range(len_v)),
             'length': math.ceil(len_v ** diff_v),
             'max_depth': deep_v
         })
-        for len_k, len_v in length.items()
+        for len_v in length
         for diff_k, diff_v in difficult_ratio.items()
         for deep_k, deep_v in deep.items()
     ], reverse=True)

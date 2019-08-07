@@ -1,32 +1,37 @@
+from typing import Iterator, Iterable, List
+
 from iteration_utilities import deepflatten as outer_flatten_1
 from more_itertools import collapse as outer_flatten_2
 
-def niccolum_flatten(array):
-    '''
-    Non recursive algorithm
-    Based on pop/insert elems in current list
 
-    '''
+# @profile
+def niccolum_flatten(array: Iterable) -> List:
+    """
+    Non recursive algorithm
+    Based on pop/insert elements in current list
+    """
+
     new_array = array[:]
     ind = 0
     while True:
         try:
             while isinstance(new_array[ind], list):
                 item = new_array.pop(ind)
-                for inneritem in reversed(item):
-                    new_array.insert(ind, inneritem)
+                for inner_item in reversed(item):
+                    new_array.insert(ind, inner_item)
             ind += 1
         except IndexError:
             break
     return new_array
 
 
-def tishka_flatten(data):
-    '''
+# @profile
+def tishka_flatten(data: Iterable) -> List:
+    """
     Non recursive algorithm
-    Based on append/extend elems to new list
+    Based on append/extend elements to new list
 
-    '''
+    """
     nested = True
     while nested:
         new = []
@@ -38,15 +43,15 @@ def tishka_flatten(data):
             else:
                 new.append(i)
         data = new
-    return new
+    return data
 
 
-def zart_flatten(a):
-    '''
+# @profile
+def zart_flatten(a: Iterable) -> List:
+    """
     Non recursive algorithm
-    Based on pop from old and append elems to new list
-
-    '''
+    Based on pop from old and append elements to new list
+    """
     queue, out = [a], []
     while queue:
         elem = queue.pop(-1)
@@ -56,27 +61,30 @@ def zart_flatten(a):
             out.append(elem)
     return out[::-1]
 
-def recursive_flatten_like_tishka(array):
-    '''
+
+# @profile
+def recursive_flatten_like_tishka(array: Iterable) -> List:
+    """
     Recursive algorithm
     Based on tishka_flatten algorithm
 
-    '''
-    lst=[]
+    """
+    lst = []
     for i in array:
-        if isinstance (i, list):
+        if isinstance(i, list):
             lst.extend(recursive_flatten_like_tishka(i))
         else:
             lst.append(i)
     return lst
 
 
-def recursion_flatten(arr):
-    '''
+# @profile
+def recursion_flatten(arr: Iterable) -> Iterator:
+    """
     Recursive algorithm based on iterator
     Usual solution to this problem
 
-    '''
+    """
 
     for i in arr:
         if isinstance(i, list):
@@ -84,21 +92,23 @@ def recursion_flatten(arr):
         else:
             yield i
 
-def tishka_flatten_with_stack(seq):
-    '''
+
+# @profile
+def tishka_flatten_with_stack(seq: Iterable) -> List:
+    """
     Non recursive algorithm
     Based on zart_flatten, but build on try/except pattern
-    '''
-    stack=[iter(seq)]
-    new=[]
+    """
+    stack = [iter(seq)]
+    new = []
     while stack:
-        i=stack.pop()
+        i = stack.pop()
         try:
             while True:
-                data=next(i)
+                data = next(i)
                 if isinstance(data, list):
                     stack.append(i)
-                    i=iter(data)
+                    i = iter(data)
                 else:
                     new.append(data)
         except StopIteration:
