@@ -1,12 +1,13 @@
 import math
 import sys
 from typing import List, Dict, Tuple, Union, Iterator
+Num = Union[int, float]
 
 sys.setrecursionlimit(11000)
 
 
 def create_data_decreasing_depth(
-        data: List,
+        data: Union[List, Iterator],
         length: int,
         max_depth: int,
         _current_depth: int = None,
@@ -20,6 +21,7 @@ def create_data_decreasing_depth(
     """
     _result = _result or []
     _current_depth = _current_depth or max_depth
+    data = iter(data)
     if _current_depth - 1:
         _result.append(create_data_decreasing_depth(
             data=data,
@@ -46,7 +48,7 @@ def create_data_decreasing_depth(
 
 
 def create_data_increasing_depth(
-        data: List,
+        data: Union[List, Iterator],
         length: int,
         max_depth: int,
         _current_depth: int = None,
@@ -60,6 +62,7 @@ def create_data_increasing_depth(
     """
     _result = _result or []
     _current_depth = _current_depth or max_depth
+    data = iter(data)
     try:
         _current_length = length
         while _current_length:
@@ -89,30 +92,40 @@ def create_data_increasing_depth(
     return _result
 
 
-def generate_data() -> List[Tuple[str, Dict[str, Union[Iterator, float, int]]]]:
-    difficult_ratio = dict(
-        _easy=1,
-        __medium=0.7,
-        ___hard=0,
-    )
+def generate_data() -> List[Tuple[str, Dict[str, Union[range, Num]]]]:
 
-    length = [10, 100, 1000, 10000]
+    data = []
+    amount_of_elements = [10 ** i for i in range(4)]
+    data_template = '{amount_item}_amount_{length}_length_{max_depth}_max_depth'
 
-    deep = dict(
-        _small=1,
-        __medium=10,
-        ___big=100,
-        ____very_big=1000
-    )
+    # amount_item doesn't need to be [1]
+    for amount_item in amount_of_elements[1:]:
+        for max_depth in amount_of_elements:
+            # for exclude flatten list after generate data by create_data_increasing_depth
+            if amount_item > max_depth:
+                # generate four types of length
+                for length in range(0, max_depth + 1, math.ceil(max_depth / 4)):
+                    # min length must be 1
+                    length = length or 1
 
-    get_data = sorted([
-        ('{}{}{}'.format(len_v, diff_k, deep_k), {
-            'data': iter(range(len_v)),
-            'length': math.ceil(len_v ** diff_v),
-            'max_depth': deep_v
-        })
-        for len_v in length
-        for diff_k, diff_v in difficult_ratio.items()
-        for deep_k, deep_v in deep.items()
-    ], reverse=True)
-    return get_data
+                    data_name = data_template.format(
+                        amount_item=amount_item,
+                        length=length,
+                        max_depth=max_depth
+                    )
+
+                    data_value = {
+                        'data': range(amount_item),
+                        'length': length,
+                        'max_depth': max_depth
+                    }
+
+                    data.append((data_name, data_value))
+
+                    # for not to produce more than 1 flat entity
+                    if max_depth == 1:
+                        break
+
+    # this order is convenient for me
+    data = sorted(data, key=lambda x: [x[1]['data'][-1], x[1]['max_depth'], x[1]['length']])
+    return data
