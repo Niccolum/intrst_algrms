@@ -9,16 +9,19 @@ from funcs import (
     tishka_flatten, zart_flatten, recursion_flatten, tishka_flatten_with_stack,
     recursive_flatten_like_tishka)
 
+
 class TestFlattenFunctions(unittest.TestCase):
 
-    def get_increase_list(self):
+    @staticmethod
+    def get_increase_list():
         for data in generate_data():
             params = data[1]
             flatten_result = copy.copy(params['data'])
             result = create_data_increasing_depth(**params)
             yield result, list(flatten_result)
 
-    def get_decrease_list(self):
+    @staticmethod
+    def get_decrease_list():
         for data in generate_data():
             params = data[1]
             flatten_result = copy.copy(params['data'])
