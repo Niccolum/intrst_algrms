@@ -6,7 +6,7 @@ from data import (
 
 class TestGenerationData(unittest.TestCase):
 
-    def setUp(self):
+    def setUp(self) -> None:
         self.test_data = [
             {
                 'data': iter(range(10)),
@@ -46,13 +46,13 @@ class TestGenerationData(unittest.TestCase):
             },
         ]
 
-    def test_create_data_decreasing_depth(self):
+    def test_create_data_decreasing_depth(self) -> None:
         for data in self.test_data:
             params = {k: v for k, v in data.items() if k != 'result'}
             result = create_data_decreasing_depth(**params)
             self.assertEqual(result, data['result']['decrease'])
 
-    def test_create_data_increasing_depth(self):
+    def test_create_data_increasing_depth(self) -> None:
         for data in self.test_data:
             params = {k: v for k, v in data.items() if k != 'result'}
             result = create_data_increasing_depth(**params)

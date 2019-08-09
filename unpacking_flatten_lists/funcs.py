@@ -114,3 +114,35 @@ def tishka_flatten_with_stack(seq: Iterable) -> List:
         except StopIteration:
             pass
     return new
+
+
+if __name__ == '__main__':
+
+    # @profile
+    def outer_flatten_1_profile(arr: Iterable) -> Iterator:
+        return list(outer_flatten_1(arr))
+
+    # @profile
+    def outer_flatten_2_profile(arr: Iterable) -> Iterator:
+        return list(outer_flatten_2(arr))
+
+    from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
+
+    funcs = [
+        outer_flatten_1_profile,
+        outer_flatten_2_profile,
+        niccolum_flatten,
+        tishka_flatten,
+        zart_flatten,
+        recursive_flatten_like_tishka,
+        recursion_flatten,
+        tishka_flatten_with_stack
+    ]
+    data = generate_data()[-1][1]
+
+    increase_result = create_data_increasing_depth(**data)
+    decrease_result = create_data_decreasing_depth(**data)
+
+    for func in funcs:
+        list(func(increase_result))
+        list(func(decrease_result))

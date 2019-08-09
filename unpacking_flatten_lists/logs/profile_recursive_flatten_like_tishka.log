@@ -1,576 +1,384 @@
-0.000389
-data	192
-outer_flatten_1	1072
-0.000753
-data	192
-outer_flatten_1	1072
-0.000948
-data	64
-outer_flatten_1	1072
-0.001093
-data	64
-outer_flatten_1	1072
-0.001406
-data	1056
-outer_flatten_1	1072
-0.001601
-data	1056
-outer_flatten_1	1072
-0.001759
-data	64
-outer_flatten_1	1072
-0.001901
-data	64
-outer_flatten_1	1072
-0.003539
-data	9696
-outer_flatten_1	1072
-0.004477
-data	9696
-outer_flatten_1	1072
-0.004924
-data	64
-outer_flatten_1	1072
-0.005044
-data	64
-outer_flatten_1	1072
-0.022403
-data	96096
-outer_flatten_1	1072
-0.033627
-data	96096
-outer_flatten_1	1072
-0.037404
-data	64
-outer_flatten_1	1072
-0.037695
-data	64
-outer_flatten_1	1072
-0.037995
+0.000431
 data	200
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.038175
+0.001470
 data	200
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.038328
-data	64
-outer_flatten_1	1072
-0.038518
-data	64
-outer_flatten_1	1072
-0.038861
-data	1024
-outer_flatten_1	1072
-0.039058
-data	1024
-outer_flatten_1	1072
-0.039196
-data	64
-outer_flatten_1	1072
-0.039329
-data	64
-outer_flatten_1	1072
-0.041129
-data	9664
-outer_flatten_1	1072
-0.042508
-data	9664
-outer_flatten_1	1072
-0.043104
-data	64
-outer_flatten_1	1072
-0.043262
-data	64
-outer_flatten_1	1072
-0.060388
-data	96064
-outer_flatten_1	1072
-0.070681
-data	96064
-outer_flatten_1	1072
-0.075168
-data	64
-outer_flatten_1	1072
-0.075476
-data	64
-outer_flatten_1	1072
-0.075861
+0.002610
 data	200
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.076086
+0.003541
 data	200
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.076224
-data	64
-outer_flatten_1	1072
-0.076356
-data	64
-outer_flatten_1	1072
-0.076964
-data	1792
-outer_flatten_1	1072
-0.077609
-data	1792
-outer_flatten_1	1072
-0.078111
-data	64
-outer_flatten_1	1072
-0.078379
-data	64
-outer_flatten_1	1072
-0.080364
-data	9600
-outer_flatten_1	1072
-0.081443
-data	9600
-outer_flatten_1	1072
-0.082042
-data	64
-outer_flatten_1	1072
-0.082209
-data	64
-outer_flatten_1	1072
-0.099688
-data	96000
-outer_flatten_1	1072
-0.110024
-data	96000
-outer_flatten_1	1072
-0.112814
-data	64
-outer_flatten_1	1072
-0.112956
-data	64
-outer_flatten_1	1072
-0.113397
-data	912
-outer_flatten_1	1072
-0.113829
-data	912
-outer_flatten_1	1072
-0.114013
-data	64
-outer_flatten_1	1072
-0.114148
-data	64
-outer_flatten_1	1072
-0.114736
-data	1776
-outer_flatten_1	1072
-0.115275
-data	1776
-outer_flatten_1	1072
-0.115544
-data	64
-outer_flatten_1	1072
-0.115682
-data	64
-outer_flatten_1	1072
-0.117486
-data	10416
-outer_flatten_1	1072
-0.118699
-data	10416
-outer_flatten_1	1072
-0.119195
-data	64
-outer_flatten_1	1072
-0.119307
-data	64
-outer_flatten_1	1072
-0.136439
-data	96816
-outer_flatten_1	1072
-0.147100
-data	96816
-outer_flatten_1	1072
-0.150151
-data	64
-outer_flatten_1	1072
-0.150330
-data	64
-outer_flatten_1	1072
-0.150803
+0.005632
 data	1008
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.151215
+0.006735
 data	1008
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.151413
-data	64
-outer_flatten_1	1072
-0.151602
-data	64
-outer_flatten_1	1072
-0.152230
-data	1872
-outer_flatten_1	1072
-0.152736
-data	1872
-outer_flatten_1	1072
-0.153013
-data	64
-outer_flatten_1	1072
-0.153182
-data	64
-outer_flatten_1	1072
-0.155470
-data	10512
-outer_flatten_1	1072
-0.157193
-data	10512
-outer_flatten_1	1072
-0.157711
-data	64
-outer_flatten_1	1072
-0.157812
-data	64
-outer_flatten_1	1072
-0.174378
-data	96912
-outer_flatten_1	1072
-0.183978
-data	96912
-outer_flatten_1	1072
-0.187936
-data	64
-outer_flatten_1	1072
-0.188127
-data	64
-outer_flatten_1	1072
-0.190026
+0.009127
 data	1008
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.190645
+0.010901
 data	1008
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.190895
-data	64
-outer_flatten_1	1072
-0.191116
-data	64
-outer_flatten_1	1072
-0.193718
+0.014202
 data	9768
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.195360
+0.016495
 data	9768
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.196166
-data	64
+0.019106
+data	8928
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.196442
-data	64
+0.020701
+data	8928
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.199754
-data	19072
+0.022512
+data	3680
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.202072
-data	19072
+0.023828
+data	3680
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.203014
-data	64
+0.025543
+data	3136
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.203123
-data	64
+0.027709
+data	3136
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.222114
-data	96000
+0.030279
+data	2368
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.234422
-data	96000
+0.033237
+data	2368
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.237721
-data	64
+0.034766
+data	2120
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.237851
-data	64
+0.035913
+data	2120
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.241365
-data	9024
+0.037311
+data	2880
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.244005
-data	9024
+0.038489
+data	2880
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.244202
-data	64
+0.039979
+data	2112
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.244316
-data	64
+0.041201
+data	2112
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.247520
-data	9888
-outer_flatten_1	1072
-0.249571
-data	9888
-outer_flatten_1	1072
-0.249753
-data	64
-outer_flatten_1	1072
-0.249867
-data	64
-outer_flatten_1	1072
-0.254150
-data	18528
-outer_flatten_1	1072
-0.257581
-data	18528
-outer_flatten_1	1072
-0.258197
-data	64
-outer_flatten_1	1072
-0.258310
-data	64
-outer_flatten_1	1072
-0.279450
-data	104928
-outer_flatten_1	1072
-0.292950
-data	104928
-outer_flatten_1	1072
-0.296284
-data	64
-outer_flatten_1	1072
-0.296519
-data	64
-outer_flatten_1	1072
-0.299298
+0.058975
 data	9112
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.301319
+0.063040
 data	9112
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.301657
-data	64
-outer_flatten_1	1072
-0.301861
-data	64
-outer_flatten_1	1072
-0.305310
-data	9824
-outer_flatten_1	1072
-0.307517
-data	9824
-outer_flatten_1	1072
-0.307786
-data	64
-outer_flatten_1	1072
-0.307904
-data	64
-outer_flatten_1	1072
-0.312625
-data	18464
-outer_flatten_1	1072
-0.315590
-data	18464
-outer_flatten_1	1072
-0.316145
-data	64
-outer_flatten_1	1072
-0.316330
-data	64
-outer_flatten_1	1072
-0.337031
-data	104864
-outer_flatten_1	1072
-0.353225
-data	104864
-outer_flatten_1	1072
-0.357280
-data	64
-outer_flatten_1	1072
-0.357488
-data	64
-outer_flatten_1	1072
-0.375836
+0.084955
 data	9112
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.378292
+0.087366
 data	9112
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.378516
-data	64
-outer_flatten_1	1072
-0.378617
-data	64
-outer_flatten_1	1072
-0.395551
+0.104344
 data	89152
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.405794
+0.113450
 data	89152
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.408959
-data	64
+0.133211
+data	88312
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.409118
-data	64
+0.141076
+data	88312
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.428305
+0.149951
+data	30680
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.155925
+data	30680
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.165995
+data	30136
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.170296
+data	30136
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.175926
+data	20648
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.179223
+data	20648
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.185776
+data	20344
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.189127
+data	20344
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.193885
+data	21072
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.197927
+data	21072
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.204039
+data	20296
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.207033
+data	20296
+__annotations__	240
+Callable	6032
+List	48376
+outer_flatten_1	1072
+0.225970
 data	104808
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.440931
+0.235422
 data	104808
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.444974
-data	64
+0.257142
+data	95328
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.445105
-data	64
+0.268776
+data	95328
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.500884
-data	191872
+0.276106
+data	19440
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.522203
-data	191872
+0.281614
+data	19440
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.530412
-data	64
+0.285848
+data	13680
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.531268
-data	64
+0.288427
+data	13680
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.560914
-data	87624
+0.292859
+data	18240
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.580871
-data	87624
+0.295986
+data	18240
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.581393
-data	64
+0.299891
+data	10560
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.581537
-data	64
+0.302399
+data	10560
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.609766
-data	88488
+0.308017
+data	18584
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.628908
-data	88488
+0.311217
+data	18584
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.629383
-data	64
+0.315008
+data	10248
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.629490
-data	64
+0.320577
+data	10248
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.660637
-data	97128
+0.325107
+data	17760
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.684631
-data	97128
+0.329579
+data	17760
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.685873
-data	64
+0.335753
+data	9120
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
-0.685995
-data	64
-outer_flatten_1	1072
-0.733428
-data	183528
-outer_flatten_1	1072
-0.794019
-data	183528
-outer_flatten_1	1072
-0.798026
-data	64
-outer_flatten_1	1072
-0.798140
-data	64
-outer_flatten_1	1072
-0.827863
-data	90112
-outer_flatten_1	1072
-0.847605
-data	90112
-outer_flatten_1	1072
-0.848164
-data	64
-outer_flatten_1	1072
-0.848283
-data	64
-outer_flatten_1	1072
-0.877315
-data	87576
-outer_flatten_1	1072
-0.896580
-data	87576
-outer_flatten_1	1072
-0.897270
-data	64
-outer_flatten_1	1072
-0.897459
-data	64
-outer_flatten_1	1072
-0.928274
-data	95352
-outer_flatten_1	1072
-0.951029
-data	95352
-outer_flatten_1	1072
-0.951985
-data	64
-outer_flatten_1	1072
-0.952171
-data	64
-outer_flatten_1	1072
-1.000072
-data	181752
-outer_flatten_1	1072
-1.058465
-data	181752
-outer_flatten_1	1072
-1.062197
-data	64
-outer_flatten_1	1072
-1.062447
-data	64
-outer_flatten_1	1072
-1.374495
-data	90112
-outer_flatten_1	1072
-1.393725
-data	90112
-outer_flatten_1	1072
-1.394284
-data	64
-outer_flatten_1	1072
-1.394413
-data	64
-outer_flatten_1	1072
-1.567476
-data	882952
-outer_flatten_1	1072
-1.666565
-data	882952
-outer_flatten_1	1072
-1.695532
-data	64
-outer_flatten_1	1072
-1.695870
-data	64
-outer_flatten_1	1072
-1.876749
-data	961792
-outer_flatten_1	1072
-1.980518
-data	961792
-outer_flatten_1	1072
-2.010046
-data	64
-outer_flatten_1	1072
-2.010459
-data	64
-outer_flatten_1	1072
-2.201565
-data	1055208
-outer_flatten_1	1072
-2.359657
-data	1055208
-outer_flatten_1	1072
-2.393416
-data	64
-outer_flatten_1	1072
-2.393917
-data	64
+0.338879
+data	9120
+__annotations__	240
+Callable	6032
+List	48376
 outer_flatten_1	1072
