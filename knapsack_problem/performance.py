@@ -70,7 +70,7 @@ def common_perf_part(*,
     for func in funcs:
         func_name = func.__name__
         print('\n' + '*' * 10, func_name, '*' * 10)
-        for datalist_name, datalist_values in list(datalists.items()):
+        for datalist_name, _ in list(datalists.items()):
             print('\n' + datalist_name)
 
             with time_time(stat_name) as start_time:
