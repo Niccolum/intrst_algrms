@@ -19,13 +19,14 @@ from funcs import (
     recursive_flatten_like_tishka)
 
 RETRY_NUM = 1000
-TOO_LONG = 60  # in seconds
+TOO_LONG = 60 * 5  # in seconds
 INCREMENT_MODE_NAME = 'increase'
 DECREMENT_MODE_NAME = 'decrease'
 SETUP_IMPORT_TEMPLATE = '''
 from typing import Generator
+import json
 from __main__ import {func_name} as flatten
-data = {data}
+data = json.loads("{data}")
 '''
 RUNNING_TEMPLATE = '''
 result = flatten(data)
@@ -73,16 +74,17 @@ def decrease_part():
 
 
 def common_part(*, data_create_func: Callable, mode: str):
-    for data_example in generate_data():
-        data = data_create_func(**data_example[1])
+    for func in funcs:
+        func_name = func.__name__
 
-        data_struct_name = data_example[0]
-        print('\n', data_struct_name, '\n')
+        print('\n', func_name, '\n')
 
-        for func in funcs:
-            func_name = func.__name__
+        for data_example in generate_data():
+            data = data_create_func(**data_example[1])
+            data = json.dumps(data)  # crutch because timeit has s_push: parser stack overflow for list with 100 deep
+            data_struct_name = data_example[0]
 
-            with time_time(func_name) as start_time:
+            with time_time(data_struct_name) as start_time:
                 result[mode][data_struct_name][func_name] = mean(
                     timeit.repeat(
                         RUNNING_TEMPLATE,
@@ -104,7 +106,6 @@ def main():
     with open('performance.json', 'w') as outfile:
         json.dump(result, outfile, indent=4)
         print('Done')
-
 
 
 if __name__ == '__main__':
