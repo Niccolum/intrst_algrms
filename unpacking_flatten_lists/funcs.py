@@ -1,7 +1,17 @@
 from typing import Iterator, Iterable, List
 
-from iteration_utilities import deepflatten as outer_flatten_1
-from more_itertools import collapse as outer_flatten_2
+from iteration_utilities import deepflatten
+from more_itertools import collapse
+
+
+# @profile
+def outer_flatten_1(array: Iterable) -> List:
+    return list(deepflatten(array))
+
+
+# @profile
+def outer_flatten_2(array: Iterable) -> List:
+    return list(collapse(array))
 
 
 # @profile
@@ -118,19 +128,11 @@ def tishka_flatten_with_stack(seq: Iterable) -> List:
 
 if __name__ == '__main__':
 
-    # @profile
-    def outer_flatten_1_profile(arr: Iterable) -> Iterator:
-        return list(outer_flatten_1(arr))
-
-    # @profile
-    def outer_flatten_2_profile(arr: Iterable) -> Iterator:
-        return list(outer_flatten_2(arr))
-
     from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
 
     funcs = [
-        outer_flatten_1_profile,
-        outer_flatten_2_profile,
+        outer_flatten_1,
+        outer_flatten_2,
         niccolum_flatten,
         tishka_flatten,
         zart_flatten,

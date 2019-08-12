@@ -1,157 +1,111 @@
 import timeit
 import json
 import time
+from collections import defaultdict
+from typing import List, Callable
+from numbers import Integral
+from contextlib import contextmanager
 
 from data import (
     generate_data, create_data_decreasing_depth, create_data_increasing_depth)
 from funcs import (
-    outer_flatten_1, outer_flatten_2, niccolum_flatten, 
-    tishka_flatten, zart_flatten, recursion_flatten, tishka_flatten_with_stack,
+    outer_flatten_1,
+    outer_flatten_2,
+    niccolum_flatten,
+    tishka_flatten,
+    zart_flatten,
+    recursion_flatten,
+    tishka_flatten_with_stack,
     recursive_flatten_like_tishka)
 
+RETRY_NUM = 1000
+TOO_LONG = 60  # in seconds
+INCREMENT_MODE_NAME = 'increase'
+DECREMENT_MODE_NAME = 'decrease'
+SETUP_IMPORT_TEMPLATE = '''
+from typing import Generator
+from __main__ import {func_name} as flatten
+data = {data}
+'''
+RUNNING_TEMPLATE = '''
+result = flatten(data)
+if isinstance(result, Generator):
+    result = list(result)
+'''
 
-def mean(numbers):
-    return sum(numbers) / len(numbers)
 
-result = {'decrease': {}, 'increase': {}}
-print('*'*10, 'Decrease', '*'*10)
-for data_example in generate_data():
-    data = data_example[1]
-    data = create_data_decreasing_depth(**data)
+funcs = [
+    outer_flatten_1,
+    outer_flatten_2,
+    niccolum_flatten,
+    tishka_flatten,
+    zart_flatten,
+    recursion_flatten,
+    tishka_flatten_with_stack,
+    recursive_flatten_like_tishka
+]
 
-    current_func = data_example[0]
-    print('\n', current_func, '\n')
-    start = time.time()
+result = {
+    DECREMENT_MODE_NAME: defaultdict(lambda: defaultdict(Integral)),
+    INCREMENT_MODE_NAME: defaultdict(lambda: defaultdict(Integral))
+}
 
-    result['decrease'][current_func] = {}
 
-    print('niccolum_flatten')
-    result['decrease'][current_func]['niccolum_flatten'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import niccolum_flatten as flatten, data', 
-        number=10000))
+def mean(numbers: List[Integral]) -> int:
+    return sum(numbers) / len(numbers) / RETRY_NUM
 
-    print('tishka_flatten')
-    result['decrease'][current_func]['tishka_flatten'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import tishka_flatten as flatten, data', 
-        number=10000))
 
-    print('zart_flatten')
-    result['decrease'][current_func]['zart_flatten'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import zart_flatten as flatten, data', 
-        number=10000))
+@contextmanager
+def time_time(msg: str) -> None:
+    start = time.monotonic()
+    yield start
+    print('{} done: '.format(msg), time.monotonic() - start)
 
-    print('outer_flatten_1')
-    result['decrease'][current_func]['outer_flatten_1'] = mean(
-        timeit.repeat(
-        'list(flatten(data))', 
-        'from __main__ import outer_flatten_1 as flatten, data', 
-        number=10000))
 
-    print('outer_flatten_2')
-    result['decrease'][current_func]['outer_flatten_2'] = mean(
-        timeit.repeat(
-        'list(flatten(data))', 
-        'from __main__ import outer_flatten_2 as flatten, data', 
-        number=10000))
+def increase_part():
+    print('*' * 10, 'Increase', '*' * 10)
+    common_part(data_create_func=create_data_increasing_depth, mode=INCREMENT_MODE_NAME)
 
-    print('recursion_flatten')
-    result['decrease'][current_func]['recursion_flatten'] = mean(
-        timeit.repeat(
-        'list(flatten(data))', 
-        'from __main__ import recursion_flatten as flatten, data', 
-        number=10000))
 
-    print('tishka_flatten_with_stack')
-    result['decrease'][current_func]['tishka_flatten_with_stack'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import tishka_flatten_with_stack as flatten, data', 
-        number=10000))
+def decrease_part():
+    print('*' * 10, 'Decrease', '*' * 10)
+    common_part(data_create_func=create_data_decreasing_depth, mode=DECREMENT_MODE_NAME)
 
-    print('recursive_flatten_like_tishka')
-    result['decrease'][current_func]['recursive_flatten_like_tishka'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import recursive_flatten_like_tishka as flatten, data', 
-        number=10000))
-    print('end {} time is {:.5f}'.format(current_func, time.time() - start))
 
-print('*'*10, 'Increase', '*'*10)
-for data_example in generate_data():
-    data = data_example[1]
-    data = create_data_increasing_depth(**data)
+def common_part(*, data_create_func: Callable, mode: str):
+    for data_example in generate_data():
+        data = data_create_func(**data_example[1])
 
-    current_func = data_example[0]
-    print('\n', current_func, '\n')
-    start = time.time()
+        data_struct_name = data_example[0]
+        print('\n', data_struct_name, '\n')
 
-    result['increase'][current_func] = {}
+        for func in funcs:
+            func_name = func.__name__
 
-    print('niccolum_flatten')
-    result['increase'][current_func]['niccolum_flatten'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import niccolum_flatten as flatten, data', 
-        number=10000))
+            with time_time(func_name) as start_time:
+                result[mode][data_struct_name][func_name] = mean(
+                    timeit.repeat(
+                        RUNNING_TEMPLATE,
+                        setup=SETUP_IMPORT_TEMPLATE.format(
+                            func_name=func_name,
+                            data=data),
+                        number=RETRY_NUM
+                    )
+                )
+            if time.monotonic() - start_time > TOO_LONG:
+                break
 
-    print('tishka_flatten')
-    result['increase'][current_func]['tishka_flatten'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import tishka_flatten as flatten, data', 
-        number=10000))
 
-    print('zart_flatten')
-    result['increase'][current_func]['zart_flatten'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import zart_flatten as flatten, data', 
-        number=10000))
+def main():
+    increase_part()
+    decrease_part()
 
-    print('outer_flatten_1')
-    result['increase'][current_func]['outer_flatten_1'] = mean(
-        timeit.repeat(
-        'list(flatten(data))', 
-        'from __main__ import outer_flatten_1 as flatten, data', 
-        number=10000))
+    print('Done testing. Writes...')
+    with open('performance.json', 'w') as outfile:
+        json.dump(result, outfile, indent=4)
+        print('Done')
 
-    print('outer_flatten_2')
-    result['increase'][current_func]['outer_flatten_2'] = mean(
-        timeit.repeat(
-        'list(flatten(data))', 
-        'from __main__ import outer_flatten_2 as flatten, data', 
-        number=10000))
 
-    print('recursion_flatten')
-    result['increase'][current_func]['recursion_flatten'] = mean(
-        timeit.repeat(
-        'list(flatten(data))', 
-        'from __main__ import recursion_flatten as flatten, data', 
-        number=10000))
 
-    print('tishka_flatten_with_stack')
-    result['increase'][current_func]['tishka_flatten_with_stack'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import tishka_flatten_with_stack as flatten, data', 
-        number=10000))
-
-    print('recursive_flatten_like_tishka')
-    result['increase'][current_func]['recursive_flatten_like_tishka'] = mean(
-        timeit.repeat(
-        'flatten(data)', 
-        'from __main__ import recursive_flatten_like_tishka as flatten, data', 
-        number=10000))
-
-    print('end {} time is {:.5f}'.format(current_func, time.time() - start))
-
-print('Done testing. Writes...')
-with open('performance.json', 'w') as outfile:
-    json.dump(result, outfile, indent=4)
-    print('Done')
+if __name__ == '__main__':
+    main()

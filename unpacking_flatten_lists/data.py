@@ -95,7 +95,7 @@ def create_data_increasing_depth(
 def generate_data() -> List[Tuple[str, Dict[str, Union[range, Num]]]]:
 
     data = []
-    amount_of_elements = [10 ** i for i in range(4)]
+    amount_of_elements = [10 ** i for i in range(5)]
     data_template = '{amount_item}_amount_{length}_length_{max_depth}_max_depth'
 
     # amount_item doesn't need to be [1]
@@ -129,3 +129,8 @@ def generate_data() -> List[Tuple[str, Dict[str, Union[range, Num]]]]:
     # this order is convenient for me
     data = sorted(data, key=lambda x: [x[1]['data'][-1], x[1]['max_depth'], x[1]['length']])
     return data
+
+
+if __name__ == '__main__':
+    for data in generate_data():
+        print(data[0])
