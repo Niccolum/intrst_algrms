@@ -4,17 +4,17 @@ from iteration_utilities import deepflatten
 from more_itertools import collapse
 
 
-# @profile
+@profile
 def outer_flatten_1(array: Iterable) -> List:
     return list(deepflatten(array))
 
 
-# @profile
+@profile
 def outer_flatten_2(array: Iterable) -> List:
     return list(collapse(array))
 
 
-# @profile
+@profile
 def niccolum_flatten(array: Iterable) -> List:
     """
     Non recursive algorithm
@@ -35,7 +35,7 @@ def niccolum_flatten(array: Iterable) -> List:
     return new_array
 
 
-# @profile
+@profile
 def tishka_flatten(data: Iterable) -> List:
     """
     Non recursive algorithm
@@ -56,7 +56,7 @@ def tishka_flatten(data: Iterable) -> List:
     return data
 
 
-# @profile
+@profile
 def zart_flatten(a: Iterable) -> List:
     """
     Non recursive algorithm
@@ -72,7 +72,7 @@ def zart_flatten(a: Iterable) -> List:
     return out[::-1]
 
 
-# @profile
+@profile
 def recursive_flatten_like_tishka(array: Iterable) -> List:
     """
     Recursive algorithm
@@ -88,7 +88,7 @@ def recursive_flatten_like_tishka(array: Iterable) -> List:
     return lst
 
 
-# @profile
+@profile
 def recursion_flatten(arr: Iterable) -> Iterator:
     """
     Recursive algorithm based on iterator
@@ -103,7 +103,7 @@ def recursion_flatten(arr: Iterable) -> Iterator:
             yield i
 
 
-# @profile
+@profile
 def tishka_flatten_with_stack(seq: Iterable) -> List:
     """
     Non recursive algorithm
@@ -130,21 +130,30 @@ if __name__ == '__main__':
 
     from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
 
-    funcs = [
-        outer_flatten_1,
-        outer_flatten_2,
-        niccolum_flatten,
-        tishka_flatten,
-        zart_flatten,
-        recursive_flatten_like_tishka,
-        recursion_flatten,
-        tishka_flatten_with_stack
-    ]
-    data = generate_data()[-1][1]
+    @profile
+    def profile():
+        data = generate_data()[14][1]
 
-    increase_result = create_data_increasing_depth(**data)
-    decrease_result = create_data_decreasing_depth(**data)
+        inc_data = create_data_increasing_depth(**data)
 
-    for func in funcs:
-        list(func(increase_result))
-        list(func(decrease_result))
+        r1 = list(outer_flatten_1(inc_data))
+        r2 = list(outer_flatten_2(inc_data))
+        r3 = list(niccolum_flatten(inc_data))
+        r4 = list(tishka_flatten(inc_data))
+        r5 = list(zart_flatten(inc_data))
+        r6 = list(recursive_flatten_like_tishka(inc_data))
+        r7 = list(recursion_flatten(inc_data))
+        r8 = list(tishka_flatten_with_stack(inc_data))
+
+        dec_data = create_data_decreasing_depth(**data)
+
+        r9 = list(outer_flatten_1(dec_data))
+        r10 = list(outer_flatten_2(dec_data))
+        r11 = list(niccolum_flatten(dec_data))
+        r12 = list(tishka_flatten(dec_data))
+        r13 = list(zart_flatten(dec_data))
+        r14 = list(recursive_flatten_like_tishka(dec_data))
+        r15 = list(recursion_flatten(dec_data))
+        r16 = list(tishka_flatten_with_stack(dec_data))
+
+    profile()

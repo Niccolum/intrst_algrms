@@ -9,6 +9,7 @@ jedi==0.14.1
 kiwisolver==1.1.0
 line-profiler==2.1.2
 matplotlib==3.0.3
+memory-profiler==0.55.0
 memprof==0.3.6
 more-itertools==7.0.0
 numpy==1.16.3
