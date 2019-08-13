@@ -18,8 +18,8 @@ from funcs import (
     tishka_flatten_with_stack,
     recursive_flatten_like_tishka)
 
-RETRY_NUM = 1000
-TOO_LONG = 60 * 5  # in seconds
+RETRY_NUM = 10
+TOO_LONG = 60 * 5 // 100  # in seconds
 INCREMENT_MODE_NAME = 'increase'
 DECREMENT_MODE_NAME = 'decrease'
 SETUP_IMPORT_TEMPLATE = '''
@@ -46,10 +46,7 @@ funcs = [
     recursive_flatten_like_tishka
 ]
 
-result = {
-    DECREMENT_MODE_NAME: defaultdict(lambda: defaultdict(Integral)),
-    INCREMENT_MODE_NAME: defaultdict(lambda: defaultdict(Integral))
-}
+result = defaultdict(lambda: defaultdict(lambda: defaultdict(Integral)))
 
 
 def mean(numbers: List[Integral]) -> int:
@@ -85,7 +82,7 @@ def common_part(*, data_create_func: Callable, mode: str):
             data_struct_name = data_example[0]
 
             with time_time(data_struct_name) as start_time:
-                result[mode][data_struct_name][func_name] = mean(
+                result[func_name][mode][data_struct_name] = mean(
                     timeit.repeat(
                         RUNNING_TEMPLATE,
                         setup=SETUP_IMPORT_TEMPLATE.format(

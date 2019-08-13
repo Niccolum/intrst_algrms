@@ -131,6 +131,10 @@ def generate_data() -> List[Tuple[str, Dict[str, Union[range, Num]]]]:
     return data
 
 
+def get_data_name_order() -> List[str]:
+    return [i[0] for i in generate_data()]
+
+
 if __name__ == '__main__':
     for data in generate_data():
         print(data[0])

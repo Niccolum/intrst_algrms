@@ -2,12 +2,12 @@ import matplotlib
 from matplotlib import pyplot as plt
 import json
 import operator
-from typing import Iterable
+from typing import List
 
 matplotlib.use('tkagg')  # for use plt.show().
 
 
-def main(exclude_datalist_names: Iterable = None) -> None:
+def main(exclude_datalist_names: List[str] = None) -> None:
     with open('performance.json', 'r') as json_data_file:
         data = json.load(json_data_file)
 

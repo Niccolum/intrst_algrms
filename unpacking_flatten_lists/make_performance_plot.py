@@ -1,75 +1,53 @@
-import matplotlib.pyplot as plt
+import matplotlib
+from matplotlib import pyplot as plt
 import json
-from collections import OrderedDict, defaultdict
+from typing import List
+
+from data import get_data_name_order
+from performance import INCREMENT_MODE_NAME, DECREMENT_MODE_NAME
 
 
-def main(exclude_funcs: list = None):
-    exclude_funcs = exclude_funcs or []
+AVERAGE = 'average'
+matplotlib.use('tkagg')  # for use plt.show().
+
+
+def main(exclude_funcs: List[str] = None) -> None:
     with open('performance.json', 'r') as json_data_file:
         data = json.load(json_data_file)
 
-    # or increase, it's the same
-    names = sorted(data['decrease'].keys(), reverse=True)
+    if exclude_funcs is None:
+        func_names = sorted(data.keys())
+    else:
+        func_names = sorted(set(data.keys()) - set(exclude_funcs))
 
-    done_data = {
-        'decrease': defaultdict(list),
-        'increase': defaultdict(list),
-        'average': {}
-    }
+    modes = sorted(data[func_names[0]].keys()) + [AVERAGE]
+    data_names_with_order = get_data_name_order()
 
-    decrease_data = OrderedDict(
-        sorted(data['decrease'].items(), key=lambda t: t[0], reverse=True))
+    plot_numbers = len(modes)
+    fig, axs = plt.subplots(1, plot_numbers, figsize=(9, 3), sharey=True)
 
-    for d in decrease_data.values():
-        for k, v in d.items():
-            if k not in exclude_funcs:
-                done_data['decrease'][k].append(v / 10000)
+    for plot_number, mode in enumerate(modes):
+        curr_axs = axs[plot_number]
+        for func_name in func_names:
+            try:
+                plt_data = sorted(data[func_name][mode].items(), key=lambda x: data_names_with_order.index(x[0]))
+            except KeyError as err:  # for 'average'
+                if mode != AVERAGE:
+                    raise KeyError from err
+                inc_data, dec_data = data[func_name].get(INCREMENT_MODE_NAME), data[func_name].get(DECREMENT_MODE_NAME)
+                raw_plt_data = {k: inc_data.get(k) + dec_data.get(k) for k in set(inc_data) & set(dec_data)}
+                plt_data = sorted(raw_plt_data.items(), key=lambda x: data_names_with_order.index(x[0]))
+            finally:
+                x_data_items, y_data_items = zip(*plt_data)
+                curr_axs.plot(x_data_items, y_data_items, label=func_name)
 
-    increase_data = OrderedDict(
-        sorted(data['increase'].items(), key=lambda t: t[0], reverse=True))
+                curr_axs.set_title(mode)
+                curr_axs.legend()
+                plt.setp(curr_axs.xaxis.get_majorticklabels(), rotation=90)
 
-    for d in increase_data.values():
-        for k, v in d.items():
-            if k not in exclude_funcs:
-                done_data['increase'][k].append(v / 10000)
-
-    for k in done_data['decrease'].keys():
-        done_data['average'][k] = [
-            (x + y) / 2
-            for x, y in zip(done_data['decrease'][k], done_data['increase'][k])
-        ]
-
-    fig, axs = plt.subplots(1, 3, figsize=(9, 3), sharey=True)
-
-    # increase plot
-    for label, values in done_data['increase'].items():
-        axs[0].plot(names, values, label=label)
-    axs[0].title.set_text('increase')
-    axs[0].legend()
-
-    # decrease plot
-    for label, values in done_data['decrease'].items():
-        axs[1].plot(names, values, label=label)
-    axs[1].title.set_text('decrease')
-    axs[1].legend()
-
-    # both average plot
-    for label, values in done_data['average'].items():
-        axs[2].plot(names, values, label=label)
-    axs[2].title.set_text('average')
-    axs[2].legend()
-
-    # rotation X ticks
-    plt.setp(axs[0].xaxis.get_majorticklabels(), rotation=90)
-    plt.setp(axs[1].xaxis.get_majorticklabels(), rotation=90)
-    plt.setp(axs[2].xaxis.get_majorticklabels(), rotation=90)
-
-    # Pad margins so that markers don't get clipped by the axes
-    plt.margins(0.2)
     plt.show()
 
 
 if __name__ == '__main__':
-    main()  # full
-    main(exclude_funcs=[
-        'tishka_flatten', 'outer_flatten_2', 'recursion_flatten'])
+    # main()
+    main(exclude_funcs=['tishka_flatten', 'outer_flatten_2', 'recursion_flatten'])
