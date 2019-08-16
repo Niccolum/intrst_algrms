@@ -35,19 +35,19 @@ def main(exclude_funcs: List[str] = None) -> None:
                 if mode != AVERAGE:
                     raise KeyError from err
                 inc_data, dec_data = data[func_name].get(INCREMENT_MODE_NAME), data[func_name].get(DECREMENT_MODE_NAME)
-                raw_plt_data = {k: inc_data.get(k) + dec_data.get(k) for k in set(inc_data) & set(dec_data)}
+                raw_plt_data = {k: (inc_data.get(k) + dec_data.get(k)) / 2 for k in set(inc_data) & set(dec_data)}
                 plt_data = sorted(raw_plt_data.items(), key=lambda x: data_names_with_order.index(x[0]))
-            finally:
-                x_data_items, y_data_items = zip(*plt_data)
-                curr_axs.plot(x_data_items, y_data_items, label=func_name)
 
-                curr_axs.set_title(mode)
-                curr_axs.legend()
-                plt.setp(curr_axs.xaxis.get_majorticklabels(), rotation=90)
+            x_data_items, y_data_items = zip(*plt_data)
+            curr_axs.plot(x_data_items, y_data_items, label=func_name)
+
+            curr_axs.set_title(mode)
+            curr_axs.legend()
+            plt.setp(curr_axs.xaxis.get_majorticklabels(), rotation=90)
 
     plt.show()
 
 
 if __name__ == '__main__':
-    # main()
+    main()
     main(exclude_funcs=['tishka_flatten', 'outer_flatten_2', 'recursion_flatten'])

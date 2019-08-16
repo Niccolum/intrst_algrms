@@ -129,31 +129,32 @@ def tishka_flatten_with_stack(seq: Iterable) -> List:
 if __name__ == '__main__':
 
     from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
+    import time
 
-    @profile
+
     def profile():
-        data = generate_data()[14][1]
+        data = generate_data()[-1][1]
 
-        inc_data = create_data_increasing_depth(**data)
+        funcs_generated_data = [
+            create_data_increasing_depth,
+            create_data_decreasing_depth
+        ]
 
-        r1 = list(outer_flatten_1(inc_data))
-        r2 = list(outer_flatten_2(inc_data))
-        r3 = list(niccolum_flatten(inc_data))
-        r4 = list(tishka_flatten(inc_data))
-        r5 = list(zart_flatten(inc_data))
-        r6 = list(recursive_flatten_like_tishka(inc_data))
-        r7 = list(recursion_flatten(inc_data))
-        r8 = list(tishka_flatten_with_stack(inc_data))
+        funcs = [
+            outer_flatten_1,
+            outer_flatten_2,
+            niccolum_flatten,
+            tishka_flatten,
+            zart_flatten,
+            recursive_flatten_like_tishka,
+            recursion_flatten,
+            tishka_flatten_with_stack
+        ]
 
-        dec_data = create_data_decreasing_depth(**data)
-
-        r9 = list(outer_flatten_1(dec_data))
-        r10 = list(outer_flatten_2(dec_data))
-        r11 = list(niccolum_flatten(dec_data))
-        r12 = list(tishka_flatten(dec_data))
-        r13 = list(zart_flatten(dec_data))
-        r14 = list(recursive_flatten_like_tishka(dec_data))
-        r15 = list(recursion_flatten(dec_data))
-        r16 = list(tishka_flatten_with_stack(dec_data))
+        for func_generated_data in funcs_generated_data:
+            creating_data = func_generated_data(**data)
+            for func in funcs:
+                result = list(func(creating_data))
+                time.sleep(0.3)
 
     profile()

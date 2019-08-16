@@ -80,16 +80,16 @@ test_create_data_increasing_depth (tests.data_generation.TestGenerationData) ...
 ----------------------------------------------------------------------
 Ran 10 tests in 10.419s
 ```
-# add profiling plots
+# mem and CPU test
+## add profiling plot
 ```
-$ cd logs && python ../profiling.py
+$ mprof plot
 
-... # create plots and logs for profiling in logs dir
+$ mprof run funcs.py
+# see and save memory_test.png
 ```
-## add CPU profiling plots
+## add CPU profiling data
 ```
-$ cd ../
-# uncomment @profile decorator in funcs.py
 
 $ kernprof -l funcs.py
 Wrote profile results to funcs.py.lprof
