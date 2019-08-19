@@ -4,17 +4,17 @@ from iteration_utilities import deepflatten
 from more_itertools import collapse
 
 
-@profile
+# @profile
 def outer_flatten_1(array: Iterable) -> List:
     return list(deepflatten(array))
 
 
-@profile
+# @profile
 def outer_flatten_2(array: Iterable) -> List:
     return list(collapse(array))
 
 
-@profile
+# @profile
 def niccolum_flatten(array: Iterable) -> List:
     """
     Non recursive algorithm
@@ -35,7 +35,7 @@ def niccolum_flatten(array: Iterable) -> List:
     return new_array
 
 
-@profile
+# @profile
 def tishka_flatten(data: Iterable) -> List:
     """
     Non recursive algorithm
@@ -56,7 +56,7 @@ def tishka_flatten(data: Iterable) -> List:
     return data
 
 
-@profile
+# @profile
 def zart_flatten(a: Iterable) -> List:
     """
     Non recursive algorithm
@@ -72,7 +72,7 @@ def zart_flatten(a: Iterable) -> List:
     return out[::-1]
 
 
-@profile
+# @profile
 def recursive_flatten_like_tishka(array: Iterable) -> List:
     """
     Recursive algorithm
@@ -88,7 +88,7 @@ def recursive_flatten_like_tishka(array: Iterable) -> List:
     return lst
 
 
-@profile
+# @profile
 def recursion_flatten(arr: Iterable) -> Iterator:
     """
     Recursive algorithm based on iterator
@@ -103,7 +103,7 @@ def recursion_flatten(arr: Iterable) -> Iterator:
             yield i
 
 
-@profile
+# @profile
 def tishka_flatten_with_stack(seq: Iterable) -> List:
     """
     Non recursive algorithm
@@ -128,8 +128,9 @@ def tishka_flatten_with_stack(seq: Iterable) -> List:
 
 if __name__ == '__main__':
 
-    from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
     import time
+
+    from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
 
 
     def profile():
@@ -154,7 +155,7 @@ if __name__ == '__main__':
         for func_generated_data in funcs_generated_data:
             creating_data = func_generated_data(**data)
             for func in funcs:
-                result = list(func(creating_data))
+                list(func(creating_data))
                 time.sleep(0.3)
 
     profile()

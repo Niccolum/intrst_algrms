@@ -83,9 +83,9 @@ Ran 10 tests in 10.419s
 ## mem and CPU test
 #### add profiling plot
 ```
-$ mprof plot
-
 $ mprof run funcs.py
+
+$ mprof plot
 # see and save memory_test.png
 ```
 #### add CPU profiling data
@@ -262,7 +262,7 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
 ```
 ## create json file of performance result
 ```
-$ cd ../ && python performance.py
+$ python performance.py
 
 ... # creates performance.json for plot
 ```
