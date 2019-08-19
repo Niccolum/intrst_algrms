@@ -47,6 +47,8 @@ Swap:          6053           0        6053
 ```
 $ cd ~/binary_tree
 
+$ python3 -m venv env
+
 $ source env/bin/activate
 
 $ python -V

@@ -48,6 +48,8 @@ Swap:          6053           0        6053
 ```
 $ cd ~/unpacking_flatten_lists
 
+$ python3 -m venv env
+
 $ source env/bin/activate
 
 $ python -V
