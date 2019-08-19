@@ -30,11 +30,11 @@ class BisectNodeClass(BaseNodeClass):
     def __init__(self):
         self.data = []
 
-    @profile
+    # @profile
     def add_node(self, data: Integral) -> None:
         bisect.insort(self.data, data)
 
-    @profile
+    # @profile
     def tree_data(self) -> Iterator:
         yield from self.data
 
@@ -46,7 +46,7 @@ class SingleNodeClass(BaseNodeClass):
         self.right = None
         self.data = data
 
-    @profile
+    # @profile
     def add_node(self, data: Integral) -> None:
         if self.data is not None:
             if data < self.data:
@@ -62,7 +62,7 @@ class SingleNodeClass(BaseNodeClass):
         else:
             self.data = data
 
-    @profile
+    # @profile
     def tree_data(self) -> Iterator:
         if self.left:
             yield from self.left.tree_data()
@@ -85,7 +85,7 @@ class TwoNodeClass(BaseNodeClass):
     def __init__(self):
         self.root = None
 
-    @profile
+    # @profile
     def add_node(self, key: Integral, node: Node = None) -> None:
 
         if node is None:
@@ -110,7 +110,7 @@ class TwoNodeClass(BaseNodeClass):
                 else:
                     return self.add_node(key, node=node.right)
 
-    @profile
+    # @profile
     def tree_data(self, node: Node = None) -> Iterator:
         if node is None:
             node = self.root
