@@ -30,11 +30,11 @@ class BisectNodeClass(BaseNodeClass):
     def __init__(self):
         self.data = []
 
-    # @profile
+    @profile
     def add_node(self, data: Integral) -> None:
         bisect.insort(self.data, data)
 
-    # @profile
+    @profile
     def tree_data(self) -> Iterator:
         yield from self.data
 
@@ -46,7 +46,7 @@ class SingleNodeClass(BaseNodeClass):
         self.right = None
         self.data = data
 
-    # @profile
+    @profile
     def add_node(self, data: Integral) -> None:
         if self.data is not None:
             if data < self.data:
@@ -62,7 +62,7 @@ class SingleNodeClass(BaseNodeClass):
         else:
             self.data = data
 
-    # @profile
+    @profile
     def tree_data(self) -> Iterator:
         if self.left:
             yield from self.left.tree_data()
@@ -85,7 +85,7 @@ class TwoNodeClass(BaseNodeClass):
     def __init__(self):
         self.root = None
 
-    # @profile
+    @profile
     def add_node(self, key: Integral, node: Node = None) -> None:
 
         if node is None:
@@ -110,7 +110,7 @@ class TwoNodeClass(BaseNodeClass):
                 else:
                     return self.add_node(key, node=node.right)
 
-    # @profile
+    @profile
     def tree_data(self, node: Node = None) -> Iterator:
         if node is None:
             node = self.root
@@ -127,11 +127,18 @@ class TwoNodeClass(BaseNodeClass):
 
 
 if __name__ == '__main__':
-    from data import datalist_100000
+    import time
 
-    nodes = [SingleNodeClass, TwoNodeClass, BisectNodeClass]
-    for cls_node in nodes:
-        node = cls_node()
-        for i in datalist_100000:
-            node.add_node(i)
-        result = list(node.tree_data())
+    from data import datalist_100
+
+    def profile():
+        nodes = [SingleNodeClass, TwoNodeClass, BisectNodeClass]
+        for cls_node in nodes:
+            node = cls_node()
+            for i in datalist_100:
+                node.add_node(i)
+            list(node.tree_data())
+            del node
+            time.sleep(0.3)
+
+    profile()
