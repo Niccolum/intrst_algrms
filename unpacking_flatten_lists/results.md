@@ -81,6 +81,9 @@ test_create_data_increasing_depth (tests.data_generation.TestGenerationData) ...
 Ran 10 tests in 10.419s
 ```
 ## mem and CPU test
+```
+# uncomment @profile decorator in funcs.py
+```
 #### add profiling plot
 ```
 $ mprof run funcs.py
@@ -259,6 +262,9 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
    127                                               def outer_flatten_2_profile(arr: Iterable) -> Iterator:
    128         2      36295.0  18147.5    100.0          return list(outer_flatten_2(arr))
 
+```
+```
+# comment @profile decorator in funcs.py
 ```
 ## create json file of performance result
 ```
