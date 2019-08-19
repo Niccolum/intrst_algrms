@@ -34,7 +34,7 @@ def knapsack_1_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:
     return knapsack_standard_solution(items, weight_limit)
 
 
-@profile
+# @profile
 def knapsack_2_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     my own function, written thanks to the site:
@@ -202,11 +202,9 @@ def knapsack_greedy_solution(items: Tuple[Item], weight_limit: int) -> Iterator:
 
 
 if __name__ == '__main__':
-    from data import (
-        pack_up_static_knapsack_1,
-        pack_up_static_knapsack_2,
-        pack_up_static_knapsack_3,
-    )
+    import time
+
+    from data import pack_up_static_knapsack_3
 
     funcs = [
         knapsack_1_standard_solution,
@@ -218,12 +216,6 @@ if __name__ == '__main__':
         knapsack_greedy_solution
     ]
 
-    dataset = [
-        pack_up_static_knapsack_1,
-        pack_up_static_knapsack_2,
-        pack_up_static_knapsack_3
-    ]
-
     for func in funcs:
-        for data in dataset:
-            list(func(*data()))
+        list(func(*pack_up_static_knapsack_3()))
+        time.sleep(0.3)

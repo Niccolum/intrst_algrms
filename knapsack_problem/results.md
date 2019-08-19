@@ -166,16 +166,20 @@ Ran 14 tests in 81.645s
 
 OK
 ```
-## add profiling plots
-```
-$ cd logs && python ../profiling.py
 
-... # create plots and logs for profiling in logs dir
+## mem and CPU test
 ```
-## add CPU profiling plots
-```
-$ cd ../
 # uncomment @profile decorator in funcs.py
+```
+#### add profiling plot
+```
+$ mprof run funcs.py
+
+$ mprof plot
+# see and save memory_test.png
+```
+#### add CPU profiling data
+```
 
 $ kernprof -l funcs.py
 Wrote profile results to funcs.py.lprof
@@ -404,6 +408,9 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
    200         3          4.0      1.3      9.8      pack.max_weight = weight_limit
    201         3         30.0     10.0     73.2      return filter(pack, sorted(items, key=efficiency, reverse=True))
 
+```
+```
+# comment @profile decorator in funcs.py
 ```
 ## create json file of performance result
 ```

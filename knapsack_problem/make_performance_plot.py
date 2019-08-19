@@ -1,7 +1,6 @@
 import matplotlib
 from matplotlib import pyplot as plt
 import json
-import operator
 
 from performance import SMALL_STAT_NAME, BIG_STAT_NAME
 
