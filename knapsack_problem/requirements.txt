@@ -1,15 +1,14 @@
 backcall==0.1.0
 cycler==0.10.0
-Cython==0.29.12
 decorator==4.4.0
 ipython==7.7.0
 ipython-genutils==0.2.0
-jedi==0.14.1
+jedi==0.15.1
 kiwisolver==1.1.0
 line-profiler==2.1.2
 matplotlib==3.1.1
 memory-profiler==0.55.0
-numpy==1.16.4
+numpy==1.17.0
 parso==0.5.1
 pexpect==4.7.0
 pickleshare==0.7.5
@@ -18,7 +17,7 @@ prompt-toolkit==2.0.9
 psutil==5.6.3
 ptyprocess==0.6.0
 Pygments==2.4.2
-pyparsing==2.4.1.1
+pyparsing==2.4.2
 python-dateutil==2.8.0
 six==1.12.0
 traitlets==4.3.2
