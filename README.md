@@ -5,6 +5,7 @@ Here is examples of realizations several algorithms, they performance, memory us
 ## Getting Started
 
 ### Requirements
+
 Python 3.6+ (because of type checking)
 
 ### Installing
@@ -18,6 +19,10 @@ Now we have:
 * [Binary Tree (sorting)](binary_tree/results.md)
 * [Knapsack problem](knapsack_problem/results.md)
 * [Unpacking nested lists of indefinite depth](unpacking_flatten_lists/results.md)
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
