@@ -5,6 +5,7 @@ tree_data: return sorted list of inner data
 
 Next classes are implemented:
 BaseNodeClass: abstract Binary Tree Class
+BisectNodeClass: based on bisect stdlib, without tree
 SingleNodeClass: all operations and storage takes place inside one class
 TwoNodeClass: use inner class Node for storage and TwoNodeClass for for everything else
 """
@@ -19,10 +20,16 @@ class BaseNodeClass(metaclass=ABCMeta):
 
     @abstractmethod
     def add_node(self, *args) -> None:
+        """
+        add items to container
+        """
         raise NotImplementedError
 
     @abstractmethod
     def tree_data(self) -> Iterator:
+        """
+        return sorted items
+        """
         raise NotImplementedError
 
 
@@ -86,29 +93,29 @@ class TwoNodeClass(BaseNodeClass):
         self.root = None
 
     # @profile
-    def add_node(self, key: Integral, node: Node = None) -> None:
+    def add_node(self, key: Integral, _node: Node = None) -> None:
 
-        if node is None:
-            node = self.root
+        if _node is None:
+            _node = self.root
 
         if self.root is None:
             self.root = self.Node(key)
 
         else:
-            if key <= node.key:
-                if node.left is None:
-                    node.left = self.Node(key)
-                    node.left.parent = node
+            if key <= _node.key:
+                if _node.left is None:
+                    _node.left = self.Node(key)
+                    _node.left.parent = _node
                     return
                 else:
-                    return self.add_node(key, node=node.left)
+                    return self.add_node(key, _node=_node.left)
             else:
-                if node.right is None:
-                    node.right = self.Node(key)
-                    node.right.parent = node
+                if _node.right is None:
+                    _node.right = self.Node(key)
+                    _node.right.parent = _node
                     return
                 else:
-                    return self.add_node(key, node=node.right)
+                    return self.add_node(key, _node=_node.right)
 
     # @profile
     def tree_data(self, node: Node = None) -> Iterator:
