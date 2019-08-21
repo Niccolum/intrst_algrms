@@ -7,9 +7,26 @@ Welcome to intrst_algrms's documentation!
 =========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: Contents:
 
+
+Binary tree(sorting)
+=====================
+.. automodule:: binary_tree
+   :members:
+
+
+Knapsack problem
+=================
+.. automodule:: knapsack_problem
+   :members:
+
+
+Unpacking nested lists of indefinite depth
+===========================================
+.. automodule:: unpacking_flatten_lists
+   :members:
 
 
 Indices and tables

@@ -1,2 +1,1 @@
-sphinx-apidoc -f -o source/ ../intrst_algrms/*
-sphinx-build -b html . build
+sphinx-build -b html source build
