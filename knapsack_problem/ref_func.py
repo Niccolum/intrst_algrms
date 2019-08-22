@@ -1,3 +1,7 @@
+"""
+Abstract helper module for check correct other solutions in tests
+Also define "Item" and "Knapsack" abstract types
+"""
 import sys
 from functools import lru_cache
 from collections import namedtuple
@@ -10,7 +14,10 @@ Knapsack = namedtuple('Knapsack', 'items weight_limit')
 
 
 def knapsack_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:
-    """https://codereview.stackexchange.com/a/20581"""
+    """
+    Standard solution for knapsack problem in Python
+    https://codereview.stackexchange.com/a/20581
+    """
 
     @lru_cache(maxsize=None)
     def best_value(i: int, j: int):

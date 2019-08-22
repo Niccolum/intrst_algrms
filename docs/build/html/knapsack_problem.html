@@ -34,7 +34,89 @@
             
   <div class="section" id="knapsack-problem">
 <h1>Knapsack problem<a class="headerlink" href="#knapsack-problem" title="Permalink to this headline">¶</a></h1>
-<span class="target" id="module-knapsack_problem.funcs"></span><p>Examples of python realization of knapsack problem</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#module-knapsack_problem.ref_func" id="id1">Abstract module</a></p></li>
+<li><p><a class="reference internal" href="#module-knapsack_problem.funcs" id="id2">Solutions module</a></p></li>
+</ul>
+</div>
+<div class="section" id="module-knapsack_problem.ref_func">
+<span id="abstract-module"></span><h2><a class="toc-backref" href="#id1">Abstract module</a><a class="headerlink" href="#module-knapsack_problem.ref_func" title="Permalink to this headline">¶</a></h2>
+<p>Abstract helper module for check correct other solutions in tests
+Also define “Item” and “Knapsack” abstract types</p>
+<dl class="class">
+<dt id="knapsack_problem.ref_func.Item">
+<em class="property">class </em><code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">Item</code><span class="sig-paren">(</span><em class="sig-param">name</em>, <em class="sig-param">value</em>, <em class="sig-param">weight</em><span class="sig-paren">)</span><a class="headerlink" href="#knapsack_problem.ref_func.Item" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="knapsack_problem.ref_func.Item.count">
+<code class="sig-name descname">count</code><span class="sig-paren">(</span><em class="sig-param">value</em><span class="sig-paren">)</span> &#x2192; integer -- return number of occurrences of value<a class="headerlink" href="#knapsack_problem.ref_func.Item.count" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Item.index">
+<code class="sig-name descname">index</code><span class="sig-paren">(</span><em class="sig-param">value</em><span class="optional">[</span>, <em class="sig-param">start</em><span class="optional">[</span>, <em class="sig-param">stop</em><span class="optional">]</span><span class="optional">]</span><span class="sig-paren">)</span> &#x2192; integer -- return first index of value.<a class="headerlink" href="#knapsack_problem.ref_func.Item.index" title="Permalink to this definition">¶</a></dt>
+<dd><p>Raises ValueError if the value is not present.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Item.name">
+<em class="property">property </em><code class="sig-name descname">name</code><a class="headerlink" href="#knapsack_problem.ref_func.Item.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Item.value">
+<em class="property">property </em><code class="sig-name descname">value</code><a class="headerlink" href="#knapsack_problem.ref_func.Item.value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Item.weight">
+<em class="property">property </em><code class="sig-name descname">weight</code><a class="headerlink" href="#knapsack_problem.ref_func.Item.weight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 2</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="knapsack_problem.ref_func.Knapsack">
+<em class="property">class </em><code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">Knapsack</code><span class="sig-paren">(</span><em class="sig-param">items</em>, <em class="sig-param">weight_limit</em><span class="sig-paren">)</span><a class="headerlink" href="#knapsack_problem.ref_func.Knapsack" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="knapsack_problem.ref_func.Knapsack.count">
+<code class="sig-name descname">count</code><span class="sig-paren">(</span><em class="sig-param">value</em><span class="sig-paren">)</span> &#x2192; integer -- return number of occurrences of value<a class="headerlink" href="#knapsack_problem.ref_func.Knapsack.count" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Knapsack.index">
+<code class="sig-name descname">index</code><span class="sig-paren">(</span><em class="sig-param">value</em><span class="optional">[</span>, <em class="sig-param">start</em><span class="optional">[</span>, <em class="sig-param">stop</em><span class="optional">]</span><span class="optional">]</span><span class="sig-paren">)</span> &#x2192; integer -- return first index of value.<a class="headerlink" href="#knapsack_problem.ref_func.Knapsack.index" title="Permalink to this definition">¶</a></dt>
+<dd><p>Raises ValueError if the value is not present.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Knapsack.items">
+<em class="property">property </em><code class="sig-name descname">items</code><a class="headerlink" href="#knapsack_problem.ref_func.Knapsack.items" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 0</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="knapsack_problem.ref_func.Knapsack.weight_limit">
+<em class="property">property </em><code class="sig-name descname">weight_limit</code><a class="headerlink" href="#knapsack_problem.ref_func.Knapsack.weight_limit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Alias for field number 1</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="knapsack_problem.ref_func.knapsack_standard_solution">
+<code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">knapsack_standard_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="headerlink" href="#knapsack_problem.ref_func.knapsack_standard_solution" title="Permalink to this definition">¶</a></dt>
+<dd><p>Standard solution for knapsack problem in Python
+<a class="reference external" href="https://codereview.stackexchange.com/a/20581">https://codereview.stackexchange.com/a/20581</a></p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-knapsack_problem.funcs">
+<span id="solutions-module"></span><h2><a class="toc-backref" href="#id2">Solutions module</a><a class="headerlink" href="#module-knapsack_problem.funcs" title="Permalink to this headline">¶</a></h2>
+<p>Examples of python realization of knapsack problem</p>
 <p>Some Theory:</p>
 <p>The knapsack problem or rucksack problem is a problem in combinatorial optimization:
 Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so
@@ -103,6 +185,7 @@ Implements the well-known “greedy approximation algorithm” for the knapsack 
 </dd></dl>
 
 </div>
+</div>
 
 
           </div>
@@ -124,7 +207,11 @@ Implements the well-known “greedy approximation algorithm” for the knapsack 
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="binary_tree.html">Binary Tree (sorting)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Knapsack problem</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Knapsack problem</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-knapsack_problem.ref_func">Abstract module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-knapsack_problem.funcs">Solutions module</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="unpacking_flatten_lists.html">Unpacking nested lists of indefinite depth</a></li>
 </ul>
 
