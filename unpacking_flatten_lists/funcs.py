@@ -6,11 +6,32 @@ from more_itertools import collapse
 
 # @profile
 def outer_flatten_1(array: Iterable) -> List:
+    """
+    Based on C realizatoin of this solution
+    More on:
+
+    https://iteration-utilities.readthedocs.io/en/latest/generated/deepflatten.html
+
+    https://github.com/MSeifert04/iteration_utilities/blob/384948b4e82e41de47fa79fb73efc56c08549b01/src/deepflatten.c
+    """
     return list(deepflatten(array))
 
 
 # @profile
 def outer_flatten_2(array: Iterable) -> List:
+    """
+    recursive algorithm, vaguely reminiscent of recursion_flatten. Based on next pattern:
+
+    .. code:: python
+
+        try:
+            tree = iter(node)
+        except TypeError:
+            yield node
+
+    more on:
+    https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.collapse
+    """
     return list(collapse(array))
 
 

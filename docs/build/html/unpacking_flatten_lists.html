@@ -41,6 +41,29 @@ Based on pop/insert elements in current list</p>
 </dd></dl>
 
 <dl class="function">
+<dt id="unpacking_flatten_lists.funcs.outer_flatten_1">
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">outer_flatten_1</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="headerlink" href="#unpacking_flatten_lists.funcs.outer_flatten_1" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on C realizatoin of this solution
+More on:</p>
+<p><a class="reference external" href="https://iteration-utilities.readthedocs.io/en/latest/generated/deepflatten.html">https://iteration-utilities.readthedocs.io/en/latest/generated/deepflatten.html</a></p>
+<p><a class="reference external" href="https://github.com/MSeifert04/iteration_utilities/blob/384948b4e82e41de47fa79fb73efc56c08549b01/src/deepflatten.c">https://github.com/MSeifert04/iteration_utilities/blob/384948b4e82e41de47fa79fb73efc56c08549b01/src/deepflatten.c</a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="unpacking_flatten_lists.funcs.outer_flatten_2">
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">outer_flatten_2</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="headerlink" href="#unpacking_flatten_lists.funcs.outer_flatten_2" title="Permalink to this definition">¶</a></dt>
+<dd><p>recursive algorithm, vaguely reminiscent of recursion_flatten. Based on next pattern:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
+    <span class="n">tree</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+    <span class="k">yield</span> <span class="n">node</span>
+</pre></div>
+</div>
+<p>more on:
+<a class="reference external" href="https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.collapse">https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.collapse</a></p>
+</dd></dl>
+
+<dl class="function">
 <dt id="unpacking_flatten_lists.funcs.recursion_flatten">
 <code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">recursion_flatten</code><span class="sig-paren">(</span><em class="sig-param">arr: Iterable</em><span class="sig-paren">)</span> &#x2192; Iterator<a class="headerlink" href="#unpacking_flatten_lists.funcs.recursion_flatten" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recursive algorithm based on iterator

@@ -58,3 +58,4 @@ html_static_path = ['_static']
 
 # additional custom configs
 master_doc = 'index'
+autodoc_mock_imports = ["iteration_utilities", "more_itertools"]
