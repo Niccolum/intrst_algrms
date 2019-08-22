@@ -2,8 +2,8 @@ import unittest
 from typing import List
 from numbers import Integral
 
-from funcs import BisectNodeClass, SingleNodeClass, TwoNodeClass, BaseNodeClass
-from data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
+from .funcs import BisectNodeClass, SingleNodeClass, TwoNodeClass, BaseNodeClass
+from .data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
 
 class TestNodes(unittest.TestCase):

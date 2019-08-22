@@ -2,7 +2,7 @@ import matplotlib
 from matplotlib import pyplot as plt
 import json
 
-from performance import SMALL_STAT_NAME, BIG_STAT_NAME
+from .performance import SMALL_STAT_NAME, BIG_STAT_NAME
 
 matplotlib.use('tkagg')  # for use plt.show().
 

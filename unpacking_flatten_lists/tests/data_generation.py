@@ -1,6 +1,6 @@
 import unittest
 
-from data import (
+from ..data import (
     create_data_decreasing_depth, create_data_increasing_depth)
 
 

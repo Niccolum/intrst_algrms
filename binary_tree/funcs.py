@@ -1,13 +1,8 @@
 """
-Examples of binary tree, made in the style of OOP, which realize next functionality:
-add_node: add new element to our tree
-tree_data: return sorted list of inner data
-
-Next classes are implemented:
-BaseNodeClass: abstract Binary Tree Class
-BisectNodeClass: based on bisect stdlib, without tree
-SingleNodeClass: all operations and storage takes place inside one class
-TwoNodeClass: use inner class Node for storage and TwoNodeClass for for everything else
+Examples of binary tree, made in the style of OOP
+BaseNodeClass have 2 simple abstract methods - add_node and tree_data
+First need to add item to inner container, second - to return sorted data
+It's just example of binary sort functions, based or not on his own tree
 """
 
 from abc import ABCMeta, abstractmethod
@@ -17,23 +12,30 @@ import bisect
 
 
 class BaseNodeClass(metaclass=ABCMeta):
+    """
+    Abstract Binary Tree Class
+    All other based on this interface
+    """
 
     @abstractmethod
     def add_node(self, *args) -> None:
         """
-        add items to container
+        add items to data container
         """
         raise NotImplementedError
 
     @abstractmethod
     def tree_data(self) -> Iterator:
         """
-        return sorted items
+        return sorted items of inner data
         """
         raise NotImplementedError
 
 
 class BisectNodeClass(BaseNodeClass):
+    """
+    Based on bisect stdlib, without inner tree
+    """
     def __init__(self):
         self.data = []
 
@@ -47,6 +49,9 @@ class BisectNodeClass(BaseNodeClass):
 
 
 class SingleNodeClass(BaseNodeClass):
+    """
+    All operations and storage takes place inside one class
+    """
 
     def __init__(self, data: Integral = None):
         self.left = None
@@ -79,10 +84,15 @@ class SingleNodeClass(BaseNodeClass):
 
 
 class TwoNodeClass(BaseNodeClass):
-    # based on https://gist.github.com/samidhtalsania/6659380
+    """
+    Use inner class Node for storage and TwoNodeClass for for everything else
+    based on https://gist.github.com/samidhtalsania/6659380
+    """
 
     class Node:
-
+        """
+        Inner class of item, which contain info about neightbours
+        """
         def __init__(self, key: Integral):
             self.key = key
             self.left = None

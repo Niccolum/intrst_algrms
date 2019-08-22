@@ -3,8 +3,8 @@ from matplotlib import pyplot as plt
 import json
 from typing import List
 
-from data import get_data_name_order
-from performance import INCREMENT_MODE_NAME, DECREMENT_MODE_NAME
+from .data import get_data_name_order
+from .performance import INCREMENT_MODE_NAME, DECREMENT_MODE_NAME
 
 
 AVERAGE = 'average'

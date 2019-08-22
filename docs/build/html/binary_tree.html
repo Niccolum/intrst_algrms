@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Binary Tree (sorting) &#8212; intrst_algrms  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Knapsack problem" href="knapsack_problem.html" />
+    <link rel="prev" title="Welcome to intrst_algrms’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="binary-tree-sorting">
+<h1>Binary Tree (sorting)<a class="headerlink" href="#binary-tree-sorting" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-binary_tree.funcs"></span><p>Examples of binary tree, made in the style of OOP
+BaseNodeClass have 2 simple abstract methods - add_node and tree_data
+First need to add item to inner container, second - to return sorted data
+It’s just example of binary sort functions, based or not on his own tree</p>
+<dl class="class">
+<dt id="binary_tree.funcs.BaseNodeClass">
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BaseNodeClass</code><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract Binary Tree Class
+All other based on this interface</p>
+<dl class="method">
+<dt id="binary_tree.funcs.BaseNodeClass.add_node">
+<em class="property">abstract </em><code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#binary_tree.funcs.BaseNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<dd><p>add items to data container</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="binary_tree.funcs.BaseNodeClass.tree_data">
+<em class="property">abstract </em><code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="headerlink" href="#binary_tree.funcs.BaseNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>return sorted items of inner data</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="binary_tree.funcs.BisectNodeClass">
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BisectNodeClass</code><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on bisect stdlib, without inner tree</p>
+<dl class="method">
+<dt id="binary_tree.funcs.BisectNodeClass.add_node">
+<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#binary_tree.funcs.BisectNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<dd><p>add items to data container</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="binary_tree.funcs.BisectNodeClass.tree_data">
+<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="headerlink" href="#binary_tree.funcs.BisectNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>return sorted items of inner data</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="binary_tree.funcs.SingleNodeClass">
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">SingleNodeClass</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral = None</em><span class="sig-paren">)</span><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>All operations and storage takes place inside one class</p>
+<dl class="method">
+<dt id="binary_tree.funcs.SingleNodeClass.add_node">
+<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#binary_tree.funcs.SingleNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<dd><p>add items to data container</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="binary_tree.funcs.SingleNodeClass.tree_data">
+<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="headerlink" href="#binary_tree.funcs.SingleNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>return sorted items of inner data</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="binary_tree.funcs.TwoNodeClass">
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">TwoNodeClass</code><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use inner class Node for storage and TwoNodeClass for for everything else
+based on <a class="reference external" href="https://gist.github.com/samidhtalsania/6659380">https://gist.github.com/samidhtalsania/6659380</a></p>
+<dl class="class">
+<dt id="binary_tree.funcs.TwoNodeClass.Node">
+<em class="property">class </em><code class="sig-name descname">Node</code><span class="sig-paren">(</span><em class="sig-param">key: numbers.Integral</em><span class="sig-paren">)</span><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Inner class of item, which contain info about neightbours</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="binary_tree.funcs.TwoNodeClass.add_node">
+<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">key: numbers.Integral</em>, <em class="sig-param">_node: binary_tree.funcs.TwoNodeClass.Node = None</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<dd><p>add items to data container</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="binary_tree.funcs.TwoNodeClass.tree_data">
+<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><em class="sig-param">node: binary_tree.funcs.TwoNodeClass.Node = None</em><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>return sorted items of inner data</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">intrst_algrms</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Binary Tree (sorting)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="knapsack_problem.html">Knapsack problem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unpacking_flatten_lists.html">Unpacking nested lists of indefinite depth</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to intrst_algrms’s documentation!</a></li>
+      <li>Next: <a href="knapsack_problem.html" title="next chapter">Knapsack problem</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Niccolum.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/binary_tree.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

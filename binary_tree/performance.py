@@ -6,8 +6,8 @@ import time
 from typing import List
 from numbers import Integral
 
-from funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
-from data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
+from .funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
+from .data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
 RETRY_NUM = 100
 TOO_LONG = 60*2

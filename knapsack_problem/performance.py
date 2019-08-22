@@ -6,9 +6,9 @@ import time
 from typing import List, Callable, Dict, Union
 from numbers import Integral
 
-from data import create_dynamic_knapsacks
-from ref_func import Knapsack, Item
-from funcs import (
+from .data import create_dynamic_knapsacks
+from .ref_func import Knapsack, Item
+from .funcs import (
     knapsack_1_standard_solution,
     knapsack_2_solution,
     knapsack_3_solution,

@@ -5,7 +5,7 @@ from collections import OrderedDict
 import urllib.request
 from typing import Dict, List, Union
 
-from ref_func import knapsack_standard_solution as knapsack_func, Item, Knapsack
+from .ref_func import knapsack_standard_solution as knapsack_func, Item, Knapsack
 
 """
 functions with "_static_" in name - correct proven examples of input output for knapsack problem
