@@ -15,10 +15,12 @@ git clone git@github.com:Niccolum/intrst_algrms.git .
 ```
 More detailed description and HOW-TO - located in the readme file in each of the folders
 
-Now we have:
+Results of research algorithms here:
 * [Binary Tree (sorting)](binary_tree/results.md)
 * [Knapsack problem](knapsack_problem/results.md)
 * [Unpacking nested lists of indefinite depth](unpacking_flatten_lists/results.md)
+
+More, about funcs, in [docs](docs/build/html/index.html)
 
 ## Contributing
 

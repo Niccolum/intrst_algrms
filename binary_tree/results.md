@@ -74,16 +74,20 @@ OK
 #### add profiling plot
 ```
 $ mprof run funcs.py
-
-$ mprof plot
-# see and save memory_test.png
 ```
+creates [result](mprofile_20190819154402.dat)
+```
+$ mprof plot
+```
+see and save [memory_test.png](memory_test.png)
+
 #### add CPU profiling data
 ```
 
 $ kernprof -l funcs.py
-Wrote profile results to funcs.py.lprof
-
+```
+Wrote profile results to [funcs.py.lprof](funcs.py.lprof)
+```
 $ python -m line_profiler funcs.py.lprof 
 Timer unit: 1e-06 s
 
@@ -203,12 +207,12 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
 ## create json file of performance result
 ```
 $ python performance.py
-
-... # creates performance.json for plot
 ```
+creates [performance.json](performance.json) for plot
+
 ## obviously - make performance plot
 ```
 $ python make_performance_plot.py
-
-... # create and show plot, based on performance.json
 ```
+create and show [plot](Result.png), based on performance.json
+
