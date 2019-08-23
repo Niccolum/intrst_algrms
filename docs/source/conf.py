@@ -70,7 +70,7 @@ def linkcode_resolve(domain, info):
         import urllib
         raw_link = "https://raw.githubusercontent.com/Niccolum/intrst_algrms/master/%s.py" % filename
         req = urllib.request.urlopen(raw_link)
-        patterns = (re.compile(b'%s.*:$' % attr.encode()) for attr in component_name.split('.'))
+        patterns = (re.compile(b'%s.*(\\|:)?$' % attr.encode()) for attr in component_name.split('.'))
         pat = next(patterns)
         for num, line in enumerate(req, start=1):
             if pat.search(line):

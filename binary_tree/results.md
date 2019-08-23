@@ -214,5 +214,5 @@ creates [performance.json](performance.json) for plot
 ```
 $ python make_performance_plot.py
 ```
-create and show [plot](Result.png), based on performance.json
+create and show [plot](result.png), based on performance.json
 

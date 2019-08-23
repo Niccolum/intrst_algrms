@@ -14,10 +14,14 @@ def create_data_decreasing_depth(
         _result: List = None
 ) -> List:
     """
-    creates data in depth on decreasing
-    examples:
-    data=iter(range(1, 11)), length=5, max_depth=3 => [[[1, 2, 3, 4, 5], 6, 7, 8, 9, 10]]
-    data=iter(range(1, 11)), length=2, max_depth=3 => [[[1, 2], 3, 4], 5, 6], [[7, 8,] 9, 10]]
+    creates data in depth on decreasing.
+
+    Examples:
+
+    >>> data = create_data_decreasing_depth(list(range(1, 11)), length=5, max_depth=3)
+    >>> assert data == [[[1, 2, 3, 4, 5], 6, 7, 8, 9, 10]]
+    >>> data = create_data_decreasing_depth(list(range(1, 11)), length=2, max_depth=3)
+    >>> assert data == [[[1, 2], 3, 4], 5, 6], [[7, 8,] 9, 10]]
     """
     _result = _result or []
     _current_depth = _current_depth or max_depth
@@ -55,10 +59,14 @@ def create_data_increasing_depth(
         _result: List = None
 ) -> List:
     """
-    creates data in depth to increase
-    examples:
-    data=list(range(1, 11)), length=5, max_depth=3 => [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
-    data=list(range(1, 11)), length=2, max_depth=3 => [1, 2, [3, 4, [5, 6]]], 7, 8, [9, 10]]
+    creates data in depth to increase.
+
+    Examples:
+
+    >>> data = create_data_increasing_depth(list(range(1, 11)), length=5, max_depth=3)
+    >>> assert data == [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
+    >>> data = create_data_increasing_depth(list(range(1, 11)), length=2, max_depth=3)
+    >>> assert data == [1, 2, [3, 4, [5, 6]]], 7, 8, [9, 10]]
     """
     _result = _result or []
     _current_depth = _current_depth or max_depth
@@ -93,6 +101,25 @@ def create_data_increasing_depth(
 
 
 def generate_data() -> List[Tuple[str, Dict[str, Union[range, Num]]]]:
+    """
+    Generated collections of Data by pattern
+
+    {amount_item}_amount_{length}_length_{max_depth}_max_depth
+
+    where:
+
+    .. py:attribute:: amount_item:
+
+        len of flatten elements
+
+    .. py:attribute:: length:
+
+        len of elements at the same level of nesting
+
+    .. py:attribute:: max_depth:
+
+        highest possible level of nesting
+    """
 
     data = []
     amount_of_elements = [10 ** i for i in range(5)]

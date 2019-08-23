@@ -38,6 +38,13 @@
 <ul class="simple">
 <li><p><a class="reference internal" href="#module-knapsack_problem.ref_func" id="id1">Abstract module</a></p></li>
 <li><p><a class="reference internal" href="#module-knapsack_problem.funcs" id="id2">Solutions module</a></p></li>
+<li><p><a class="reference internal" href="#module-knapsack_problem.data" id="id3">Data describes</a></p></li>
+<li><p><a class="reference internal" href="#performance-result" id="id4">Performance result</a></p>
+<ul>
+<li><p><a class="reference internal" href="#common-result" id="id5">Common result</a></p></li>
+<li><p><a class="reference internal" href="#accurate-result" id="id6">Accurate result</a></p></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="module-knapsack_problem.ref_func">
@@ -46,7 +53,7 @@
 Also define “Item” and “Knapsack” abstract types</p>
 <dl class="class">
 <dt id="knapsack_problem.ref_func.Item">
-<em class="property">class </em><code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">Item</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/ref_func.py#L13"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.ref_func.Item" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">Item</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/ref_func.py#L3"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.ref_func.Item" title="Permalink to this definition">¶</a></dt>
 <dd><p>Atomic thing with his own characteristics</p>
 <dl class="attribute">
 <dt>
@@ -70,7 +77,7 @@ Also define “Item” and “Knapsack” abstract types</p>
 
 <dl class="class">
 <dt id="knapsack_problem.ref_func.Knapsack">
-<em class="property">class </em><code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">Knapsack</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/ref_func.py#L31"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.ref_func.Knapsack" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">knapsack_problem.ref_func.</code><code class="sig-name descname">Knapsack</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/ref_func.py#L3"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.ref_func.Knapsack" title="Permalink to this definition">¶</a></dt>
 <dd><p>Knapsack characteristics</p>
 <dl class="attribute">
 <dt>
@@ -165,6 +172,82 @@ Implements the well-known “greedy approximation algorithm” for the knapsack 
 </dd></dl>
 
 </div>
+<div class="section" id="module-knapsack_problem.data">
+<span id="data-describes"></span><h2><a class="toc-backref" href="#id3">Data describes</a><a class="headerlink" href="#module-knapsack_problem.data" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="knapsack_problem.data.create_dynamic_knapsacks">
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">create_dynamic_knapsacks</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">start: int</em>, <em class="sig-param">end: int</em>, <em class="sig-param">step: int = 1</em><span class="sig-paren">)</span> &#x2192; Dict[str, Dict[str, Union[knapsack_problem.ref_func.Knapsack, Tuple[knapsack_problem.ref_func.Item]]]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L114"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.create_dynamic_knapsacks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dynamic create collections of Items
+as result -&gt; {</p>
+<blockquote>
+<div><p>knapsack_*weight_limit*: {</p>
+<blockquote>
+<div><p>‘input’:  Tuple[Item] # generated items
+‘output’: Knapsack # Knapsack answer by knapsack_standard_solution (for checking with other solutions)</p>
+</div></blockquote>
+</div></blockquote>
+<p>}</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="knapsack_problem.data.pack_up_static_knapsack_1">
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_1</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L30"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_1" title="Permalink to this definition">¶</a></dt>
+<dd><p>[</p>
+<blockquote>
+<div><p>Item(name=’camera’, value=6, weight=1),
+Item(name=’food’, value=9, weight=2),
+Item(name=’water’, value=10, weight=3)</p>
+</div></blockquote>
+<p>]</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="knapsack_problem.data.pack_up_static_knapsack_2">
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_2</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L50"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_2" title="Permalink to this definition">¶</a></dt>
+<dd><p>[</p>
+<blockquote>
+<div><p>Item(name=’book’, value=1, weight=1),
+Item(name=’food’, value=2, weight=1),
+Item(name=’jacket’, value=2, weight=2),
+Item(name=’water’, value=6, weight=4)</p>
+</div></blockquote>
+<p>]</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="knapsack_problem.data.pack_up_static_knapsack_3">
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_3</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L71"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_3" title="Permalink to this definition">¶</a></dt>
+<dd><p>[</p>
+<blockquote>
+<div><p>Item(name=’apple’, value=39, weight=40),
+Item(name=’beer’, value=52, weight=10),
+Item(name=’book’, value=30, weight=10),
+Item(name=’camera’, value=32, weight=30),
+Item(name=’t-shirt’, value=24, weight=15),
+Item(name=’tin’, value=68, weight=45),
+Item(name=’trousers’, value=48, weight=10),
+Item(name=’umbrella’, value=73, weight=40),
+Item(name=’water’, value=153, weight=200)</p>
+</div></blockquote>
+<p>]</p>
+</dd></dl>
+
+</div>
+<div class="section" id="performance-result">
+<h2><a class="toc-backref" href="#id4">Performance result</a><a class="headerlink" href="#performance-result" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="common-result">
+<h3><a class="toc-backref" href="#id5">Common result</a><a class="headerlink" href="#common-result" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/result1.png"><img alt="map to buried treasure" src="_images/result1.png" style="width: 718.0px; height: 327.0px;" /></a>
+</div>
+</div>
+<div class="section" id="accurate-result">
+<h3><a class="toc-backref" href="#id6">Accurate result</a><a class="headerlink" href="#accurate-result" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/result2.png"><img alt="map to buried treasure" src="_images/result2.png" style="width: 874.0px; height: 464.0px;" /></a>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -190,6 +273,12 @@ Implements the well-known “greedy approximation algorithm” for the knapsack 
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Knapsack problem</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#module-knapsack_problem.ref_func">Abstract module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#module-knapsack_problem.funcs">Solutions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-knapsack_problem.data">Data describes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#performance-result">Performance result</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#common-result">Common result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#accurate-result">Accurate result</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="unpacking_flatten_lists.html">Unpacking nested lists of indefinite depth</a></li>

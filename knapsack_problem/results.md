@@ -427,4 +427,4 @@ creates [performance.json](performance.json) for plot
 ```
 $ python make_performance_plot.py
 ```
-create and show [big_plot](big_perf.png) and [small_plot](small_perf.png), based on performance.json
+create and show [common plot](result.png) and [more accurate plot](result2.png), based on performance.json

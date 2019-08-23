@@ -3,7 +3,7 @@ import math
 import itertools
 from collections import OrderedDict
 import urllib.request
-from typing import Dict, List, Union
+from typing import Dict, Union, Tuple
 
 from .ref_func import knapsack_standard_solution as knapsack_func, Item, Knapsack
 
@@ -12,13 +12,12 @@ functions with "_static_" in name - correct proven examples of input output for 
 So, for debugging funcs.py I used it for checking correct behavior, because
 output of "_static_" functions write in docstrings and we can compare strings with construction:
 
-```
-from operator import attrgetter
+.. code:: python
 
-expected_result = data.__doc__.replace('\n', '').replace(' ', '')
-result = sorted(func(*data()), key=attrgetter('name'))
-result = str(result).replace(' ', '')
-```
+    from operator import attrgetter
+    expected_result = data.__doc__.replace('\n', '').replace(' ', '')
+    result = sorted(func(*data()), key=attrgetter('name'))
+    result = str(result).replace(' ', '')
 
 For all other tests i use random data with as many arguments as I need
 For output I use one of funcs, reference function, on which correct I am convinced
@@ -30,9 +29,11 @@ But i still use it for other test for check other parameters, not only correctne
 def pack_up_static_knapsack_1() -> Knapsack:
     """
     [
+
         Item(name='camera', value=6, weight=1),
         Item(name='food', value=9, weight=2),
         Item(name='water', value=10, weight=3)
+
     ]
     """
     items = (
@@ -50,10 +51,12 @@ def pack_up_static_knapsack_1() -> Knapsack:
 def pack_up_static_knapsack_2() -> Knapsack:
     """
     [
+
         Item(name='book', value=1, weight=1),
         Item(name='food', value=2, weight=1),
         Item(name='jacket', value=2, weight=2),
         Item(name='water', value=6, weight=4)
+
     ]
     """
     items = (
@@ -71,6 +74,7 @@ def pack_up_static_knapsack_2() -> Knapsack:
 def pack_up_static_knapsack_3() -> Knapsack:
     """
     [
+
         Item(name='apple', value=39, weight=40),
         Item(name='beer', value=52, weight=10),
         Item(name='book', value=30, weight=10),
@@ -80,6 +84,7 @@ def pack_up_static_knapsack_3() -> Knapsack:
         Item(name='trousers', value=48, weight=10),
         Item(name='umbrella', value=73, weight=40),
         Item(name='water', value=153, weight=200)
+
     ]
     """
     items = (
@@ -111,8 +116,20 @@ def pack_up_static_knapsack_3() -> Knapsack:
     return Knapsack(items, weight_limit)
 
 
-def create_dynamic_knapsacks(*, start: int, end: int, step: int = 1) -> Dict[str, Dict[str,
-                                                                                       Union[Knapsack, List[Item]]]]:
+def create_dynamic_knapsacks(*, start: int, end: int, step: int = 1) -> \
+        Dict[str, Dict[str, Union[Knapsack, Tuple[Item]]]]:
+    """
+    Dynamic create collections of Items
+    as result -> {
+
+        knapsack_*weight_limit*: {
+
+            'input':  Tuple[Item] # generated items
+            'output': Knapsack # Knapsack answer by knapsack_standard_solution (for checking with other solutions)
+
+    }
+    """
+
     knapsacks = OrderedDict()
     for i in range(start, end + 1, step):
         weight_limit = i
