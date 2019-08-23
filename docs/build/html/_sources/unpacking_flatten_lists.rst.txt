@@ -1,6 +1,8 @@
 Unpacking nested lists of indefinite depth
 ==========================================
 
+Here i just try to find the best solution for this task
+
 .. contents:: :local:
 
 Functions describes
@@ -14,7 +16,7 @@ Data describes
 
 .. automodule:: unpacking_flatten_lists.data
     :inherited-members:
-    
+
 Performance result
 ------------------
 

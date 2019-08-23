@@ -34,6 +34,9 @@
             
   <div class="section" id="binary-tree-sorting">
 <h1>Binary Tree (sorting)<a class="headerlink" href="#binary-tree-sorting" title="Permalink to this headline">¶</a></h1>
+<p>Current realization based on tree sort.
+Our algorithms can do 2 simple abstract things - add new elem and return sorted container
+So, below i realized and compare different approaches to implementation</p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#module-binary_tree.funcs" id="id1">Functions describes</a></p></li>
@@ -43,10 +46,8 @@
 </div>
 <div class="section" id="module-binary_tree.funcs">
 <span id="functions-describes"></span><h2><a class="toc-backref" href="#id1">Functions describes</a><a class="headerlink" href="#module-binary_tree.funcs" title="Permalink to this headline">¶</a></h2>
-<p>Examples of binary tree, made in the style of OOP
-BaseNodeClass have 2 simple abstract methods - add_node and tree_data
-First need to add item to inner container, second - to return sorted data
-It’s just example of binary sort functions, based or not on his own tree</p>
+<p>Examples of binary tree, made in the style of OOP</p>
+<p>It’s just example of binary sort functions, based or not on his own tree.</p>
 <dl class="class">
 <dt id="binary_tree.funcs.BaseNodeClass">
 <em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BaseNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L3"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass" title="Permalink to this definition">¶</a></dt>
@@ -133,7 +134,7 @@ based on <a class="reference external" href="https://gist.github.com/samidhtalsa
 <p>Generate test data for test performance</p>
 <dl class="function">
 <dt id="binary_tree.data.generate_data">
-<code class="sig-prename descclassname">binary_tree.data.</code><code class="sig-name descname">generate_data</code><span class="sig-paren">(</span><em class="sig-param">num: int</em><span class="sig-paren">)</span> &#x2192; List[int]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/data.py#LNone"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.data.generate_data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">binary_tree.data.</code><code class="sig-name descname">generate_data</code><span class="sig-paren">(</span><em class="sig-param">num: int</em><span class="sig-paren">)</span> &#x2192; List[int]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/data.py#L8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.data.generate_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>generate data numbers in random order
 result -&gt; “datalist_*num*”</p>
 </dd></dl>

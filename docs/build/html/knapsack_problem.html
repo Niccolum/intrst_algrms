@@ -34,6 +34,14 @@
             
   <div class="section" id="knapsack-problem">
 <h1>Knapsack problem<a class="headerlink" href="#knapsack-problem" title="Permalink to this headline">¶</a></h1>
+<p>Some Theory:</p>
+<p>The knapsack problem or rucksack problem is a problem in combinatorial optimization.</p>
+<p>Given a set of items, each with a weight and a value, determine the number
+of each item to include in a collection so that the total weight is less
+than or equal to a given limit and the total value is as large as possible.</p>
+<p>It derives its name from the problem faced by someone,
+who is constrained by a fixed-size knapsack and must fill it with the most valuable items.</p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Knapsack_problem/">more here:</a></p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#module-knapsack_problem.ref_func" id="id1">Abstract module</a></p></li>
@@ -103,14 +111,7 @@ Also define “Item” and “Knapsack” abstract types</p>
 </div>
 <div class="section" id="module-knapsack_problem.funcs">
 <span id="solutions-module"></span><h2><a class="toc-backref" href="#id2">Solutions module</a><a class="headerlink" href="#module-knapsack_problem.funcs" title="Permalink to this headline">¶</a></h2>
-<p>Examples of python realization of knapsack problem</p>
-<p>Some Theory:</p>
-<p>The knapsack problem or rucksack problem is a problem in combinatorial optimization:
-Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so
-that the total weight is less than or equal to a given limit and the total value is as large as possible.
-It derives its name from the problem faced by someone
-who is constrained by a fixed-size knapsack and must fill it with the most valuable items.
-(<a class="reference external" href="https://en.wikipedia.org/wiki/Knapsack_problem">https://en.wikipedia.org/wiki/Knapsack_problem</a>)</p>
+<p>Examples of python realization of solution for knapsack problem</p>
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_1_standard_solution">
 <code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_1_standard_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L20"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_1_standard_solution" title="Permalink to this definition">¶</a></dt>
@@ -176,7 +177,7 @@ Implements the well-known “greedy approximation algorithm” for the knapsack 
 <span id="data-describes"></span><h2><a class="toc-backref" href="#id3">Data describes</a><a class="headerlink" href="#module-knapsack_problem.data" title="Permalink to this headline">¶</a></h2>
 <dl class="function">
 <dt id="knapsack_problem.data.create_dynamic_knapsacks">
-<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">create_dynamic_knapsacks</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">start: int</em>, <em class="sig-param">end: int</em>, <em class="sig-param">step: int = 1</em><span class="sig-paren">)</span> &#x2192; Dict[str, Dict[str, Union[knapsack_problem.ref_func.Knapsack, Tuple[knapsack_problem.ref_func.Item]]]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L114"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.create_dynamic_knapsacks" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">create_dynamic_knapsacks</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">start: int</em>, <em class="sig-param">end: int</em>, <em class="sig-param">step: int = 1</em><span class="sig-paren">)</span> &#x2192; Dict[str, Dict[str, Union[knapsack_problem.ref_func.Knapsack, Tuple[knapsack_problem.ref_func.Item]]]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L119"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.create_dynamic_knapsacks" title="Permalink to this definition">¶</a></dt>
 <dd><p>Dynamic create collections of Items
 as result -&gt; {</p>
 <blockquote>
@@ -191,7 +192,7 @@ as result -&gt; {</p>
 
 <dl class="function">
 <dt id="knapsack_problem.data.pack_up_static_knapsack_1">
-<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_1</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L30"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_1" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_1</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L29"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_1" title="Permalink to this definition">¶</a></dt>
 <dd><p>[</p>
 <blockquote>
 <div><p>Item(name=’camera’, value=6, weight=1),
@@ -203,7 +204,7 @@ Item(name=’water’, value=10, weight=3)</p>
 
 <dl class="function">
 <dt id="knapsack_problem.data.pack_up_static_knapsack_2">
-<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_2</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L50"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_2" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_2</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L51"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_2" title="Permalink to this definition">¶</a></dt>
 <dd><p>[</p>
 <blockquote>
 <div><p>Item(name=’book’, value=1, weight=1),
@@ -216,7 +217,7 @@ Item(name=’water’, value=6, weight=4)</p>
 
 <dl class="function">
 <dt id="knapsack_problem.data.pack_up_static_knapsack_3">
-<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_3</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L71"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_3" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.data.</code><code class="sig-name descname">pack_up_static_knapsack_3</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Knapsack<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/data.py#L74"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.data.pack_up_static_knapsack_3" title="Permalink to this definition">¶</a></dt>
 <dd><p>[</p>
 <blockquote>
 <div><p>Item(name=’apple’, value=39, weight=40),

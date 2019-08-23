@@ -1,3 +1,7 @@
+"""
+Examples of python realization of solution for unpacking lists with indefinite depth
+"""
+
 from typing import Iterator, Iterable, List
 
 from iteration_utilities import deepflatten

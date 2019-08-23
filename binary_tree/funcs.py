@@ -1,8 +1,7 @@
 """
 Examples of binary tree, made in the style of OOP
-BaseNodeClass have 2 simple abstract methods - add_node and tree_data
-First need to add item to inner container, second - to return sorted data
-It's just example of binary sort functions, based or not on his own tree
+
+It's just example of binary sort functions, based or not on his own tree.
 """
 
 from abc import ABCMeta, abstractmethod

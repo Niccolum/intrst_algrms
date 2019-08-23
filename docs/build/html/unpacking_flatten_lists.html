@@ -33,6 +33,7 @@
             
   <div class="section" id="unpacking-nested-lists-of-indefinite-depth">
 <h1>Unpacking nested lists of indefinite depth<a class="headerlink" href="#unpacking-nested-lists-of-indefinite-depth" title="Permalink to this headline">¶</a></h1>
+<p>Here i just try to find the best solution for this task</p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
 <li><p><a class="reference internal" href="#module-unpacking_flatten_lists.funcs" id="id1">Functions describes</a></p></li>
@@ -47,6 +48,7 @@
 </div>
 <div class="section" id="module-unpacking_flatten_lists.funcs">
 <span id="functions-describes"></span><h2><a class="toc-backref" href="#id1">Functions describes</a><a class="headerlink" href="#module-unpacking_flatten_lists.funcs" title="Permalink to this headline">¶</a></h2>
+<p>Examples of python realization of solution for unpacking lists with indefinite depth</p>
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.niccolum_flatten">
 <code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">niccolum_flatten</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L39"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.niccolum_flatten" title="Permalink to this definition">¶</a></dt>
@@ -130,7 +132,7 @@ Based on pop from old and append elements to new list</p>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.data.create_data_increasing_depth">
-<code class="sig-prename descclassname">unpacking_flatten_lists.data.</code><code class="sig-name descname">create_data_increasing_depth</code><span class="sig-paren">(</span><em class="sig-param">data: Union[List, Iterator], length: int, max_depth: int, _current_depth: int = None, _result: List = None</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/data.py#L50"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.data.create_data_increasing_depth" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.data.</code><code class="sig-name descname">create_data_increasing_depth</code><span class="sig-paren">(</span><em class="sig-param">data: Union[List, Iterator], length: int, max_depth: int, _current_depth: int = None, _result: List = None</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/data.py#L54"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.data.create_data_increasing_depth" title="Permalink to this definition">¶</a></dt>
 <dd><p>creates data in depth to increase.</p>
 <p>Examples:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">data</span> <span class="o">=</span> <span class="n">create_data_increasing_depth</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)),</span> <span class="n">length</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">max_depth</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
@@ -143,7 +145,7 @@ Based on pop from old and append elements to new list</p>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.data.generate_data">
-<code class="sig-prename descclassname">unpacking_flatten_lists.data.</code><code class="sig-name descname">generate_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[Tuple[str, Dict[str, Union[range, int, float]]]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/data.py#L95"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.data.generate_data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.data.</code><code class="sig-name descname">generate_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List[Tuple[str, Dict[str, Union[range, int, float]]]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/data.py#L103"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.data.generate_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generated collections of Data by pattern</p>
 <p>{amount_item}_amount_{length}_length_{max_depth}_max_depth</p>
 <p>where:</p>
