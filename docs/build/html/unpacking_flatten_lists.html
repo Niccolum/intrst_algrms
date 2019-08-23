@@ -51,14 +51,14 @@
 <p>Examples of python realization of solution for unpacking lists with indefinite depth</p>
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.niccolum_flatten">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">niccolum_flatten</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L39"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.niccolum_flatten" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">niccolum_flatten</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L43"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.niccolum_flatten" title="Permalink to this definition">¶</a></dt>
 <dd><p>Non recursive algorithm
 Based on pop/insert elements in current list</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.outer_flatten_1">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">outer_flatten_1</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.outer_flatten_1" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">outer_flatten_1</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L12"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.outer_flatten_1" title="Permalink to this definition">¶</a></dt>
 <dd><p>Based on C realization of this solution
 More on:</p>
 <p><a class="reference external" href="https://iteration-utilities.readthedocs.io/en/latest/generated/deepflatten.html">https://iteration-utilities.readthedocs.io/en/latest/generated/deepflatten.html</a></p>
@@ -67,7 +67,7 @@ More on:</p>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.outer_flatten_2">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">outer_flatten_2</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L21"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.outer_flatten_2" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">outer_flatten_2</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L25"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.outer_flatten_2" title="Permalink to this definition">¶</a></dt>
 <dd><p>recursive algorithm, vaguely reminiscent of recursion_flatten. Based on next pattern:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
     <span class="n">tree</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
@@ -81,35 +81,35 @@ More on:</p>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.recursion_flatten">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">recursion_flatten</code><span class="sig-paren">(</span><em class="sig-param">arr: Iterable</em><span class="sig-paren">)</span> &#x2192; Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L23"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.recursion_flatten" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">recursion_flatten</code><span class="sig-paren">(</span><em class="sig-param">arr: Iterable</em><span class="sig-paren">)</span> &#x2192; Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L27"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.recursion_flatten" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recursive algorithm based on iterator
 Usual solution to this problem</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.recursive_flatten_like_tishka">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">recursive_flatten_like_tishka</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L97"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.recursive_flatten_like_tishka" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">recursive_flatten_like_tishka</code><span class="sig-paren">(</span><em class="sig-param">array: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L101"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.recursive_flatten_like_tishka" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recursive algorithm
 Based on tishka_flatten algorithm</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.tishka_flatten">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">tishka_flatten</code><span class="sig-paren">(</span><em class="sig-param">data: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L60"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.tishka_flatten" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">tishka_flatten</code><span class="sig-paren">(</span><em class="sig-param">data: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L64"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.tishka_flatten" title="Permalink to this definition">¶</a></dt>
 <dd><p>Non recursive algorithm
 Based on append/extend elements to new list</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.tishka_flatten_with_stack">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">tishka_flatten_with_stack</code><span class="sig-paren">(</span><em class="sig-param">seq: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L128"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.tishka_flatten_with_stack" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">tishka_flatten_with_stack</code><span class="sig-paren">(</span><em class="sig-param">seq: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L132"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.tishka_flatten_with_stack" title="Permalink to this definition">¶</a></dt>
 <dd><p>Non recursive algorithm
 Based on zart_flatten, but build on try/except pattern</p>
 </dd></dl>
 
 <dl class="function">
 <dt id="unpacking_flatten_lists.funcs.zart_flatten">
-<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">zart_flatten</code><span class="sig-paren">(</span><em class="sig-param">a: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L81"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.zart_flatten" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">unpacking_flatten_lists.funcs.</code><code class="sig-name descname">zart_flatten</code><span class="sig-paren">(</span><em class="sig-param">a: Iterable</em><span class="sig-paren">)</span> &#x2192; List<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/unpacking_flatten_lists/funcs.py#L85"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#unpacking_flatten_lists.funcs.zart_flatten" title="Permalink to this definition">¶</a></dt>
 <dd><p>Non recursive algorithm
 Based on pop from old and append elements to new list</p>
 </dd></dl>

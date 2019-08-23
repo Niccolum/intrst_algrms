@@ -114,7 +114,7 @@ Also define “Item” and “Knapsack” abstract types</p>
 <p>Examples of python realization of solution for knapsack problem</p>
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_1_standard_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_1_standard_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L20"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_1_standard_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_1_standard_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L11"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_1_standard_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://codereview.stackexchange.com/a/20581">https://codereview.stackexchange.com/a/20581</a></p>
 <p>Solve the knapsack problem by finding the most valuable subsequence
 of items that weighs no more than weight_limit.</p>
@@ -127,14 +127,14 @@ valuable subsequence, and whose second element is the subsequence.</p>
 
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_2_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_2_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L39"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_2_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_2_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L30"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_2_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p>my own function, written thanks to the site:
 <a class="reference external" href="https://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka">https://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka</a></p>
 </dd></dl>
 
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_3_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_3_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L62"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_3_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_3_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L53"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_3_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p>Given a list of items with name, value and weight.
 Return the optimal value with total weight &lt;= allowed weight and
 list of picked items.
@@ -143,28 +143,28 @@ list of picked items.
 
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_4_bruteforce_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_4_bruteforce_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; Union[knapsack_problem.ref_func.Item, List[None]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L95"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_4_bruteforce_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_4_bruteforce_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; Union[knapsack_problem.ref_func.Item, List[None]]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L86"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_4_bruteforce_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p>Brute force algorithm
 <a class="reference external" href="http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&amp;action=edit&amp;section=62">http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&amp;action=edit&amp;section=62</a></p>
 </dd></dl>
 
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_5_dynamic_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_5_dynamic_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L123"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_5_dynamic_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_5_dynamic_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; knapsack_problem.ref_func.Item<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L114"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_5_dynamic_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p>Dynamic programming solution
 <a class="reference external" href="http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&amp;action=edit&amp;section=63">http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&amp;action=edit&amp;section=63</a></p>
 </dd></dl>
 
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_6_recursive_dynamic_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_6_recursive_dynamic_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; Tuple[knapsack_problem.ref_func.Item]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L150"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_6_recursive_dynamic_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_6_recursive_dynamic_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; Tuple[knapsack_problem.ref_func.Item]<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L141"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_6_recursive_dynamic_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recursive dynamic programming algorithm
 <a class="reference external" href="http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&amp;action=edit&amp;section=64">http://rosettacode.org/mw/index.php?title=Knapsack_problem/0-1&amp;action=edit&amp;section=64</a></p>
 </dd></dl>
 
 <dl class="function">
 <dt id="knapsack_problem.funcs.knapsack_greedy_solution">
-<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_greedy_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L180"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_greedy_solution" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">knapsack_problem.funcs.</code><code class="sig-name descname">knapsack_greedy_solution</code><span class="sig-paren">(</span><em class="sig-param">items: Tuple[knapsack_problem.ref_func.Item], weight_limit: int</em><span class="sig-paren">)</span> &#x2192; Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/knapsack_problem/funcs.py#L171"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#knapsack_problem.funcs.knapsack_greedy_solution" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a list of items with the maximum value, subject to the
 constraint that their combined weight must not exceed max_weight.
 Implements the well-known “greedy approximation algorithm” for the knapsack problem

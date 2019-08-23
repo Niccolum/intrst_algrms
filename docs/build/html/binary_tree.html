@@ -50,18 +50,18 @@ So, below i realized and compare different approaches to implementation</p>
 <p>It’s just example of binary sort functions, based or not on his own tree.</p>
 <dl class="class">
 <dt id="binary_tree.funcs.BaseNodeClass">
-<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BaseNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L3"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BaseNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L13"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass" title="Permalink to this definition">¶</a></dt>
 <dd><p>Abstract Binary Tree Class
 All other based on this interface</p>
 <dl class="method">
 <dt id="binary_tree.funcs.BaseNodeClass.add_node">
-<em class="property">abstract </em><code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L21"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract </em><code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L20"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
 <dd><p>add items to data container</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="binary_tree.funcs.BaseNodeClass.tree_data">
-<em class="property">abstract </em><code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L28"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract </em><code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L27"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BaseNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>return sorted items of inner data</p>
 </dd></dl>
 
@@ -69,17 +69,17 @@ All other based on this interface</p>
 
 <dl class="class">
 <dt id="binary_tree.funcs.BisectNodeClass">
-<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BisectNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L35"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">BisectNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L34"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass" title="Permalink to this definition">¶</a></dt>
 <dd><p>Based on bisect stdlib, without inner tree</p>
 <dl class="method">
 <dt id="binary_tree.funcs.BisectNodeClass.add_node">
-<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L43"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L42"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
 <dd><p>add items to data container</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="binary_tree.funcs.BisectNodeClass.tree_data">
-<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L47"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L46"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.BisectNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>return sorted items of inner data</p>
 </dd></dl>
 
@@ -87,17 +87,17 @@ All other based on this interface</p>
 
 <dl class="class">
 <dt id="binary_tree.funcs.SingleNodeClass">
-<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">SingleNodeClass</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral = None</em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L51"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">SingleNodeClass</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral = None</em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L50"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass" title="Permalink to this definition">¶</a></dt>
 <dd><p>All operations and storage takes place inside one class</p>
 <dl class="method">
 <dt id="binary_tree.funcs.SingleNodeClass.add_node">
-<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L62"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">data: numbers.Integral</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L61"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
 <dd><p>add items to data container</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="binary_tree.funcs.SingleNodeClass.tree_data">
-<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L78"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L77"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.SingleNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>return sorted items of inner data</p>
 </dd></dl>
 
@@ -105,24 +105,24 @@ All other based on this interface</p>
 
 <dl class="class">
 <dt id="binary_tree.funcs.TwoNodeClass">
-<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">TwoNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L86"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">binary_tree.funcs.</code><code class="sig-name descname">TwoNodeClass</code><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L85"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass" title="Permalink to this definition">¶</a></dt>
 <dd><p>Use inner class Node for storage and TwoNodeClass for for everything else
 based on <a class="reference external" href="https://gist.github.com/samidhtalsania/6659380">https://gist.github.com/samidhtalsania/6659380</a></p>
 <dl class="class">
 <dt id="binary_tree.funcs.TwoNodeClass.Node">
-<em class="property">class </em><code class="sig-name descname">Node</code><span class="sig-paren">(</span><em class="sig-param">key: numbers.Integral</em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L88"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.Node" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">Node</code><span class="sig-paren">(</span><em class="sig-param">key: numbers.Integral</em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L87"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.Node" title="Permalink to this definition">¶</a></dt>
 <dd><p>Inner class of item, which contain info about neightbours</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="binary_tree.funcs.TwoNodeClass.add_node">
-<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">key: numbers.Integral</em>, <em class="sig-param">_node: binary_tree.funcs.TwoNodeClass.Node = None</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L106"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">add_node</code><span class="sig-paren">(</span><em class="sig-param">key: numbers.Integral</em>, <em class="sig-param">_node: binary_tree.funcs.TwoNodeClass.Node = None</em><span class="sig-paren">)</span> &#x2192; None<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L105"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.add_node" title="Permalink to this definition">¶</a></dt>
 <dd><p>add items to data container</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="binary_tree.funcs.TwoNodeClass.tree_data">
-<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><em class="sig-param">node: binary_tree.funcs.TwoNodeClass.Node = None</em><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L131"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">tree_data</code><span class="sig-paren">(</span><em class="sig-param">node: binary_tree.funcs.TwoNodeClass.Node = None</em><span class="sig-paren">)</span> &#x2192; collections.abc.Iterator<a class="reference external" href="https://github.com/Niccolum/intrst_algrms/tree/master/binary_tree/funcs.py#L130"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#binary_tree.funcs.TwoNodeClass.tree_data" title="Permalink to this definition">¶</a></dt>
 <dd><p>return sorted items of inner data</p>
 </dd></dl>
 
