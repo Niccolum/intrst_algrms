@@ -6,8 +6,9 @@ import time
 from typing import List
 from numbers import Integral
 
-from .funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
-from .data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
+from binary_tree import BASEDIR
+from binary_tree.funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
+from binary_tree.data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
 RETRY_NUM = 100
 TOO_LONG = 60*2
@@ -84,7 +85,7 @@ def main():
             if time.monotonic() - start_time > TOO_LONG:
                 break
 
-    with open('performance.json', 'w') as outfile:
+    with open(BASEDIR / 'performance.json', 'w') as outfile:
         json.dump(result, outfile, indent=4)
         print('Done')
 

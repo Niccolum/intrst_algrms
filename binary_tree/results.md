@@ -45,16 +45,10 @@ Swap:          6053           0        6053
 ```
 ## start to work
 ```
-$ cd ~/binary_tree
-
-$ python3 -m venv env
-
-$ source env/bin/activate
-
 $ python -V
 Python 3.7.3
 
-$ pip install -r requirements.txt
+$ cd ~/binary_tree
 ```
 ## run tests
 ```

@@ -4,11 +4,13 @@ import json
 import operator
 from typing import List
 
+from binary_tree import BASEDIR
+
 matplotlib.use('tkagg')  # for use plt.show().
 
 
 def main(exclude_datalist_names: List[str] = None) -> None:
-    with open('performance.json', 'r') as json_data_file:
+    with open(BASEDIR / 'performance.json', 'r') as json_data_file:
         data = json.load(json_data_file)
 
     class_names = sorted(data.keys())
