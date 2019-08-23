@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name="Intrst_algrms",
-    version=read('BUILD_NUMBER'),
+    version=read('BUILD_NUMBER.md'),
     author="Nikolai Vidov",
     author_email="lastsal@mail.ru",
     description="https://intrst-algrms.readthedocs.io/en/latest/",
