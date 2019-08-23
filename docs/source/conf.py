@@ -32,7 +32,8 @@ author = 'Niccolum'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc'
+    'sphinx.ext.autodoc',
+    'sphinx.ext.linkcode'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,3 +60,30 @@ html_static_path = ['_static']
 # additional custom configs
 master_doc = 'index'
 autodoc_mock_imports = ["iteration_utilities", "more_itertools"]
+
+
+def linkcode_resolve(domain, info):
+
+    def get_line(filename, component_name):
+        # hardcode for search first line in implementation, not name in comments
+        import re
+        import urllib
+        raw_link = "https://raw.githubusercontent.com/Niccolum/intrst_algrms/master/%s.py" % filename
+        req = urllib.request.urlopen(raw_link)
+        patterns = (re.compile(b'%s.*:$' % attr.encode()) for attr in component_name.split('.'))
+        pat = next(patterns)
+        for num, line in enumerate(req, start=1):
+            if pat.search(line):
+                try:
+                    pat = next(patterns)
+                except StopIteration:
+                    return num
+
+    if domain != 'py':
+        return None
+    if not info['module']:
+        return None
+    filename = info['module'].replace('.', '/')
+    line = get_line(filename, info['fullname'])
+    link = "https://github.com/Niccolum/intrst_algrms/tree/master/{}.py#L{}".format(filename, line)
+    return link

@@ -6,7 +6,10 @@ Knapsack problem
 Abstract module
 ---------------
 .. automodule:: knapsack_problem.ref_func
-    :inherited-members:
+    :members:
+    :exclude-members: Item
+
+    .. autoclass:: Item(namedtuple('Item', 'name value weight'))
 
 Solutions module
 ----------------

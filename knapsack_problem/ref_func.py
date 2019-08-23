@@ -9,8 +9,37 @@ from typing import Tuple
 
 sys.setrecursionlimit(10_000)
 
-Item = namedtuple('Item', 'name value weight')
-Knapsack = namedtuple('Knapsack', 'items weight_limit')
+
+class Item(namedtuple('Item', 'name value weight')):
+    """
+    Atomic thing with his own characteristics
+
+    .. py:attribute:: name:
+
+        Name of item
+
+    .. py:attribute:: value:
+
+        Cost of item
+
+    .. py:attribute:: weight:
+
+        Weight of item
+    """
+
+
+class Knapsack(namedtuple('Knapsack', 'items weight_limit')):
+    """
+    Knapsack characteristics
+
+    .. py:attribute:: items:
+
+        one of Item above
+
+    .. py:attribute:: weight_limit:
+
+        limit of Knapsack for items
+    """
 
 
 def knapsack_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:

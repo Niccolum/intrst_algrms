@@ -7,7 +7,7 @@ from more_itertools import collapse
 # @profile
 def outer_flatten_1(array: Iterable) -> List:
     """
-    Based on C realizatoin of this solution
+    Based on C realization of this solution
     More on:
 
     https://iteration-utilities.readthedocs.io/en/latest/generated/deepflatten.html
