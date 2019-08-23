@@ -1,7 +1,8 @@
 import unittest
 
-from ..data import (
-    create_data_decreasing_depth, create_data_increasing_depth)
+from unpacking_flatten_lists.data import (
+    create_data_decreasing_depth,
+    create_data_increasing_depth)
 
 
 class TestGenerationData(unittest.TestCase):

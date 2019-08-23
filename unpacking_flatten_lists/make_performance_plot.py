@@ -3,8 +3,9 @@ from matplotlib import pyplot as plt
 import json
 from typing import List
 
-from .data import get_data_name_order
-from .performance import INCREMENT_MODE_NAME, DECREMENT_MODE_NAME
+from unpacking_flatten_lists import BASEDIR
+from unpacking_flatten_lists.data import get_data_name_order
+from unpacking_flatten_lists.performance import INCREMENT_MODE_NAME, DECREMENT_MODE_NAME
 
 
 AVERAGE = 'average'
@@ -12,7 +13,7 @@ matplotlib.use('tkagg')  # for use plt.show().
 
 
 def main(exclude_funcs: List[str] = None) -> None:
-    with open('performance.json', 'r') as json_data_file:
+    with open(BASEDIR / 'performance.json', 'r') as json_data_file:
         data = json.load(json_data_file)
 
     if exclude_funcs is None:

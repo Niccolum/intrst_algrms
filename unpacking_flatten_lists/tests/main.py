@@ -1,6 +1,6 @@
 import unittest
-from .flatten_funcs import TestFlattenFunctions
-from .data_generation import TestGenerationData
+from unpacking_flatten_lists.tests.flatten_funcs import TestFlattenFunctions
+from unpacking_flatten_lists.tests.data_generation import TestGenerationData
 
 
 def main():

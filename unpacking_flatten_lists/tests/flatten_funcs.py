@@ -3,11 +3,18 @@ import copy
 import time
 from typing import List, Union, Iterator
 
-from ..data import (
-    create_data_decreasing_depth, create_data_increasing_depth, generate_data)
-from ..funcs import (
-    outer_flatten_1, outer_flatten_2, niccolum_flatten,
-    tishka_flatten, zart_flatten, recursion_flatten, tishka_flatten_with_stack,
+from unpacking_flatten_lists.data import (
+    create_data_decreasing_depth,
+    create_data_increasing_depth,
+    generate_data)
+from unpacking_flatten_lists.funcs import (
+    outer_flatten_1,
+    outer_flatten_2,
+    niccolum_flatten,
+    tishka_flatten,
+    zart_flatten,
+    recursion_flatten,
+    tishka_flatten_with_stack,
     recursive_flatten_like_tishka)
 
 Num = Union[int, float]

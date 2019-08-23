@@ -46,16 +46,10 @@ Swap:          6053           0        6053
 
 ## start to work
 ```
-$ cd ~/unpacking_flatten_lists
-
-$ python3 -m venv env
-
-$ source env/bin/activate
-
 $ python -V
 Python 3.7.3
 
-$ pip install -r requirements.txt
+$ cd ~/unpacking_flatten_lists
 ```
 ## run tests
 ```

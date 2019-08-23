@@ -6,9 +6,12 @@ from typing import List, Callable
 from numbers import Integral
 from contextlib import contextmanager
 
-from .data import (
-    generate_data, create_data_decreasing_depth, create_data_increasing_depth)
-from .funcs import (
+from unpacking_flatten_lists import BASEDIR
+from unpacking_flatten_lists.data import (
+    generate_data,
+    create_data_decreasing_depth,
+    create_data_increasing_depth)
+from unpacking_flatten_lists.funcs import (
     outer_flatten_1,
     outer_flatten_2,
     niccolum_flatten,
@@ -100,7 +103,7 @@ def main():
     decrease_part()
 
     print('Done testing. Writes...')
-    with open('performance.json', 'w') as outfile:
+    with open(BASEDIR / 'performance.json', 'w') as outfile:
         json.dump(result, outfile, indent=4)
         print('Done')
 
