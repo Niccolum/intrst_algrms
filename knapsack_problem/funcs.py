@@ -4,7 +4,7 @@ Examples of python realization of solution for knapsack problem
 from itertools import combinations
 from typing import Tuple, List, Generator, Any, Union, Iterator
 
-from .ref_func import knapsack_standard_solution, Item
+from knapsack_problem.ref_func import knapsack_standard_solution, Item
 
 
 # @profile

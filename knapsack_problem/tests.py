@@ -3,13 +3,13 @@ from operator import attrgetter
 from typing import Callable
 import time
 
-from .data import (
+from knapsack_problem.data import (
     pack_up_static_knapsack_1,
     pack_up_static_knapsack_2,
     pack_up_static_knapsack_3,
     create_dynamic_knapsacks
 )
-from .funcs import (
+from knapsack_problem.funcs import (
     knapsack_1_standard_solution,
     knapsack_2_solution,
     knapsack_3_solution,
@@ -18,7 +18,7 @@ from .funcs import (
     knapsack_6_recursive_dynamic_solution,
     knapsack_greedy_solution
 )
-from .ref_func import knapsack_standard_solution
+from knapsack_problem.ref_func import knapsack_standard_solution
 
 TOO_LONG = 60 * 1  # time in seconds for break loop of testing functions
 

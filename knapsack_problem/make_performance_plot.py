@@ -2,13 +2,14 @@ import matplotlib
 from matplotlib import pyplot as plt
 import json
 
-from .performance import SMALL_STAT_NAME, BIG_STAT_NAME
+from knapsack_problem import BASEDIR
+from knapsack_problem.performance import SMALL_STAT_NAME, BIG_STAT_NAME
 
 matplotlib.use('tkagg')  # for use plt.show().
 
 
 def main(*, stat_type) -> None:
-    with open('performance.json', 'r') as json_data_file:
+    with open(BASEDIR / 'performance.json', 'r') as json_data_file:
         data = json.load(json_data_file)[stat_type]
 
     func_names = sorted(data.keys())

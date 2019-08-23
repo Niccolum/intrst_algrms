@@ -6,9 +6,10 @@ import time
 from typing import List, Callable, Dict, Union
 from numbers import Integral
 
-from .data import create_dynamic_knapsacks
-from .ref_func import Knapsack, Item
-from .funcs import (
+from knapsack_problem import BASEDIR
+from knapsack_problem.data import create_dynamic_knapsacks
+from knapsack_problem.ref_func import Knapsack, Item
+from knapsack_problem.funcs import (
     knapsack_1_standard_solution,
     knapsack_2_solution,
     knapsack_3_solution,
@@ -91,7 +92,7 @@ def common_perf_part(*,
 def main() -> None:
     small_perf()
     big_perf()
-    with open('performance.json', 'w') as outfile:
+    with open(BASEDIR / 'performance.json', 'w') as outfile:
         json.dump(result, outfile, indent=4)
         print('Done')
 
