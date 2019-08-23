@@ -27,6 +27,7 @@ setup(
     },
     python_requires='>=3.6',
     install_requires=[
+        'Cython'
         'iteration-utilities',
         'more-itertools',
         'memory-profiler',
