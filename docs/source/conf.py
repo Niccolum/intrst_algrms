@@ -18,7 +18,6 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'intrst_algrms'
@@ -33,7 +32,8 @@ author = 'Niccolum'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.linkcode'
+    'sphinx.ext.linkcode',
+    'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,8 +59,8 @@ html_static_path = ['_static']
 
 # additional custom configs
 master_doc = 'index'
-# autodoc_mock_imports = ["iteration_utilities", "more_itertools"]
 
+# add reslover to link for sources code
 
 def linkcode_resolve(domain, info):
 
@@ -87,3 +87,9 @@ def linkcode_resolve(domain, info):
     line = get_line(filename, info['fullname'])
     link = "https://github.com/Niccolum/intrst_algrms/tree/master/{}.py#L{}".format(filename, line)
     return link
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}

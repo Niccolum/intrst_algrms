@@ -23,7 +23,7 @@ setup(
     packages=['.', 'binary_tree', 'knapsack_problem', 'unpacking_flatten_lists'],
     package_data={
         # If any package contains files, include them:
-        '': ['*.txt', '*.rst', '*.md', '*.png', '*.lprof', '*.json', '*.dat'],
+        '': ['*.txt', '*.rst', '*.md', '*.mdn', '*.png', '*.lprof', '*.json', '*.dat'],
     },
     python_requires='>=3.6',
     install_requires=[

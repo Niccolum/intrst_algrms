@@ -7,6 +7,12 @@ Welcome to intrst_algrms's documentation!
 =========================================
 
 .. toctree::
+   :maxdepth: 1
+   :caption: README:
+
+   README.md
+
+.. toctree::
    :maxdepth: 3
    :caption: Contents:
 
