@@ -11,9 +11,21 @@ Python 3.6+ (because of type checking)
 ### Installing
 
 ```
-git clone git@github.com:Niccolum/intrst_algrms.git .
+python3 -m venv env
+source env/bin/activate
+pip install -e git+https://github.com/Niccolum/intrst_algrms#egg=Intrst_algrms
+cd env/src/intrst_algrms
 ```
-More detailed description and HOW-TO - located in the readme file in each of the folders
+
+#### Note:
+
+*For check memory tests - install line_profiler manually.*
+
+*This package not in package because of problem with installation. Details [here](https://github.com/rkern/line_profiler#installation)*
+
+After that you can run commands from results.md on each folders.
+
+More detailed description and HOW-TO:
 
 Results of research algorithms here:
 * [Binary Tree (sorting)](binary_tree/results.md)

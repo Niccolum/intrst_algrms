@@ -80,7 +80,7 @@ Ran 10 tests in 10.419s
 ```
 # uncomment @profile decorator in funcs.py
 ```
-#### add profiling plot
+#### add memory profiling plot
 ```
 $ mprof run funcs.py
 ```
@@ -92,7 +92,6 @@ see and save [memory_test.png](memory_test.png)
 
 #### add CPU profiling data
 ```
-
 $ kernprof -l funcs.py
 ```
 Wrote profile results to [funcs.py.lprof](funcs.py.lprof)
