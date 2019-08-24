@@ -20,8 +20,7 @@ cd env/src/intrst_algrms
 #### Note:
 
 *For check memory tests - install line_profiler manually.*
-
-*This package not in package because of problem with installation. Details [here](https://github.com/rkern/line_profiler#installation)*
+*This package not include to install because of problem with installation. Details [here](https://github.com/rkern/line_profiler#installation)*
 
 After that you can run commands from results.md on each folders.
 
