@@ -1,11 +1,9 @@
 import os
+import sys
 from setuptools import setup
 
-# Utility function to read the README file.
-# Used for the long_description.  It's nice, because now 1) we have a top level
-# README file and 2) it's easier to type in the README file than to put a raw
-# string in below ...
-
+if sys.version_info < (3, 6):
+    raise RuntimeError("Intrst_algrms 3.x requires Python 3.6+")
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
@@ -13,14 +11,14 @@ def read(fname):
 
 setup(
     name="Intrst_algrms",
-    version=read('BUILD_NUMBER.md'),
+    version=read('VERSION.md'),
     author="Nikolai Vidov",
     author_email="lastsal@mail.ru",
     description="https://intrst-algrms.readthedocs.io/en/latest/",
     license="MIT",
     keywords="example documentation algorithms",
     url="https://intrst-algrms.readthedocs.io/en/latest/",
-    packages=['binary_tree', 'knapsack_problem', 'unpacking_flatten_lists'],
+    packages=['.', 'binary_tree', 'knapsack_problem', 'unpacking_flatten_lists'],
     package_data={
         # If any package contains files, include them:
         '': ['*.txt', '*.rst', '*.md', '*.png', '*.lprof', '*.json', '*.dat'],
