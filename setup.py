@@ -8,14 +8,15 @@ if sys.version_info < (3, 6):
 
 
 def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+    with open(os.path.join(os.path.dirname(__file__), fname)) as f:
+        return f.read()
 
 
 setup(
     name="Intrst_algrms",
-    version=read('VERSION.md'),
     author="Nikolai Vidov",
     author_email="lastsal@mail.ru",
+    version=read('VERSION'),
     description="https://intrst-algrms.readthedocs.io/en/latest/",
     license="MIT",
     keywords="example documentation algorithms",
@@ -35,4 +36,5 @@ setup(
         'matplotlib',
     ],
     long_description=read('README.md'),
+    long_description_content_type='text/markdown',
 )

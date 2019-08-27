@@ -55,6 +55,10 @@ More, about funcs, in [docs](https://intrst-algrms.readthedocs.io/en/latest/)
 
 Please read [CONTRIBUTING.md](https://github.com/Niccolum/intrst_algrms/blob/master/CONTRIBUTING.mdn) for details on our code of conduct, and the process for submitting pull requests to us.
 
+## Dev
+
+For developers info [here](https://github.com/Niccolum/intrst_algrms/blob/master/README-DEV.mdn).
+
 ## Authors
 
 * **Nikolai Vidov** - *maintainer* - [Niccolum](https://github.com/Niccolum)
