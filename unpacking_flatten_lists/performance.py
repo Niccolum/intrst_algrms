@@ -17,9 +17,9 @@ from unpacking_flatten_lists.funcs import (
     niccolum_flatten,
     tishka_flatten,
     zart_flatten,
-    recursion_flatten,
+    recursive_flatten_iterator,
     tishka_flatten_with_stack,
-    recursive_flatten_like_tishka)
+    recursive_flatten_generator)
 
 RETRY_NUM = 10
 TOO_LONG = 60 * 5 // 100  # in seconds
@@ -44,9 +44,9 @@ funcs = [
     niccolum_flatten,
     tishka_flatten,
     zart_flatten,
-    recursion_flatten,
+    recursive_flatten_iterator,
     tishka_flatten_with_stack,
-    recursive_flatten_like_tishka
+    recursive_flatten_generator
 ]
 
 result = defaultdict(lambda: defaultdict(lambda: defaultdict(Integral)))

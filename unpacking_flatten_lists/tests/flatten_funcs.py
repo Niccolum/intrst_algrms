@@ -13,9 +13,9 @@ from unpacking_flatten_lists.funcs import (
     niccolum_flatten,
     tishka_flatten,
     zart_flatten,
-    recursion_flatten,
+    recursive_flatten_iterator,
     tishka_flatten_with_stack,
-    recursive_flatten_like_tishka)
+    recursive_flatten_generator)
 
 Num = Union[int, float]
 
@@ -82,12 +82,12 @@ class TestFlattenFunctions(unittest.TestCase):
         for data, result in self.increase_generator:
             self.assertEqual(zart_flatten(data), result)
 
-    def test_recursion_flatten(self) -> None:
+    def test_recursive_flatten_iterator(self) -> None:
         for data, result in self.decrease_generator:
-            self.assertEqual(list(recursion_flatten(data)), result)
+            self.assertEqual(list(recursive_flatten_iterator(data)), result)
 
         for data, result in self.increase_generator:
-            self.assertEqual(list(recursion_flatten(data)), result)
+            self.assertEqual(list(recursive_flatten_iterator(data)), result)
 
     def test_tishka_flatten_with_stack(self) -> None:
         for data, result in self.decrease_generator:
@@ -96,9 +96,9 @@ class TestFlattenFunctions(unittest.TestCase):
         for data, result in self.increase_generator:
             self.assertEqual(tishka_flatten_with_stack(data), result)
 
-    def test_recursive_flatten_like_tishka(self) -> None:
+    def test_recursive_flatten_generator(self) -> None:
         for data, result in self.decrease_generator:
-            self.assertEqual(recursive_flatten_like_tishka(data), result)
+            self.assertEqual(recursive_flatten_generator(data), result)
 
         for data, result in self.increase_generator:
-            self.assertEqual(recursive_flatten_like_tishka(data), result)
+            self.assertEqual(recursive_flatten_generator(data), result)

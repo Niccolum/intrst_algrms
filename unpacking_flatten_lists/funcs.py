@@ -98,23 +98,23 @@ def zart_flatten(a: Iterable) -> List:
 
 
 # @profile
-def recursive_flatten_like_tishka(array: Iterable) -> List:
+def recursive_flatten_generator(array: Iterable) -> List:
     """
     Recursive algorithm
-    Based on tishka_flatten algorithm
+    Looks like recursive_flatten_iterator, but with extend/append
 
     """
     lst = []
     for i in array:
         if isinstance(i, list):
-            lst.extend(recursive_flatten_like_tishka(i))
+            lst.extend(recursive_flatten_generator(i))
         else:
             lst.append(i)
     return lst
 
 
 # @profile
-def recursion_flatten(arr: Iterable) -> Iterator:
+def recursive_flatten_iterator(arr: Iterable) -> Iterator:
     """
     Recursive algorithm based on iterator
     Usual solution to this problem
@@ -123,7 +123,7 @@ def recursion_flatten(arr: Iterable) -> Iterator:
 
     for i in arr:
         if isinstance(i, list):
-            yield from recursion_flatten(i)
+            yield from recursive_flatten_iterator(i)
         else:
             yield i
 
@@ -172,8 +172,8 @@ if __name__ == '__main__':
             niccolum_flatten,
             tishka_flatten,
             zart_flatten,
-            recursive_flatten_like_tishka,
-            recursion_flatten,
+            recursive_flatten_generator,
+            recursive_flatten_iterator,
             tishka_flatten_with_stack
         ]
 

@@ -323,7 +323,7 @@
             "10000_amount_1000_length_1000_max_depth": 0.0022834085995176185
         }
     },
-    "recursion_flatten": {
+    "recursive_flatten_iterator": {
         "increase": {
             "10_amount_1_length_1_max_depth": 2.7112003105382124e-06,
             "100_amount_1_length_1_max_depth": 1.208376488648355e-05,
@@ -451,7 +451,7 @@
             "10000_amount_1000_length_1000_max_depth": 0.0021805434313137083
         }
     },
-    "recursive_flatten_like_tishka": {
+    "recursive_flatten_generator": {
         "increase": {
             "10_amount_1_length_1_max_depth": 3.2742003289361796e-06,
             "100_amount_1_length_1_max_depth": 1.390823357117673e-05,
