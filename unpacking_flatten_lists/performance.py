@@ -26,14 +26,14 @@ TOO_LONG = 60 * 5 // 100  # in seconds
 INCREMENT_MODE_NAME = 'increase'
 DECREMENT_MODE_NAME = 'decrease'
 SETUP_IMPORT_TEMPLATE = '''
-from typing import Generator
+from typing import Iterator
 import json
 from __main__ import {func_name} as flatten
 data = json.loads("{data}")
 '''
 RUNNING_TEMPLATE = '''
 result = flatten(data)
-if isinstance(result, Generator):
+if isinstance(result, Iterator):
     result = list(result)
 '''
 

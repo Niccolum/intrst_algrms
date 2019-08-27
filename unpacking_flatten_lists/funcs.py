@@ -18,7 +18,7 @@ def outer_flatten_1(array: Iterable) -> List:
 
     https://github.com/MSeifert04/iteration_utilities/blob/384948b4e82e41de47fa79fb73efc56c08549b01/src/deepflatten.c
     """
-    return list(deepflatten(array))
+    return deepflatten(array)
 
 
 # @profile
@@ -36,7 +36,7 @@ def outer_flatten_2(array: Iterable) -> List:
     more on:
     https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.collapse
     """
-    return list(collapse(array))
+    return collapse(array)
 
 
 # @profile
