@@ -4,10 +4,6 @@ Step two: call verup script in working directory (see verup script)
 
 Step three: push all changes and tags
 
-Step four: create dist
-
-Step five: upload dist to PYPI
-
 Script has 1 parameter with three options:
 
     ./verup major - Only for "Breaking changes"
@@ -43,20 +39,5 @@ Total 26 (delta 8), reused 0 (delta 0)
 remote: Resolving deltas: 100% (8/8), completed with 3 local objects.
 To github.com:Niccolum/intrst_algrms.git
  * [new tag]         0.1.3 -> 0.1.3
-
-niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ source env/bin/activate
-(env) niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ python setup.py sdist
-...
-Writing Intrst_algrms-0.1.3/setup.cfg
-Creating tar archive
-removing 'Intrst_algrms-0.1.3' (and everything under it)
-
-(env) niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ python3 -m twine upload dist/*
-Enter your username: Niccolum
-Enter your password: 
-Uploading distributions to https://upload.pypi.org/legacy/
-Uploading Intrst_algrms-0.1.3.tar.gz
-100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 825k/825k [00:01<00:00, 462kB/s]
-
 
 ```
