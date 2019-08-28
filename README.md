@@ -32,9 +32,9 @@ After that you can run commands from results.md on each folders.
 More detailed description and HOW-TO:
 
 Results of research algorithms here:
-* [Binary Tree (sorting)](https://github.com/Niccolum/intrst_algrms/blob/master/binary_tree/results.mdn)
-* [Knapsack problem](https://github.com/Niccolum/intrst_algrms/blob/master/knapsack_problem/results.mdn)
-* [Unpacking nested lists of indefinite depth](https://github.com/Niccolum/intrst_algrms/blob/master/unpacking_flatten_lists/results.mdn)
+* [Binary Tree (sorting)](https://github.com/Niccolum/intrst_algrms/blob/master/binary_tree/results.md)
+* [Knapsack problem](https://github.com/Niccolum/intrst_algrms/blob/master/knapsack_problem/results.md)
+* [Unpacking nested lists of indefinite depth](https://github.com/Niccolum/intrst_algrms/blob/master/unpacking_flatten_lists/results.md)
 
 ##### For use funcs in your own code you can install package from PYPI:
 
@@ -53,11 +53,11 @@ More, about funcs, in [docs](https://intrst-algrms.readthedocs.io/en/latest/)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Niccolum/intrst_algrms/blob/master/CONTRIBUTING.mdn) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Niccolum/intrst_algrms/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Dev
 
-For developers info [here](https://github.com/Niccolum/intrst_algrms/blob/master/README-DEV.mdn).
+For developers info [here](https://github.com/Niccolum/intrst_algrms/blob/master/README-DEV.md).
 
 ## Authors
 
@@ -65,4 +65,4 @@ For developers info [here](https://github.com/Niccolum/intrst_algrms/blob/master
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.mdn) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md) file for details

@@ -5,6 +5,10 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install .
+script: 
+  - python binary_tree/tests.py -vv
+  - python knapsack_problem/tests.py
+  - python -m unittest unpacking_flatten_lists.tests.main -v
 deploy:
   provider: pypi
   user: Niccolum
