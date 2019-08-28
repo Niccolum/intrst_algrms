@@ -3,11 +3,11 @@ from typing import List
 from numbers import Integral
 
 from binary_tree.funcs import BisectNodeClass, SingleNodeClass, TwoNodeClass, BaseNodeClass
-from binary_tree.data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
+from binary_tree.data import datalist_100, datalist_1000, datalist_10000
 
 
 class TestNodes(unittest.TestCase):
-    data = [datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000]
+    data = [datalist_100, datalist_1000, datalist_10000]
 
     def tree_testing(self, instance: BaseNodeClass, datalist: List[Integral]):
         for i in datalist:
