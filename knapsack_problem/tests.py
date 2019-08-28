@@ -20,7 +20,7 @@ from knapsack_problem.funcs import (
 )
 from knapsack_problem.ref_func import knapsack_standard_solution
 
-TOO_LONG = 60 * 1  # time in seconds for break loop of testing functions
+TOO_LONG = 60 * 0.1  # time in seconds for break loop of testing functions
 
 
 class TestKnapsackProblem1StaticData(unittest.TestCase):
