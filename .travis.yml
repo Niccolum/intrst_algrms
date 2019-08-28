@@ -1,0 +1,10 @@
+language: python
+deploy:
+  provider: pypi
+  user: Niccolum
+  password:
+    secure: WKZL7bVJAPM5pqeYOHg+WHXndWZvbmxAFP+uQg9DyJRU/4ZHngxB40yps6IGK8x1STImhAWCIzQD0VsWF0aB9VMJ0mDL/j5B8vBGOvaRarGp0zrW9+o21EpWS5Nh7E6rKiEhFpWbrX+O3fRlvnzJWqa4iQD/7DEA3YQSPOGSPwFnsU7r7aSfP3dAA4dRJMdy3Hy04e4Nl761b5bf1WGueplbpx/nJaJLfwzIyR0NdnYQixZt0hr1UVrzjeJcXw7s9pc6kPxRZSJeMG7zIGMgEmjvOgRsJErla9d1UEaA9EnG3LPECrnEeaJbLWCvx0txVT0YMS5IpbN0WhWXSQkGBQQQtFO47qynqQIYWe85Glj22FvoWBYwKwESyZMK7qGSYXAENdmfZO1Ue5BkZcM65pfIKTTT0JyM9ryvne7DGZ6WHAK8GZMr4vJAHljJLeZl/+capH3GjysLTLK5GLbI+uFvA6l76Fr6mf7285WbkSdlqOQRs/u6LPcldlSIlxldaWyp19nsukpq9kDUJ6ZgL1FS8D5cbKura5mmkMay9WncRvIdB1cVgt9Crmcr1jRLZ4Lq14ecyge+tRm2VlwgYnXgAiApXLyAc1uXoE9GcsR998O/oOOn291JKSDq4+AXfDI8C2sRIVzZ0w3taNet0yDiu9pAjwyNZJeA4UsCbOQ=
+  on:
+    tags: true
+    branch: master
+  skip_existing: true

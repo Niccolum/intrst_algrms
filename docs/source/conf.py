@@ -87,9 +87,3 @@ def linkcode_resolve(domain, info):
     line = get_line(filename, info['fullname'])
     link = "https://github.com/Niccolum/intrst_algrms/tree/master/{}.py#L{}".format(filename, line)
     return link
-
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.txt': 'restructuredtext',
-    '.md': 'markdown',
-}
