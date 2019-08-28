@@ -51,4 +51,4 @@ def main(exclude_funcs: List[str] = None) -> None:
 
 if __name__ == '__main__':
     main()
-    main(exclude_funcs=['tishka_flatten', 'outer_flatten_2', 'recursion_flatten'])
+    main(exclude_funcs=['tishka_flatten', 'outer_flatten_2', 'recursive_flatten_iterator'])
