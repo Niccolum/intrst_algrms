@@ -3,7 +3,6 @@ python:
 - '3.6'
 - '3.7'
 install:
-- pip install -r requirements.txt
 - pip install .
 script:
 - python binary_tree/tests.py -vv
@@ -14,7 +13,8 @@ deploy:
   user: Niccolum
   password:
     secure: J1P6eZysUtG08ZbDUa0gqWIna0s3q8IvFotogAoJFldhDKPkfCeWInrqxp6dK/C6/0ueeuJeln9AssqllYhb07nF2Q911p6MB7zhZhWQSHzDwq98/EaMWQdBkJD2cdQB2VQWNFFJwB2VdwthsYWEoMMHokY4WVc3Oo3A++99/7CIIqYsQpkRFAKz6POatmm6yoiJX3pc6lschoFSGdvZ3K2gS56FqzO+7TcPd/0NsLJnLR5OMcw5zBOR04fL+nBgy/DSunHEHLEHF2Jgoi8VWXXwwBP5md61wVjo15+pnwExC+BsdOOuD82k5aqH+V0fXFGntn+zN3xIkSJa0v2S97AgksIL34WlGu3RWa7lJi4JVr5o48VNOcK2GwVpU8bUI33jeorRo7DOnyiTerOISrVmWfXvhE7+ADo89ehCo/E9xPPe4i4VLTXL/jpFK36NXLc7SZIiPTEswwf2TVpfH9nJ+vVpPIVwky2aNLJKEUj+6qkzJHUXoTA+4u04lBXmDcYB3U0lGrIHyim9urLi7xyYbmyHtUsdLiCPE2sDnlZiNMP9XOJSHVkb4HDpRM54A6RPkoTQcr4DadC4GMp2vFeAnH0DNA4ZeBoErvTDt3TeFtQcuRwOGJsmAzSBT4fXKYpSf8T+PR8HjoayrxTfuAUczA+jISOZYHq7ljVA8PQ=
+  distributions: "sdist bdist_wheel"
   skip_existing: true
-  skip_cleanup: true
   on:
     tags: true
+    python: '3.7'
