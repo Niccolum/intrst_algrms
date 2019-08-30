@@ -1,4 +1,5 @@
 [![](https://travis-ci.com/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.com/Niccolum/intrst_algrms)
+[![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
 # Instruments and algorithms
 
 Here is examples of realizations several algorithms, they performance, memory used and result plots.
