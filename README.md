@@ -1,4 +1,4 @@
-[![](https://travis-ci.com/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.com/Niccolum/intrst_algrms)
+[![](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms)
 [![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
 # Instruments and algorithms
 

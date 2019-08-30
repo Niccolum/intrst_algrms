@@ -131,7 +131,7 @@ class TestKnapsackProblem2DynamicData(unittest.TestCase):
             self.assertTrue(data['input'].weight_limit >= sum(i.weight for i in raw_result))
 
             result = sum(i.value for i in raw_result)
-            expected_result = sum(i.value for i in data['output']) * 0.85
+            expected_result = sum(i.value for i in data['output']) * 0.7
             self.assertTrue(result >= expected_result)
 
             print('Knapsack with {} items was completed in {:2f} seconds'.format(len(data['input'].items), end))
