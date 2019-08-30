@@ -1,22 +1,22 @@
 language: python
 python:
-  - '3.6'
-  - '3.7'
+- '3.6'
+- '3.7'
 install:
-  - pip install .
-  - pip install coverage codecov
+- pip install .
+- pip install coverage codecov
 script:
-  - coverage run binary_tree/tests.py
-  - coverage run -a knapsack_problem/tests.py
-  - coverage run -a -m unittest unpacking_flatten_lists.tests.main
+- coverage run binary_tree/tests.py
+- coverage run -a knapsack_problem/tests.py
+- coverage run -a -m unittest unpacking_flatten_lists.tests.main
 after_success:
-  - codecov
+- codecov
 deploy:
   provider: pypi
   user: Niccolum
   password:
-    secure: J1P6eZysUtG08ZbDUa0gqWIna0s3q8IvFotogAoJFldhDKPkfCeWInrqxp6dK/C6/0ueeuJeln9AssqllYhb07nF2Q911p6MB7zhZhWQSHzDwq98/EaMWQdBkJD2cdQB2VQWNFFJwB2VdwthsYWEoMMHokY4WVc3Oo3A++99/7CIIqYsQpkRFAKz6POatmm6yoiJX3pc6lschoFSGdvZ3K2gS56FqzO+7TcPd/0NsLJnLR5OMcw5zBOR04fL+nBgy/DSunHEHLEHF2Jgoi8VWXXwwBP5md61wVjo15+pnwExC+BsdOOuD82k5aqH+V0fXFGntn+zN3xIkSJa0v2S97AgksIL34WlGu3RWa7lJi4JVr5o48VNOcK2GwVpU8bUI33jeorRo7DOnyiTerOISrVmWfXvhE7+ADo89ehCo/E9xPPe4i4VLTXL/jpFK36NXLc7SZIiPTEswwf2TVpfH9nJ+vVpPIVwky2aNLJKEUj+6qkzJHUXoTA+4u04lBXmDcYB3U0lGrIHyim9urLi7xyYbmyHtUsdLiCPE2sDnlZiNMP9XOJSHVkb4HDpRM54A6RPkoTQcr4DadC4GMp2vFeAnH0DNA4ZeBoErvTDt3TeFtQcuRwOGJsmAzSBT4fXKYpSf8T+PR8HjoayrxTfuAUczA+jISOZYHq7ljVA8PQ=
-  distributions: "sdist bdist_wheel"
+    secure: fyocdZpmgOvLN75dFAD2w8RRXLNnvXhVxc9+LXqUvPdNnc6TDLiwxn3eLf462n3wCbWEtARE7eraGaH5oMGuUCoWiTgk32ad+rM77VJZuIp9Srvq37RV+DLbnfJMLt+yfzcAFYTWlhia2qruS9ZUXjRzp5zuYC1NfZBsoFGofIBZ2aAuapCHsdc1W1xzC8eez7nk5oHOGb2y/lj+d03lSrL2eTCHM2sXRMEu7YD1gsrHM87CwJHPO3XpbFI+wiV0Ku48Z2qgFrrLIODwqDSefDOWdNmkSFhbrGe3mtcV4SGkyO/3OpNqgp9kWr2qxUfkCinfSWOYCN703RQayVP/++bacB3Ope3kSnnbPRQBlOZoZ0TUnEK4kUa48x8RvDo+3U+uT7HbOq8JkyI0RNEW3DAVaEqKdzlA1TUgz0NJ/If59nJTmYDNcxJfLGUp+BvkmA757KaC9P1RdWl1B673nvyHD7KOYugqyXyHI920mPiZFP/PYzHHmjhE2FhS813qfxKOJjcW40t+uZ8/A77LGRapw140nvzHBtXjooVP+cq02qdWQDbeCMZYp1orBR2p+ugWV81qqnsN1UXFUMdcbr68vETGTd8UdnN30CC62XbtRJRFMPWvfyl/ULSiO51bnDzeHJfZBuEM44VQXR63zQUq7zN7hQGB3ykdBQ/cb6s=
+  distributions: sdist bdist_wheel
   skip_existing: true
   on:
     tags: true
