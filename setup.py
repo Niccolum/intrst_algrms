@@ -37,4 +37,16 @@ setup(
     ],
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
+    platforms='any',
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Other Environment',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Topic :: Software Development :: Libraries :: Python Modules'
+    ],
 )

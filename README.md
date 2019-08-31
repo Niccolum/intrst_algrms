@@ -1,5 +1,8 @@
 [![](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms)
 [![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
+[![](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=green)](https://pypi.org/project/Intrst-algrms/)
+[![](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://pypi.org/project/Intrst-algrms/)
+
 # Instruments and algorithms
 
 Here is examples of realizations several algorithms, they performance, memory used and result plots.
