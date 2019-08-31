@@ -4,6 +4,7 @@
 [![](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://pypi.org/project/Intrst-algrms/)
 [![](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md)
 [![](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
+[![](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
 
 # Instruments and algorithms
 
@@ -13,7 +14,7 @@ Here is examples of realizations several algorithms, they performance, memory us
 
 ### Requirements
 
-Python 3.6+ (because of type checking)
+Python 3.6+
 
 ### Installing
 
