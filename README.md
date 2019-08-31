@@ -2,6 +2,8 @@
 [![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
 [![](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/)
 [![](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://pypi.org/project/Intrst-algrms/)
+[![](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md)
+[![](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
 
 # Instruments and algorithms
 
