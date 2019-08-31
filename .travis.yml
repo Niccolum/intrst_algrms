@@ -1,16 +1,20 @@
 language: python
 python:
-- '3.6'
-- '3.7'
+  - '3.6'
+  - '3.7'
+env:
+  - SNYK_TOKEN=d82579d3-a97b-475f-9e7c-9ee561ebd544
 install:
-- pip install .
-- pip install coverage codecov
+  - pip install .
+  - pip install coverage codecov
+  - npm install -g snyk
 script:
-- coverage run binary_tree/tests.py
-- coverage run -a knapsack_problem/tests.py
-- coverage run -a -m unittest unpacking_flatten_lists.tests.main
+  - coverage run binary_tree/tests.py
+  - coverage run -a knapsack_problem/tests.py
+  - coverage run -a -m unittest unpacking_flatten_lists.tests.main
+  - snyk test
 after_success:
-- codecov
+  - codecov
 deploy:
   provider: pypi
   user: Niccolum
