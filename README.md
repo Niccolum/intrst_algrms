@@ -5,6 +5,7 @@
 [![](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md)
 [![](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
 [![](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
+[![](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/)
 
 # Instruments and algorithms
 
