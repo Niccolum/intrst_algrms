@@ -80,7 +80,7 @@ Ran 10 tests in 10.419s
 
 uncomment @profile decorator in funcs.py
 
-#### add memory profiling plot
+### add memory profiling plot
 ```bash
 $ mprof run funcs.py
 ```
@@ -90,7 +90,7 @@ $ mprof plot
 ```
 see and save [memory_test.png](memory_test.png)
 
-#### add CPU profiling data
+### add CPU profiling data
 ```bash
 $ kernprof -l funcs.py
 ```

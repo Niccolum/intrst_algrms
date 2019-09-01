@@ -8,6 +8,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Pull Request Process
 
 1.  Ensure any install or build dependencies are removed before the end of the layer when doing a build.
+
 2.  Update the README.md with details of changes to the interface, this includes new environment 
     variables, exposed ports, useful file locations and container parameters.
 
@@ -28,15 +29,20 @@ Examples of behavior that contributes to creating a positive environment
 include:
 
 *   Using welcoming and inclusive language
+
 *   Being respectful of differing viewpoints and experiences
+
 *   Gracefully accepting constructive criticism
+
 *   Focusing on what is best for the community
 
 Examples of unacceptable behavior by participants include:
 
 *   Public or private harassment
+
 *   Publishing others' private information, such as a physical or electronic
     address, without explicit permission
+    
 *   Other conduct which could reasonably be considered inappropriate in a
     professional setting
 

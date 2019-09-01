@@ -22,18 +22,18 @@ Python 3.6+
 ### Installing
 
 ```bash
-python3 -m venv env
-source env/bin/activate
+    python3 -m venv env
+    source env/bin/activate
 ```
 
 #### For check and research
 
 ```bash
-pip install -e git+https://github.com/Niccolum/intrst_algrms#egg=Intrst_algrms
-cd env/src/intrst_algrms
+    pip install -e git+https://github.com/Niccolum/intrst_algrms#egg=Intrst_algrms
+    cd env/src/intrst_algrms
 ```
 
-##### Note:
+##### Note
 
 *For check memory tests - install line_profiler manually.*
 *This package not include to install because of problem with installation. Details [here](https://github.com/rkern/line_profiler#installation)*
@@ -50,14 +50,14 @@ Results of research algorithms here:
 #### For use funcs in your own code you can install package from PYPI
 
 ```bash
-pip install Intrst_algrms
+    pip install Intrst_algrms
 ```
 
 and import it from your code:
 ```python
-from binary_tree.funcs import ...
-from knapsack_problem.funcs import ...
-from unpacking_flatten_lists.funcs import ...
+    from binary_tree.funcs import ...
+    from knapsack_problem.funcs import ...
+    from unpacking_flatten_lists.funcs import ...
 ```
 
 More, about funcs, in [docs](https://intrst-algrms.readthedocs.io/en/latest/)
@@ -72,7 +72,7 @@ For developers info [here](https://github.com/Niccolum/intrst_algrms/blob/master
 
 ## Authors
 
-* **Nikolai Vidov** - *maintainer* - [Niccolum](https://github.com/Niccolum)
+*   **Nikolai Vidov** - *maintainer* - [Niccolum](https://github.com/Niccolum)
 
 ## License
 
