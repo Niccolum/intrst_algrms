@@ -162,11 +162,11 @@ def _create_knapsack(weight_limit: int) -> Knapsack:
     return Knapsack(tuple(items), weight_limit)
 
 
-def _get_random_words(limit=None):
+def _get_random_words(limit: int):
     word_url = "http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain"
-    response = urllib.request.urlopen(word_url)
-    long_txt = response.read().decode()
-    words = long_txt.splitlines()[:limit]
+    with urllib.request.urlopen(word_url) as response:  # nosec because of hardlink
+        lines = itertools.islice(response, limit)
+        words = [line.decode().rstrip() for line in lines]
     random.shuffle(words)
     while words:
         yield words.pop()
