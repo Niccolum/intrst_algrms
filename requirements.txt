@@ -1,2 +1,13 @@
-iteration-utilities
-more-itertools
+cycler==0.10.0
+Cython==0.29.13
+Intrst-algrms==0.4.12
+iteration-utilities==0.7.0
+kiwisolver==1.1.0
+matplotlib==3.1.1
+memory-profiler==0.55.0
+more-itertools==7.2.0
+numpy==1.17.1
+psutil==5.6.3
+pyparsing==2.4.2
+python-dateutil==2.8.0
+six==1.12.0
