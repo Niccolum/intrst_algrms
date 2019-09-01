@@ -1,11 +1,14 @@
-[![](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms)
-[![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
-[![](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/)
-[![](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://pypi.org/project/Intrst-algrms/)
-[![](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md)
-[![](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
-[![](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/)
-[![](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/)
+[![travis-ci build status](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms)
+[![Code Coverage by Codecov](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
+[![Vulnerabilities by SNYK](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/)
+[![Codacy Badge](https://img.shields.io/codacy/grade/6157aa23ef6e4886b146b9b16a7a68c8)](https://app.codacy.com/project/lastsal/intrst_algrms/dashboard)
+
+
+[![Package version](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/)
+[![Support python versions](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L6)
+[![Licence](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md)
+[![Project status](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L46)
+[![Last Commit](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/commits/master)
 
 # Instruments and algorithms
 
