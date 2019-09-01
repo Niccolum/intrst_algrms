@@ -142,19 +142,19 @@ class TwoNodeClass(BaseNodeClass):
                 node = node.right
 
 
-if __name__ == '__main__':
-    import time
-
-    from data import datalist_100
-
     def profile():
+        import time
+
+        from binary_tree.data import datalist_100
+
         nodes = [SingleNodeClass, TwoNodeClass, BisectNodeClass]
         for cls_node in nodes:
             node = cls_node()
             for i in datalist_100:
                 node.add_node(i)
             list(node.tree_data())
-            del node
             time.sleep(0.3)
 
+
+if __name__ == '__main__':
     profile()
