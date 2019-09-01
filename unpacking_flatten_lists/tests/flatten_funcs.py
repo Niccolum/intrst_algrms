@@ -107,5 +107,7 @@ class TestFlattenFunctions(unittest.TestCase):
 
 class TestProfileFlattenFunctions(unittest.TestCase):
 
-    def test_profile(self):
-        profile()
+    def test_profile(self) -> None:
+        result = profile()
+        # funcs done correctly
+        self.assertEqual(result, None)

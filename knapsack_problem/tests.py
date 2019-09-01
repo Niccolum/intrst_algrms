@@ -23,24 +23,7 @@ from knapsack_problem.ref_func import knapsack_standard_solution
 TOO_LONG = 60 * 0.1  # time in seconds for break loop of testing functions
 
 
-class TestKnapsackProblem1StaticData(unittest.TestCase):
-    dataset = [pack_up_static_knapsack_1, pack_up_static_knapsack_2, pack_up_static_knapsack_3]
-
-    @classmethod
-    def setUpClass(cls) -> None:
-        print('*' * 15, cls.__name__, '*' * 15)
-
-    def main_part(self, *, func: Callable) -> None:
-        print('#' * 5, func.__name__, '#' * 5)
-        for data in self.dataset:
-            expected_result = data.__doc__.replace('\n', '').replace(' ', '')
-
-            start = time.monotonic()
-            result = sorted(func(*data()), key=attrgetter('name'))
-            result = str(result).replace(' ', '')
-            end = time.monotonic() - start
-            self.assertEqual(expected_result, result)
-            print('Knapsack with {} items was completed in {:2f} seconds'.format(len(data().items), end))
+class TestsChecksMixin:
 
     def test_knapsack_1_solution(self) -> None:
         self.main_part(func=knapsack_1_standard_solution)
@@ -60,6 +43,26 @@ class TestKnapsackProblem1StaticData(unittest.TestCase):
     def test_knapsack_6_solution(self) -> None:
         self.main_part(func=knapsack_6_recursive_dynamic_solution)
 
+
+class TestKnapsackProblem1StaticData(unittest.TestCase, TestsChecksMixin):
+    dataset = [pack_up_static_knapsack_1, pack_up_static_knapsack_2, pack_up_static_knapsack_3]
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        print('*' * 15, cls.__name__, '*' * 15)
+
+    def main_part(self, *, func: Callable) -> None:
+        print('#' * 5, func.__name__, '#' * 5)
+        for data in self.dataset:
+            expected_result = data.__doc__.replace('\n', '').replace(' ', '')
+
+            start = time.monotonic()
+            result = sorted(func(*data()), key=attrgetter('name'))
+            result = str(result).replace(' ', '')
+            end = time.monotonic() - start
+            self.assertEqual(expected_result, result)
+            print('Knapsack with {} items was completed in {:2f} seconds'.format(len(data().items), end))
+
     def test_knapsack_greedy_solution(self) -> None:
         print('#' * 5, knapsack_greedy_solution.__name__, '#' * 5)
         for data in self.dataset:
@@ -78,7 +81,7 @@ class TestKnapsackProblem1StaticData(unittest.TestCase):
             print('Knapsack with {} items was completed in {:2f} seconds'.format(len(data().items), end))
 
 
-class TestKnapsackProblem2DynamicData(unittest.TestCase):
+class TestKnapsackProblem2DynamicData(unittest.TestCase, TestsChecksMixin):
     dataset = create_dynamic_knapsacks(start=10, end=50, step=4)
 
     @classmethod
@@ -102,24 +105,6 @@ class TestKnapsackProblem2DynamicData(unittest.TestCase):
             if end > TOO_LONG:
                 print('Function {func_name} working too long'.format(func_name=func.__name__))
                 break
-
-    def test_knapsack_1_solution(self) -> None:
-        self.main_part(func=knapsack_1_standard_solution)
-
-    def test_knapsack_2_solution(self) -> None:
-        self.main_part(func=knapsack_2_solution)
-
-    def test_knapsack_3_solution(self) -> None:
-        self.main_part(func=knapsack_3_solution)
-
-    def test_knapsack_4_solution(self) -> None:
-        self.main_part(func=knapsack_4_bruteforce_solution)
-
-    def test_knapsack_5_solution(self) -> None:
-        self.main_part(func=knapsack_5_dynamic_solution)
-
-    def test_knapsack_6_solution(self) -> None:
-        self.main_part(func=knapsack_6_recursive_dynamic_solution)
 
     def test_knapsack_greedy_solution(self) -> None:
         print('#' * 5, knapsack_greedy_solution.__name__, '#' * 5)

@@ -183,6 +183,7 @@ def profile():
         for func in funcs:
             list(func(creating_data))
             time.sleep(0.3)
-            
+
+
 if __name__ == '__main__':
     profile()
