@@ -1,1 +1,1 @@
-. -e['all']
+Intrst_algrms['all'] -e
