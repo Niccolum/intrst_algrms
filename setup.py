@@ -18,7 +18,7 @@ install_requires = [
     'more-itertools'
 ]
 
-test_requires = [
+tests_requires = [
     'memory-profiler',
     # 'line-profiler', # install line-profiler manually
     'matplotlib'
