@@ -15,7 +15,8 @@ from unpacking_flatten_lists.funcs import (
     zart_flatten,
     recursive_flatten_iterator,
     tishka_flatten_with_stack,
-    recursive_flatten_generator)
+    recursive_flatten_generator,
+    profile)
 
 Num = Union[int, float]
 
@@ -102,3 +103,9 @@ class TestFlattenFunctions(unittest.TestCase):
 
         for data, result in self.increase_generator:
             self.assertEqual(recursive_flatten_generator(data), result)
+
+
+class TestProfileFlattenFunctions(unittest.TestCase):
+
+    def test_profile(self):
+        profile()

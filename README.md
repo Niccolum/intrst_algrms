@@ -1,13 +1,13 @@
-[![travis-ci build status](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms)
-[![Code Coverage by Codecov](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms)
-[![Vulnerabilities by SNYK](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/)
-[![Codacy Badge](https://img.shields.io/codacy/grade/6157aa23ef6e4886b146b9b16a7a68c8)](https://app.codacy.com/project/lastsal/intrst_algrms/dashboard)
+[![](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms) <!-- travis-ci build status -->
+[![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms) <!-- Code Coverage by Codecov -->
+[![](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/) <!-- Vulnerabilities by SNYK -->
+[![](https://img.shields.io/codacy/grade/6157aa23ef6e4886b146b9b16a7a68c8)](https://app.codacy.com/project/lastsal/intrst_algrms/dashboard) <!-- Codacy Badge -->
 
-[![Package version](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/)
-[![Support python versions](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L6)
-[![Licence](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md)
-[![Project status](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L46)
-[![Last Commit](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/commits/master)
+[![](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/) <!-- travis-ci build status -->
+[![](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L65) <!-- Package version -->
+[![](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md) <!-- Licence -->
+[![](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L60) <!-- Project status -->
+[![](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/commits/master) <!-- Last Commit -->
 
 # Instruments and algorithms
 
@@ -29,7 +29,7 @@ Python 3.6+
 #### For check and research
 
 ```bash
-    pip install -e git+https://github.com/Niccolum/intrst_algrms#egg=Intrst_algrms
+    pip install -e git+https://github.com/Niccolum/intrst_algrms#egg=Intrst_algrms['all']
     cd env/src/intrst_algrms
 ```
 

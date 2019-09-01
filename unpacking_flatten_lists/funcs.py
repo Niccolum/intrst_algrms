@@ -151,37 +151,35 @@ def tishka_flatten_with_stack(seq: Iterable) -> List:
     return new
 
 
-if __name__ == '__main__':
-
+def profile():
     import time
 
     from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
+    
+    all_data = generate_data()
+    curr_data = all_data[-1][1]
 
+    funcs_generated_data = [
+        create_data_increasing_depth,
+        create_data_decreasing_depth
+    ]
 
-    def profile():
-        all_data = generate_data()
-        curr_data = all_data[-1][1]
+    funcs = [
+        outer_flatten_1,
+        outer_flatten_2,
+        niccolum_flatten,
+        tishka_flatten,
+        zart_flatten,
+        recursive_flatten_generator,
+        recursive_flatten_iterator,
+        tishka_flatten_with_stack
+    ]
 
-        funcs_generated_data = [
-            create_data_increasing_depth,
-            create_data_decreasing_depth
-        ]
-
-        funcs = [
-            outer_flatten_1,
-            outer_flatten_2,
-            niccolum_flatten,
-            tishka_flatten,
-            zart_flatten,
-            recursive_flatten_generator,
-            recursive_flatten_iterator,
-            tishka_flatten_with_stack
-        ]
-
-        for func_generated_data in funcs_generated_data:
-            creating_data = func_generated_data(**curr_data)
-            for func in funcs:
-                list(func(creating_data))
-                time.sleep(0.3)
-
+    for func_generated_data in funcs_generated_data:
+        creating_data = func_generated_data(**curr_data)
+        for func in funcs:
+            list(func(creating_data))
+            time.sleep(0.3)
+            
+if __name__ == '__main__':
     profile()
