@@ -154,7 +154,10 @@ def tishka_flatten_with_stack(seq: Iterable) -> List:
 def profile():
     import time
 
-    from data import generate_data, create_data_increasing_depth, create_data_decreasing_depth
+    from unpacking_flatten_lists.data import (
+        generate_data,
+        create_data_increasing_depth,
+        create_data_decreasing_depth)
     
     all_data = generate_data()
     curr_data = all_data[-1][1]
