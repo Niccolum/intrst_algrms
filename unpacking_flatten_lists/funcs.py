@@ -158,7 +158,7 @@ def profile():
         generate_data,
         create_data_increasing_depth,
         create_data_decreasing_depth)
-    
+
     all_data = generate_data()
     curr_data = all_data[-1][1]
 
