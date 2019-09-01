@@ -1,1 +1,1 @@
--e Intrst_algrms[all]
+Intrst_algrms[all]
