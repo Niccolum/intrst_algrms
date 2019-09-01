@@ -1,5 +1,5 @@
 ## OS info
-```
+```bash
 $ lsb_release -a
 No LSB modules are available.
 Distributor ID: Debian
@@ -8,7 +8,7 @@ Release:    10
 Codename:   buster
 ```
 ## CPU info
-```
+```bash
 $ lscpu
 Architecture:        x86_64
 CPU op-mode(s):      32-bit, 64-bit
@@ -37,7 +37,7 @@ L3 cache:            3072K
 NUMA node0 CPU(s):   0-3
 ```
 ## Memory info
-```
+```bash
 $ free -m
               total        used        free      shared  buff/cache   available
 Mem:           5872        1067        3429         157        1375        4381
@@ -45,14 +45,14 @@ Swap:          6053           0        6053
 ```
 
 ## start to work
-```
+```bash
 $ python -V
 Python 3.7.3
 
 $ cd ~/unpacking_flatten_lists
 ```
 ## run tests
-```
+```bash
 $ python -m unittest tests.main -v
 test_niccolum_flatten (tests.flatten_funcs.TestFlattenFunctions) ... 0.59161s
 ok
@@ -77,25 +77,25 @@ test_create_data_increasing_depth (tests.data_generation.TestGenerationData) ...
 Ran 10 tests in 10.419s
 ```
 ## mem and CPU test
-```
-# uncomment @profile decorator in funcs.py
-```
+
+uncomment @profile decorator in funcs.py
+
 #### add memory profiling plot
-```
+```bash
 $ mprof run funcs.py
 ```
 creates [result](mprofile_20190827164514.dat)
-```
+```bash
 $ mprof plot
 ```
 see and save [memory_test.png](memory_test.png)
 
 #### add CPU profiling data
-```
+```bash
 $ kernprof -l funcs.py
 ```
 Wrote profile results to [funcs.py.lprof](funcs.py.lprof)
-```
+```bash
 $ python -m line_profiler funcs.py.lprof
 Timer unit: 1e-06 s
 
@@ -283,20 +283,18 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
    151         2          1.0      0.5      0.0      return new
 ```
 
-```
-# comment @profile decorator in funcs.py
-```
+comment @profile decorator in funcs.py
 
 ## create json file of performance result
 
-```
+```bash
 $ python performance.py
 ```
 creates [performance.json](performance.json) for plot
 
 ## obviously - make performance plot
 
-```
+```bash
 $ python make_performance_plot.py
 ```
 

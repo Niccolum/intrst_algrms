@@ -14,7 +14,7 @@ Script should have chmod a+x.
 
 Example:
 
-```
+```bash
 niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git add .
 
 niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git commit -m "add few changes for pypi and version check"
