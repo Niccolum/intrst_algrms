@@ -159,7 +159,7 @@ if __name__ == '__main__':
 
 
     def profile():
-        all_data = generate_data()[-1][1]
+        all_data = generate_data()
         curr_data = all_data[-1][1]
 
         funcs_generated_data = [
