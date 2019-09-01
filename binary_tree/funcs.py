@@ -7,6 +7,7 @@ It's just example of binary sort functions, based or not on his own tree.
 from abc import ABCMeta, abstractmethod
 from collections.abc import Iterator
 from numbers import Integral
+from typing import Any
 import bisect
 
 
@@ -17,14 +18,14 @@ class BaseNodeClass(metaclass=ABCMeta):
     """
 
     @abstractmethod
-    def add_node(self, *args) -> None:
+    def add_node(self, data: Integral, _node: Any = None) -> None:
         """
         add items to data container
         """
         raise NotImplementedError
 
     @abstractmethod
-    def tree_data(self) -> Iterator:
+    def tree_data(self, _node: Any = None) -> Iterator:
         """
         return sorted items of inner data
         """
@@ -127,19 +128,19 @@ class TwoNodeClass(BaseNodeClass):
                     return self.add_node(key, _node=_node.right)
 
     # @profile
-    def tree_data(self, node: Node = None) -> Iterator:
-        if node is None:
-            node = self.root
+    def tree_data(self, _node: Node = None) -> Iterator:
+        if _node is None:
+            _node = self.root
 
         stack = []
-        while stack or node:
-            if node is not None:
-                stack.append(node)
-                node = node.left
+        while stack or _node:
+            if _node is not None:
+                stack.append(_node)
+                _node = _node.left
             else:
-                node = stack.pop()
-                yield node.key
-                node = node.right
+                _node = stack.pop()
+                yield _node.key
+                _node = _node.right
 
 
 def profile():
