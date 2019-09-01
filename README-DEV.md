@@ -19,6 +19,6 @@ Script should have chmod a+x.
 ```bash
     git add .
     git commit -m "add few changes for pypi and version check"
-    sh verup patch
+    bash verup patch
     git push && git push --tags
 ```
