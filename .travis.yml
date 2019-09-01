@@ -13,7 +13,7 @@ script:
   - coverage run -a -m unittest unpacking_flatten_lists.tests.main
   - coverage xml
 after_success:
-  - codecov
+  - codecov --required || (sleep 5 && codecov --required) || (sleep 5 && codecov --required) || (sleep 5 && codecov --required) || (sleep 5 && codecov --required)
   - python-codacy-coverage -r coverage.xml
 deploy:
   provider: pypi
