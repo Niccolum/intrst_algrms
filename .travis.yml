@@ -2,15 +2,19 @@ language: python
 python:
   - '3.6'
   - '3.7'
+env:
+  - CODACY_PROJECT_TOKEN=19cd5231bc774fbca4f23d30e0547ec8
 install:
   - pip install .
-  - pip install coverage codecov
+  - pip install coverage codecov codacy-coverage
 script:
   - coverage run binary_tree/tests.py
   - coverage run -a knapsack_problem/tests.py
   - coverage run -a -m unittest unpacking_flatten_lists.tests.main
+  - coverage xml
 after_success:
   - codecov
+  - python-codacy-coverage -r coverage.xml
 deploy:
   provider: pypi
   user: Niccolum
