@@ -2,6 +2,7 @@
 [![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms) <!-- Code Coverage by Codecov -->
 [![](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/) <!-- Vulnerabilities by SNYK -->
 [![](https://img.shields.io/codacy/grade/6157aa23ef6e4886b146b9b16a7a68c8)](https://app.codacy.com/project/lastsal/intrst_algrms/dashboard) <!-- Codacy Badge -->
+[![](https://readthedocs.org/projects/intrst-algrms/badge/?version=latest)](https://intrst-algrms.readthedocs.io/en/latest/?badge=latest) <!--Documentation Status -->
 
 [![](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/) <!-- travis-ci build status -->
 [![](https://img.shields.io/pypi/pyversions/Intrst_algrms.svg)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L65) <!-- Package version -->
