@@ -15,28 +15,8 @@ Script should have chmod a+x.
 Example
 
 ```bash
-niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git add .
-
-niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git commit -m "add few changes for pypi and version check"
-[master 98da39b] add few changes for pypi and version check
- 5 files changed, 63 insertions(+), 3 deletions(-)
- create mode 100644 README-DEV.mdn
- rename VERSION.md => VERSION (100%)
- create mode 100755 verup
-
-niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ ./verup patch
-Current: 0.1.2
-New    : 0.1.3
-[master 9a2af51] Version was updated from 0.1.2 to 0.1.3
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
-niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git push && git push --tags
-Подсчет объектов: 26, готово.
-Delta compression using up to 4 threads.
-Сжатие объектов: 100% (21/21), готово.
-Запись объектов: 100% (26/26), 3.05 KiB | 347.00 KiB/s, готово.
-Total 26 (delta 8), reused 0 (delta 0)
-remote: Resolving deltas: 100% (8/8), completed with 3 local objects.
-To github.com:Niccolum/intrst_algrms.git
- * [new tag]         0.1.3 -> 0.1.3
+    niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git add .
+    niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git commit -m "add few changes for pypi and version check"
+    niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ ./verup patch
+    niccolum@niccolum-HP-ProBook-650-G3:~/projects/github/intrst_algrms$ git push && git push --tags
 ```
