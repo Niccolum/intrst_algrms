@@ -3,10 +3,10 @@ from typing import List
 from numbers import Integral
 
 from binary_tree.funcs import (
-    BisectNodeClass, 
-    SingleNodeClass, 
-    TwoNodeClass, 
-    BaseNodeClass, 
+    BisectNodeClass,
+    SingleNodeClass,
+    TwoNodeClass,
+    BaseNodeClass,
     profile)
 
 from binary_tree.data import datalist_100, datalist_1000, datalist_10000
