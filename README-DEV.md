@@ -8,9 +8,9 @@
 
 Script has 1 parameter with three options:
 
-    *   ./verup major - Only for "Breaking changes"
-    *   ./verup minor - Something new was added to Contract (some big changes).
-    *   ./verup patch - Contract updates (little changes).
+*   ./verup major - Only for "Breaking changes"
+*   ./verup minor - Something new was added to Contract (some big changes).
+*   ./verup patch - Contract updates (little changes).
 
 Script should have chmod a+x.
 
@@ -19,6 +19,6 @@ Script should have chmod a+x.
 ```bash
     git add .
     git commit -m "add few changes for pypi and version check"
-    ./verup patch
+    sh verup patch
     git push && git push --tags
 ```
