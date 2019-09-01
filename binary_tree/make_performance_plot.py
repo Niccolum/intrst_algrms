@@ -18,7 +18,7 @@ def main(exclude_datalist_names: List[str] = None) -> None:
 
     plot_numbers = len(tests_names)
 
-    fig, axs = plt.subplots(1, plot_numbers, figsize=(9, 3), sharey=True)
+    _, axs = plt.subplots(1, plot_numbers, figsize=(9, 3), sharey=True)
 
     for plot_number, tests_name in enumerate(tests_names):
         curr_axs = axs[plot_number]

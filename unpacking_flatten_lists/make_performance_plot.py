@@ -25,7 +25,7 @@ def main(exclude_funcs: List[str] = None) -> None:
     data_names_with_order = get_data_name_order()
 
     plot_numbers = len(modes)
-    fig, axs = plt.subplots(1, plot_numbers, figsize=(9, 3), sharey=True)
+    _, axs = plt.subplots(1, plot_numbers, figsize=(9, 3), sharey=True)
 
     for plot_number, mode in enumerate(modes):
         curr_axs = axs[plot_number]

@@ -1,12 +1,3 @@
-import random
-import math
-import itertools
-from collections import OrderedDict
-import urllib.request
-from typing import Dict, Union, Tuple
-
-from knapsack_problem.ref_func import knapsack_standard_solution as knapsack_func, Item, Knapsack
-
 """
 functions with "_static_" in name - correct proven examples of input output for knapsack problem
 So, for debugging funcs.py I used it for checking correct behavior, because
@@ -24,6 +15,16 @@ For output I use one of funcs, reference function, on which correct I am convinc
 It's on ref_func.py
 But i still use it for other test for check other parameters, not only correctness
 """
+
+
+import random
+import math
+import itertools
+from collections import OrderedDict
+import urllib.request
+from typing import Dict, Union, Tuple
+
+from knapsack_problem.ref_func import knapsack_standard_solution as knapsack_func, Item, Knapsack
 
 
 def pack_up_static_knapsack_1() -> Knapsack:

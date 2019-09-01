@@ -14,7 +14,7 @@ def main(*, stat_type) -> None:
 
     func_names = sorted(data.keys())
 
-    fig, axs = plt.subplots()
+    _, axs = plt.subplots()
 
     for func_name in func_names:
         # sorted by int in datalist name for correct sort by ascending items count in a knapsack
@@ -30,6 +30,6 @@ def main(*, stat_type) -> None:
 
 
 if __name__ == '__main__':
-    # main(stat_type=SMALL_STAT_NAME)
+    main(stat_type=SMALL_STAT_NAME)
     main(stat_type=BIG_STAT_NAME)
 

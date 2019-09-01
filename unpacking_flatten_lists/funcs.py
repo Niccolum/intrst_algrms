@@ -159,7 +159,8 @@ if __name__ == '__main__':
 
 
     def profile():
-        data = generate_data()[-1][1]
+        all_data = generate_data()[-1][1]
+        curr_data = all_data[-1][1]
 
         funcs_generated_data = [
             create_data_increasing_depth,
@@ -178,7 +179,7 @@ if __name__ == '__main__':
         ]
 
         for func_generated_data in funcs_generated_data:
-            creating_data = func_generated_data(**data)
+            creating_data = func_generated_data(**curr_data)
             for func in funcs:
                 list(func(creating_data))
                 time.sleep(0.3)

@@ -4,10 +4,8 @@ import sys
 from setuptools import setup
 
 if sys.version_info < (3, 6):
-    """
-    python must be greater than 3.5 because of https://www.python.org/dev/peps/pep-0484/
-    python must be greater than 3.6 because of https://www.python.org/dev/peps/pep-0515/
-    """
+    # python must be greater than 3.5 because of https://www.python.org/dev/peps/pep-0484/
+    # python must be greater than 3.6 because of https://www.python.org/dev/peps/pep-0515/
     raise RuntimeError("Intrst_algrms 3.x requires Python 3.6+")
 
 

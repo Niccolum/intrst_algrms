@@ -34,9 +34,9 @@ def knapsack_2_solution(items: Tuple[Item], weight_limit: int) -> Item:
     """
     w = weight_limit
     f = [[0] * (w + 1) for i in range(len(items) + 1)]
-    for i in range(len(items)):
-        weight = items[i].weight
-        value = items[i].value
+    for i, item in enumerate(items):
+        weight = item.weight
+        value = item.value
         for j in range(1, w + 1):
             if j >= weight:
                 f[i][j] = max(f[i - 1][j], f[i - 1][j - weight] + value)
@@ -99,7 +99,7 @@ def knapsack_4_bruteforce_solution(items: Tuple[Item], weight_limit: int) -> Uni
     def total_value(comb: Tuple[Any]) -> Tuple[int, int]:
         """Totalise a particular combination of items"""
         totwt = totval = 0
-        for item, val, wt in comb:
+        for _, val, wt in comb:
             totwt += wt
             totval += val
         return (totval, -totwt) if totwt <= weight_limit else (0, 0)
@@ -119,8 +119,8 @@ def knapsack_5_dynamic_solution(items: Tuple[Item], weight_limit: int) -> Item:
 
     table = [[0] * (weight_limit + 1) for j in range(len(items) + 1)]
 
-    for j in range(1, len(items) + 1):
-        item, val, wt = items[j - 1]
+    for j, item in enumerate(items, 1):
+        _, val, wt = item
         for w in range(1, weight_limit + 1):
             if wt > w:
                 table[j][w] = table[j - 1][w]
