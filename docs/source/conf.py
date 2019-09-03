@@ -14,9 +14,11 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import os
+from pathlib import Path
 import sys
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
+BASEDIR = Path.resolve(__file__).parent.parent.parent
+sys.path.insert(0, BASEDIR)
 
 # -- Project information -----------------------------------------------------
 
@@ -61,7 +63,7 @@ html_static_path = ['_static']
 # additional custom configs
 master_doc = 'index'
 
-with open('VERSION') as version_file:
+with open(BASEDIR / 'VERSION') as version_file:
     version = version_file.read()
 
 # The full version, including alpha/beta/rc tags.
