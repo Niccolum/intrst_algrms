@@ -146,7 +146,7 @@ class TwoNodeClass(BaseNodeClass):
 def profile():
     import time
 
-    from binary_tree.data import datalist_100
+    from tree_sort.data import datalist_100
 
     nodes = [SingleNodeClass, TwoNodeClass, BisectNodeClass]
     for cls_node in nodes:

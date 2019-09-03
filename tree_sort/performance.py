@@ -6,9 +6,9 @@ import time
 from typing import List
 from numbers import Integral
 
-from binary_tree import BASEDIR
-from binary_tree.funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
-from binary_tree.data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
+from tree_sort import BASEDIR
+from tree_sort.funcs import SingleNodeClass, TwoNodeClass, BisectNodeClass
+from tree_sort.data import datalist_100, datalist_1000, datalist_10000, datalist_100000, datalist_1000000
 
 RETRY_NUM = 100
 TOO_LONG = 60*2

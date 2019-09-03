@@ -47,7 +47,7 @@ setup(
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
     platforms='any',
-    packages=['.', 'binary_tree', 'knapsack_problem', 'unpacking_flatten_lists'],
+    packages=['.', 'tree_sort', 'knapsack_problem', 'unpacking_flatten_lists'],
     package_data={
         # If any package contains files, include them:
         '': ['*.txt', '*.rst', '*.md', '*.png', '*.lprof', '*.json', '*.dat'],

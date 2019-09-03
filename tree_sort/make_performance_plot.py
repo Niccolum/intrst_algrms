@@ -4,7 +4,7 @@ import json
 import operator
 from typing import List
 
-from binary_tree import BASEDIR
+from tree_sort import BASEDIR
 
 matplotlib.use('tkagg')  # for use plt.show().
 
