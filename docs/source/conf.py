@@ -32,7 +32,8 @@ author = 'Niccolum'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.linkcode',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.intersphinx',
     'recommonmark',
 ]
 
@@ -60,30 +61,48 @@ html_static_path = ['_static']
 # additional custom configs
 master_doc = 'index'
 
-# add reslover to link for sources code
+with open('VERSION') as version_file:
+    version = version_file.read()
 
-def linkcode_resolve(domain, info):
+# The full version, including alpha/beta/rc tags.
+release = version
 
-    def get_line(filename, component_name):
-        # hardcode for search first line in implementation, not name in comments
-        import re
-        import urllib
-        raw_link = "https://raw.githubusercontent.com/Niccolum/intrst_algrms/master/%s.py" % filename
-        req = urllib.request.urlopen(raw_link)
-        patterns = (re.compile(b'%s.*(\\|:)?$' % attr.encode()) for attr in component_name.split('.'))
-        pat = next(patterns)
-        for num, line in enumerate(req, start=1):
-            if pat.search(line):
-                try:
-                    pat = next(patterns)
-                except StopIteration:
-                    return num
+# The name of the Pygments (syntax highlighting) style to use.
+pygments_style = 'sphinx'
 
-    if domain != 'py':
-        return None
-    if not info['module']:
-        return None
-    filename = info['module'].replace('.', '/')
-    line = get_line(filename, info['fullname'])
-    link = "https://github.com/Niccolum/intrst_algrms/tree/master/{}.py#L{}".format(filename, line)
-    return link
+# If true, `todo` and `todoList` produce output, else they produce nothing.
+todo_include_todos = False
+
+html_theme_options = {
+    'description': 'analysis and implementation of algorithms ',
+    'github_user': author,
+    'github_repo': project,
+    'github_button': False,
+    'github_banner': True,
+    'show_powered_by': True,
+    'extra_nav_links': {
+        f'{project}@GitHub': f'https://github.com/{author}/{project}',
+        f'{project}@PyPI': f'https://pypi.python.org/pypi/{project}/',
+    }
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+    (master_doc, f'{project}.tex', f'{project} Documentation',
+     author, 'manual'),
+]
+
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    (master_doc, project, f'{project} Documentation',
+     [author], 1)
+]
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {'https://docs.python.org/': None}
+
+# Autodoc configuraton.
+autoclass_content = 'both'
