@@ -16,7 +16,7 @@ Welcome to intrst_algrms's documentation!
    :maxdepth: 3
    :caption: Contents:
 
-   binary_tree
+   tree_sort
    knapsack_problem
    unpacking_flatten_lists
 

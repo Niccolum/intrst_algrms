@@ -1,4 +1,4 @@
-Binary Tree (sorting)
+Tree sort (sorting)
 =====================
 
 Current realization based on tree sort.
@@ -10,18 +10,18 @@ So, below i realized and compare different approaches to implementation
 Functions describes
 -------------------
 
-.. automodule:: binary_tree.funcs
+.. automodule:: tree_sort.funcs
     :inherited-members:
 
 Data describes
 --------------
 
-.. automodule:: binary_tree.data
+.. automodule:: tree_sort.data
     :inherited-members:
 
 Performance result
 ------------------
 
-.. figure:: ../../binary_tree/result.png
+.. figure:: ../../tree_sort/result.png
    :scale: 50 %
    :alt: map to buried treasure

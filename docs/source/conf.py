@@ -53,6 +53,20 @@ exclude_patterns = []
 #
 html_theme = 'alabaster'
 
+html_theme_options = {
+    'description': 'Analysis and implementation of algorithms ',
+    'github_user': author,
+    'github_repo': project,
+    'github_button': False,
+    'github_banner': True,
+    'show_powered_by': True,
+    'extra_nav_links': {
+        f'{project}@GitHub': f'https://github.com/{author}/{project}',
+        f'{project}@PyPI': f'https://pypi.python.org/pypi/{project}/',
+    }
+}
+
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
@@ -73,18 +87,7 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-html_theme_options = {
-    'description': 'analysis and implementation of algorithms ',
-    'github_user': author,
-    'github_repo': project,
-    'github_button': False,
-    'github_banner': True,
-    'show_powered_by': True,
-    'extra_nav_links': {
-        f'{project}@GitHub': f'https://github.com/{author}/{project}',
-        f'{project}@PyPI': f'https://pypi.python.org/pypi/{project}/',
-    }
-}
+#  -- Options for PDF output ----------------------------------------------
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -99,6 +102,12 @@ latex_documents = [
 man_pages = [
     (master_doc, project, f'{project} Documentation',
      [author], 1)
+]
+
+texinfo_documents = [
+    (master_doc, project, f'{project} Documentation',
+     author, project, f'{project}. Analysis and implementation of algorithms',
+     'Miscellaneous'),
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.
