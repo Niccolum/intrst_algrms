@@ -7,7 +7,6 @@ It's just example of binary sort functions, based or not on his own tree.
 from abc import ABCMeta, abstractmethod
 from collections.abc import Iterator
 from numbers import Integral
-from typing import Any
 import bisect
 
 
