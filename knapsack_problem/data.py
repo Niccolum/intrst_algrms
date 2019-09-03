@@ -6,7 +6,7 @@ output of "_static_" functions write in docstrings and we can compare strings wi
 .. code:: python
 
     from operator import attrgetter
-    expected_result = data.__doc__.replace('\n', '').replace(' ', '')
+    expected_result = data.__doc__.replace('\\n', '').replace(' ', '')
     result = sorted(func(*data()), key=attrgetter('name'))
     result = str(result).replace(' ', '')
 
@@ -32,7 +32,9 @@ def pack_up_static_knapsack_1() -> Knapsack:
     [
 
         Item(name='camera', value=6, weight=1),
+
         Item(name='food', value=9, weight=2),
+
         Item(name='water', value=10, weight=3)
 
     ]
@@ -54,8 +56,11 @@ def pack_up_static_knapsack_2() -> Knapsack:
     [
 
         Item(name='book', value=1, weight=1),
+
         Item(name='food', value=2, weight=1),
+
         Item(name='jacket', value=2, weight=2),
+
         Item(name='water', value=6, weight=4)
 
     ]
@@ -77,13 +82,21 @@ def pack_up_static_knapsack_3() -> Knapsack:
     [
 
         Item(name='apple', value=39, weight=40),
+
         Item(name='beer', value=52, weight=10),
+
         Item(name='book', value=30, weight=10),
+
         Item(name='camera', value=32, weight=30),
+
         Item(name='t-shirt', value=24, weight=15),
+
         Item(name='tin', value=68, weight=45),
+
         Item(name='trousers', value=48, weight=10),
+
         Item(name='umbrella', value=73, weight=40),
+
         Item(name='water', value=153, weight=200)
 
     ]
@@ -121,14 +134,15 @@ def create_dynamic_knapsacks(*, start: int, end: int, step: int = 1) -> \
         Dict[str, Dict[str, Union[Knapsack, Tuple[Item]]]]:
     """
     Dynamic create collections of Items
-    as result -> {
 
-        knapsack_*weight_limit*: {
-
-            'input':  Tuple[Item] # generated items
-            'output': Knapsack # Knapsack answer by knapsack_standard_solution (for checking with other solutions)
-
-    }
+    .. code:: python
+    
+        result = {
+            knapsack_*weight_limit*: {
+                'input':  Tuple[Item], # generated items
+                'output': Knapsack, # Knapsack answer by knapsack_standard_solution (for checking with other solutions)
+            }
+        }
     """
 
     knapsacks = OrderedDict()
