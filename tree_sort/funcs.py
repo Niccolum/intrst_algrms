@@ -18,14 +18,14 @@ class BaseNodeClass(metaclass=ABCMeta):
     """
 
     @abstractmethod
-    def add_node(self, data: Integral, _node: Any = None) -> None:
+    def add_node(self, data: Integral) -> None:
         """
         add items to data container
         """
         raise NotImplementedError
 
     @abstractmethod
-    def tree_data(self, _node: Any = None) -> Iterator:
+    def tree_data(self) -> Iterator:
         """
         return sorted items of inner data
         """
