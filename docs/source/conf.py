@@ -15,10 +15,8 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 from pathlib import Path
-import sys
 
-BASEDIR = Path.resolve(__file__).parent.parent.parent
-sys.path.insert(0, BASEDIR)
+BASEDIR = Path(__file__).resolve().parent.parent.parent
 
 # -- Project information -----------------------------------------------------
 
