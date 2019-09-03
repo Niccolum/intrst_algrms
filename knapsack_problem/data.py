@@ -136,7 +136,7 @@ def create_dynamic_knapsacks(*, start: int, end: int, step: int = 1) -> \
     Dynamic create collections of Items
 
     .. code:: python
-    
+
         result = {
             knapsack_*weight_limit*: {
                 'input':  Tuple[Item], # generated items
