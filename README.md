@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/19cd5231bc774fbca4f23d30e0547ec8)](https://app.codacy.com/app/My_accounts/intrst_algrms?utm_source=github.com&utm_medium=referral&utm_content=Niccolum/intrst_algrms&utm_campaign=Badge_Grade_Dashboard)
 [![](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms) <!-- travis-ci build status -->
 [![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms) <!-- Code Coverage by Codecov -->
 [![](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/) <!-- Vulnerabilities by SNYK -->
