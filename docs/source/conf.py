@@ -32,8 +32,8 @@ author = 'Niccolum'
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.intersphinx',
+    #'sphinx.ext.viewcode',
+    #'sphinx.ext.intersphinx',
     'recommonmark',
 ]
 
