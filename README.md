@@ -1,7 +1,7 @@
 [![](https://travis-ci.org/Niccolum/intrst_algrms.svg?branch=master)](https://travis-ci.org/Niccolum/intrst_algrms) <!-- travis-ci build status -->
 [![](https://codecov.io/gh/Niccolum/intrst_algrms/branch/master/graph/badge.svg)](https://codecov.io/gh/Niccolum/intrst_algrms) <!-- Code Coverage by Codecov -->
-[![](https://img.shields.io/snyk/vulnerabilities/github/Niccolum/intrst_algrms)](https://app.snyk.io/org/niccolum/) <!-- Vulnerabilities by SNYK -->
-[![](https://img.shields.io/codacy/grade/6157aa23ef6e4886b146b9b16a7a68c8)](https://app.codacy.com/project/lastsal/intrst_algrms/dashboard) <!-- Codacy Badge -->
+[![](https://snyk.io/test/github/Niccolum/intrst_algrms/badge.svg)](https://app.snyk.io/test/github/Niccolum/intrst_algrms/) <!-- Vulnerabilities by SNYK -->
+[![](https://api.codacy.com/project/badge/Grade/6157aa23ef6e4886b146b9b16a7a68c8)](https://www.codacy.com/app/My_accounts/intrst_algrms) <!-- Codacy Badge -->
 [![](https://readthedocs.org/projects/intrst-algrms/badge/?version=latest)](https://intrst-algrms.readthedocs.io/en/latest/?badge=latest) <!--Documentation Status -->
 
 [![](https://img.shields.io/pypi/v/Intrst_algrms.svg?colorB=blue)](https://pypi.org/project/Intrst-algrms/) <!-- travis-ci build status -->
@@ -9,7 +9,6 @@
 [![](https://img.shields.io/pypi/l/Intrst_algrms.svg?colorB=blue)](https://github.com/Niccolum/intrst_algrms/blob/master/LICENSE.md) <!-- Licence -->
 [![](https://img.shields.io/pypi/status/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/blob/master/setup.py#L60) <!-- Project status -->
 [![](https://img.shields.io/github/last-commit/Niccolum/Intrst_algrms)](https://github.com/Niccolum/intrst_algrms/commits/master) <!-- Last Commit -->
-
 # Instruments and algorithms
 
 Here is examples of realizations several algorithms, they performance, memory used and result plots.
