@@ -57,7 +57,7 @@ setup(
     extras_require=extras_require,
     tests_require=tests_require,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Other Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',

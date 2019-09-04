@@ -96,7 +96,7 @@ def pack_up_static_knapsack_3() -> Knapsack:
         Item(name='trousers', value=48, weight=10),
 
         Item(name='umbrella', value=73, weight=40),
-        
+
         Item(name='water', value=153, weight=200)
 
     ]
