@@ -60,8 +60,6 @@ and import it from your code:
     from unpacking_flatten_lists.funcs import ...
 ```
 
-More, about funcs, in [docs](https://intrst-algrms.readthedocs.io/en/latest/)
-
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/Niccolum/intrst_algrms/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
