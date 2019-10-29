@@ -43,7 +43,7 @@ After that you can run commands from results.md on each folders.
 More detailed description and HOW-TO:
 
 Results of research algorithms here:
-*   [Binary Tree (sorting)](https://github.com/Niccolum/intrst_algrms/blob/master/binary_tree/results.md)
+*   [Binary Tree (sorting)](https://github.com/Niccolum/intrst_algrms/blob/master/tree_sort/results.md)
 *   [Knapsack problem](https://github.com/Niccolum/intrst_algrms/blob/master/knapsack_problem/results.md)
 *   [Unpacking nested lists of indefinite depth](https://github.com/Niccolum/intrst_algrms/blob/master/unpacking_flatten_lists/results.md)
 
