@@ -112,19 +112,17 @@ class TwoNodeClass(BaseNodeClass):
 
         else:
             if key <= _node.key:
-                if _node.left is None:
-                    _node.left = self.Node(key)
-                    _node.left.parent = _node
-                    return
-                else:
+                if _node.left is not None:
                     return self.add_node(key, _node=_node.left)
+                _node.left = self.Node(key)
+                _node.left.parent = _node
             else:
-                if _node.right is None:
-                    _node.right = self.Node(key)
-                    _node.right.parent = _node
-                    return
-                else:
+                if _node.right is not None:
                     return self.add_node(key, _node=_node.right)
+
+                _node.right = self.Node(key)
+                _node.right.parent = _node
+            return
 
     # @profile
     def tree_data(self, _node: Node = None) -> Iterator:

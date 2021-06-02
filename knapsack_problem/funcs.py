@@ -145,7 +145,11 @@ def knapsack_6_recursive_dynamic_solution(items: Tuple[Item], weight_limit: int)
     """
 
     def total_value(items: Tuple[Item], weight_limit: int) -> int:
-        return sum([x.value for x in items]) if sum([x.weight for x in items]) <= weight_limit else 0
+        return (
+            sum(x.value for x in items)
+            if sum(x.weight for x in items) <= weight_limit
+            else 0
+        )
 
     cache = {}
 
@@ -183,11 +187,11 @@ def knapsack_greedy_solution(items: Tuple[Item], weight_limit: int) -> Iterator:
 
     def pack(item: Item) -> bool:
         # Attempt to pack item; return True if successful.
-        if item.weight <= pack.max_weight:
-            pack.max_weight -= item.weight
-            return True
-        else:
+        if item.weight > pack.max_weight:
             return False
+
+        pack.max_weight -= item.weight
+        return True
 
     pack.max_weight = weight_limit
     return filter(pack, sorted(items, key=efficiency, reverse=True))

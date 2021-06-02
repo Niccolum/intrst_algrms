@@ -24,14 +24,8 @@ tests_require = [
     'matplotlib'
 ]
 
-extras_require = {
-    'docs': [
-        'Sphinx',
-    ],
-    'tests': tests_require,
-}
+extras_require = {'docs': ['Sphinx'], 'tests': tests_require, 'all': []}
 
-extras_require['all'] = []
 for reqs in extras_require.values():
     extras_require['all'].extend(reqs)
 
