@@ -55,9 +55,8 @@ def knapsack_standard_solution(items: Tuple[Item], weight_limit: int) -> Item:
         if i == 0:
             return 0
         value, weight = items[i - 1].value, items[i - 1].weight
-        res = max(best_value(i - 1, j),
+        return max(best_value(i - 1, j),
                   best_value(i - 1, j - weight) + value)
-        return res
 
     for k in reversed(range(len(items))):
         if best_value(k + 1, weight_limit) != best_value(k, weight_limit):

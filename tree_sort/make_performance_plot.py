@@ -25,7 +25,12 @@ def main(exclude_datalist_names: List[str] = None) -> None:
         for class_name in class_names:
             plt_data = sorted(data[class_name][tests_name].items())
             if exclude_datalist_names:
-                plt_data = [i for i in plt_data if not any(i[0] == exc for exc in exclude_datalist_names)]
+                plt_data = [
+                    i
+                    for i in plt_data
+                    if all(i[0] != exc for exc in exclude_datalist_names)
+                ]
+
 
             x_data_items, y_data_items = zip(*plt_data)
             curr_axs.plot(x_data_items, y_data_items, label=class_name)
